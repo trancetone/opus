@@ -90,33 +90,68 @@ film craft argument, not for the contemporary comparison. Roughly 90 percent
 film craft, one closing sentence of connection. Sources built around a
 present-day comparison as their organising claim perform like surveys.
 
-## 6. Rights
+## 6. Rights and Detection
 
-Every candidate carries a `rights` value. A candidate whose rights cannot be
-established is rejected with reason `rights-unclear`.
+**Posture, as determined by the organisation.** Moving Image Arts is a
+non-profit and this material is used for educational purposes. Clips are short
+excerpts from feature films, used as the subject of technical analysis, in
+captions that do visible analytical work on the footage they show. This is a
+commentary and criticism use. That determination is settled and is not
+relitigated per candidate.
 
-The decoder format helps here rather than hurting. A clip that states a rule,
-demonstrates it on screen, and generalises it is doing analysis, which sits
-better under a commentary and criticism posture than footage posted without
-comment. Keep that alignment deliberate: the caption should do visible
-analytical work on the footage it uses.
+Sourcing therefore does **not** restrict to public domain and Creative Commons.
+Restricting that way would exclude the category that produced the account's four
+largest posts.
 
-Watch the layering. A video essay is two rights questions, the essayist's work
-and the underlying film. An archival or restoration upload is usually one. A
-public domain film uploaded with an added score or new titles is two again.
-Prefer the shallowest stack that still demonstrates the mechanism.
+### What still needs tracking
 
-| Value | Meaning |
+Automated platform enforcement is a separate system from the legal question and
+does not perform a fair use analysis. Meta's Rights Manager matches content and
+acts on the match. A clip can be squarely defensible and still be muted, blocked
+or removed, and repeated flags carry account-level consequences that are worth
+more than any single post.
+
+So the `rights` field stays, but its job changes. It no longer gates
+publication. It records exposure, so the pattern is visible across the queue
+rather than discovered through a strike.
+
+| Value | Detection exposure |
 |---|---|
-| `public-domain` | Term expired or never held. Safest. |
-| `cc-by` | Creative Commons, attribution required in the caption. |
-| `own-channel` | Moving Image Arts holds or controls the footage. |
-| `licensed` | Written permission exists. Note where it is recorded. |
-| `commentary` | Used as the subject of analysis. Depends on the caption actually doing that work. |
-| `unclear` | Reject. |
+| `public-domain` | None. No match to assert. |
+| `cc-by` | None in practice. Attribute in the caption. |
+| `own-channel` | None. |
+| `licensed` | None. Note where the permission is recorded. |
+| `commentary` | Real. The default for studio features. Defensible, and still matchable. |
+| `unclear` | Treat as `commentary` for exposure purposes, and note why it could not be determined. |
 
-TODO: confirm which values are acceptable in practice, and where any license or
-permission records are kept.
+### Practical notes
+
+**Audio is the strongest detection vector.** Matching is more aggressive on
+audio than on picture, and most aggressive on music. A clip carrying a film's
+score is more exposed than one carrying dialogue or room tone. This bears
+directly on sound-mechanism posts, which are among the account's best
+performers, so it is a tradeoff to make knowingly rather than a reason to avoid
+the category.
+
+**Shorter excerpts are both better practice and lower exposure.** The analysis
+found length uncorrelated with performance, so there is no cost to taking only
+what demonstrates the mechanism.
+
+**The caption is part of the posture.** A decoder caption states a rule,
+demonstrates it, and generalises it, which is the analytical work that
+distinguishes this use from reposting. Keeping captions genuinely analytical is
+not only the thing that performs, it is the thing that makes the use what the
+organisation says it is. A clip posted without that work is weaker on both
+counts.
+
+**Public domain carries zero detection exposure and holds attention best.** The
+Richter and Méliès post holds 70.3 percent, the highest on the account. Public
+domain sourcing is not a fallback, it is a strong category on its own terms.
+Prefer it where a mechanism can be demonstrated equally well from it.
+
+**If a post is flagged**, record it against the candidate in the queue. A
+pattern across several flags is worth more than any single one, and only the
+queue will show it.
 
 ## 7. Search Terms
 

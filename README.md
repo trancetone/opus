@@ -48,4 +48,6 @@ Scaffold. Outstanding before the pipeline can run:
 4. **Search terms.** Section 7 of `CRITERIA.md`. The analysis measured
    published posts, not how their sources were found, so this is the one part
    of the profile it cannot supply.
-5. **Rights.** Which values in section 6 are acceptable in practice.
+5. ~~**Rights.**~~ Resolved. Non-profit educational commentary use. Sourcing
+   is not restricted to public domain. Section 6 now tracks platform detection
+   exposure, which is a separate matter from the rights posture.
