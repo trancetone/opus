@@ -13,8 +13,13 @@ The curatorial voice is not asserted from taste. It is derived from what has
 actually performed well on the Instagram account, then applied as a search and
 screening profile.
 
-Voice, caption, and hashtag rules live in the `miac-content` skill. This skill
-covers sourcing and processing only. Do not restate caption rules here.
+Voice, caption, and hashtag rules live in the `miac-content` skill and in
+`reference/caption-voice-spec.json`. This skill covers sourcing and processing
+only. Do not restate caption rules here.
+
+Those two sources conflict with the performance analysis in three places. They
+are catalogued in `reference/spec-conflicts.md` and are **unresolved**. Raise
+the relevant one with the user rather than picking a side silently.
 
 **Naming rule: never use "MIAC". The name is Moving Image Arts.**
 
@@ -51,9 +56,16 @@ getAnalyticsDataByMetrics(
 Those fields are: date, caption text, reel URL, retention, view rate, average
 watch time, saves, shares, views.
 
-Rank by **retention (`IGRE27`) and saves (`IGRE12`)**, not by likes. Retention
-says the clip held attention. Saves say it was worth returning to. Likes mostly
-measure reach, which reflects distribution more than curation.
+Rank by **three second hold rate (`IGRE28`) and saves (`IGRE12`)**, not by
+likes. `IGRE28` is Metricool's `reelsViewRate`, the share of views held past
+three seconds, which the analysis identifies as the leading indicator: it is
+known within hours and predicts final reach better than anything else. **Below
+45 percent, a post does not travel.** Saves say the clip was worth returning
+to. Likes mostly measure reach, which reflects distribution more than curation.
+
+**Exclude the last five days from the look-back window.** Posts accrue for
+three to five days, so anything more recent has incomplete numbers and will
+read as underperforming.
 
 Read the captions of the top performers and name what they have in common:
 subject, era, visual texture, pacing, whether there is speech. That description
@@ -135,6 +147,12 @@ in-flight projects.
 When clips are ready, call `opusclip_preview_clips(projectId)` to render
 playable ranked cards in chat. This is the review gate.
 
+Judge clips on whether a decoder caption can be written over them: is a
+mechanism visible or audible here, in one work, provable on screen. Opus ranks
+by its own engagement heuristics, which are not this account's criteria, so a
+low ranked clip that demonstrates a mechanism beats a high ranked one that does
+not.
+
 **Stop here and wait.** Do not export, schedule, or post without explicit
 approval on specific clips. Set status to `reviewed`.
 
@@ -143,9 +161,15 @@ approval on specific clips. Set status to `reviewed`.
 Only for clips the user approved by name or rank.
 
 1. `opusclip_export_clip` on each approved clip
-2. Write the caption using the `miac-content` skill's voice rules
-3. `getBestTimeToPostByNetwork(brandId: "6780970", socialNetwork: "instagram", timezone: "Europe/Madrid", ...)` to pick the slot
-4. `opusclip_schedule_publish` to Instagram account `69b8b7924be415e37283b877`
+2. `opusclip_get_transcript` on the source, before writing anything that
+   quotes or paraphrases speech in the clip. The voice spec requires factual
+   claims to be verified rather than assumed, and names the transcript as the
+   thing to ask for instead of guessing.
+3. Write the caption using the `miac-content` skill's voice rules and
+   `reference/caption-voice-spec.json`. The first sentence has to carry the
+   mechanism. That is the single largest lever measured, at roughly 6.3x.
+4. `getBestTimeToPostByNetwork(brandId: "6780970", socialNetwork: "instagram", timezone: "Europe/Madrid", ...)` to pick the slot
+5. `opusclip_schedule_publish` to Instagram account `69b8b7924be415e37283b877`
 
 Set status to `scheduled` and record the scheduled time.
 
