@@ -1,13 +1,17 @@
 ---
 name: "yt-sourcing"
-description: "Sources YouTube clips for Moving Image Arts Instagram and runs them through Opus Clip for review. Use when the user asks to pull YouTube candidates, find clips, run the sourcing pass, check the clip queue, or submit and review clips for Moving Image Arts. Screens candidates against CRITERIA.md before spending Opus credits, then previews finished clips in chat for approval. Never refer to the organization as MIAC."
+description: "Finds YouTube videos matching the Moving Image Arts curatorial voice and runs them through Opus Clip to cut shorts for Instagram. Use when the user asks to pull YouTube candidates, find clips, run the sourcing pass, check the clip queue, or submit and review clips for Moving Image Arts. Derives the curatorial profile from what has performed well on Instagram, screens candidates before spending Opus credits, then previews finished clips in chat for approval. Never refer to the organization as MIAC."
 ---
 
 # YouTube Sourcing Pipeline
 
-Sources candidate YouTube videos, screens them against the criteria, runs the
-survivors through Opus Clip, and brings finished clips back for human review
-before anything is scheduled.
+Finds YouTube videos anywhere on the platform that match the curatorial voice
+of Moving Image Arts Instagram, passes their links to Opus Clip to cut shorts,
+and brings the results back for human review before anything is scheduled.
+
+The curatorial voice is not asserted from taste. It is derived from what has
+actually performed well on the Instagram account, then applied as a search and
+screening profile.
 
 Voice, caption, and hashtag rules live in the `miac-content` skill. This skill
 covers sourcing and processing only. Do not restate caption rules here.
@@ -29,48 +33,76 @@ Opus bills roughly **1 credit per minute of SOURCE video**, not per clip. A
 90 minute lecture costs 90 credits whether it yields one clip or ten. This is
 why screening happens before submission, and why long sources get a range.
 
-## Step 1: Discover Candidates
+## Step 1: Establish the Curatorial Profile
 
-Pull tracked-channel videos from Metricool:
+Metricool is the performance record for the Instagram account. It is **not** a
+source of YouTube links. Its job here is to say what has worked, so the search
+in Step 2 knows what to look for.
 
 ```
 getAnalyticsDataByMetrics(
   brandId: "6780970",
-  from:    <ISO 8601, start of window>,
+  from:    <ISO 8601, start of the look-back window>,
   to:      <ISO 8601, now>,
-  metrics: ["YTCV01","YTCV03","YTCV04","YTCV06","YTCV07","YTCV08","YTCV09"]
+  metrics: ["IGRE01","IGRE03","IGRE06","IGRE27","IGRE28","IGRE24","IGRE12","IGRE21","IGRE23"]
 )
 ```
 
-Those fields are, in order: published date, channel name, watch URL, title,
-views, comments, likes.
+Those fields are: date, caption text, reel URL, retention, view rate, average
+watch time, saves, shares, views.
 
-Requires YouTube connected on the brand in Metricool with the source channels
-added as tracked competitors. If the call returns nothing for YouTube, say so
-plainly rather than silently falling back. The user can also hand over URLs
-directly, which skip to Step 2.
+Rank by **retention (`IGRE27`) and saves (`IGRE12`)**, not by likes. Retention
+says the clip held attention. Saves say it was worth returning to. Likes mostly
+measure reach, which reflects distribution more than curation.
+
+Read the captions of the top performers and name what they have in common:
+subject, era, visual texture, pacing, whether there is speech. That description
+is the curatorial profile. Carry it into Step 2 as concrete search terms and
+into Step 3 as screening judgment.
+
+`CRITERIA.md` holds the standing version of this profile. Update it only with
+the user's agreement.
+
+## Step 2: Search YouTube
+
+Open search across YouTube, not a fixed channel list. Sources are wherever the
+matching footage lives.
+
+There is currently **no YouTube Data API key** in the environment, so pick
+whichever applies:
+
+- **User supplied links.** The user pastes YouTube URLs. Skip to Step 3.
+- **Web search.** Use the `WebSearch` tool against the profile's terms. Works
+  with no setup. Returns less structure, so duration, view count, and license
+  have to be confirmed per candidate.
+- **YouTube Data API**, if a key is later added as `YOUTUBE_API_KEY`. Preferred
+  once available: `search.list` filters on `videoDuration` and, importantly,
+  `videoLicense=creativeCommon`, which resolves the duration filter and the
+  rights field in the same call.
 
 Drop any URL already present in `queue/candidates.json` in any status. The
 queue is the dedup record.
 
-## Step 2: Screen Against Criteria
+## Step 3: Screen Against Criteria
 
-Read `CRITERIA.md` in this directory and apply it to every candidate.
+Read `CRITERIA.md` and apply it to every candidate.
 
-Screening happens BEFORE submission because submission costs credits. For each
-candidate, record the specific reason it passed or failed. A candidate that
-fails goes into the queue as `rejected` with its reason, so the same video is
-not reconsidered next run.
+Screening happens BEFORE submission because submission costs credits. Record
+the specific reason each candidate passed or failed. A failed candidate goes
+into the queue as `rejected` with its reason, so the same video is not
+reconsidered next run.
 
-Every candidate needs a `rights` value before it can be submitted. Reposting
-third party footage is the real exposure in this pipeline. If rights cannot be
-established, the candidate is `rejected` with reason `rights-unclear`.
+Every candidate needs a `rights` value before it can be submitted. Open search
+across YouTube surfaces mostly rights-reserved material, so this field carries
+real weight rather than being a formality. If rights cannot be established, the
+candidate is `rejected` with reason `rights-unclear`. Surface these to the user
+rather than deciding the close calls unilaterally.
 
-## Step 3: Submit to Opus Clip
+## Step 4: Submit Links to Opus Clip
 
 Check headroom first with `opusclip_get_usage`. If the batch's total source
-minutes exceed the remaining monthly credits, submit the highest ranked
-candidates that fit and leave the rest as `candidate`. Report what was deferred.
+minutes exceed remaining monthly credits, submit the strongest candidates that
+fit and leave the rest as `candidate`. Report what was deferred.
 
 ```
 opusclip_submit_project(
@@ -79,19 +111,23 @@ opusclip_submit_project(
   title:        <source title>,
   rangeStart:   <seconds, when only part of a long source is relevant>,
   rangeEnd:     <seconds>,
-  customPrompt: <steer curation using the criteria's editorial angle>
+  customPrompt: <steer curation using the curatorial profile>
 )
 ```
 
 Opus accepts YouTube URLs natively. Never download the video, and never use
 yt-dlp or ffmpeg here.
 
+`aspectRatio` must be set explicitly on every call. The org default brand
+template is landscape, so omitting it yields 16:9 output that is wrong for
+Reels.
+
 Use `rangeStart` and `rangeEnd` aggressively on long sources. They bound which
 part of the video clips are drawn from, and they cut the credit cost.
 
 Record the returned project ID in the queue and set status to `submitted`.
 
-## Step 4: Poll, Then Review in Chat
+## Step 5: Poll, Then Review in Chat
 
 Poll `opusclip_list_clips` until processing finishes. Concurrency limit is 10
 in-flight projects.
@@ -102,7 +138,7 @@ playable ranked cards in chat. This is the review gate.
 **Stop here and wait.** Do not export, schedule, or post without explicit
 approval on specific clips. Set status to `reviewed`.
 
-## Step 5: Export and Schedule Approved Clips
+## Step 6: Export and Schedule Approved Clips
 
 Only for clips the user approved by name or rank.
 
@@ -113,7 +149,7 @@ Only for clips the user approved by name or rank.
 
 Set status to `scheduled` and record the scheduled time.
 
-## Step 6: Commit the Queue
+## Step 7: Commit the Queue
 
 The container running this is ephemeral. State that is not committed is lost.
 
@@ -132,9 +168,12 @@ run that sourced nothing still commits, so the dedup record stays accurate.
   "channel":       "channel name",
   "published":     "ISO 8601 date",
   "source_views":  0,
+  "duration_sec":  0,
   "discovered":    "ISO 8601 date this entered the queue",
+  "found_via":     "user | websearch | youtube-api",
   "status":        "candidate | submitted | reviewed | scheduled | rejected",
   "rights":        "public-domain | cc-by | own-channel | licensed | commentary | unclear",
+  "profile_match": "which part of the curatorial profile this answers",
   "screen_notes":  "the specific reason this passed or failed",
   "range":         { "start_sec": null, "end_sec": null },
   "opus_project":  null,
@@ -151,19 +190,11 @@ Status meanings:
 - `scheduled` approved clips are queued to post
 - `rejected` failed screening, kept so it is not reconsidered
 
-## Tuning the Criteria
+## Closing the Loop
 
-Instagram reel performance is the feedback signal. Useful fields on the
-`instagram / reels` connector:
+Once scheduled clips have run for a week or two, repeat Step 1 over the newer
+window. The posts this pipeline produced are now part of the performance
+record, so the profile sharpens each pass.
 
-| Field | Metric |
-|---|---|
-| `IGRE27` | retention, average percent of video viewed |
-| `IGRE28` | reel view rate, watched past three seconds |
-| `IGRE12` | saves |
-| `IGRE21` | shares |
-| `IGRE24` | average watch time |
-
-Retention and saves say more about whether a sourcing rule is working than
-likes do. When a pattern is clear across several posts, propose a criteria
-change to the user. Do not edit `CRITERIA.md` unilaterally.
+When a pattern is clear across several posts, propose a change to `CRITERIA.md`
+and say what evidence supports it. Do not edit the criteria unilaterally.

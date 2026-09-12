@@ -2,16 +2,19 @@
 
 Sourcing pipeline for Moving Image Arts Instagram.
 
-Pulls candidate videos from tracked YouTube channels, screens them against
-editorial criteria, runs the survivors through Opus Clip, and holds finished
-clips for human review before anything is scheduled.
+Finds YouTube videos matching the curatorial voice of the Moving Image Arts
+Instagram account, passes their links to Opus Clip to cut shorts, and holds
+the results for human review before anything is scheduled.
+
+The curatorial voice is derived from what has actually performed well on the
+account, using Instagram retention and saves rather than likes.
 
 ## Layout
 
 | Path | Contents |
 |---|---|
 | `.claude/skills/yt-sourcing/SKILL.md` | The pipeline. Loaded automatically when this repo is open in a Claude session. |
-| `.claude/skills/yt-sourcing/CRITERIA.md` | What qualifies a video. Currently a scaffold with TODOs. |
+| `.claude/skills/yt-sourcing/CRITERIA.md` | The curatorial profile and what qualifies a video. Currently a scaffold with TODOs. |
 | `queue/candidates.json` | Candidate state and dedup record. |
 
 Voice, caption, and hashtag rules live in the separate account level
@@ -26,11 +29,13 @@ dedup record survives.
 
 ## Status
 
-Scaffold. Two things are outstanding before the pipeline can run:
+Scaffold. Three things are outstanding before the pipeline can run:
 
 1. **Criteria.** The editorial sections of `CRITERIA.md` are TODO.
-2. **Discovery.** Metricool brand `6780970` has Instagram and Facebook
-   connected but not YouTube. Discovery depends on connecting YouTube on that
-   brand and adding the source channels as tracked competitors, which exposes
-   their videos through the `youtube / competitor videos` connector. Until
-   then, candidate URLs have to be supplied by hand.
+2. **Discovery.** Sourcing is open search across YouTube, not a fixed
+   channel list. There is no YouTube Data API key in the environment, so
+   candidates currently come from supplied links or web search. Adding a key
+   as `YOUTUBE_API_KEY` would allow filtering on duration and Creative
+   Commons license at search time.
+3. **Brand template.** Opus Clip has only the two stock presets, neither
+   branded, and the default is landscape.
