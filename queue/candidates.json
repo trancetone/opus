@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "yt-YpcP-6nBi5c",
+    "url": "https://www.youtube.com/watch?v=YpcP-6nBi5c",
+    "title": "The Shining and the Steadicam: an interview with inventor Garrett Brown",
+    "channel": "USPTO",
+    "published": null,
+    "source_views": null,
+    "duration_sec": null,
+    "discovered": "2026-09-12",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "public-domain",
+    "profile_match": "Named technique (low mode) plus named technical collaborator (Garrett Brown), explained by the practitioner himself. Production constraint present: Kubrick asked whether the rig had a minimum operating height, and low mode was invented in answer.",
+    "screen_notes": "Primary-source narration, the preferred provenance type. US federal agency production, so the interview footage is generally not subject to copyright; any film clips embedded inside it carry their own rights. Transcript available for curation and for verifying the wheelchair vs doorway dolly conflict before a caption is written.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091223Ff5U",
+    "approved_clips": [],
+    "scheduled_at": null
+  }
+]
