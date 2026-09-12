@@ -40,21 +40,32 @@ career-level claim is still demonstrable on screen in one clip. Default to
 
 ---
 
-## 2. Caption length: under 80 words, or 80 to 160
+## 2. Caption length: measured, not asserted
 
 **The conflict.** The `miac-content` skill and the analysis both say the body
-runs under 80 words. The spec says roughly 80 to 160, which at the top end is
-double.
+runs under 80 words. The spec says roughly 80 to 160.
 
-**Empirical tiebreak.** The spec's own worked example is **81 words**. It sits
-at the floor of its stated range, not the middle, and is consistent with the
-other two documents. Nothing in either document demonstrates a 160 word caption.
+**Neither is right.** Measured against the captions actually published, both
+documents understate it. Sampling the top performers:
 
-**Recommendation.** Treat roughly 80 words as the working target and the 160
-upper bound as unsupported. If long captions are wanted, that is a change worth
-testing deliberately rather than inheriting from a range nothing exemplifies.
+| Post | Views | Body words |
+|---|---|---|
+| *Excalibur* green filtration | 84,180 | ~183 |
+| *McCabe & Mrs. Miller* flashing | 3,716 | ~200 |
+| *The Parallax View* anamorphic | 46,399 | ~175 |
+| Altman zoom lens | 7,538 | ~195 |
+| Méliès stop trick | 738 | ~190 |
 
----
+**Working range: 175 to 200 words.** The 80 word rule describes nothing that
+was published. The spec's 80 to 160 is closer but still short at the top end.
+
+An earlier version of this file argued the spec's own worked example (81 words)
+settled the question in favour of the short rule. That was wrong: the worked
+example is unrepresentative of the published captions, which run more than
+twice its length.
+
+Note that length does not predict performance, r = +0.06. The reason to match
+~180 words is consistency of voice, not reach.
 
 ## 3. The banned-openers rule tests a variable the analysis ruled out
 
@@ -84,12 +95,16 @@ person's name passes if the rest of the sentence delivers the mechanism.
 The skill and the analysis say 5 to 7. The spec says 5 to 9. The spec's own
 worked example carries **10**, exceeding its own range.
 
+**Measured practice is 6 to 8.** Excalibur and the flashing post carry 8,
+Méliès and Parallax View 7, Varda 6. So the spec's 5 to 9 is about right and
+the skill's 5 to 7 is slightly narrow.
+
 The analysis found hashtag specificity real but weak, r = +0.33, and found
 generic tags clustering on the worst performers. The count matters less than
 the proper-noun composition, which all three documents agree on.
 
-**Recommendation.** 5 to 7, mostly proper nouns. Treat the worked example's 10
-as drift rather than precedent.
+**Recommendation.** 6 to 8, mostly proper nouns, closing on #FilmHistory and
+#MovingImageArts as the published captions consistently do.
 
 ---
 
