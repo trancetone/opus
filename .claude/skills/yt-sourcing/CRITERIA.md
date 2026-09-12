@@ -120,17 +120,52 @@ permission records are kept.
 
 ## 7. Search Terms
 
-TODO. The one part of the profile the analysis does not supply, because it
-measured published posts rather than how their sources were found.
+Reverse-engineered from the top performing posts in
+`reference/what-search-found-them.md`. Nothing recorded how the historical
+sources were found, so these are inferred from what each post needed in order
+to exist. The `found_via` field in the queue records it going forward.
 
-Worth recording as the pipeline runs:
+**Search in two stages. The first is not YouTube.**
 
-- Terms that produced usable sources
-- Terms that looked promising and returned noise
-- Channels that repeatedly yield clean, croppable footage of single works
+### Stage one, the mechanism
 
-Until this section is filled, discovery runs on supplied links or web search
-against the mechanism vocabulary in section 2.
+| Pattern | Example |
+|---|---|
+| `<cinematographer> <film> cinematography` | Gordon Willis, *The Parallax View* |
+| `<named technique> <film or era>` | flashing, *McCabe & Mrs. Miller* |
+| `how <film> achieved <look>` | *Excalibur* green filtration |
+| `<film> production history <department>` | *Nashville* sound department |
+
+Sources: production histories, American Cinematographer and ASC interviews,
+technical retrospectives, commentary transcripts, department oral histories.
+
+**Bias toward the technical collaborator, not the director.** Seven of the top
+nine posts name a cinematographer or sound designer. Director-name searches
+return career surveys, which is the failing shape.
+
+**Prefer mechanisms with a production constraint attached.** A camera immobilised
+because microphones caught its noise. Executives reading flashed dailies as
+ruined footage. Five months of rain absorbed into a palette. The constraint is
+what makes the rule portable.
+
+### Stage two, the footage
+
+| Pattern | Purpose |
+|---|---|
+| `<film title> <year> clip` | general |
+| `<film title> <scene where the mechanism is visible>` | targeted |
+| `<film title> restoration trailer` | clean transfers |
+
+### Terms that produce the failing shape
+
+Avoid as entry points. Each produced a post below 1,700 views.
+
+- A director or artist name alone, which returns biography and career overview
+- `<artist> philosophy` or `<artist> approach`, untethered to one work
+- Categories and taxonomies rather than one operation
+
+TODO as the pipeline runs: record which literature sources repeatedly yield
+usable mechanisms, and which channels yield clean croppable transfers.
 
 ## 8. Clip Shape
 

@@ -5,9 +5,11 @@ description: "Finds YouTube videos matching the Moving Image Arts curatorial voi
 
 # YouTube Sourcing Pipeline
 
-Finds YouTube videos anywhere on the platform that match the curatorial voice
-of Moving Image Arts Instagram, passes their links to Opus Clip to cut shorts,
-and brings the results back for human review before anything is scheduled.
+Identifies a film-craft mechanism worth explaining, finds YouTube footage that
+demonstrates it, passes the link to Opus Clip to cut shorts, and brings the
+results back for human review before anything is scheduled.
+
+**The order matters.** Research first, footage second. See Step 2.
 
 The curatorial voice is not asserted from taste. It is derived from what has
 actually performed well on the Instagram account, then applied as a search and
@@ -75,22 +77,54 @@ into Step 3 as screening judgment.
 `CRITERIA.md` holds the standing version of this profile. Update it only with
 the user's agreement.
 
-## Step 2: Search YouTube
+## Step 2: Find the Mechanism (not YouTube)
 
-Open search across YouTube, not a fixed channel list. Sources are wherever the
-matching footage lives.
+**Do not open YouTube yet.** Searching video first and then asking what can be
+said about the results runs the pipeline backwards, and it reliably produces
+surveys, because what a video search returns on a director's name is
+retrospectives and career overviews. The evidence is in
+`reference/what-search-found-them.md`.
 
-There is currently **no YouTube Data API key** in the environment, so pick
-whichever applies:
+The account's top posts were built mechanism first. Their captions cite
+production histories, cinematographer interviews, and film scholarship, none of
+which surfaces from a video search.
 
-- **User supplied links.** The user pastes YouTube URLs. Skip to Step 3.
-- **Web search.** Use the `WebSearch` tool against the profile's terms. Works
-  with no setup. Returns less structure, so duration, view count, and license
-  have to be confirmed per candidate.
-- **YouTube Data API**, if a key is later added as `YOUTUBE_API_KEY`. Preferred
-  once available: `search.list` filters on `videoDuration` and, importantly,
-  `videoLicense=creativeCommon`, which resolves the duration filter and the
-  rights field in the same call.
+Search the literature for a technique worth explaining. Query shapes that match
+the winners:
+
+- `<cinematographer> <film> cinematography`
+- `<named technique> <film or era>`
+- `how <film> achieved <specific look>`
+- `<film> production history <department>`
+
+**Bias toward the technical collaborator over the director.** Willis, Zsigmond,
+Unsworth, Thomson and Webb produced the top posts. Director names return career
+surveys, which is the shape that fails.
+
+**Favour mechanisms with a production constraint behind them.** The strongest
+posts explain why a technique was adopted, not just that it exists. The
+constraint is what makes the rule portable.
+
+Output of this step is a specific claim: this film, this technique, this
+collaborator, and the reason it was used.
+
+## Step 2b: Find Footage That Proves It
+
+Now YouTube, and only to satisfy the demonstrable requirement in `CRITERIA.md`
+section 1.
+
+- `<film title> <year> clip`
+- `<film title> <the specific scene where the mechanism is visible>`
+- `<film title> restoration trailer` for clean transfers
+
+There is currently **no YouTube Data API key** in the environment. Use the
+`WebSearch` tool, or work from links the user supplies. If a key is later added
+as `YOUTUBE_API_KEY`, `search.list` filters on `videoDuration` and on
+`videoLicense=creativeCommon`, which serves the credit cost and the rights
+field in one call.
+
+**If no footage demonstrates the mechanism on screen, the mechanism fails here**,
+however good the research is. Sound mechanisms need audible proof, not visible.
 
 Drop any URL already present in `queue/candidates.json` in any status. The
 queue is the dedup record.
