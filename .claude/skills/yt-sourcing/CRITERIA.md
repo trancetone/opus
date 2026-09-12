@@ -55,9 +55,43 @@ which is editing. The rule is a tendency, not a prohibition.
 | Requirement | Rule | Why |
 |---|---|---|
 | **One work per clip** | The source must allow a clip covering a single film. Multi-film compilations are usable only with `rangeStart`/`rangeEnd` isolating one work. | Surveys collapse. Four films in one post, 564. Two careers in one post, 260. |
-| **Footage of the work itself** | The source must show the film, not only a person talking about it. | The proof has to be on screen. A talking-head-only clip cannot demonstrate anything. |
+| **Footage of the work itself** | The source must show the film. A person talking to camera with no footage cannot demonstrate anything. Narration laid over the footage is fine and is usually better. | The proof has to be on screen. Narration that points at what is visible does the "state a rule" work while the footage does the "prove it" work. |
 | **Clean enough to crop** | Will survive a 9:16 crop and the subtitle burn. | Letterboxed or low-resolution uploads degrade badly in portrait. |
 | **Duration** | Not a quality filter. Length showed no correlation with performance, r = +0.06. Treat source length purely as an Opus credit cost. | A 28 second and a 172 second post both broke out. |
+
+## 3b. Narration and Source Provenance
+
+Narrated sources suit Opus Clip considerably better than silent footage.
+Curation ranks segments from the transcript and captions are generated from
+speech, so a source with no speech gives the tool almost nothing to work with.
+
+But where the narration comes from changes what the post is. Three source
+types, in descending order of preference:
+
+| Type | Narration | Whose analysis | Rights layers | Voice match |
+|---|---|---|---|---|
+| **Primary source** | The practitioner explaining their own work: interviews, commentary tracks, department oral histories, archival lectures | Theirs, and authoritative | Usually one, sometimes none | Neutral. An expert speaking plainly reads as analysis, not as another channel's branding |
+| **Own narration** | Generated or recorded in the house voice over clean footage | Moving Image Arts | One, the underlying film | Exact, by construction |
+| **Third-party video essay** | Another creator's essay | Theirs, borrowed | Two: the essayist's work and the underlying film | Poor. Another channel's register in your feed |
+
+**Prefer primary source.** It matches the account's strongest measured
+signature directly: seven of the top nine posts name a technical collaborator,
+and the strongest available version of that is the collaborator explaining the
+work in their own voice.
+
+**Own narration is the default** where no primary-source interview exists.
+`audio_tts` and `audio_tts_direction` on the Magnific connector can generate it
+against the house voice rules.
+
+**Third-party video essays are the fallback, and a weak one.** The post becomes
+a repost of someone else's analysis rather than the account doing the work,
+which is both the brand problem and the thing the commentary posture in section
+6 rests on. If used at all, credit the essayist in the caption.
+
+**Note on government-produced sources.** Material produced by US federal
+agencies is generally not subject to copyright, which makes an agency-produced
+interview unusually clean. That covers the agency's own footage only. Film
+clips embedded inside such a video carry their own rights.
 
 ## 4. Post Type
 
