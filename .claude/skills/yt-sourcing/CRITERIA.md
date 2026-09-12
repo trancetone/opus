@@ -77,7 +77,7 @@ What the finished Instagram clip should look like. Feeds `customPrompt`,
 | Target duration | TODO. The `miac-content` skill says Reels run 10 to 30 seconds. |
 | Captions | TODO |
 | Auto hook | TODO. `enableAutoHook` prepends an AI generated hook, which may conflict with the Moving Image Arts voice rules. |
-| Brand template | TODO. Check `opusclip_list_brand_templates`. |
+| Brand template | TODO. Org currently has only the two stock presets, neither branded. `Preset template 1` is the default and is **landscape**, so `aspectRatio` must always be set explicitly. `Preset template 2` is portrait but uses word-level karaoke caption animation, which fights the Moving Image Arts voice. A branded portrait template needs creating. |
 
 ## 7. Volume
 
