@@ -45,9 +45,18 @@ Scaffold. Outstanding before the pipeline can run:
    Commons license at search time.
 3. **Brand template.** Opus Clip has only the two stock presets, neither
    branded, and the default is landscape.
-4. **Search terms.** Section 7 of `CRITERIA.md`. The analysis measured
+4. **YouTube Data API key.** Set `YOUTUBE_API_KEY` in the environment
+   configuration, not a shell export, since session containers are
+   disposable. Tested from inside a session: `youtube.com` is blocked by
+   network policy but `googleapis.com` is reachable and returns a normal
+   403 asking for a key, so the API works from here. It supplies the
+   provenance check (`snippet.channelId`, confirming a video is an
+   institution's own upload), source duration against the ten minute
+   floor, licence, and real search. It does not supply video: no key lets
+   an agent watch a clip, so judging framing stays a human step.
+5. **Search terms.** Section 7 of `CRITERIA.md`. The analysis measured
    published posts, not how their sources were found, so this is the one part
    of the profile it cannot supply.
-5. ~~**Rights.**~~ Resolved. Non-profit educational commentary use. Sourcing
+6. ~~**Rights.**~~ Resolved. Non-profit educational commentary use. Sourcing
    is not restricted to public domain. Section 6 now tracks platform detection
    exposure, which is a separate matter from the rights posture.
