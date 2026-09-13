@@ -146,6 +146,20 @@ field in one call.
 **If no footage demonstrates the mechanism on screen, the mechanism fails here**,
 however good the research is. Sound mechanisms need audible proof, not visible.
 
+**Screen the candidate before submitting.** With `YOUTUBE_API_KEY` set:
+
+```
+python3 tools/screen_source.py <url>
+```
+
+One quota unit. Reports duration against the ten minute floor, licence, and the
+channel the video actually sits on, which is the provenance check. Exits
+non-zero when a source fails.
+
+Prefer `videos.list` over `search.list`: 1 unit against 100, so roughly 10,000
+verifications a day but only 100 searches. Verification is effectively free and
+search is the scarce resource.
+
 Drop any URL already present in `queue/candidates.json` in any status. The
 queue is the dedup record.
 

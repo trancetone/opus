@@ -16,6 +16,7 @@ account, using Instagram retention and saves rather than likes.
 | `.claude/skills/yt-sourcing/SKILL.md` | The pipeline. Loaded automatically when this repo is open in a Claude session. |
 | `.claude/skills/yt-sourcing/CRITERIA.md` | The curatorial profile and what qualifies a video. Currently a scaffold with TODOs. |
 | `queue/candidates.json` | Candidate state and dedup record. |
+| `tools/screen_source.py` | Screens a YouTube source against the criteria before spending Opus credits. Needs `YOUTUBE_API_KEY`. |
 | `reference/decoder-clips-what-works.md` | Performance analysis of 55 reels. The evidence base for the criteria. |
 | `reference/caption-voice-spec.json` | Caption voice spec, version 1.0. |
 | `reference/spec-conflicts.md` | Where the voice spec and the analysis disagree. Unresolved. |
