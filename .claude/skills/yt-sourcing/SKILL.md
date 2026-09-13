@@ -108,6 +108,26 @@ constraint is what makes the rule portable.
 Output of this step is a specific claim: this film, this technique, this
 collaborator, and the reason it was used.
 
+## Step 2a: Check Source Availability Early
+
+Before researching a mechanism in depth, check that a usable source could
+exist. The preferred shape is a practitioner narrating over their own footage,
+and that material exists abundantly for some subjects and not at all for
+others.
+
+`reference/source-registry.md` lists the known series. Check it first, and add
+to it whenever a new one is found.
+
+The test for any series: **does footage run under the voice, or is it a person
+in a chair?** A talking head cannot demonstrate anything.
+
+Practitioners who died before the video-interview era usually fail here however
+good the mechanism is. Establish this before spending the research, not after.
+
+Do not draw more than roughly one post in four from any single source. One
+documentary means one grade, one interview setup, one rights holder, and a feed
+that reads as a clip account rather than an editorial one.
+
 ## Step 2b: Find Footage That Proves It
 
 Now YouTube, and only to satisfy the demonstrable requirement in `CRITERIA.md`
