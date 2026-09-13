@@ -32,6 +32,48 @@ series is a sourcing source or only a research source.
 |---|---|
 | **ASC Clubhouse Conversations** | Free on the ASC site and its social channels, moderated by Society members. Covers recent projects (Dune, The Power of the Dog, Poker Face), so it pulls toward contemporary rather than film history, away from the hashtag niche where this account surfaces. Verify footage runs under the talk per episode. |
 
+## The structural problem, and the one class of source that escapes it
+
+A documentary where a practitioner's voice runs over film clips must license
+those clips. That cost is why the films with the right structure are commercial
+products, and why the free institutional material is mostly talking heads: a
+person in a chair needs no clip rights. **Legitimacy and the required structure
+pull against each other.**
+
+The exception is an institution that owns both the films and the documentary
+about them. It can use the footage freely and has no reason to withhold it.
+
+### National Film Board of Canada
+
+A federal agency streaming over 7,000 films free, no ads, no subscription. It
+produced the work, so it can cut its own footage under its own interviews.
+
+Norman McLaren holdings fit the visual remit directly: direct animation,
+drawing onto the film strip, pixillation.
+
+| Title | Shape |
+|---|---|
+| **Creative Process: Norman McLaren** | Feature length, drawn from his private film vaults, working through his methods |
+| **Pen Point Percussion** (1951) | McLaren demonstrating on camera |
+| **Animated Motion** series | His own instructional films on tempo and movement |
+
+Two caveats. Opus does not accept `nfb.ca` as a source host, so this needs the
+NFB's YouTube uploads, which have not been confirmed to carry these titles. And
+McLaren sits in the avant-garde band, a 1,322 median against 2,262 for canon
+narrative: viable, not the strongest category.
+
+**The generalisation is the useful part.** Look for rights-holders making
+documentaries about their own catalogues, not for craft documentaries in
+general. Other national archives should share the property: BFI, EYE
+Filmmuseum, NFSA.
+
+## Ruled out
+
+| Source | Why |
+|---|---|
+| AFI Harold Lloyd Master Seminars | Official and feature length, but a filmed seminar. Speaker on stage, no footage cut under the voice. |
+| Internet Archive craft holdings | Searches returned books on technique rather than films. |
+
 ## Unverified leads, worth checking
 
 Named from general knowledge, not confirmed in research. Check the footage test
