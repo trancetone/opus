@@ -9,7 +9,7 @@
     "duration_sec": null,
     "discovered": "2026-09-12",
     "found_via": "websearch",
-    "status": "submitted",
+    "status": "posted",
     "rights": "public-domain",
     "profile_match": "Named technique (low mode) plus named technical collaborator (Garrett Brown), explained by the practitioner himself. Production constraint present: Kubrick asked whether the rig had a minimum operating height, and low mode was invented in answer.",
     "screen_notes": "Primary-source narration, the preferred provenance type. US federal agency production, so the interview footage is generally not subject to copyright; any film clips embedded inside it carry their own rights. Transcript available for curation and for verifying the wheelchair vs doorway dolly conflict before a caption is written.",
@@ -18,8 +18,20 @@
       "end_sec": null
     },
     "opus_project": "P3091223Ff5U",
-    "approved_clips": [],
-    "scheduled_at": null
+    "approved_clips": [
+      "EI2mlz8Lnc"
+    ],
+    "scheduled_at": "2026-09-13T00:03:35Z",
+    "post_url": "https://www.instagram.com/reel/DdNOuCugSoq/",
+    "early_metrics": {
+      "measured_at": "2026-09-13T17:20Z",
+      "hours_live": 17,
+      "views": 4647,
+      "hold_3s_pct": 55.5,
+      "saves": 37,
+      "avg_watch_sec": 25.7,
+      "note": "Above the 45 percent floor. Nearer the decoder band (60.3) than survey (44.5). Average watch above the 20.8s mechanism-opener benchmark, on a 69 second clip. Views still accruing; posts accrue for three to five days."
+    }
   },
   {
     "id": "yt-Rkj2_50glz8",
