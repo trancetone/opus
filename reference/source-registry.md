@@ -51,16 +51,26 @@ produced the work, so it can cut its own footage under its own interviews.
 Norman McLaren holdings fit the visual remit directly: direct animation,
 drawing onto the film strip, pixillation.
 
-| Title | Shape |
-|---|---|
-| **Creative Process: Norman McLaren** | Feature length, drawn from his private film vaults, working through his methods |
-| **Pen Point Percussion** (1951) | McLaren demonstrating on camera |
-| **Animated Motion** series | His own instructional films on tempo and movement |
+**Official channel confirmed:** `youtube.com/user/nfb` hosts full films free,
+over 7,000 titles. Official NFB uploads are therefore a supported Opus source,
+which `nfb.ca` is not.
 
-Two caveats. Opus does not accept `nfb.ca` as a source host, so this needs the
-NFB's YouTube uploads, which have not been confirmed to carry these titles. And
+| Title | Shape | Availability |
+|---|---|---|
+| **Creative Process: Norman McLaren** (1990, dir. Donald McWilliams) | Feature length, drawn from his private film vaults, covering pixillation and his methods | **Unconfirmed.** Signals point to a download-to-own title rather than free streaming. A YouTube copy exists but its provenance is unknown, which is the only thing that matters here. Verify on the official channel before use. |
+| **Animated Motion** series | McLaren's own instructional films on tempo and movement | Unverified |
+| ~~Pen Point Percussion~~ (1951) | Ruled out. Concerns drawn synthetic sound, which the visual remit excludes. | — |
+
 McLaren sits in the avant-garde band, a 1,322 median against 2,262 for canon
-narrative: viable, not the strongest category.
+narrative: viable, not the strongest category. Solving the source problem here
+means optimising into the weaker subject category, which is a trade to make
+knowingly.
+
+**Provenance rule.** A copy on YouTube is not the same as an official upload.
+For any institution in this registry, confirm the video sits on that
+institution's own channel. The whole value of this class of source is that it
+is legitimately posted; an unauthorized copy of an NFB film carries the same
+exposure as an unauthorized copy of anything else.
 
 **The generalisation is the useful part.** Look for rights-holders making
 documentaries about their own catalogues, not for craft documentaries in
