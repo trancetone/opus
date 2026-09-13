@@ -120,3 +120,23 @@ Not resolvable from the documents supplied. Needs the content strategy document
 or an explanation of what Buzz is before `event_recap` can be automated. Event
 clips come from Moving Image Arts live events rather than YouTube, so this sits
 outside the sourcing pipeline either way.
+
+---
+
+## 6. Open question: does the visual remit exclude sound for film
+
+The organisation's stated remit is visual storytelling: visual technique,
+cinematography, editing, and anything carried by the moving image. Sound
+mechanisms are therefore not sourced.
+
+This is a deliberate positioning choice and it overrides the performance data,
+which points the other way. The analysis records that light, colour and sound
+outperform editing and camera, and that the requirement is a mechanism
+demonstrable in the clip rather than visible in a frame, citing the Altman
+eight-track post at over 50,000 views as a sound mechanism that is not visible
+at all.
+
+Unresolved: whether sound for film is excluded entirely, or only when it is
+detached from the image. A post about how a sound was built to accompany a
+specific visual event would sit differently from one about a sound effect
+considered on its own.

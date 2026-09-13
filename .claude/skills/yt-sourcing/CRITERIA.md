@@ -109,6 +109,18 @@ pipeline.
 
 Subject is secondary but not neutral.
 
+**The remit is visual storytelling.** Visual technique, cinematography,
+editing, camera, light, colour, and anything else carried by the moving image.
+This is a positioning rule set by the organisation, not an inference from
+performance, and it overrides the measured data where they disagree.
+
+It does disagree in one place worth knowing. The analysis found sound
+outperforms editing and camera, and the account's eight-track recording post
+is among its largest, on the reasoning that the test is demonstrable in the
+clip rather than visible in a frame. The remit gives that category up
+deliberately. Open question recorded in `spec-conflicts.md`: whether sound for
+film is out entirely, or only when detached from the image.
+
 **In scope.** Film craft, history, and technique. Canon narrative film performs
 best as a decoder, 2,262 median. Avant-garde and video art also work, 1,322.
 Fame of the subject predicts nothing, so an obscure 1928 Dada short is as
