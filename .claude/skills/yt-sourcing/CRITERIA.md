@@ -56,6 +56,7 @@ which is editing. The rule is a tendency, not a prohibition.
 |---|---|---|
 | **One work per clip** | The source must allow a clip covering a single film. Multi-film compilations are usable only with `rangeStart`/`rangeEnd` isolating one work. | Surveys collapse. Four films in one post, 564. Two careers in one post, 260. |
 | **Footage of the work itself** | The source must show the film. A person talking to camera with no footage cannot demonstrate anything. Narration laid over the footage is fine and is usually better. | The proof has to be on screen. Narration that points at what is visible does the "state a rule" work while the footage does the "prove it" work. |
+| **Survives the delivery format** | The mechanism must still be perceptible as a vertical clip on a phone speaker. Spatial and multichannel sound mechanisms fail here: the proof is the position of sound around a listener, which mono phone playback destroys. | Ruled out Walter Murch's quintaphonic mix on *Apocalypse Now*, a strong mechanism by every other test. Screen for this before the research, not after. |
 | **Clean enough to crop** | Will survive a 9:16 crop and the subtitle burn. | Letterboxed or low-resolution uploads degrade badly in portrait. |
 | **Duration** | Not a quality filter. Length showed no correlation with performance, r = +0.06. Treat source length purely as an Opus credit cost. | A 28 second and a 172 second post both broke out. |
 
