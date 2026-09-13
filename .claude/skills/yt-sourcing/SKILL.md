@@ -210,6 +210,26 @@ not.
 **Stop here and wait.** Do not export, schedule, or post without explicit
 approval on specific clips. Set status to `reviewed`.
 
+### Editing a clip
+
+`opusclip_edit_clip` can tidy a clip, but two cautions apply to the sources
+this pipeline uses.
+
+**Never run `remove_pauses` on a source that intercuts interview with film
+clips.** The silences are the footage. That is where the demonstration plays
+with no dialogue, and cutting it leaves a talking head describing something the
+viewer can no longer see. This is the majority of preferred sources, so treat
+the op as off by default.
+
+**Always `dryRun` first.** It reports what would change, saves nothing and
+renders nothing. It is also the only way to find out whether an intended fix
+applies at all: a clip may not contain the passage you think it does, since the
+clip's own span is not visible from the source transcript.
+
+The editor deep link returned by every call opens the clip in the Opus editor,
+which is the fastest way for the user to judge something the agent cannot
+watch.
+
 ## Step 6: Export and Schedule Approved Clips
 
 Only for clips the user approved by name or rank.
