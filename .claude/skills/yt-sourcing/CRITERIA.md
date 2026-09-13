@@ -30,6 +30,38 @@ leave the rule portable. Part two is a constraint on footage.
 If the proof would have to be asserted in the caption rather than seen or heard
 in the clip, the source fails, however good the underlying idea is.
 
+## 1b. The Mechanism Needs a Turn
+
+The apparatus is not the story. A person doing something is the story, and the
+apparatus is what they did it with.
+
+A segment that only describes equipment is inert, however precise it is. A
+bracket, a wheelchair, a lens height: these are facts, and facts alone do not
+hold anyone. What holds is a **reversal**, something going differently than
+expected, with the technique sitting inside it.
+
+Look at where the turn is in the captions that performed:
+
+| Post | The turn |
+|---|---|
+| *McCabe & Mrs. Miller* flashing | Warner Bros. executives read the dailies as ruined footage |
+| Méliès stop trick | The camera jams, a bus becomes a hearse, and a historian later disputes that it was an accident at all |
+| *Excalibur* | Five months of near-constant rain, which the production leaned into rather than fought |
+| Steadicam telex | Kubrick spots fourteen exposed frames nobody else caught, then buries the decisive question at the end |
+| Coates on the cut | She would have rendered the dissolve on digital and never seen the straight cut at all |
+
+And where it is absent in the ones that failed: an artist trained as a painter,
+an artist who did not begin as a filmmaker, a theoretical position, five
+categories of montage. Description without event.
+
+**Screen for this directly.** Does something go wrong, get caught, get
+disputed, get refused, or surprise the person who did it? If the segment is
+only a correct account of how something was built, it will read as a
+specification rather than a story, regardless of how good the technique is.
+
+This sharpens the constraint rule in section 1. A production constraint matters
+because it supplies a turn, not because a constraint is inherently interesting.
+
 ## 2. What Makes Footage Demonstrable
 
 Ranked by how fast a mechanism reads on screen. From the subject analysis, the
@@ -255,7 +287,7 @@ usable mechanisms, and which channels yield clean croppable transfers.
 | Setting | Value |
 |---|---|
 | Aspect ratio | `portrait` (9:16), always set explicitly |
-| Target duration | No fixed target. Length does not predict performance. Let the mechanism decide how long it takes to prove. |
+| Target duration | Give it room. Length does not predict performance (r = +0.06), so brevity buys nothing, and clips under roughly 30 seconds have read as fragments: they state a fact and stop before anything develops. Prefer segments with space for a turn to land. Working preference is roughly 45 to 90 seconds, from editorial judgement rather than measurement. |
 | `clipDurationsSec` | Leave wide. Constraining it optimises for a variable that showed r = +0.06. |
 | `enableAutoHook` | **Off.** It prepends an AI hook, and hook lines are explicitly against the house voice. The first sentence has to be the mechanism, which is an editorial decision, not a generated one. |
 | Captions | On. |
