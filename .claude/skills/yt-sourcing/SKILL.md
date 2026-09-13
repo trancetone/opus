@@ -174,6 +174,7 @@ fit and leave the rest as `candidate`. Report what was deferred.
 opusclip_submit_project(
   videoUrl:     <the YouTube watch URL, passed directly, no download>,
   aspectRatio:  "portrait",
+  clipDurationsSec: [[60, 180]],
   title:        <source title>,
   rangeStart:   <seconds, when only part of a long source is relevant>,
   rangeEnd:     <seconds>,
@@ -183,6 +184,9 @@ opusclip_submit_project(
 
 Opus accepts YouTube URLs natively. Never download the video, and never use
 yt-dlp or ffmpeg here.
+
+`clipDurationsSec` must be set to `[[60, 180]]`. The target format is a one to
+three minute clip. Leaving it unset produces fragments.
 
 `aspectRatio` must be set explicitly on every call. The org default brand
 template is landscape, so omitting it yields 16:9 output that is wrong for

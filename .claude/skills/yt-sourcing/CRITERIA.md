@@ -90,8 +90,37 @@ which is editing. The rule is a tendency, not a prohibition.
 | **Footage of the work itself** | The source must show the film. A person talking to camera with no footage cannot demonstrate anything. Narration laid over the footage is fine and is usually better. | The proof has to be on screen. Narration that points at what is visible does the "state a rule" work while the footage does the "prove it" work. |
 | **Survives the delivery format** | The mechanism must still be perceptible as a vertical clip on a phone speaker. Spatial and multichannel sound mechanisms fail here: the proof is the position of sound around a listener, which mono phone playback destroys. | Ruled out Walter Murch's quintaphonic mix on *Apocalypse Now*, a strong mechanism by every other test. Screen for this before the research, not after. |
 | **Clean enough to crop** | Will survive a 9:16 crop and the subtitle burn. | Letterboxed or low-resolution uploads degrade badly in portrait. |
-| **Minimum duration** | Roughly three minutes. Below that a source yields few clips, lower curation scores, and no room to choose. | The Coates interview ran about 111 seconds and produced three usable clips against nine from a source four times longer. |
+| **Minimum duration** | **Roughly ten minutes.** A 1 to 3 minute target clip needs a source several times longer to leave any choice. | A 111 second source cannot yield the target format at all, whatever the curation does. |
+| ~~Minimum duration~~ | Superseded. Previously: roughly three minutes. Below that a source yields few clips, lower curation scores, and no room to choose. | The Coates interview ran about 111 seconds and produced three usable clips against nine from a source four times longer. |
 | **Duration** | Not a quality filter. Length showed no correlation with performance, r = +0.06. Treat source length purely as an Opus credit cost. | A 28 second and a 172 second post both broke out. |
+
+## 3a. Required Structure: Speaker On Camera and Voice Under the Examples
+
+The target format is a mix of the practitioner **on camera** and the same
+practitioner **as voice over the film examples**. The clip should move between
+the two rather than sitting in either.
+
+**This is a property of the source, not something Opus can create.** Opus cuts
+and reframes what it is given. If the source alternates between a talking head
+and film clips playing with their own audio, every clip drawn from it will
+alternate the same way.
+
+So screen the source for how it was cut:
+
+| Pattern | Usable |
+|---|---|
+| Practitioner speaks; their voice continues while the film example plays underneath | **Yes. This is the target.** |
+| Practitioner speaks, then the film plays with its own dialogue and sound, then they resume | Weak. Reads as an interview with illustrations rather than an explanation. |
+| Practitioner on camera throughout, no footage | No. Nothing is demonstrated. |
+
+A transcript gives a partial signal: film dialogue appearing as its own speaker
+turns means the film is playing with its own audio at least some of the time.
+It cannot confirm the good case, since a voice continuing over silent footage
+looks identical to a voice over a static shot.
+
+Properly produced documentaries and featurettes do this by construction, which
+is why `Visions of Light` and `The Cutting Edge` are the model. A two-camera
+interview with clips dropped in usually does not.
 
 ## 3b. Narration and Source Provenance
 
@@ -287,8 +316,9 @@ usable mechanisms, and which channels yield clean croppable transfers.
 | Setting | Value |
 |---|---|
 | Aspect ratio | `portrait` (9:16), always set explicitly |
-| Target duration | Give it room. Length does not predict performance (r = +0.06), so brevity buys nothing, and clips under roughly 30 seconds have read as fragments: they state a fact and stop before anything develops. Prefer segments with space for a turn to land. Working preference is roughly 45 to 90 seconds, from editorial judgement rather than measurement. |
-| `clipDurationsSec` | Leave wide. Constraining it optimises for a variable that showed r = +0.06. |
+| Target duration | **60 to 180 seconds.** Set it explicitly with `clipDurationsSec: [[60, 180]]` on submission. Clips under about 30 seconds read as fragments. |
+| ~~Target duration~~ | Superseded. Previously: give it room. Length does not predict performance (r = +0.06), so brevity buys nothing, and clips under roughly 30 seconds have read as fragments: they state a fact and stop before anything develops. Prefer segments with space for a turn to land. Working preference is roughly 45 to 90 seconds, from editorial judgement rather than measurement. |
+| `clipDurationsSec` | `[[60, 180]]`. Always set it. The earlier advice to leave this wide was wrong: it reasoned from performance data, where length is uncorrelated, but clip length here is an editorial format decision rather than a performance one. |
 | `enableAutoHook` | **Off.** It prepends an AI hook, and hook lines are explicitly against the house voice. The first sentence has to be the mechanism, which is an editorial decision, not a generated one. |
 | Captions | On. |
 | Brand template | Org has only the two stock presets, neither branded. `Preset template 1` is the default and is **landscape**. `Preset template 2` is portrait but uses word-level karaoke animation, which fights the voice. A branded portrait template needs creating. |
