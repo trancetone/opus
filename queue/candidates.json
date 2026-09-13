@@ -20,5 +20,27 @@
     "opus_project": "P3091223Ff5U",
     "approved_clips": [],
     "scheduled_at": null
+  },
+  {
+    "id": "yt-Rkj2_50glz8",
+    "url": "https://www.youtube.com/watch?v=Rkj2_50glz8",
+    "title": "Editor Anne V. Coates on editing Lawrence of Arabia's Match Cut",
+    "channel": null,
+    "published": null,
+    "source_views": null,
+    "duration_sec": null,
+    "discovered": "2026-09-13",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "commentary",
+    "profile_match": "Named technique (match on action carrying a time transition) plus named technical collaborator (Anne V. Coates, editor). Production constraint present: no crossfade equipment available where they were cutting, against a period convention of fade-out and fade-in for time transitions.",
+    "screen_notes": "Primary-source narration, the preferred provenance. Editing normally reads slower than colour or light, but this mechanism is two shots and about two seconds, so it clears the category handicap. Distinct from the existing Kuleshov post: that is juxtaposition manufacturing meaning, this is continuity carrying time. Mechanism appears in The Cutting Edge (2004) but sourced from a targeted interview instead, since the full documentary would cost roughly 97 credits and the Vimeo copy is likely an unauthorized upload.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P30913171cfq",
+    "approved_clips": [],
+    "scheduled_at": null
   }
 ]
