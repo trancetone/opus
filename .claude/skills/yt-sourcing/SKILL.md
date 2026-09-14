@@ -219,6 +219,27 @@ in-flight projects.
 When clips are ready, call `opusclip_preview_clips(projectId)` to render
 playable ranked cards in chat. This is the review gate.
 
+### Filter before showing anything
+
+**`customPrompt` steers selection, not exclusion.** Tested twice. It pulls
+curation toward the mechanism, but content it is explicitly told to avoid still
+comes back: a sponsor read appeared at rank 7 of a project whose prompt ruled
+out advertising in as many words.
+
+Two reliable filters, neither of them the prompt:
+
+| Signal | Rule |
+|---|---|
+| Sub-scores | Drop anything scoring at or below 3 on hook, coherence and connection. Real content scored 10/10/10 in the same project; the ad scored 2/2/2. |
+| Duration | With `clipDurationsSec` set, anything falling outside the window is an artifact rather than a clip. The sponsor read was also the only clip under 60 seconds. |
+
+Also drop the `_bonus` duplicate, which repeats rank 1 with a second or two of
+difference.
+
+**Discard all Opus-generated metadata.** Titles, descriptions and hashtags are
+hook copy in a register the voice rules ban, and the hashtags include tags from
+the never-include list. Captions are written fresh every time.
+
 Judge clips on whether a decoder caption can be written over them: is a
 mechanism visible or audible here, in one work, provable on screen. Opus ranks
 by its own engagement heuristics, which are not this account's criteria, so a
