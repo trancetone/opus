@@ -54,5 +54,27 @@
     "opus_project": "P30913171cfq",
     "approved_clips": [],
     "scheduled_at": null
+  },
+  {
+    "id": "yt-_E8C-3MU00g",
+    "url": "https://www.youtube.com/watch?v=_E8C-3MU00g",
+    "title": "Six Kinds of Light - John Alcott",
+    "channel": "unverified, uploaded by an individual rather than PBS",
+    "published": null,
+    "source_views": null,
+    "duration_sec": null,
+    "discovered": "2026-09-17",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "commentary",
+    "profile_match": "Named technical collaborator (John Alcott, cinematographer) discussing his own work in a properly produced documentary. Turn present on Barry Lyndon: no lens existed fast enough to shoot by candlelight, so Kubrick acquired ex-NASA Zeiss f/0.7 glass, three of the ten ever made. Light is the fastest-reading mechanism category on this account.",
+    "screen_notes": "First candidate found that clears every test at once: roughly 28 minutes so well past the ten minute floor, practitioner narrating his own work, and the documentary format should carry footage under the voice. From Six Kinds of Light (PBS, 1986), a six-part cinematography series also covering Gordon Willis, Vilmos Zsigmond and Sven Nykvist, so the source is a seam rather than one post. Zsigmond segment is partly spent, since the account has already posted his flashing work on McCabe & Mrs. Miller. Provenance is the weak point: an individual's upload, not PBS.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091716ZxbG",
+    "approved_clips": [],
+    "scheduled_at": null
   }
 ]
