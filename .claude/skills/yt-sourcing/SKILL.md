@@ -228,10 +228,18 @@ out advertising in as many words.
 
 Two reliable filters, neither of them the prompt:
 
-| Signal | Rule |
-|---|---|
-| Sub-scores | Drop anything scoring at or below 3 on hook, coherence and connection. Real content scored 10/10/10 in the same project; the ad scored 2/2/2. |
-| Duration | With `clipDurationsSec` set, anything falling outside the window is an artifact rather than a clip. The sponsor read was also the only clip under 60 seconds. |
+| Signal | Rule | Limits |
+|---|---|---|
+| Sub-scores | Drop anything at or below 3 on hook and coherence. | **Catches advertising only.** An Oscar acceptance speech ranked first at score 99 with 10/10/10 in a project whose prompt excluded awards talk. Do not treat a high score as evidence a clip is on profile. |
+| `connection_score` | Ignore it. | It reads 10 on nearly every clip in a project and discriminates nothing. |
+| Duration | With `clipDurationsSec` set, anything outside the window is an artifact rather than a clip. | Weak on its own. |
+
+**There is no mechanical filter for off-profile content.** Three projects now
+show curation returning career summary, awards talk, biography and outright
+noise at top rank, with scores indistinguishable from the good clips. The
+screen is editorial: does this clip carry a visual mechanism with a turn.
+Read every clip's title and content against the criteria. Automation ends at
+the ad filter.
 
 Also drop the `_bonus` duplicate, which repeats rank 1 with a second or two of
 difference.
