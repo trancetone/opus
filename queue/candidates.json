@@ -62,19 +62,25 @@
     "channel": "unverified, uploaded by an individual rather than PBS",
     "published": null,
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 1584,
     "discovered": "2026-09-17",
     "found_via": "websearch",
-    "status": "submitted",
+    "status": "reviewed",
     "rights": "commentary",
     "profile_match": "Named technical collaborator (John Alcott, cinematographer) discussing his own work in a properly produced documentary. Turn present on Barry Lyndon: no lens existed fast enough to shoot by candlelight, so Kubrick acquired ex-NASA Zeiss f/0.7 glass, three of the ten ever made. Light is the fastest-reading mechanism category on this account.",
-    "screen_notes": "First candidate found that clears every test at once: roughly 28 minutes so well past the ten minute floor, practitioner narrating his own work, and the documentary format should carry footage under the voice. From Six Kinds of Light (PBS, 1986), a six-part cinematography series also covering Gordon Willis, Vilmos Zsigmond and Sven Nykvist, so the source is a seam rather than one post. Zsigmond segment is partly spent, since the account has already posted his flashing work on McCabe & Mrs. Miller. Provenance is the weak point: an individual's upload, not PBS.",
+    "screen_notes": "Corrected after review. This is NOT a practitioner narrating his own work: it is a documentary ABOUT Alcott with six speaker labels, and diarization mixes film audio with interview audio (one label's longest utterance is Nadsat from A Clockwork Orange). A first caption was drafted attributing every claim to Alcott from a clip that was a director and a third party discussing him in the third person; the user caught it. speaker_0 is Alcott, identified by first-person method talk at 10.5-10.8 min. The posted clip is built on that passage only. The lens story IS in the source, spoken by the director and transcribed as a satellite rather than NASA, which an earlier keyword search missed entirely.",
     "range": {
       "start_sec": null,
       "end_sec": null
     },
     "opus_project": "P3091716ZxbG",
-    "approved_clips": [],
-    "scheduled_at": null
+    "approved_clips": [
+      "Rdefc4iIVH"
+    ],
+    "scheduled_at": null,
+    "caveats": [
+      "Clip 21 was inferred to cover the 10.5-10.8 min Alcott passage from its description, not verified. User to confirm on the approval screen.",
+      "Caption describes a method rather than an incident and is not anchored to one work, which is the weaker shape: 2,262 median for work-anchored against 261 for career-level."
+    ]
   }
 ]
