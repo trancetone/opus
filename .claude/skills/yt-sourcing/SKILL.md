@@ -283,7 +283,24 @@ Only for clips the user approved by name or rank.
 
 1. `opusclip_export_clip` on each approved clip
 2. `opusclip_get_transcript` on the source, before writing anything that
-   quotes or paraphrases speech in the clip. The voice spec requires factual
+   quotes or paraphrases speech in the clip.
+
+   **Check who is speaking, every time.** A documentary about a practitioner
+   is not the practitioner narrating. On a six-speaker source, a caption was
+   drafted attributing every claim to the cinematographer when the selected
+   clip was a director and a third party discussing him in the third person.
+   Read the `speaker` field, not just the text, and find a first-person
+   passage that identifies the speaker by what only they would say.
+
+   **Diarization is not reliable on its own.** On the same source one speaker
+   label's longest utterance was dialogue from the film being discussed, so
+   labels mix film audio with interview audio. Treat them as a hint, and have
+   the user confirm who is on screen before any caption names anyone.
+
+   **Do not keyword-search the transcript for the story you expect.** Searching
+   for NASA, Zeiss and f/0.7 returned nothing and produced a confident report
+   that the lens story was absent. It was present, rendered as a satellite
+   going around the world. Read the passages around the subject instead. The voice spec requires factual
    claims to be verified rather than assumed, and names the transcript as the
    thing to ask for instead of guessing.
 3. Write the caption using the `miac-content` skill's voice rules and
