@@ -82,5 +82,27 @@
       "Clip 21 was inferred to cover the 10.5-10.8 min Alcott passage from its description, not verified. User to confirm on the approval screen.",
       "Caption describes a method rather than an incident and is not anchored to one work, which is the weaker shape: 2,262 median for work-anchored against 261 for career-level."
     ]
+  },
+  {
+    "id": "yt-YoPI0MRAVB4",
+    "url": "https://www.youtube.com/watch?v=YoPI0MRAVB4",
+    "title": "William Friedkin on the French Connection car chase",
+    "channel": null,
+    "published": null,
+    "source_views": null,
+    "duration_sec": null,
+    "discovered": "2026-09-18",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "commentary",
+    "profile_match": "Named practitioner on his own film, 1971, canon narrative, which is the account's strongest subject band. The mechanism is camera placement: Friedkin operated from inside the moving car beside the stunt driver, with a second camera on the front bumper at road level. The turn is large: a permit for the elevated train and none for the street, twenty six blocks at roughly 90mph through live traffic, mostly single takes, and his own verdict that it is a miracle nobody was hurt and he would not do it today.",
+    "screen_notes": "Chosen on the single-practitioner pattern. The one source that came through clean, the Brown interview, had one speaker; every multi-voice documentary since has failed on attribution or structure. Unverified before submission: length, channel and whether the sequence plays under his voice. Those are the three the screening script would answer for one quota unit if YOUTUBE_API_KEY were set.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091816l2tb",
+    "approved_clips": [],
+    "scheduled_at": null
   }
 ]
