@@ -146,6 +146,23 @@ field in one call.
 **If no footage demonstrates the mechanism on screen, the mechanism fails here**,
 however good the research is. Sound mechanisms need audible proof, not visible.
 
+### The agent cannot check this. Ask the user before submitting.
+
+Whether footage runs under the speaker is the single most common reason a
+source fails, and it is invisible from here. Transcripts, search results and
+the Data API all describe a source without revealing its picture. Five
+consecutive sources failed on structure, each discovered only after credits
+were spent.
+
+**So the order is: hand the user the candidate URL first, and wait.** Give the
+incident, the named collaborator, and why it fits. Ask them to open it and
+confirm one thing: does the film play while the person talks, or is it a
+person in a chair. Submit only after they say yes.
+
+This costs the user about fifteen seconds and costs nothing in credits. It
+replaces a cycle of submit, poll, read transcript, preview, discover the
+source was never usable.
+
 **Screen the candidate before submitting.** With `YOUTUBE_API_KEY` set:
 
 ```
