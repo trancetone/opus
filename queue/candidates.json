@@ -166,24 +166,46 @@
     "open_question": "First long clip. 25s on 171s is 14.6 percent retention, against 25.7s on 69s for the Steadicam reel at 37 percent. Same absolute watch time, very different proportion. Length is uncorrelated with performance in the analysis, so absolute watch time is likely the fairer comparison, but whether long clips hold proportionally is now worth tracking."
   },
   {
-    "id": "yt-ngfS2K9WrD0",
-    "url": "https://www.youtube.com/watch?v=ngfS2K9WrD0",
-    "title": "Jack Cardiff: Painting with Light (Black Narcissus, Powell & Pressburger)",
+    "id": "yt-WwLyGoMocWw",
+    "url": "https://www.youtube.com/watch?v=WwLyGoMocWw",
+    "title": "Painting with Light: Jack Cardiff and Black Narcissus, part 2 of 2",
     "channel": null,
     "published": null,
     "source_views": null,
-    "duration_sec": 1620,
+    "duration_sec": null,
     "discovered": "2026-09-19",
     "found_via": "websearch",
-    "status": "candidate",
+    "status": "submitted",
     "rights": "commentary",
     "profile_match": "Colour, the top mechanism category and the one this pipeline has not used yet. Named technical collaborator (Jack Cardiff, cinematographer) on one film, Black Narcissus, 1947, canon narrative. Production constraint present and the turn is a genuine reversal: three strip Technicolor was the most light hungry process in use and Technicolor's own consultants policed high key saturation, so Cardiff shot it at lower levels than the stock was supposed to tolerate and lit to Vermeer and Caravaggio. A format built for brightness used for shadow. Second reversal available in the same source: every Himalayan exterior is a matte painting and a painted backdrop on the Pinewood lot, angled so the sun could light it.",
-    "screen_notes": "NOT YET CONFIRMED BY THE USER. Roughly 27 minutes per IMDb and review sources, which clears the ten minute floor, and one film throughout, which satisfies the one work per clip rule without needing a range. Originally a Criterion supplement on the Black Narcissus disc, so a YouTube copy is near certainly an unauthorized upload: same provenance posture as the Alcott source. KNOWN RISK: multi voice. Scorsese and others appear alongside Cardiff, which is the exact shape that produced the Alcott misattribution, so the caption must be built on a verified first person Cardiff passage. Mitigated slightly by the source being about a single film, so even third party speech is anchored to one work. Alternate upload if this one fails: tuwU_f42dUk, same title. Split copy: KqRmV9OMxo0 and WwLyGoMocWw.",
+    "screen_notes": "USER CONFIRMED part 2 of the split upload before submission: 'pretty good, the last link works'. The two single file uploads, ngfS2K9WrD0 and tuwU_f42dUk, did not play for them, so the split copy is the only live one. Roughly 27 minutes per IMDb and review sources, which clears the ten minute floor, and one film throughout, which satisfies the one work per clip rule without needing a range. Originally a Criterion supplement on the Black Narcissus disc, so a YouTube copy is near certainly an unauthorized upload: same provenance posture as the Alcott source. KNOWN RISK: multi voice. Scorsese and others appear alongside Cardiff, which is the exact shape that produced the Alcott misattribution, so the caption must be built on a verified first person Cardiff passage. Mitigated slightly by the source being about a single film, so even third party speech is anchored to one work. Alternate upload if this one fails: tuwU_f42dUk, same title. Split copy: KqRmV9OMxo0 and WwLyGoMocWw. Part 1 submitted separately as P3091916b8jU on the reasoning that a dead link costs nothing and the Technicolor and Vermeer setup may sit in the first half; 813 credits of headroom made the gamble free.",
     "range": {
       "start_sec": null,
       "end_sec": null
     },
-    "opus_project": null,
+    "opus_project": "P3091916asgw",
+    "approved_clips": [],
+    "scheduled_at": null
+  },
+  {
+    "id": "yt-KqRmV9OMxo0",
+    "url": "https://www.youtube.com/watch?v=KqRmV9OMxo0",
+    "title": "Painting with Light: Jack Cardiff and Black Narcissus, part 1 of 2",
+    "channel": null,
+    "published": null,
+    "source_views": null,
+    "duration_sec": null,
+    "discovered": "2026-09-19",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "commentary",
+    "profile_match": "First half of the same 27 minute documentary as P3091916asgw. Submitted speculatively: the user confirmed only part 2 plays, but a dead URL fails at fetch and costs nothing, and the Technicolor camera explanation and the Vermeer lighting rationale plausibly sit in the first half.",
+    "screen_notes": "Not independently confirmed to play. If it fetches, treat the pair as one source and pick across both. Do not publish clips from both halves as separate posts without checking they are different mechanisms.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091916b8jU",
     "approved_clips": [],
     "scheduled_at": null
   }
