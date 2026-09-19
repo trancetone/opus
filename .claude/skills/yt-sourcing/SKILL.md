@@ -32,7 +32,9 @@ the relevant one with the user rather than picking a side silently.
 | Metricool brand ID | `6780970` |
 | Metricool timezone | `Europe/Madrid` |
 | Instagram post account ID | `69b8b7924be415e37283b877` |
+| Instagram **subAccountId** | `17841448701416144` |
 | Facebook Page post account ID | `6a8dc0b745a6d7099fbf3b3a` |
+| Facebook Page **subAccountId** | `1237590502778860` |
 | Opus Clip plan | PRO, API access enabled |
 | Opus monthly credits | 900, resets the 1st |
 
@@ -325,6 +327,18 @@ Only for clips the user approved by name or rank.
    mechanism. That is the single largest lever measured, at roughly 6.3x.
 4. `getBestTimeToPostByNetwork(brandId: "6780970", socialNetwork: "instagram", timezone: "Europe/Madrid", ...)` to pick the slot
 5. `opusclip_schedule_publish` to Instagram account `69b8b7924be415e37283b877`
+
+   **`subAccountId` is required and is not optional in practice.** The tool
+   schema lists it as optional, but a schedule to `INSTAGRAM_BUSINESS` without
+   it fails on the approval screen with `subAccountId is required for
+   platform=INSTAGRAM_BUSINESS`, after the user has already clicked through.
+   Pass `17841448701416144` for Instagram. `opusclip_list_social_accounts`
+   returns it if it is ever needed for another account.
+
+   Nothing schedules directly. The call returns an `approval_url` the user has
+   to confirm while signed in, and a bad parameter surfaces there rather than
+   at call time, which spends a click. Check the parameters before handing the
+   link over.
 
 Set status to `scheduled` and record the scheduled time.
 
