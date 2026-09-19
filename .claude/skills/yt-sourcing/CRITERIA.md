@@ -351,3 +351,45 @@ Prefer sources rich enough to carry several distinct mechanisms, and use
 `rangeStart`/`rangeEnd` to submit only the stretches that do.
 
 Check `opusclip_get_usage` before every batch.
+
+## 10. Reading the Numbers After Posting
+
+Measured on the Steadicam reel, the first post from this pipeline, read at
+17 hours and again at 6.7 days.
+
+**A same-day reading is roughly a fifth of final.** Views grew 4.64x from the
+17 hour reading to settled, saves 5.62x. Do not treat a first-day number as a
+result, and do not compare a first-day number against a settled one. Compare
+like checkpoints or wait.
+
+**Watch time rises while hold falls.** Average watch went 25.7s to 27.8s while
+the three second hold went 55.5 to 53.4 percent. That is what a widening
+audience looks like: later viewers arrive less self-selected, so a larger share
+bounce in the first three seconds, but the ones who stay watch further. A hold
+rate drifting down on a post that is still climbing is not a warning sign.
+
+**Shares, not saves, tracked the reach.** At settled the Steadicam reel ran
+12.1 shares per thousand views against a 1.9 to 7.1 range across the other
+seven reels in the window. Its saves per thousand, 9.7, were actually *below*
+several reels that did a twentieth of its views. Saves are what the profile
+work ranks candidates on (`IGRE12`), and they remain a fair signal of whether a
+post is the right kind of thing, but they did not predict distribution here.
+Pull `IGRE21` alongside `IGRE12` from now on.
+
+**Metricool lags about a day.** The reels connector had no row for a post made
+the same morning. Instagram's native panel covers the first day; Metricool
+covers everything after. Neither reports `IGRE27` retention, which comes back
+null on every row: compute retention as average watch over clip length instead.
+
+### Benchmarks as of 2026-09-19
+
+| Measure | Account median, 8 reel window | Best post |
+|---|---|---|
+| Views | 1,046 | 21,541 |
+| Average watch | 11.8s | 27.8s |
+| 3s hold (`IGRE28`) | 47.5% | 53.4% |
+| Saves per 1,000 | 11.5 | 9.7 |
+| Shares per 1,000 | 4.1 | 12.1 |
+
+The best post is 20.6x the median of the rest of the window, so the median is
+the honest baseline for a new post and the best post is not a target.

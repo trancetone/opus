@@ -31,6 +31,22 @@
       "saves": 37,
       "avg_watch_sec": 25.7,
       "note": "Above the 45 percent floor. Nearer the decoder band (60.3) than survey (44.5). Average watch above the 20.8s mechanism-opener benchmark, on a 69 second clip. Views still accruing; posts accrue for three to five days."
+    },
+    "settled_metrics": {
+      "measured_at": "2026-09-19T17:00Z",
+      "days_live": 6.7,
+      "source": "Metricool IGRE reels connector",
+      "reach": 15203,
+      "views": 21541,
+      "avg_watch_sec": 27.807,
+      "hold_3s_pct": 53.4,
+      "retention_pct": 40.3,
+      "saves": 208,
+      "shares": 260,
+      "likes": 876,
+      "saves_per_1000": 9.7,
+      "shares_per_1000": 12.1,
+      "note": "Settled at 20.6x the median of the other seven reels in the window. Views grew 4.64x from the 17 hour reading and saves 5.62x, so a 17 hour number is roughly a fifth of final. Average watch rose 25.7 to 27.8s while the three second hold fell 55.5 to 53.4, which is what a widening audience does: later viewers are less self-selected but the ones who stay watch longer. Shares are the standout at 12.1 per thousand against a 1.9 to 7.1 range for every other reel, and they are the likeliest explanation for the reach. Saves per thousand were actually BELOW several smaller reels, so saves did not drive this."
     }
   },
   {
@@ -144,7 +160,8 @@
       "retention_pct": 14.6,
       "follows": 5,
       "follows_per_1000": 4.6,
-      "note": "Curve running roughly three to four times the account's typical reel at the same point and still climbing. Average watch of 25s beats the 20.8s mechanism-opener benchmark. Views per viewer above 1 means rewatching. Follows sit exactly on the 4.5 per thousand craft-post rate. Three second hold rate not yet available; Metricool had not synced the day at time of reading."
+      "note": "Curve running roughly three to four times the account's typical reel at the same point and still climbing. Average watch of 25s beats the 20.8s mechanism-opener benchmark. Views per viewer above 1 means rewatching. Follows sit exactly on the 4.5 per thousand craft-post rate. Three second hold rate not yet available; Metricool had not synced the day at time of reading.",
+      "metricool_sync": "Not yet synced as of 2026-09-19T17:00Z. No row for 20260919 in the reels connector. IGRE28 three second hold still outstanding."
     },
     "open_question": "First long clip. 25s on 171s is 14.6 percent retention, against 25.7s on 69s for the Steadicam reel at 37 percent. Same absolute watch time, very different proportion. Length is uncorrelated with performance in the analysis, so absolute watch time is likely the fairer comparison, but whether long clips hold proportionally is now worth tracking."
   }
