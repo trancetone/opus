@@ -164,5 +164,27 @@
       "metricool_sync": "Not yet synced as of 2026-09-19T17:00Z. No row for 20260919 in the reels connector. IGRE28 three second hold still outstanding."
     },
     "open_question": "First long clip. 25s on 171s is 14.6 percent retention, against 25.7s on 69s for the Steadicam reel at 37 percent. Same absolute watch time, very different proportion. Length is uncorrelated with performance in the analysis, so absolute watch time is likely the fairer comparison, but whether long clips hold proportionally is now worth tracking."
+  },
+  {
+    "id": "yt-ngfS2K9WrD0",
+    "url": "https://www.youtube.com/watch?v=ngfS2K9WrD0",
+    "title": "Jack Cardiff: Painting with Light (Black Narcissus, Powell & Pressburger)",
+    "channel": null,
+    "published": null,
+    "source_views": null,
+    "duration_sec": 1620,
+    "discovered": "2026-09-19",
+    "found_via": "websearch",
+    "status": "candidate",
+    "rights": "commentary",
+    "profile_match": "Colour, the top mechanism category and the one this pipeline has not used yet. Named technical collaborator (Jack Cardiff, cinematographer) on one film, Black Narcissus, 1947, canon narrative. Production constraint present and the turn is a genuine reversal: three strip Technicolor was the most light hungry process in use and Technicolor's own consultants policed high key saturation, so Cardiff shot it at lower levels than the stock was supposed to tolerate and lit to Vermeer and Caravaggio. A format built for brightness used for shadow. Second reversal available in the same source: every Himalayan exterior is a matte painting and a painted backdrop on the Pinewood lot, angled so the sun could light it.",
+    "screen_notes": "NOT YET CONFIRMED BY THE USER. Roughly 27 minutes per IMDb and review sources, which clears the ten minute floor, and one film throughout, which satisfies the one work per clip rule without needing a range. Originally a Criterion supplement on the Black Narcissus disc, so a YouTube copy is near certainly an unauthorized upload: same provenance posture as the Alcott source. KNOWN RISK: multi voice. Scorsese and others appear alongside Cardiff, which is the exact shape that produced the Alcott misattribution, so the caption must be built on a verified first person Cardiff passage. Mitigated slightly by the source being about a single film, so even third party speech is anchored to one work. Alternate upload if this one fails: tuwU_f42dUk, same title. Split copy: KqRmV9OMxo0 and WwLyGoMocWw.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null
   }
 ]
