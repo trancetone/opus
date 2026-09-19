@@ -115,7 +115,7 @@
     "duration_sec": 1206,
     "discovered": "2026-09-19",
     "found_via": "websearch",
-    "status": "reviewed",
+    "status": "posted",
     "rights": "commentary",
     "profile_match": "Same incident as the rejected source, which verified cleanly: Friedkin operated the camera himself for the key shots because he was young and single while both cameramen had families. Twenty six blocks at 90mph in a single take through live traffic, a police light and an inaudible siren the only protection. Canon narrative, 1971, the account's strongest band.",
     "screen_notes": "FIRST SOURCE CONFIRMED BY THE USER BEFORE SUBMISSION. They opened the URL and verified film footage plays under the speaker, which is the check the agent cannot perform and which five previous sources failed. The sibling source at P3091816l2tb carried the same interview content with no footage and was rejected on exactly that. RESULT: the first source to clear every criterion at once. 20.1 minutes, Friedkin self-identifies in the opening line and speaks 152 of 241 paragraphs, the other two voices are companions walking the location with him rather than film dialogue, and the user confirmed footage plays under his voice. 20 clips returned and clipDurationsSec bound correctly, which confirms the window holds when the source is long enough. Rank 1 was off-profile again at score 99 with 10/10/10, a fourth consecutive project where top rank is not the right clip.",
@@ -127,9 +127,25 @@
     "approved_clips": [
       "NFxVSiupG2"
     ],
-    "scheduled_at": null,
+    "scheduled_at": "2026-09-19T14:59:01Z",
     "caveats": [
       "This transcript and the rejected sibling disagree on who drove the 26 block run. The driver is deliberately unnamed in the caption."
-    ]
+    ],
+    "post_url": "https://www.instagram.com/reel/DdeSDOCFPZh/",
+    "early_metrics": {
+      "measured_at": "2026-09-19T16:15Z",
+      "hours_live": 1.3,
+      "source": "Instagram native insights",
+      "views": 1081,
+      "viewers": 687,
+      "views_per_viewer": 1.57,
+      "avg_watch_sec": 25,
+      "clip_length_sec": 171,
+      "retention_pct": 14.6,
+      "follows": 5,
+      "follows_per_1000": 4.6,
+      "note": "Curve running roughly three to four times the account's typical reel at the same point and still climbing. Average watch of 25s beats the 20.8s mechanism-opener benchmark. Views per viewer above 1 means rewatching. Follows sit exactly on the 4.5 per thousand craft-post rate. Three second hold rate not yet available; Metricool had not synced the day at time of reading."
+    },
+    "open_question": "First long clip. 25s on 171s is 14.6 percent retention, against 25.7s on 69s for the Steadicam reel at 37 percent. Same absolute watch time, very different proportion. Length is uncorrelated with performance in the analysis, so absolute watch time is likely the fairer comparison, but whether long clips hold proportionally is now worth tracking."
   }
 ]
