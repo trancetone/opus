@@ -340,7 +340,15 @@ Only for clips the user approved by name or rank.
    at call time, which spends a click. Check the parameters before handing the
    link over.
 
-Set status to `scheduled` and record the scheduled time.
+6. **Verify with `opusclip_list_scheduled_posts` after every approval.** The
+   approval screen is not a reliable report of what happened. A schedule that
+   failed there with `subAccountId is required` was created anyway, and the
+   corrected call then created a second one, leaving the same clip scheduled
+   twice for the same minute. Nothing in the tool responses showed this. List
+   the project's posts, count them, and cancel duplicates with
+   `opusclip_unschedule_publish`, which needs its own approval click.
+
+Set status to `scheduled` and record the scheduled time and `schedule_id`.
 
 ## Step 7: Commit the Queue
 

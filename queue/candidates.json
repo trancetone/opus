@@ -175,7 +175,7 @@
     "duration_sec": null,
     "discovered": "2026-09-19",
     "found_via": "websearch",
-    "status": "reviewed",
+    "status": "scheduled",
     "rights": "commentary",
     "profile_match": "Colour, the top mechanism category and the one this pipeline has not used yet. Named technical collaborator (Jack Cardiff, cinematographer) on one film, Black Narcissus, 1947, canon narrative. Production constraint present and the turn is a genuine reversal: three strip Technicolor was the most light hungry process in use and Technicolor's own consultants policed high key saturation, so Cardiff shot it at lower levels than the stock was supposed to tolerate and lit to Vermeer and Caravaggio. A format built for brightness used for shadow. Second reversal available in the same source: every Himalayan exterior is a matte painting and a painted backdrop on the Pinewood lot, angled so the sun could light it.",
     "screen_notes": "USER CONFIRMED part 2 of the split upload before submission: 'pretty good, the last link works'. The two single file uploads, ngfS2K9WrD0 and tuwU_f42dUk, did not play for them, so the split copy is the only live one. Roughly 27 minutes per IMDb and review sources, which clears the ten minute floor, and one film throughout, which satisfies the one work per clip rule without needing a range. Originally a Criterion supplement on the Black Narcissus disc, so a YouTube copy is near certainly an unauthorized upload: same provenance posture as the Alcott source. KNOWN RISK: multi voice. Scorsese and others appear alongside Cardiff, which is the exact shape that produced the Alcott misattribution, so the caption must be built on a verified first person Cardiff passage. Mitigated slightly by the source being about a single film, so even third party speech is anchored to one work. Alternate upload if this one fails: tuwU_f42dUk, same title. Split copy: KqRmV9OMxo0 and WwLyGoMocWw. Part 1 submitted separately as P3091916b8jU on the reasoning that a dead link costs nothing and the Technicolor and Vermeer setup may sit in the first half; 813 credits of headroom made the gamble free. REVIEWED. 11 clips. Rank 1 (PdvRCC2ueG, score 99, 10/10/10) was off profile AGAIN, an anecdote about Young Bess, a different film entirely: the fifth consecutive project where top rank is the wrong clip. Recommended from this half: DHlPWa0flZ (rank 10, 75s) Van Gogh complementary colour applied to the Sister Ruth sequence, and 5LlAEzbpou (rank 5, 63s) Vermeer as the lighting model, which names Black Narcissus explicitly. REJECTED ON ATTRIBUTION: qXpTex9ctX (rank 4, Mrs Kalmus the Technicolor colour dictator) reads as Cardiff from its title and description but the speaker says 'men like Cardiff' in the third person. Exactly the Alcott trap, caught this time by reading the clip transcript before recommending rather than after posting.",
@@ -184,8 +184,18 @@
       "end_sec": null
     },
     "opus_project": "P3091916asgw",
-    "approved_clips": [],
-    "scheduled_at": null
+    "approved_clips": [
+      "5LlAEzbpou"
+    ],
+    "scheduled_at": "2026-09-20T00:00:00Z",
+    "schedule_id": "1789839737343f6IU-INSTAGRAM_BUSINESS",
+    "caption_file": "drafts/caption-cardiff-vermeer.md",
+    "caveats": [
+      "Caption is 166 words after the user called a 203 word draft long. That sits near the top of the written spec's 80 to 160 band and below the 175 to 200 the published captions measure at, so it is a data point on the length conflict rather than a resolution of it.",
+      "The Pinewood and Technicolor light level claims are from the production literature, not from the clip. Only the Vermeer naming, the clear and simple light, the Rembrandt alternation and the actors walking into the instruments are Cardiff's own words here.",
+      "Method statement rather than an incident, which is the weaker caption shape. Anchored to Black Narcissus in every paragraph to pull it toward the work end. Expect it to travel less far than the fog filter story, which is still unposted at HUkoMPsW96 in P3091916b8jU.",
+      "Scheduled TWICE by accident. The failed first approval created a schedule anyway despite showing an error, and the corrected one created a second. The user cancelled 1789839722495lj2s. Verify the schedule list after every approval rather than trusting the screen."
+    ]
   },
   {
     "id": "yt-KqRmV9OMxo0",
