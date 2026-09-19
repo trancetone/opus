@@ -93,15 +93,37 @@
     "duration_sec": null,
     "discovered": "2026-09-18",
     "found_via": "websearch",
-    "status": "submitted",
+    "status": "rejected",
     "rights": "commentary",
     "profile_match": "Named practitioner on his own film, 1971, canon narrative, which is the account's strongest subject band. The mechanism is camera placement: Friedkin operated from inside the moving car beside the stunt driver, with a second camera on the front bumper at road level. The turn is large: a permit for the elevated train and none for the street, twenty six blocks at roughly 90mph through live traffic, mostly single takes, and his own verdict that it is a miracle nobody was hurt and he would not do it today.",
-    "screen_notes": "Chosen on the single-practitioner pattern. The one source that came through clean, the Brown interview, had one speaker; every multi-voice documentary since has failed on attribution or structure. Unverified before submission: length, channel and whether the sequence plays under his voice. Those are the three the screening script would answer for one quota unit if YOUTUBE_API_KEY were set.",
+    "screen_notes": "Chosen on the single-practitioner pattern. The one source that came through clean, the Brown interview, had one speaker; every multi-voice documentary since has failed on attribution or structure. Unverified before submission: length, channel and whether the sequence plays under his voice. Those are the three the screening script would answer for one quota unit if YOUTUBE_API_KEY were set. REJECTED after review: no film footage at all, a talking head only. Content and attribution were both excellent (Friedkin 61 of 68 paragraphs, every researched claim confirmed in his own words), but the structural requirement failed. This is the failure the agent cannot detect and the reason the user now eyeballs the URL before submission.",
     "range": {
       "start_sec": null,
       "end_sec": null
     },
     "opus_project": "P3091816l2tb",
+    "approved_clips": [],
+    "scheduled_at": null
+  },
+  {
+    "id": "yt-dhiQKt6R-TE",
+    "url": "https://www.youtube.com/watch?v=dhiQKt6R-TE",
+    "title": "William Friedkin on directing the French Connection chase",
+    "channel": null,
+    "published": null,
+    "source_views": null,
+    "duration_sec": null,
+    "discovered": "2026-09-19",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "commentary",
+    "profile_match": "Same incident as the rejected source, which verified cleanly: Friedkin operated the camera himself for the key shots because he was young and single while both cameramen had families. Twenty six blocks at 90mph in a single take through live traffic, a police light and an inaudible siren the only protection. Canon narrative, 1971, the account's strongest band.",
+    "screen_notes": "FIRST SOURCE CONFIRMED BY THE USER BEFORE SUBMISSION. They opened the URL and verified film footage plays under the speaker, which is the check the agent cannot perform and which five previous sources failed. The sibling source at P3091816l2tb carried the same interview content with no footage and was rejected on exactly that.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P30919015vG1",
     "approved_clips": [],
     "scheduled_at": null
   }
