@@ -112,19 +112,24 @@
     "channel": null,
     "published": null,
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 1206,
     "discovered": "2026-09-19",
     "found_via": "websearch",
-    "status": "submitted",
+    "status": "reviewed",
     "rights": "commentary",
     "profile_match": "Same incident as the rejected source, which verified cleanly: Friedkin operated the camera himself for the key shots because he was young and single while both cameramen had families. Twenty six blocks at 90mph in a single take through live traffic, a police light and an inaudible siren the only protection. Canon narrative, 1971, the account's strongest band.",
-    "screen_notes": "FIRST SOURCE CONFIRMED BY THE USER BEFORE SUBMISSION. They opened the URL and verified film footage plays under the speaker, which is the check the agent cannot perform and which five previous sources failed. The sibling source at P3091816l2tb carried the same interview content with no footage and was rejected on exactly that.",
+    "screen_notes": "FIRST SOURCE CONFIRMED BY THE USER BEFORE SUBMISSION. They opened the URL and verified film footage plays under the speaker, which is the check the agent cannot perform and which five previous sources failed. The sibling source at P3091816l2tb carried the same interview content with no footage and was rejected on exactly that. RESULT: the first source to clear every criterion at once. 20.1 minutes, Friedkin self-identifies in the opening line and speaks 152 of 241 paragraphs, the other two voices are companions walking the location with him rather than film dialogue, and the user confirmed footage plays under his voice. 20 clips returned and clipDurationsSec bound correctly, which confirms the window holds when the source is long enough. Rank 1 was off-profile again at score 99 with 10/10/10, a fourth consecutive project where top rank is not the right clip.",
     "range": {
       "start_sec": null,
       "end_sec": null
     },
     "opus_project": "P30919015vG1",
-    "approved_clips": [],
-    "scheduled_at": null
+    "approved_clips": [
+      "NFxVSiupG2"
+    ],
+    "scheduled_at": null,
+    "caveats": [
+      "This transcript and the rejected sibling disagree on who drove the 26 block run. The driver is deliberately unnamed in the caption."
+    ]
   }
 ]
