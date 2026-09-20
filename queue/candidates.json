@@ -279,15 +279,15 @@
     "duration_sec": null,
     "discovered": "2026-09-20",
     "found_via": "websearch",
-    "status": "candidate",
+    "status": "submitted",
     "rights": "commentary",
     "profile_match": "Colour, the fastest reading category and the one behind the account's largest post. Two primary speakers, cinematographer and director, on a single 1970 canon film.",
-    "screen_notes": "NOT VERIFIED. Same two risks as the Harryhausen candidate: could be a video essay about them rather than them speaking, and duration unknown. Held as the colour alternative.",
+    "screen_notes": "NOT VERIFIED. Same two risks as the Harryhausen candidate: could be a video essay about them rather than them speaking, and duration unknown. Held as the colour alternative. Submitted WITHOUT the user's footage confirmation. They replied only with the name, choosing between two candidates rather than answering the structure question. Judged the credits cheaper than the evening slot, with the fallback being that a third party narration source shows up in the transcript at review and costs credits rather than a bad post. Harryhausen at af4F1gRLMUA remains the fallback.",
     "range": {
       "start_sec": null,
       "end_sec": null
     },
-    "opus_project": null,
+    "opus_project": "P3092022xkNx",
     "approved_clips": [],
     "scheduled_at": null
   }
