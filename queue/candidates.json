@@ -231,7 +231,7 @@
     "duration_sec": null,
     "discovered": "2026-09-19",
     "found_via": "websearch",
-    "status": "reviewed",
+    "status": "scheduled",
     "rights": "commentary",
     "profile_match": "First half of the same 27 minute documentary as P3091916asgw. Submitted speculatively: the user confirmed only part 2 plays, but a dead URL fails at fetch and costs nothing, and the Technicolor camera explanation and the Vermeer lighting rationale plausibly sit in the first half.",
     "screen_notes": "Not independently confirmed to play. If it fetches, treat the pair as one source and pick across both. Do not publish clips from both halves as separate posts without checking they are different mechanisms. FETCHED AND REVIEWED, so the speculative submission paid off. 11 clips. Rank 1 (HUkoMPsW96, 54s) is the strongest clip across both halves: Cardiff in the first person on shooting the film's famous shot through a number 2 fog filter, which Technicolor had forbidden. They phoned the next morning to say the previous day's work was ruined; Powell watched the rushes and told them it was about time they learned something about art in movies. Confirmed as Cardiff by Powell addressing him as Jack inside the clip, and anchored to Black Narcissus by 'Deborah's last day on the film'. Also strong: OwQ5du74jJ (117s) on the Technicolor camera prism splitting 25 percent to the green record and 75 percent to the red and blue bipack, ending with Cardiff admitting he used to fake adjusting colour at the camera and everyone believed him. Held back because it is apparatus rather than a person doing something, which section 1b warns against. HUkoMPsW96 approved by the user and exported to HD. Caption written incident first as the deliberate counterpart to the Vermeer clip, which failed at 39.3 percent hold on an abstract opening line. Same source, same settings, opposite shape.",
@@ -243,7 +243,52 @@
     "approved_clips": [
       "HUkoMPsW96"
     ],
-    "scheduled_at": null,
-    "caption_file": "drafts/caption-cardiff-fogfilter.md"
+    "scheduled_at": "2026-09-21T17:00:00Z",
+    "caption_file": "drafts/caption-cardiff-fogfilter.md",
+    "schedule_note": "10am Pacific. Approval link issued, not yet verified in the schedule list."
+  },
+  {
+    "id": "yt-af4F1gRLMUA",
+    "url": "https://www.youtube.com/watch?v=af4F1gRLMUA",
+    "title": "Jason and the Argonauts (1963), how they made the skeleton sequence",
+    "channel": null,
+    "published": null,
+    "source_views": null,
+    "duration_sec": null,
+    "discovered": "2026-09-20",
+    "found_via": "websearch",
+    "status": "candidate",
+    "rights": "commentary",
+    "profile_match": "Dynamation: miniatures animated in front of a rear projection of the live action, frame by frame, combined with mattes so the skeletons share the actors' space. The turn is a number, in Harryhausen's own words: three men against seven skeletons, five appendages each, at least thirty five synchronised movements per frame, 13 or 14 frames on a bad day, less than one second of screen time. Four and a half months for four minutes thirty seven seconds. Reads instantly on a phone, which is the test colour usually wins on.",
+    "screen_notes": "NOT VERIFIED. Two open risks: the title suggests it may be a third party explainer rather than Harryhausen narrating, which is the weakest provenance tier and the shape that produced the Alcott misattribution; and duration is unknown against the ten minute floor. User to check whether footage runs under the voice and whether the voice is Harryhausen's. Backup upload: 4-La8HjSQxY.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null
+  },
+  {
+    "id": "yt-p5RRhqrPuE4",
+    "url": "https://www.youtube.com/watch?v=p5RRhqrPuE4",
+    "title": "Vittorio Storaro and Bernardo Bertolucci analyse The Conformist (1970)",
+    "channel": null,
+    "published": null,
+    "source_views": null,
+    "duration_sec": null,
+    "discovered": "2026-09-20",
+    "found_via": "websearch",
+    "status": "candidate",
+    "rights": "commentary",
+    "profile_match": "Colour, the fastest reading category and the one behind the account's largest post. Two primary speakers, cinematographer and director, on a single 1970 canon film.",
+    "screen_notes": "NOT VERIFIED. Same two risks as the Harryhausen candidate: could be a video essay about them rather than them speaking, and duration unknown. Held as the colour alternative.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null
   }
 ]
