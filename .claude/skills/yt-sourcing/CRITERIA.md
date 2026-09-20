@@ -376,10 +376,37 @@ work ranks candidates on (`IGRE12`), and they remain a fair signal of whether a
 post is the right kind of thing, but they did not predict distribution here.
 Pull `IGRE21` alongside `IGRE12` from now on.
 
-**Metricool lags about a day.** The reels connector had no row for a post made
-the same morning. Instagram's native panel covers the first day; Metricool
-covers everything after. Neither reports `IGRE27` retention, which comes back
-null on every row: compute retention as average watch over clip length instead.
+**Metricool syncs in bursts, not continuously.** It was five days stale on
+19 September, missing three posts, then caught up completely overnight. Do not
+read a missing row as a missing post, and do not conclude the connector is
+broken from one empty window. Re-query with a wider range before diagnosing.
+Neither system reports `IGRE27` retention, which comes back null on every row:
+compute retention as average watch over clip length instead.
+
+**The two systems disagree on average watch, by a factor of two.** Instagram's
+native panel reported 25s on the Friedkin reel; Metricool's `IGRE24` reports
+52.4s on the same post. Metricool's figure is the one to use, because the whole
+benchmark set is built from it. Mixing the two produced a false alarm: a
+retention figure of 14.6 percent that was really 30.6 percent, and an invented
+worry about whether long clips hold proportionally. They do. Never compare a
+native number against a Metricool benchmark.
+
+### Cadence is the largest measured lever
+
+| Window | Posts | Per day | Total views | Median views | Median hold | Median saves/1k |
+|---|---|---|---|---|---|---|
+| 25 to 31 Aug | 18 | 2.6 | 281,869 | 4,584 | 53.6% | 23.3 |
+| 1 to 20 Sep | 17 | 0.8 | 53,931 | 1,071 | 47.4% | 11.3 |
+
+Same formula, same account, roughly the same number of posts. Spread over
+three times as many days, they returned a fifth of the views, and the *median
+post* fell by a factor of four. Eight days in September carried no post at all.
+
+This is not a posting-volume effect on totals alone. Per-post medians fell too,
+across hold and saves as well as views, which is what a distribution system
+does when an account stops feeding it. Cadence is therefore a quality input,
+not just a throughput one, and a sourcing run that yields one clip a day is
+underperforming the pipeline's purpose however good that clip is.
 
 ### Benchmarks as of 2026-09-19
 
@@ -393,3 +420,38 @@ null on every row: compute retention as average watch over clip length instead.
 
 The best post is 20.6x the median of the rest of the window, so the median is
 the honest baseline for a new post and the best post is not a target.
+
+
+## 11. Two Posts From One Source, Measured
+
+The Cardiff documentary produced two clips from the same 27 minutes, cut the
+same day with the same settings. One was posted. The comparison against the
+Friedkin reel two days earlier is the cleanest evidence the account has on
+what a clip's opening seconds have to do.
+
+| | Friedkin, 19 Sep | Cardiff Vermeer, 20 Sep |
+|---|---|---|
+| Views | 6,604 | 435 |
+| 3s hold | 66.9% | 39.3% |
+| Average watch | 52.4s | 7.0s |
+| Length | 171s | 63s |
+| Retention | 30.6% | 11.2% |
+
+Friedkin's hold is the second highest in a 35 post window. Cardiff's is below
+the 45 percent floor, and the post did not travel.
+
+**What differs is the first sentence.** Friedkin names himself and goes
+straight into a specific event: twenty six blocks, 90mph, no permit. Cardiff
+opens on "Light is the principal agent," an abstraction, before any image from
+the film. The three second hold is decided in that window, and an abstraction
+spends it.
+
+**The shape rule, restated.** A clip must open on something that happened, not
+on a principle that is true. The mechanism can be a system applied across a
+whole film, which is what the account's largest posts explain, but the clip's
+opening seconds have to put a person doing a specific thing on screen. The
+Vermeer clip states a method and never contains an event.
+
+**Screen the opening line explicitly.** Read the first sentence of a clip's
+transcript before recommending it, and reject any clip whose opening is a
+general claim, however good the rest is.
