@@ -279,7 +279,7 @@
     "duration_sec": null,
     "discovered": "2026-09-20",
     "found_via": "websearch",
-    "status": "reviewed",
+    "status": "posted",
     "rights": "commentary",
     "profile_match": "Colour, the fastest reading category and the one behind the account's largest post. Two primary speakers, cinematographer and director, on a single 1970 canon film.",
     "screen_notes": "NOT VERIFIED. Same two risks as the Harryhausen candidate: could be a video essay about them rather than them speaking, and duration unknown. Held as the colour alternative. Submitted WITHOUT the user's footage confirmation. They replied only with the name, choosing between two candidates rather than answering the structure question. Judged the credits cheaper than the evening slot, with the fallback being that a third party narration source shows up in the transcript at review and costs credits rather than a bad post. Harryhausen at af4F1gRLMUA remains the fallback. STRUCTURE CONFIRMED FROM THE TRANSCRIPT, not the user's eyes: clip AJdfiLm76T contains film dialogue ('Violets monsieur. Lovely fresh violets. These are real Parma violets') interleaved with the interview, which proves the source cuts the film under and between the speech. Storaro speaks in the first person throughout, so this is primary source, not a video essay. That is a new and cheap structural check worth reusing: film dialogue appearing in a clip transcript is evidence of footage. 13 clips, and EVERY ONE scored 10/10/10 on hook, coherence and connection. The sub score filter discriminated nothing at all on this project, which is stronger than the existing note that it catches advertising only. Recommended A9ZT45maXz (70s, Quadri murder) on the opening line rule: it opens on film audio and then a named sequence with a place, a season and a deadline. Mechanism is camera, the weakest category, chosen deliberately over colour because the opening matters more after the Vermeer failure. Held for tomorrow: BCB1Rhjj9m (68s), Storaro quoting his own instruction to build a cage of light around the character, applied to the whole Rome section. Light, the second fastest category. Opens badly on 'He was very precocious', which dry ran as a clean drop of section 0, 3.4s, leaving 9 sections. Not applied.",
@@ -288,8 +288,13 @@
       "end_sec": null
     },
     "opus_project": "P3092022xkNx",
-    "approved_clips": [],
-    "scheduled_at": null,
-    "caption_file": "drafts/caption-storaro-quadri.md"
+    "approved_clips": [
+      "A9ZT45maXz"
+    ],
+    "scheduled_at": "2026-09-21T00:00:00Z",
+    "caption_file": "drafts/caption-storaro-quadri.md",
+    "schedule_id": "178994654990523NR-INSTAGRAM_BUSINESS",
+    "post_url": "https://www.instagram.com/reel/Ddh1MJsDeqj/",
+    "held_for_later": "BCB1Rhjj9m, the cage of light clip. Drop section 0 (3.4s) first to lose the 'He was very precocious' opening. Dry run passed, not applied."
   }
 ]

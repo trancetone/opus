@@ -340,13 +340,26 @@ Only for clips the user approved by name or rank.
    at call time, which spends a click. Check the parameters before handing the
    link over.
 
-6. **Verify with `opusclip_list_scheduled_posts` after every approval.** The
-   approval screen is not a reliable report of what happened. A schedule that
-   failed there with `subAccountId is required` was created anyway, and the
-   corrected call then created a second one, leaving the same clip scheduled
-   twice for the same minute. Nothing in the tool responses showed this. List
-   the project's posts, count them, and cancel duplicates with
-   `opusclip_unschedule_publish`, which needs its own approval click.
+6. **An approval link creates a schedule on every visit. Issue it once.**
+   This is the single most expensive mistake made so far. The screen is not
+   idempotent and it is not a reliable report of what happened:
+
+   - A visit that displayed `subAccountId is required` created a schedule anyway.
+   - A link re-offered across three messages produced **three** identical
+     schedules for the same clip at the same minute.
+
+   So: hand over an approval link exactly once, and do not repeat it in later
+   messages as a reminder. Combine several pending approvals into one link
+   (`#<token>,<token>`) so the user clicks once rather than several times.
+
+7. **Verify with `opusclip_list_scheduled_posts` after every approval.** Query
+   by date window rather than project, since duplicates of an older clip will
+   not appear in a new project's list. Count the schedules per clip. Cancel
+   extras with `opusclip_unschedule_publish`, which needs its own approval
+   click, and combine those into one link too.
+
+8. **A slot reads `scheduled` for several minutes after its time.** That is
+   normal lag, not a failure. Wait and re-list before diagnosing anything.
 
 Set status to `scheduled` and record the scheduled time and `schedule_id`.
 
