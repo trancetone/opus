@@ -6,8 +6,21 @@ Costs 1 quota unit per call (videos.list). Contrast with search.list at 100.
 Usage:
     python3 tools/screen_source.py <url-or-video-id> [more ...]
 
-Requires YOUTUBE_API_KEY in the environment. Set it in the environment
-configuration rather than a shell export: session containers are disposable.
+Two ways to authenticate, tried in this order:
+
+  1. An API credential on the cloud environment (Pro and Max plans). Store the
+     key against host www.googleapis.com with a custom header X-goog-api-key
+     and no prefix. The agent proxy attaches it after the request leaves the
+     session, so the key is never in this container, never in a file, and
+     cannot be committed. Nothing needs to be set here: the script just calls
+     the API and the proxy handles it.
+  2. YOUTUBE_API_KEY as an environment variable on the cloud environment. The
+     key travels in the query string and is readable by anyone using the
+     environment.
+
+Either way, set it in the environment configuration rather than a shell
+export: session containers are disposable. Environment changes apply only to
+sessions started afterward, so start a new session after adding it.
 
 Checks, per .claude/skills/yt-sourcing/CRITERIA.md:
   - duration at or above the ten minute floor
@@ -20,6 +33,7 @@ import os
 import re
 import sys
 import urllib.parse
+import urllib.error
 import urllib.request
 
 API = "https://www.googleapis.com/youtube/v3/videos"
@@ -53,20 +67,33 @@ def iso8601_seconds(d):
 
 
 def fetch(ids, key):
-    params = urllib.parse.urlencode({
-        "part": "snippet,contentDetails,status",
-        "id": ",".join(ids),
-        "key": key,
-    })
-    with urllib.request.urlopen(f"{API}?{params}", timeout=20) as r:
-        return json.load(r)
+    """Call videos.list. With no key, rely on an environment API credential."""
+    params = {"part": "snippet,contentDetails,status", "id": ",".join(ids)}
+    if key:
+        params["key"] = key
+    req = urllib.request.Request(f"{API}?{urllib.parse.urlencode(params)}")
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")[:400]
+        if e.code in (401, 403) and not key:
+            sys.exit(
+                "Authentication failed and YOUTUBE_API_KEY is not set, so this "
+                "run depended on an environment API credential.\n"
+                "Check that the credential exists on THIS environment, covers "
+                "www.googleapis.com, and uses header X-goog-api-key with no "
+                "prefix. Remember that a credential added after this session "
+                "started does not apply to it: start a new session.\n\n"
+                f"HTTP {e.code}: {body}")
+        sys.exit(f"HTTP {e.code} from the YouTube API: {body}")
 
 
 def main(argv):
     key = os.environ.get("YOUTUBE_API_KEY")
     if not key:
-        sys.exit("YOUTUBE_API_KEY is not set. Put it in the environment "
-                 "configuration, not a shell export.")
+        print("YOUTUBE_API_KEY not set; relying on an environment API "
+              "credential for www.googleapis.com.", file=sys.stderr)
     if not argv:
         sys.exit(__doc__)
 

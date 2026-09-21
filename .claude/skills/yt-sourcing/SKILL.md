@@ -139,11 +139,29 @@ section 1.
 - `<film title> <the specific scene where the mechanism is visible>`
 - `<film title> restoration trailer` for clean transfers
 
-There is currently **no YouTube Data API key** in the environment. Use the
-`WebSearch` tool, or work from links the user supplies. If a key is later added
-as `YOUTUBE_API_KEY`, `search.list` filters on `videoDuration` and on
+There is currently **no YouTube Data API key** reaching this environment. Use
+the `WebSearch` tool, or work from links the user supplies. Once a key is in
+place, `search.list` filters on `videoDuration` and on
 `videoLicense=creativeCommon`, which serves the credit cost and the rights
 field in one call.
+
+**Adding the key.** The environment selector is the cloud icon showing the
+environment's name, in the row above the message box at claude.ai/code. There
+is no settings page and no direct URL. The gear for an existing environment
+**only appears on hover** over its row, which is the reason a first attempt at
+this failed. Two options in the dialog:
+
+| Route | Where | Trade-off |
+|---|---|---|
+| **API credential** (preferred, Pro and Max) | Below **Environment variables**. Host `www.googleapis.com`, custom header `X-goog-api-key`, prefix cleared, key as the value. | The key never enters the container and cannot be committed. No edit: delete and re-add to change it. |
+| `YOUTUBE_API_KEY` | The **Environment variables** box, `.env` format | Readable by anyone using the environment. |
+
+`tools/screen_source.py` supports both: it uses `YOUTUBE_API_KEY` when set and
+otherwise calls the API bare and lets the proxy attach the credential.
+
+**An environment change does not reach a running session.** Values are copied
+once at startup, so a key added now applies only to sessions started
+afterward. Start a new session before expecting the script to work.
 
 **If no footage demonstrates the mechanism on screen, the mechanism fails here**,
 however good the research is. Sound mechanisms need audible proof, not visible.
