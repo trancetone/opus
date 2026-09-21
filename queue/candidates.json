@@ -3,10 +3,10 @@
     "id": "yt-YpcP-6nBi5c",
     "url": "https://www.youtube.com/watch?v=YpcP-6nBi5c",
     "title": "The Shining and the Steadicam: an interview with inventor Garrett Brown",
-    "channel": "USPTO",
-    "published": null,
+    "channel": "USPTOvideo",
+    "published": "2020-10-23",
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 273,
     "discovered": "2026-09-12",
     "found_via": "websearch",
     "status": "posted",
@@ -47,16 +47,17 @@
       "saves_per_1000": 9.7,
       "shares_per_1000": 12.1,
       "note": "Settled at 20.6x the median of the other seven reels in the window. Views grew 4.64x from the 17 hour reading and saves 5.62x, so a 17 hour number is roughly a fifth of final. Average watch rose 25.7 to 27.8s while the three second hold fell 55.5 to 53.4, which is what a widening audience does: later viewers are less self-selected but the ones who stay watch longer. Shares are the standout at 12.1 per thousand against a 1.9 to 7.1 range for every other reel, and they are the likeliest explanation for the reach. Saves per thousand were actually BELOW several smaller reels, so saves did not drive this."
-    }
+    },
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   },
   {
     "id": "yt-Rkj2_50glz8",
     "url": "https://www.youtube.com/watch?v=Rkj2_50glz8",
     "title": "Editor Anne V. Coates on editing Lawrence of Arabia's Match Cut",
-    "channel": null,
-    "published": null,
+    "channel": "Making the Cut",
+    "published": "2020-01-17",
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 145,
     "discovered": "2026-09-13",
     "found_via": "websearch",
     "status": "submitted",
@@ -69,16 +70,17 @@
     },
     "opus_project": "P30913171cfq",
     "approved_clips": [],
-    "scheduled_at": null
+    "scheduled_at": null,
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   },
   {
     "id": "yt-_E8C-3MU00g",
     "url": "https://www.youtube.com/watch?v=_E8C-3MU00g",
     "title": "Six Kinds of Light - John Alcott",
-    "channel": "unverified, uploaded by an individual rather than PBS",
-    "published": null,
+    "channel": "Kubrick's Tube",
+    "published": "2015-02-17",
     "source_views": null,
-    "duration_sec": 1584,
+    "duration_sec": 1654,
     "discovered": "2026-09-17",
     "found_via": "websearch",
     "status": "reviewed",
@@ -97,16 +99,17 @@
     "caveats": [
       "Clip 21 was inferred to cover the 10.5-10.8 min Alcott passage from its description, not verified. User to confirm on the approval screen.",
       "Caption describes a method rather than an incident and is not anchored to one work, which is the weaker shape: 2,262 median for work-anchored against 261 for career-level."
-    ]
+    ],
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   },
   {
     "id": "yt-YoPI0MRAVB4",
     "url": "https://www.youtube.com/watch?v=YoPI0MRAVB4",
     "title": "William Friedkin on the French Connection car chase",
-    "channel": null,
-    "published": null,
+    "channel": "American Film Institute",
+    "published": "2010-03-05",
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 295,
     "discovered": "2026-09-18",
     "found_via": "websearch",
     "status": "rejected",
@@ -119,16 +122,17 @@
     },
     "opus_project": "P3091816l2tb",
     "approved_clips": [],
-    "scheduled_at": null
+    "scheduled_at": null,
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   },
   {
     "id": "yt-dhiQKt6R-TE",
     "url": "https://www.youtube.com/watch?v=dhiQKt6R-TE",
     "title": "William Friedkin on directing the French Connection chase",
-    "channel": null,
-    "published": null,
+    "channel": "Cinematographers on cinematography",
+    "published": "2020-11-21",
     "source_views": null,
-    "duration_sec": 1206,
+    "duration_sec": 1222,
     "discovered": "2026-09-19",
     "found_via": "websearch",
     "status": "posted",
@@ -174,16 +178,17 @@
         "note": "Second highest hold in a 35 post window. Metricool reports 52.4s average watch against the 25s the native panel showed at 1.3 hours, so the open question about long clips holding proportionally is answered: 30.6 percent retention, not 14.6. The two systems measure average watch differently and must not be compared."
       }
     },
-    "open_question": "RESOLVED. Long clips do hold proportionally. The 14.6 percent figure came from mixing an Instagram native number with a Metricool benchmark."
+    "open_question": "RESOLVED. Long clips do hold proportionally. The 14.6 percent figure came from mixing an Instagram native number with a Metricool benchmark.",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   },
   {
     "id": "yt-WwLyGoMocWw",
     "url": "https://www.youtube.com/watch?v=WwLyGoMocWw",
     "title": "Painting with Light: Jack Cardiff and Black Narcissus, part 2 of 2",
-    "channel": null,
-    "published": null,
+    "channel": "Renc",
+    "published": "2015-05-04",
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 789,
     "discovered": "2026-09-19",
     "found_via": "websearch",
     "status": "posted",
@@ -220,16 +225,17 @@
       "shares": 2,
       "note": "Underperformed. Hold below the 45 percent floor. The prediction made before scheduling, that a method statement would travel less far than an incident, held. The specific failure is the opening line: 'Light is the principal agent' is an abstraction, and the three second hold is decided there.",
       "recheck_2026-09-21T01:40Z": "Re-pulled at 25.6h after posting. Every field identical to the 17h reading: 435 views, 39.3 hold, 7.039s avg watch, 5 saves, 2 shares. Metricool's sync frontier is 20 Sep, so this row has not refreshed rather than the post having stopped accruing. Treat 39.3 as a 17h checkpoint, NOT as settled: section 10 gives posts 3 to 5 days. The 'settled_metrics' key on this record is misnamed."
-    }
+    },
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   },
   {
     "id": "yt-KqRmV9OMxo0",
     "url": "https://www.youtube.com/watch?v=KqRmV9OMxo0",
     "title": "Painting with Light: Jack Cardiff and Black Narcissus, part 1 of 2",
-    "channel": null,
-    "published": null,
+    "channel": "Renc",
+    "published": "2015-05-03",
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 785,
     "discovered": "2026-09-19",
     "found_via": "websearch",
     "status": "scheduled",
@@ -247,38 +253,40 @@
     "scheduled_at": "2026-09-21T17:00:00Z",
     "caption_file": "drafts/caption-cardiff-fogfilter.md",
     "schedule_note": "10am Pacific. VERIFIED 2026-09-21T01:40Z by date window (2026-09-20 to 2026-09-23), not by project id: exactly ONE schedule for HUkoMPsW96 at 2026-09-21T17:00:00Z, status scheduled. No duplicates. The single-visit approval discipline held this time.",
-    "schedule_id": "1789946549337wFSG-INSTAGRAM_BUSINESS"
+    "schedule_id": "1789946549337wFSG-INSTAGRAM_BUSINESS",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   },
   {
     "id": "yt-af4F1gRLMUA",
     "url": "https://www.youtube.com/watch?v=af4F1gRLMUA",
     "title": "Jason and the Argonauts (1963), how they made the skeleton sequence",
-    "channel": null,
-    "published": null,
+    "channel": "Retro Films Revisited",
+    "published": "2024-08-23",
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 54,
     "discovered": "2026-09-20",
     "found_via": "websearch",
-    "status": "candidate",
-    "rights": "commentary",
+    "status": "rejected",
+    "rights": "rejected-before-rights-established",
     "profile_match": "Dynamation: miniatures animated in front of a rear projection of the live action, frame by frame, combined with mattes so the skeletons share the actors' space. The turn is a number, in Harryhausen's own words: three men against seven skeletons, five appendages each, at least thirty five synchronised movements per frame, 13 or 14 frames on a bad day, less than one second of screen time. Four and a half months for four minutes thirty seven seconds. Reads instantly on a phone, which is the test colour usually wins on.",
-    "screen_notes": "NOT VERIFIED. Two open risks: the title suggests it may be a third party explainer rather than Harryhausen narrating, which is the weakest provenance tier and the shape that produced the Alcott misattribution; and duration is unknown against the ten minute floor. User to check whether footage runs under the voice and whether the voice is Harryhausen's. Backup upload: 4-La8HjSQxY.",
+    "screen_notes": "NOT VERIFIED. Two open risks: the title suggests it may be a third party explainer rather than Harryhausen narrating, which is the weakest provenance tier and the shape that produced the Alcott misattribution; and duration is unknown against the ten minute floor. User to check whether footage runs under the voice and whether the voice is Harryhausen's. Backup upload: 4-La8HjSQxY. REJECTED 2026-09-21 on duration: the YouTube API reports 54 seconds, far below the ten minute floor in CRITERIA section 3. It cannot yield the 60-180s target format at all, which is the Coates failure the floor was written for. This was the standing fallback candidate, so the queue now has NO live fallback source.",
     "range": {
       "start_sec": null,
       "end_sec": null
     },
     "opus_project": null,
     "approved_clips": [],
-    "scheduled_at": null
+    "scheduled_at": null,
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   },
   {
     "id": "yt-p5RRhqrPuE4",
     "url": "https://www.youtube.com/watch?v=p5RRhqrPuE4",
     "title": "Vittorio Storaro and Bernardo Bertolucci analyse The Conformist (1970)",
-    "channel": null,
-    "published": null,
+    "channel": "FilMagicians",
+    "published": "2017-02-03",
     "source_views": null,
-    "duration_sec": null,
+    "duration_sec": 863,
     "discovered": "2026-09-20",
     "found_via": "websearch",
     "status": "posted",
@@ -303,6 +311,7 @@
       "status": "NO DATA",
       "note": "Posted 2026-09-21T00:00:00Z, so only 1.6h old at check time. Absent from Metricool entirely; the brand's sync frontier is 20 Sep. Not a missing post: Opus reports status posted with post_url, and section 10 warns not to read a missing row as a missing post. The section 11 comparison against Vermeer CANNOT be made yet and must not be attempted from a 1.6h number against a 17h one. Like-for-like checkpoint is 2026-09-21T17:00Z, 17h after posting, matching the hour Vermeer was read at."
     },
-    "opening_problem": "Dropping section 0 did NOT fix the opening and the reason is speaker identity, which nobody checked on this clip. Source paragraphs 75.70-82.92 are speaker_0, and speaker_0 is BERTOLUCCI, not Storaro: he says 'Vittorio was the focus puller in Before the Revolution, so I knew him. He was very precocious.' Storaro is speaker_1 and begins at 83.96 with 'One of the main point that made the marriage between Bernardo Bertolucci and myself'. Section 0 removed only 'He was very precocious' (3.4s). The clip now opens on the REST of the same Bertolucci passage, 'we were both very precocious, he was more or less my age', which is still the wrong speaker, still not an event, and now opens on an unanchored 'he'. Proposed fix: trim_section index 0 keepFromSec 4.6, cutting to source 83.89 so the clip opens on Storaro in the first person. Clip drops to about 60s, still inside the 60-180 target. Mapping is exact: clip time 0 = source 79.29, Storaro's first word at source 83.96."
+    "opening_problem": "Dropping section 0 did NOT fix the opening and the reason is speaker identity, which nobody checked on this clip. Source paragraphs 75.70-82.92 are speaker_0, and speaker_0 is BERTOLUCCI, not Storaro: he says 'Vittorio was the focus puller in Before the Revolution, so I knew him. He was very precocious.' Storaro is speaker_1 and begins at 83.96 with 'One of the main point that made the marriage between Bernardo Bertolucci and myself'. Section 0 removed only 'He was very precocious' (3.4s). The clip now opens on the REST of the same Bertolucci passage, 'we were both very precocious, he was more or less my age', which is still the wrong speaker, still not an event, and now opens on an unanchored 'he'. Proposed fix: trim_section index 0 keepFromSec 4.6, cutting to source 83.89 so the clip opens on Storaro in the first person. Clip drops to about 60s, still inside the 60-180 target. Mapping is exact: clip time 0 = source 79.29, Storaro's first word at source 83.96.",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
   }
 ]
