@@ -218,7 +218,8 @@
       "retention_pct": 11.2,
       "saves": 5,
       "shares": 2,
-      "note": "Underperformed. Hold below the 45 percent floor. The prediction made before scheduling, that a method statement would travel less far than an incident, held. The specific failure is the opening line: 'Light is the principal agent' is an abstraction, and the three second hold is decided there."
+      "note": "Underperformed. Hold below the 45 percent floor. The prediction made before scheduling, that a method statement would travel less far than an incident, held. The specific failure is the opening line: 'Light is the principal agent' is an abstraction, and the three second hold is decided there.",
+      "recheck_2026-09-21T01:40Z": "Re-pulled at 25.6h after posting. Every field identical to the 17h reading: 435 views, 39.3 hold, 7.039s avg watch, 5 saves, 2 shares. Metricool's sync frontier is 20 Sep, so this row has not refreshed rather than the post having stopped accruing. Treat 39.3 as a 17h checkpoint, NOT as settled: section 10 gives posts 3 to 5 days. The 'settled_metrics' key on this record is misnamed."
     }
   },
   {
@@ -245,7 +246,8 @@
     ],
     "scheduled_at": "2026-09-21T17:00:00Z",
     "caption_file": "drafts/caption-cardiff-fogfilter.md",
-    "schedule_note": "10am Pacific. Approval link issued, not yet verified in the schedule list."
+    "schedule_note": "10am Pacific. VERIFIED 2026-09-21T01:40Z by date window (2026-09-20 to 2026-09-23), not by project id: exactly ONE schedule for HUkoMPsW96 at 2026-09-21T17:00:00Z, status scheduled. No duplicates. The single-visit approval discipline held this time.",
+    "schedule_id": "1789946549337wFSG-INSTAGRAM_BUSINESS"
   },
   {
     "id": "yt-af4F1gRLMUA",
@@ -295,6 +297,12 @@
     "caption_file": "drafts/caption-storaro-quadri.md",
     "schedule_id": "178994654990523NR-INSTAGRAM_BUSINESS",
     "post_url": "https://www.instagram.com/reel/Ddh1MJsDeqj/",
-    "held_for_later": "BCB1Rhjj9m, the cage of light clip. Drop section 0 (3.4s) first to lose the 'He was very precocious' opening. Dry run passed, not applied."
+    "held_for_later": "BCB1Rhjj9m, the cage of light clip. Section 0 DROPPED 2026-09-21T01:42Z, 3.4s, re-rendered clean, clip now 65s from 68s. Caption drafted at drafts/caption-storaro-cage.md, 163 words. NOT scheduled: awaiting user decision on the opening, see opening_problem.",
+    "quadri_metrics": {
+      "checked_at": "2026-09-21T01:40Z",
+      "status": "NO DATA",
+      "note": "Posted 2026-09-21T00:00:00Z, so only 1.6h old at check time. Absent from Metricool entirely; the brand's sync frontier is 20 Sep. Not a missing post: Opus reports status posted with post_url, and section 10 warns not to read a missing row as a missing post. The section 11 comparison against Vermeer CANNOT be made yet and must not be attempted from a 1.6h number against a 17h one. Like-for-like checkpoint is 2026-09-21T17:00Z, 17h after posting, matching the hour Vermeer was read at."
+    },
+    "opening_problem": "Dropping section 0 did NOT fix the opening and the reason is speaker identity, which nobody checked on this clip. Source paragraphs 75.70-82.92 are speaker_0, and speaker_0 is BERTOLUCCI, not Storaro: he says 'Vittorio was the focus puller in Before the Revolution, so I knew him. He was very precocious.' Storaro is speaker_1 and begins at 83.96 with 'One of the main point that made the marriage between Bernardo Bertolucci and myself'. Section 0 removed only 'He was very precocious' (3.4s). The clip now opens on the REST of the same Bertolucci passage, 'we were both very precocious, he was more or less my age', which is still the wrong speaker, still not an event, and now opens on an unanchored 'he'. Proposed fix: trim_section index 0 keepFromSec 4.6, cutting to source 83.89 so the clip opens on Storaro in the first person. Clip drops to about 60s, still inside the 60-180 target. Mapping is exact: clip time 0 = source 79.29, Storaro's first word at source 83.96."
   }
 ]
