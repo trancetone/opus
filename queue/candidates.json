@@ -305,13 +305,15 @@
     "caption_file": "drafts/caption-storaro-quadri.md",
     "schedule_id": "178994654990523NR-INSTAGRAM_BUSINESS",
     "post_url": "https://www.instagram.com/reel/Ddh1MJsDeqj/",
-    "held_for_later": "BCB1Rhjj9m, the cage of light clip. Section 0 DROPPED 2026-09-21T01:42Z, 3.4s, re-rendered clean, clip now 65s from 68s. Caption drafted at drafts/caption-storaro-cage.md, 163 words. NOT scheduled: awaiting user decision on the opening, see opening_problem.",
     "quadri_metrics": {
       "checked_at": "2026-09-21T01:40Z",
       "status": "NO DATA",
       "note": "Posted 2026-09-21T00:00:00Z, so only 1.6h old at check time. Absent from Metricool entirely; the brand's sync frontier is 20 Sep. Not a missing post: Opus reports status posted with post_url, and section 10 warns not to read a missing row as a missing post. The section 11 comparison against Vermeer CANNOT be made yet and must not be attempted from a 1.6h number against a 17h one. Like-for-like checkpoint is 2026-09-21T17:00Z, 17h after posting, matching the hour Vermeer was read at."
     },
     "opening_problem": "Dropping section 0 did NOT fix the opening and the reason is speaker identity, which nobody checked on this clip. Source paragraphs 75.70-82.92 are speaker_0, and speaker_0 is BERTOLUCCI, not Storaro: he says 'Vittorio was the focus puller in Before the Revolution, so I knew him. He was very precocious.' Storaro is speaker_1 and begins at 83.96 with 'One of the main point that made the marriage between Bernardo Bertolucci and myself'. Section 0 removed only 'He was very precocious' (3.4s). The clip now opens on the REST of the same Bertolucci passage, 'we were both very precocious, he was more or less my age', which is still the wrong speaker, still not an event, and now opens on an unanchored 'he'. Proposed fix: trim_section index 0 keepFromSec 4.6, cutting to source 83.89 so the clip opens on Storaro in the first person. Clip drops to about 60s, still inside the 60-180 target. Mapping is exact: clip time 0 = source 79.29, Storaro's first word at source 83.96.",
-    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21",
+    "dropped_clips": {
+      "BCB1Rhjj9m": "The cage of light clip. DROPPED 2026-09-21 on the user's call, do not resurface. Section 0 was applied (3.4s, clip 68s to 65s) and a 163 word caption written to drafts/caption-storaro-cage.md, which stays in the repo unused. The edit is left applied in Opus; undoing costs a re-render and buys nothing. Reason it was not worth further work is in opening_problem: the only event in the clip sits 38s in, so no trim both opens on an incident and clears the 60s floor."
+    }
   }
 ]
