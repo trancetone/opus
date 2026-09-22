@@ -1,7 +1,7 @@
-John A. Alonzo, ASC shot a bathroom scene in Chinatown (1974) with a handheld Pentaflex, standing inside the room with the actors. The conventional solution was a bathroom built on a stage with a wall that rolled away for the camera, and Alonzo's account is that going in handheld is what let Roman Polanski get spontaneous behaviour out of the performers, because the camera was in there with them rather than watching from where a wall used to be.
+John A. Alonzo, ASC took a handheld Panaflex into a bathroom to shoot a scene in Chinatown (1974). Panavision had introduced that camera two years earlier as the first self-blimped 35mm body light enough to carry, and before it the bathroom would have been built on a stage with a wall rolled away for the crew to shoot through.
 
-He names the lighting as the real risk, and puts the position in his own words: here is a major motion picture, and I am lighting it like a documentary. He had inherited the film about a week into production, after Polanski fell out with Stanley Cortez over how to photograph Faye Dunaway.
+Roman Polanski put the lens about two and a half feet from Faye Dunaway for her close-ups, near enough that Alonzo calls it intimidating, and used the proximity as a directing method on the character of Evelyn Mulwray. That left Alonzo lighting her beautifully at arm's length, which he did by carrying a key light himself and moving it as she moved. His measure of success is that you never see the lighting.
 
-The film is anamorphic at 2.35 to 1 because Polanski asked for modern technology pointed at the past. The period is seen through a twentieth century window rather than reconstructed behind one.
+The turn is his own. Told to shoot a shot handheld, Alonzo said it would be distracting. He says flatly that Polanski was right.
 
-#JohnAAlonzo #Chinatown #RomanPolanski #Anamorphic #Cinematography #FilmLanguage #FilmHistory #MovingImageArts
+#JohnAAlonzo #Chinatown #RomanPolanski #Panaflex #Cinematography #FilmLanguage #FilmHistory #MovingImageArts
