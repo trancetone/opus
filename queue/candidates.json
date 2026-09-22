@@ -333,5 +333,74 @@
     "dropped_clips": {
       "BCB1Rhjj9m": "The cage of light clip. DROPPED 2026-09-21 on the user's call, do not resurface. Section 0 was applied (3.4s, clip 68s to 65s) and a 163 word caption written to drafts/caption-storaro-cage.md, which stays in the repo unused. The edit is left applied in Opus; undoing costs a re-render and buys nothing. Reason it was not worth further work is in opening_problem: the only event in the clip sits 38s in, so no trim both opens on an incident and clears the 60s floor."
     }
+  },
+  {
+    "id": "yt-5iFFORE73LQ",
+    "url": "https://www.youtube.com/watch?v=5iFFORE73LQ",
+    "title": "Sven Nykvist: working with Ingmar Bergman",
+    "channel": "Cinematographers on cinematography",
+    "published": "2020-10-17",
+    "source_views": null,
+    "duration_sec": 898,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "candidate",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "Light and colour, the two fastest-reading categories. Named technical collaborator (Nykvist, ASC) rather than the director, which is the shape behind seven of the top nine posts. Same channel as the Friedkin source, which settled at 14,806 views and 71.0 percent hold, the highest on the account.",
+    "screen_notes": "PASSES every mechanical screen: 14m58s clears the ten minute floor, primary source with Nykvist in the first person, proven channel. AWAITING USER FOOTAGE CONFIRMATION. Search description says it is an audio interview illustrated with clips from films they made together, which would be the target structure, but that is a description and not the picture. KNOWN RISK: multi-film. Section 3 requires one work per clip, so this needs either rangeStart/rangeEnd or a clip that stays inside one title. Duplicate upload of the same 14m58s content exists at ePhykRiUa4g on 'Visual Storytellers'; preferred this one on channel track record.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null
+  },
+  {
+    "id": "yt-IjFieHvI1p4",
+    "url": "https://www.youtube.com/watch?v=IjFieHvI1p4",
+    "title": "A conversation with Conrad L. Hall, ASC",
+    "channel": "Cinematographers on cinematography",
+    "published": "2021-07-29",
+    "source_views": null,
+    "duration_sec": 437,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "candidate",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "Light, and the strongest TURN found in this pass. On In Cold Blood (1967) the rain-on-the-window shot that reads as tears running down Perry Smith's face was an accident: rain was made on a stage with a fan blowing spray at the glass, Hall noticed the effect land on the actor's face ONCE during a rehearsal, and the blocking was changed to hold it there. Something surprised the person who did it, which is exactly what section 1b screens for, and the proof is visible in seconds.",
+    "screen_notes": "FAILS THE TEN MINUTE FLOOR at 7m17s, and that is the only thing wrong with it. Flagged rather than rejected because the floor is itself in question: the Steadicam source is 4m33s and produced the account's best post at 23,256 views. The floor was written from the Coates failure and now also excludes the biggest win. Needs a user ruling on the floor before this can proceed. Same proven channel as the Friedkin source.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null
+  },
+  {
+    "id": "yt-ERTZ94MqLtM",
+    "url": "https://www.youtube.com/watch?v=ERTZ94MqLtM",
+    "title": "Cinematography Style: Nestor Almendros",
+    "channel": "In Depth Cine",
+    "published": "2024-01-21",
+    "source_views": null,
+    "duration_sec": 980,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "rejected",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "Almendros and magic hour on Days of Heaven would fit the light category well.",
+    "screen_notes": "REJECTED on source type, not on the mechanism. This is a third-party video essay, which section 3b ranks as the weak fallback: another creator's analysis in another channel's register, two rights layers rather than one, and the post becomes a repost of someone else's work rather than the account doing it. Clears the floor at 16m20s, so duration is not the issue. Almendros remains worth sourcing from a primary interview if one exists.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null
   }
 ]
