@@ -405,5 +405,28 @@
     "opus_project": null,
     "approved_clips": [],
     "scheduled_at": null
+  },
+  {
+    "id": "yt-xXFaTgf3ITI",
+    "url": "https://www.youtube.com/watch?v=xXFaTgf3ITI",
+    "title": "Days of Heaven (1978) arrive at a wheat farm 4K HDR",
+    "channel": "예나오디오",
+    "published": "2024-01-27",
+    "source_views": null,
+    "duration_sec": 386,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "Light, the second fastest-reading category, and colour by extension. Named technical collaborator: Nestor Almendros, ASC, who won the Oscar for this film. One work, canon narrative, 1978. The constraint is unusually strong and supplies the turn: magic hour gave roughly twenty to thirty filmable minutes a day, the production moved to Alberta rather than the Texas the film is set in because that latitude doubles the window, Almendros took the job on condition that Malick limit studio lighting, and Almendros was losing his sight and handed the last three weeks to Haskell Wexler. The man who won the Oscar did not finish the film.",
+    "screen_notes": "THIS IS A DELIBERATE TEST OF THE CLIP ROUTE, not a normal candidate. It breaks the ten minute floor at 6m26s and was submitted anyway, with the user's agreement, to answer one question: can a post built from FILM FOOTAGE rather than a practitioner interview still work through this pipeline. Reasoning: what-search-found-them.md shows the account's three biggest posts (Excalibur 84,180, Nashville 63,746, Parallax View 46,399) were film footage carrying a caption, with no practitioner speaking, and the skill's own stage two prescribes '<film title> <year> clip' and restoration trailers. Six consecutive interview sources have now failed on structure. FINDING FROM THE SEARCH: every usable piece of footage for this film is short. Two trailers at 1m28s, this scene at 6m26s, and the only result over ten minutes was an unboxing review. That is not bad luck, it is what film clips are. The ten minute floor exists to give Opus room to curate, so it does not apply when the footage has already been chosen. WHAT TO WATCH AT REVIEW: whether clipDurationsSec holds on a short source (it was ignored on a 4.7 minute source before, returning 30 to 47 second fragments), and what Opus curates on when the only speech is Linda Manz's in-film voiceover rather than an interview. Cost about 7 credits against 773 remaining.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3092216v946",
+    "approved_clips": [],
+    "scheduled_at": null
   }
 ]
