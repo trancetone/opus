@@ -449,7 +449,7 @@
     "duration_sec": 5361,
     "discovered": "2026-09-22",
     "found_via": "websearch",
-    "status": "reviewed",
+    "status": "scheduled",
     "rights": "commentary",
     "metadata_source": "youtube-api videos.list, verified 2026-09-22",
     "profile_match": "The source registry calls this THE MODEL: a craft documentary built by construction from film clips with cinematographers narrating over them, which is the exact structure section 3a asks for and which six standalone interviews have failed to provide. Dense with named technical collaborators on single canon films, which is the account's strongest measured signature.",
@@ -458,9 +458,11 @@
       "start_sec": 3300,
       "end_sec": 4800
     },
-    "opus_project": "P3092220DBBX",
-    "approved_clips": [],
-    "scheduled_at": null,
+    "opus_project": "P3092222a8MT",
+    "approved_clips": [
+      "Xwn0Lih1Dz"
+    ],
+    "scheduled_at": "2026-09-23T16:00:00Z",
     "review_notes": "23 clips, a real yield. THE RANGE MISSED: 3300-4800s landed in the 1970s New Hollywood stretch (Jaws, Chinatown, Godfather, Taxi Driver, Dog Day Afternoon, Apocalypse Now, Midnight Cowboy), not the 1960s. NO CONRAD HALL and no In Cold Blood. For a later pass, the 1960s material sits EARLIER than 55 min; try roughly 2400-3300s. RECOMMENDED, RNvk39PUhJ (rank 2, 66s): John A. Alonzo on Chinatown. Opens on an event in the first person with named apparatus, 'We shot a scene in Chinatown with a handheld Pentaflex inside a bathroom', which clears section 11 outright. Turn is his own: 'here's a major motion picture and I'm lighting it like a documentary', called a risk in his own words. Film dialogue is interleaved (the flaw-in-the-iris line), which is the cheap structural proof that footage plays with its own audio. SECOND, IvSptRNHTF (rank 18, 60s): Nestor Almendros on magic hour, and it recovers the Days of Heaven research done earlier today. Mechanism is light, the stronger category. BUT IT FAILS SECTION 11 AS CUT: it opens 'In the period movies there was no electricity', a general claim, and there is a stray 'Hey sweetie' of film dialogue at the very head. Would need a trim to open on 'Magic hour is an euphemism because it's not an hour.' Not applied. REJECTED ON SOURCE RATIONING: rank 4 and rank 14 are Gordon Willis on The Godfather, and rank 12 and 17 touch Taxi Driver; Willis is already spent on the Parallax View post. REJECTED AS SURVEYS: ranks 8, 21 and 22 are general reflections on cinematography as an art and on careers, which is the failing shape in section 7. Ranks 3 and 11 are Polanski and Scorsese DIRECTING, which is the director-survey shape. SUB-SCORES AGAIN USELESS: rank 1 is 10/10/10 at score 99 and is Jaws handheld, camera, the weakest category, and framed as a Spielberg secret. Seventh consecutive project where rank 1 is not the right clip. The _bonus duplicate of it was dropped as usual.",
     "caption_files": [
       "drafts/caption-alonzo-chinatown.md",
@@ -483,6 +485,10 @@
       "why_better": "Same opening, so section 11 still passes: 'We shot a scene in Chinatown with a handheld Pentaflex inside a bathroom.' But the extra minute carries the actual REVERSAL that section 1b screens for, and it is Alonzo's own: Polanski forced a handheld shot, Alonzo argued it would be distracting, and he says plainly 'But he was right.' The 66s version stops before that. It also adds the strongest visible mechanism in the clip: a lens two and a half feet from Faye Dunaway, Polanski using that proximity as a directing method on Evelyn Mulwray, and Alonzo walking a handheld key light that moves as she moves, with 'you never see the lighting' as his measure of success.",
       "transcription_error_caught": "The transcript says PENTAFLEX, which is not a camera. Chinatown was shot on Panavision PANAFLEX bodies with anamorphic lenses at 2.35:1. Verified before writing. The Panaflex was introduced in 1972 as the first self-blimped hand-holdable 35mm studio reflex camera, which is the reason the bathroom shot was possible at all, so correcting the error also supplied the production constraint the caption needed. GENERAL LESSON: do not lift apparatus names straight from an Opus transcript into a caption. Verify any proper noun naming hardware.",
       "aspect_rationale_held": "4:5 was the right call for this specific post. Alonzo is describing anamorphic 2.35:1 framing and a two-and-a-half-foot close-up; a 9:16 crop would have destroyed both."
-    }
+    },
+    "schedule_id": "17901190665103zZC-INSTAGRAM_BUSINESS",
+    "caption_file": "drafts/caption-alonzo-chinatown.md",
+    "schedule_note": "9am Pacific Wednesday. VERIFIED by date window 2026-09-22 to 2026-09-25: exactly ONE schedule, no duplicates. Approval link issued exactly once and not repeated. SLOT CHOSEN FROM DATA, not habit: Metricool best-time for Wednesday peaks at hour 18 Europe/Madrid, value 1704, which converts to 16:00Z and 9am Pacific. The 10am Pacific slot used for the fog filter scores 1664 on the same day. First time the slot has been picked from getBestTimeToPostByNetwork rather than repeated from the last post.",
+    "caption_note": "CAPTION REWRITTEN AFTER THE USER CAUGHT A TONE SLIP, and the slip is worth recording because it is a failure mode specific to working from CRITERIA.md. The draft contained the sentence 'The turn is his own.' 'The turn' is CRITERIA section 1b's internal name for a narrative device. Pipeline vocabulary had leaked into copy meant for readers who have never seen the criteria file. Two more in the same draft: a closing built from three short punchy sentences landing on a line, which voice/avoid bans explicitly, and 'says flatly', an adverb editorialising about delivery. RULE: the caption talks about the film, never about the caption's own construction. Before sending, grep a draft for CRITERIA vocabulary: turn, mechanism, decoder, hook, opening line. Final version is 172 words, above the spec's 80-160 band but inside the 175-200 the published captions measure at, which remains the unresolved conflict in spec-conflicts.md."
   }
 ]
