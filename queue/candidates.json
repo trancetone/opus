@@ -438,5 +438,28 @@
       "subscores": "Sixth consecutive project where rank 1 at 10/10/10 is the wrong clip.",
       "trend_score_note": "trend_score came back 1 on all four clips, lower than seen elsewhere. First sign of a sub-score that might discriminate off-profile content. n=1, worth watching, not yet a rule."
     }
+  },
+  {
+    "id": "yt-RdcvbiEsiUk",
+    "url": "https://www.youtube.com/watch?v=RdcvbiEsiUk",
+    "title": "Visions of Light: The Art of Cinematography (1992)",
+    "channel": "DocumentarieS",
+    "published": "2023-10-14",
+    "source_views": null,
+    "duration_sec": 5361,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "The source registry calls this THE MODEL: a craft documentary built by construction from film clips with cinematographers narrating over them, which is the exact structure section 3a asks for and which six standalone interviews have failed to provide. Dense with named technical collaborators on single canon films, which is the account's strongest measured signature.",
+    "screen_notes": "USER CONFIRMED THIS UPLOAD PLAYS. The alternate HD upload at ivYs25DHGdo did not; a third, DGtRYm2Pffk, is dead. Structure taken as established from the registry rather than re-asked, since the registry already lists this film as verified footage-under-narration. RANGED 3300-4800s (55 to 80 min) rather than submitting all 89m21s. The film is chronological and has NO chapter markers in the description, so the bracket is an informed guess at the 1960s and 70s stretch where Conrad Hall, Nestor Almendros and the New Hollywood cinematographers should sit. About 25 credits against 763. If the bracket misses, submit a different window rather than the whole film. WANTED: Conrad Hall on In Cold Blood. The rain-on-the-window shot that reads as tears was an accident he spotted once in rehearsal and re-blocked the scene to keep. His standalone interview at IjFieHvI1p4 was a talking head, so this documentary is the way to recover that mechanism with footage under it. NOTE: Willis and Zsigmond also sit in this era and are both already spent by the account (Parallax View, McCabe). Do not pick them.",
+    "range": {
+      "start_sec": 3300,
+      "end_sec": 4800
+    },
+    "opus_project": "P3092220DBBX",
+    "approved_clips": [],
+    "scheduled_at": null
   }
 ]
