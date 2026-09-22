@@ -344,18 +344,19 @@
     "duration_sec": 898,
     "discovered": "2026-09-22",
     "found_via": "websearch",
-    "status": "candidate",
+    "status": "rejected",
     "rights": "commentary",
     "metadata_source": "youtube-api videos.list, verified 2026-09-22",
     "profile_match": "Light and colour, the two fastest-reading categories. Named technical collaborator (Nykvist, ASC) rather than the director, which is the shape behind seven of the top nine posts. Same channel as the Friedkin source, which settled at 14,806 views and 71.0 percent hold, the highest on the account.",
-    "screen_notes": "PASSES every mechanical screen: 14m58s clears the ten minute floor, primary source with Nykvist in the first person, proven channel. AWAITING USER FOOTAGE CONFIRMATION. Search description says it is an audio interview illustrated with clips from films they made together, which would be the target structure, but that is a description and not the picture. KNOWN RISK: multi-film. Section 3 requires one work per clip, so this needs either rangeStart/rangeEnd or a clip that stays inside one title. Duplicate upload of the same 14m58s content exists at ePhykRiUa4g on 'Visual Storytellers'; preferred this one on channel track record.",
+    "screen_notes": "PASSES every mechanical screen: 14m58s clears the ten minute floor, primary source with Nykvist in the first person, proven channel. AWAITING USER FOOTAGE CONFIRMATION. Search description says it is an audio interview illustrated with clips from films they made together, which would be the target structure, but that is a description and not the picture. KNOWN RISK: multi-film. Section 3 requires one work per clip, so this needs either rangeStart/rangeEnd or a clip that stays inside one title. Duplicate upload of the same 14m58s content exists at ePhykRiUa4g on 'Visual Storytellers'; preferred this one on channel track record. REJECTED 2026-09-22: USER OPENED IT AND CONFIRMED TALKING HEAD, NO FOOTAGE. Failed the one check the agent cannot perform. Do not reconsider.",
     "range": {
       "start_sec": null,
       "end_sec": null
     },
     "opus_project": null,
     "approved_clips": [],
-    "scheduled_at": null
+    "scheduled_at": null,
+    "channel_note": "'Cinematographers on cinematography' is MIXED and cannot be trusted wholesale. The Friedkin source came from it and does run film under the speaker, who is walking the location rather than sitting; it settled at 71.0 percent hold. Its sibling upload carried the same interview content with no footage and was rejected. Now Nykvist and Conrad Hall from the same channel are both talking heads. Channel track record is therefore NOT evidence of structure, and the earlier reasoning that treated it as such was wrong."
   },
   {
     "id": "yt-IjFieHvI1p4",
@@ -367,18 +368,19 @@
     "duration_sec": 437,
     "discovered": "2026-09-22",
     "found_via": "websearch",
-    "status": "candidate",
+    "status": "rejected",
     "rights": "commentary",
     "metadata_source": "youtube-api videos.list, verified 2026-09-22",
     "profile_match": "Light, and the strongest TURN found in this pass. On In Cold Blood (1967) the rain-on-the-window shot that reads as tears running down Perry Smith's face was an accident: rain was made on a stage with a fan blowing spray at the glass, Hall noticed the effect land on the actor's face ONCE during a rehearsal, and the blocking was changed to hold it there. Something surprised the person who did it, which is exactly what section 1b screens for, and the proof is visible in seconds.",
-    "screen_notes": "FAILS THE TEN MINUTE FLOOR at 7m17s, and that is the only thing wrong with it. Flagged rather than rejected because the floor is itself in question: the Steadicam source is 4m33s and produced the account's best post at 23,256 views. The floor was written from the Coates failure and now also excludes the biggest win. Needs a user ruling on the floor before this can proceed. Same proven channel as the Friedkin source.",
+    "screen_notes": "FAILS THE TEN MINUTE FLOOR at 7m17s, and that is the only thing wrong with it. Flagged rather than rejected because the floor is itself in question: the Steadicam source is 4m33s and produced the account's best post at 23,256 views. The floor was written from the Coates failure and now also excludes the biggest win. Needs a user ruling on the floor before this can proceed. Same proven channel as the Friedkin source. REJECTED 2026-09-22: USER OPENED IT AND CONFIRMED TALKING HEAD, NO FOOTAGE. Failed the one check the agent cannot perform. Do not reconsider.",
     "range": {
       "start_sec": null,
       "end_sec": null
     },
     "opus_project": null,
     "approved_clips": [],
-    "scheduled_at": null
+    "scheduled_at": null,
+    "lost_mechanism": "The In Cold Blood rain accident remains the best unclaimed turn found so far: rain made on a stage with a fan blowing spray at the glass, Hall spots the effect land on Perry Smith's face once in rehearsal, blocking changed to hold it. Worth keeping if footage ever surfaces."
   },
   {
     "id": "yt-ERTZ94MqLtM",
