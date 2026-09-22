@@ -1,7 +1,7 @@
-John A. Alonzo, ASC took a handheld Panaflex into a bathroom to shoot a scene in Chinatown (1974). Panavision had introduced that camera two years earlier as the first self-blimped 35mm body light enough to carry, and before it the bathroom would have been built on a stage with a wall rolled away for the crew to shoot through.
+John A. Alonzo, ASC shot a bathroom scene in Chinatown (1974) with a handheld Panaflex, standing in the room with the actors. Panavision had introduced that camera two years earlier as the first self-blimped 35mm body light enough to carry, and the conventional alternative was a bathroom built on a stage with one wall rolled away for the crew.
 
-Roman Polanski put the lens about two and a half feet from Faye Dunaway for her close-ups, near enough that Alonzo calls it intimidating, and used the proximity as a directing method on the character of Evelyn Mulwray. That left Alonzo lighting her beautifully at arm's length, which he did by carrying a key light himself and moving it as she moved. His measure of success is that you never see the lighting.
+For Faye Dunaway's close-ups Roman Polanski put the lens roughly two and a half feet from her face, a proximity Alonzo describes as intimidating and which Polanski used as a directing method on Evelyn Mulwray. Lighting a face at that distance without the apparatus entering frame left Alonzo carrying a key light himself and moving it as she moved, so that the lighting would not read as lighting.
 
-The turn is his own. Told to shoot a shot handheld, Alonzo said it would be distracting. He says flatly that Polanski was right.
+Alonzo argued against one of the handheld setups because he expected it to be distracting, and says Polanski was right. A camera light enough to hold puts the lens where a wall used to be, and the lighting has to become mobile to follow it.
 
 #JohnAAlonzo #Chinatown #RomanPolanski #Panaflex #Cinematography #FilmLanguage #FilmHistory #MovingImageArts
