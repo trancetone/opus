@@ -465,6 +465,18 @@
     "caption_files": [
       "drafts/caption-alonzo-chinatown.md",
       "drafts/caption-almendros-magichour.md"
-    ]
+    ],
+    "resubmit_4x5": {
+      "project": "P3092222a8MT",
+      "aspect": "four_five",
+      "submitted": "2026-09-22T22:36Z",
+      "range": {
+        "start_sec": 3300,
+        "end_sec": 4800
+      },
+      "cost_est_credits": 25,
+      "why": "User asked for the Alonzo Chinatown clip in a wider frame. Aspect ratio is FIXED AT SUBMISSION: opusclip_edit_clip has no aspect op and export_clip offers no aspect target, so the only way to change it is to resubmit the source. Worth knowing before promising a reframe on an existing clip. Chose 4:5 over landscape. CRITERIA section 8 requires portrait for Reels and warns landscape output is wrong for the format, so a true 16:9 would have broken the destination. 4:5 keeps the post in feed while preserving much more of the frame than a 9:16 crop. That matters specifically here: the clip is Alonzo on shooting Chinatown in anamorphic at 2.35 to 1, and cropping to 9:16 would throw away the composition the caption is about. GENERAL RULE WORTH KEEPING: for any post whose mechanism is framing, composition or aspect ratio, 9:16 destroys the evidence. Pick the aspect at submission to suit the mechanism.",
+      "expect": "The Alonzo clip should reappear with a new clip_id. Ranks may shift; find it by transcript, opening 'We shot a scene in Chinatown with a handheld Pentaflex inside a bathroom', not by rank. The 9:16 original is RNvk39PUhJ in P3092220DBBX."
+    }
   }
 ]
