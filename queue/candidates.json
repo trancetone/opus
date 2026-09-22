@@ -449,7 +449,7 @@
     "duration_sec": 5361,
     "discovered": "2026-09-22",
     "found_via": "websearch",
-    "status": "submitted",
+    "status": "reviewed",
     "rights": "commentary",
     "metadata_source": "youtube-api videos.list, verified 2026-09-22",
     "profile_match": "The source registry calls this THE MODEL: a craft documentary built by construction from film clips with cinematographers narrating over them, which is the exact structure section 3a asks for and which six standalone interviews have failed to provide. Dense with named technical collaborators on single canon films, which is the account's strongest measured signature.",
@@ -460,6 +460,11 @@
     },
     "opus_project": "P3092220DBBX",
     "approved_clips": [],
-    "scheduled_at": null
+    "scheduled_at": null,
+    "review_notes": "23 clips, a real yield. THE RANGE MISSED: 3300-4800s landed in the 1970s New Hollywood stretch (Jaws, Chinatown, Godfather, Taxi Driver, Dog Day Afternoon, Apocalypse Now, Midnight Cowboy), not the 1960s. NO CONRAD HALL and no In Cold Blood. For a later pass, the 1960s material sits EARLIER than 55 min; try roughly 2400-3300s. RECOMMENDED, RNvk39PUhJ (rank 2, 66s): John A. Alonzo on Chinatown. Opens on an event in the first person with named apparatus, 'We shot a scene in Chinatown with a handheld Pentaflex inside a bathroom', which clears section 11 outright. Turn is his own: 'here's a major motion picture and I'm lighting it like a documentary', called a risk in his own words. Film dialogue is interleaved (the flaw-in-the-iris line), which is the cheap structural proof that footage plays with its own audio. SECOND, IvSptRNHTF (rank 18, 60s): Nestor Almendros on magic hour, and it recovers the Days of Heaven research done earlier today. Mechanism is light, the stronger category. BUT IT FAILS SECTION 11 AS CUT: it opens 'In the period movies there was no electricity', a general claim, and there is a stray 'Hey sweetie' of film dialogue at the very head. Would need a trim to open on 'Magic hour is an euphemism because it's not an hour.' Not applied. REJECTED ON SOURCE RATIONING: rank 4 and rank 14 are Gordon Willis on The Godfather, and rank 12 and 17 touch Taxi Driver; Willis is already spent on the Parallax View post. REJECTED AS SURVEYS: ranks 8, 21 and 22 are general reflections on cinematography as an art and on careers, which is the failing shape in section 7. Ranks 3 and 11 are Polanski and Scorsese DIRECTING, which is the director-survey shape. SUB-SCORES AGAIN USELESS: rank 1 is 10/10/10 at score 99 and is Jaws handheld, camera, the weakest category, and framed as a Spielberg secret. Seventh consecutive project where rank 1 is not the right clip. The _bonus duplicate of it was dropped as usual.",
+    "caption_files": [
+      "drafts/caption-alonzo-chinatown.md",
+      "drafts/caption-almendros-magichour.md"
+    ]
   }
 ]
