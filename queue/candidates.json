@@ -83,7 +83,7 @@
     "duration_sec": 1654,
     "discovered": "2026-09-17",
     "found_via": "websearch",
-    "status": "reviewed",
+    "status": "scheduled",
     "rights": "commentary",
     "profile_match": "Named technical collaborator (John Alcott, cinematographer) discussing his own work in a properly produced documentary. Turn present on Barry Lyndon: no lens existed fast enough to shoot by candlelight, so Kubrick acquired ex-NASA Zeiss f/0.7 glass, three of the ten ever made. Light is the fastest-reading mechanism category on this account.",
     "screen_notes": "Corrected after review. This is NOT a practitioner narrating his own work: it is a documentary ABOUT Alcott with six speaker labels, and diarization mixes film audio with interview audio (one label's longest utterance is Nadsat from A Clockwork Orange). A first caption was drafted attributing every claim to Alcott from a clip that was a director and a third party discussing him in the third person; the user caught it. speaker_0 is Alcott, identified by first-person method talk at 10.5-10.8 min. The posted clip is built on that passage only. The lens story IS in the source, spoken by the director and transcribed as a satellite rather than NASA, which an earlier keyword search missed entirely.",
@@ -93,7 +93,8 @@
     },
     "opus_project": "P3091716ZxbG",
     "approved_clips": [
-      "Rdefc4iIVH"
+      "Rdefc4iIVH",
+      "gUjs6XRkra"
     ],
     "scheduled_at": null,
     "caveats": [
@@ -109,8 +110,13 @@
       "off_signature_flag": "The speaker is an ACTOR describing a lens pointed at her, not a technical collaborator explaining their own choice. Seven of the top nine posts name a technical collaborator, so this is off the measured signature. Alcott is present in the story as the person who argued and lost. Worth watching how it performs: if it travels, the profile may be wider than 'practitioner explains own work'.",
       "aspect": "9:16, cut before the 4:5 switch. Left alone: the mechanism is a face filling the frame, so a vertical crop costs nothing here, unlike the anamorphic Alonzo clip.",
       "caption_file": "drafts/caption-duvall-18mm.md",
-      "status": "awaiting user approval, nothing exported or scheduled"
-    }
+      "status": "SCHEDULED",
+      "schedule_id": "1790207000960qVyY-INSTAGRAM_BUSINESS",
+      "scheduled_at": "2026-09-24T02:00:00Z",
+      "verified": "By date window 2026-09-23 to 2026-09-26: exactly one schedule, no duplicates. Approval link issued once and not repeated.",
+      "slot_reasoning": "7pm Pacific. Chosen because 5pm was 25 minutes away when the request came in, which is not enough time to verify a speaker on a source that has already produced one misattribution. Doing it properly and posting two hours later was the better trade."
+    },
+    "caption_voice_finding": "THE CAPTION VOICE WAS WRONG TWICE BEFORE IT WAS RIGHT, and the fix only came from measuring. Published captions: Excalibur 183 words in 4 sentences, mean 44, nothing under 38. Parallax View, 2 sentences, mean 42. The rejected drafts ran 9 sentences at a mean of 17 with a four-word line, 'Kubrick did not relent.' That is journalism: short beats, colon reveals, idiom, dramatic timing. The spec asks for 'academic, analytical, intellectual', 'sentences may be long and complex', 'no forced staccato', 'precision over cleverness'. OPERATIONAL TEST before sending any caption: split the body on sentence boundaries. If the mean is under about 35 words, or any sentence is under 15, it is in the wrong register. Specifics belong inside subordinate clauses, not set up and dropped. This voice has no beats."
   },
   {
     "id": "yt-YoPI0MRAVB4",
