@@ -100,7 +100,17 @@
       "Clip 21 was inferred to cover the 10.5-10.8 min Alcott passage from its description, not verified. User to confirm on the approval screen.",
       "Caption describes a method rather than an incident and is not anchored to one work, which is the weaker shape: 2,262 median for work-anchored against 261 for career-level."
     ],
-    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21",
+    "second_pass_2026-09-23": {
+      "reason": "Pulled for a same-evening post specifically to avoid two consecutive posts from Visions of Light. Alonzo went live 2026-09-23 from that source, so the Wexler clip was held and this already-cut project used instead. No new credits spent.",
+      "candidate": "gUjs6XRkra (rank 8, 62s, 9:16)",
+      "speaker_verified": "SHELLEY DUVALL, not a cinematographer and not Alcott. Identified from inside the clip: 'Jack Nicholson and I would just cringe', 'for Jack who was going slowly mad, and for me'. CONFIRMED externally that Duvall discusses the 18mm lens in this specific documentary, Six Kinds of Light, and that Alcott tried to get Kubrick to relent to a 50 or 75 without success. Given this source already produced one misattribution, the speaker was verified before any caption text was written rather than after.",
+      "why_it_passes": "Opens on an event in the first person with the apparatus named in Kubrick's own words: 'give me the 18 in the tube'. Section 11 passes unedited. The reversal is that what the actors experienced as a problem was the intended effect: they asked repeatedly for a longer lens, Alcott argued on their behalf, Kubrick refused because the distortion was the point. One film, canon, and the mechanism is instantly visible because The Shining's faces are famously bowed.",
+      "off_signature_flag": "The speaker is an ACTOR describing a lens pointed at her, not a technical collaborator explaining their own choice. Seven of the top nine posts name a technical collaborator, so this is off the measured signature. Alcott is present in the story as the person who argued and lost. Worth watching how it performs: if it travels, the profile may be wider than 'practitioner explains own work'.",
+      "aspect": "9:16, cut before the 4:5 switch. Left alone: the mechanism is a face filling the frame, so a vertical crop costs nothing here, unlike the anamorphic Alonzo clip.",
+      "caption_file": "drafts/caption-duvall-18mm.md",
+      "status": "awaiting user approval, nothing exported or scheduled"
+    }
   },
   {
     "id": "yt-YoPI0MRAVB4",
