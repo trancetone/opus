@@ -515,7 +515,14 @@
         "MECHANISM REPEAT: the Cardiff fog filter post went live 2026-09-21 and is also about diffusion. Two diffusion posts inside a week. The stories are unrelated, Technicolor forbidding it versus guilt at overriding a colleague, but the optical device is the same.",
         "SOURCE RATIONING: Alonzo is already scheduled from this source for 2026-09-23. Posting Wexler next makes two consecutive posts from Visions of Light, against the skill's roughly one in four ceiling."
       ],
-      "caption_file": "drafts/caption-wexler-daysofheaven.md"
+      "caption_file": "drafts/caption-wexler-daysofheaven.md",
+      "caption_rewritten": "The first Wexler caption FAILED the register test that was only defined afterwards: 7 sentences, mean 21.3 words, three under 15, including a five-word line, 'Wexler's credit reads additional photography.' Rewritten to 4 sentences, mean 49.2, minimum 36, 197 words against Excalibur's 183 and the Duvall caption's 194. Same facts, carried inside subordinate clauses instead of set up and dropped. A broken clause was also caught on the way: the first draft opened an 'after' construction that never resolved.",
+      "awaiting_approval": {
+        "submitted": "2026-09-23T23:52Z",
+        "publish_at": "2026-09-24T15:00:00Z",
+        "slot": "8am Pacific. Thursday peaks at hour 17 Europe/Madrid, value 1708. Hour 20 scores 1697, statistically the same and equal to 11am Pacific, flagged to the user as the alternative. Second slot in a row chosen from getBestTimeToPostByNetwork rather than inherited.",
+        "status": "approval link issued once, not yet confirmed, nothing scheduled"
+      }
     }
   }
 ]
