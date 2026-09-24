@@ -399,7 +399,7 @@
     "duration_sec": 437,
     "discovered": "2026-09-22",
     "found_via": "websearch",
-    "status": "rejected",
+    "status": "submitted",
     "rights": "commentary",
     "metadata_source": "youtube-api videos.list, verified 2026-09-22",
     "profile_match": "Light, and the strongest TURN found in this pass. On In Cold Blood (1967) the rain-on-the-window shot that reads as tears running down Perry Smith's face was an accident: rain was made on a stage with a fan blowing spray at the glass, Hall noticed the effect land on the actor's face ONCE during a rehearsal, and the blocking was changed to hold it there. Something surprised the person who did it, which is exactly what section 1b screens for, and the proof is visible in seconds.",
@@ -408,10 +408,20 @@
       "start_sec": null,
       "end_sec": null
     },
-    "opus_project": null,
+    "opus_project": "P3092414nhJt",
     "approved_clips": [],
     "scheduled_at": null,
-    "lost_mechanism": "The In Cold Blood rain accident remains the best unclaimed turn found so far: rain made on a stage with a fan blowing spray at the glass, Hall spots the effect land on Perry Smith's face once in rehearsal, blocking changed to hold it. Worth keeping if footage ever surfaces."
+    "lost_mechanism": "The In Cold Blood rain accident remains the best unclaimed turn found so far: rain made on a stage with a fan blowing spray at the glass, Hall spots the effect land on Perry Smith's face once in rehearsal, blocking changed to hold it. Worth keeping if footage ever surfaces.",
+    "talking_head_test": {
+      "submitted": "2026-09-24T14:49Z",
+      "cost_est_credits": 7,
+      "remaining_before": 713,
+      "hypothesis": "USER'S OBSERVATION, being tested rather than adopted: a tight single speaker talking to camera is social-friendly format, which is exactly the shape CRITERIA section 3a rates as 'No. Nothing is demonstrated' and which the source registry's screening test exists to exclude. The Duvall 18mm clip prompted it by holding 66.8 percent, third highest on the account.",
+      "why_this_source": "A CLEAN TEST because it is a CONFIRMED pure talking head: the user opened it on 2026-09-22 and rejected it on exactly that basis, so there is no ambiguity about the variable. It also carries the strongest unused turn found this week, the In Cold Blood rain accident: rain made on a stage with a fan blowing spray at the glass, Hall noticing the effect land on Perry Smith's face ONCE in rehearsal, the blocking changed to hold it there.",
+      "what_the_length_data_already_says": "'Tight' is NOT duration. Friedkin at 171s holds 71.0 percent, the account's best, and Cardiff fog at 54s holds 43.4, its worst of the recent batch. CRITERIA already has length at r = +0.06. Whatever the user is identifying, it is density or single-voice continuity, not runtime.",
+      "controls": "Submitted at 9:16 PORTRAIT deliberately, to match the Duvall clip rather than the recent 4:5 posts, so the aspect is not a second changed variable. Source is 7m17s, below the ten minute floor, so clipDurationsSec may leak as it did on the 6m26s source.",
+      "decision_rule": "If a clip from this holds above 45 percent at a like checkpoint, CRITERIA section 3a is wrong as written and the talking-head category reopens, which roughly triples what is sourceable since that is most of what is free on YouTube. If it lands below, 3a stands and the Duvall result is explained by something else, most likely the footage actually cut under her. DO NOT edit CRITERIA on this result alone either way; report it and let the user decide."
+    }
   },
   {
     "id": "yt-ERTZ94MqLtM",
