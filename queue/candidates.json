@@ -114,7 +114,21 @@
       "schedule_id": "1790207000960qVyY-INSTAGRAM_BUSINESS",
       "scheduled_at": "2026-09-24T02:00:00Z",
       "verified": "By date window 2026-09-23 to 2026-09-26: exactly one schedule, no duplicates. Approval link issued once and not repeated.",
-      "slot_reasoning": "7pm Pacific. Chosen because 5pm was 25 minutes away when the request came in, which is not enough time to verify a speaker on a source that has already produced one misattribution. Doing it properly and posting two hours later was the better trade."
+      "slot_reasoning": "7pm Pacific. Chosen because 5pm was 25 minutes away when the request came in, which is not enough time to verify a speaker on a source that has already produced one misattribution. Doing it properly and posting two hours later was the better trade.",
+      "post_url": "https://www.instagram.com/reel/DdpwdjEDmXr/",
+      "posted_at": "2026-09-24T02:00:00Z",
+      "metrics_12_7h": {
+        "measured_at": "2026-09-24T14:44Z",
+        "hours_live": 12.7,
+        "views": 3237,
+        "hold_3s_pct": 66.8,
+        "avg_watch_sec": 26.789,
+        "clip_len_sec": 62,
+        "retention_pct": 43.2,
+        "saves": 30,
+        "shares": 28
+      },
+      "result": "THE OFF-SIGNATURE CLIP IS OUTPERFORMING. Flagged before posting as off profile because the speaker is an ACTOR, where seven of the top nine posts name a technical collaborator. At 12.7 hours it holds 66.8 percent, third highest ever recorded on the account behind Friedkin at 71.0 and Richter/Melies at 70.3, and its retention of 43.2 percent is the highest in the record against Friedkin's settled 30.6. HYPOTHESIS, NOT A FINDING: the signature may be the SPEAKER'S RELATIONSHIP TO THE MECHANISM rather than their job title. Duvall is the person the lens was pointed at, describing an effect done to her, which is testimony from the receiving end and something the feed has never carried. CONFOUNDS: The Shining is a far larger title than The Conformist or Black Narcissus; the clip is 62s, and retention is watch over length so a short clip is flattered (hold is not length dependent, so the 66.8 stands on its own); and 12.7 hours is not settled per section 10. DO NOT rewrite CRITERIA section 5 on one post. Re-read at settled and look for a second case."
     },
     "caption_voice_finding": "THE CAPTION VOICE WAS WRONG TWICE BEFORE IT WAS RIGHT, and the fix only came from measuring. Published captions: Excalibur 183 words in 4 sentences, mean 44, nothing under 38. Parallax View, 2 sentences, mean 42. The rejected drafts ran 9 sentences at a mean of 17 with a four-word line, 'Kubrick did not relent.' That is journalism: short beats, colon reveals, idiom, dramatic timing. The spec asks for 'academic, analytical, intellectual', 'sentences may be long and complex', 'no forced staccato', 'precision over cleverness'. OPERATIONAL TEST before sending any caption: split the body on sentence boundaries. If the mean is under about 35 words, or any sentence is under 15, it is in the wrong register. Specifics belong inside subordinate clauses, not set up and dropped. This voice has no beats."
   },
@@ -522,7 +536,8 @@
         "publish_at": "2026-09-24T15:00:00Z",
         "slot": "8am Pacific. Thursday peaks at hour 17 Europe/Madrid, value 1708. Hour 20 scores 1697, statistically the same and equal to 11am Pacific, flagged to the user as the alternative. Second slot in a row chosen from getBestTimeToPostByNetwork rather than inherited.",
         "status": "approval link issued once, not yet confirmed, nothing scheduled"
-      }
+      },
+      "approval_failure": "THE FIRST WEXLER APPROVAL NEVER LANDED. User reported clicking it on 2026-09-23. Checked immediately: absent. Checked again 12 hours later: still absent, while both neighbouring posts appeared correctly in the same query, so the window and range were not the problem. HANDLED BY NOT RE-SENDING THE LINK. The screen creates a schedule on every visit including failed ones, so a second visit to a partly-successful approval makes two. Instead: verified twice across twelve hours that nothing existed, then made a FRESH call with a NEW token. RULE: a confirmed-absent schedule after two separated checks is a clean failure and may be re-issued as a new call. Re-offering the ORIGINAL link is still never correct. Re-issued for 2026-09-24T18:00Z, 11am Pacific, hour 20 Madrid at 1697 against the day's peak of 1708, because the original 15:00Z slot was fifteen minutes away by the time the failure was established."
     }
   }
 ]
