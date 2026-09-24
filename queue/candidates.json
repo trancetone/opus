@@ -500,7 +500,8 @@
     },
     "opus_project": "P3092222a8MT",
     "approved_clips": [
-      "Xwn0Lih1Dz"
+      "Xwn0Lih1Dz",
+      "yaXEXUiocP"
     ],
     "scheduled_at": "2026-09-23T16:00:00Z",
     "review_notes": "23 clips, a real yield. THE RANGE MISSED: 3300-4800s landed in the 1970s New Hollywood stretch (Jaws, Chinatown, Godfather, Taxi Driver, Dog Day Afternoon, Apocalypse Now, Midnight Cowboy), not the 1960s. NO CONRAD HALL and no In Cold Blood. For a later pass, the 1960s material sits EARLIER than 55 min; try roughly 2400-3300s. RECOMMENDED, RNvk39PUhJ (rank 2, 66s): John A. Alonzo on Chinatown. Opens on an event in the first person with named apparatus, 'We shot a scene in Chinatown with a handheld Pentaflex inside a bathroom', which clears section 11 outright. Turn is his own: 'here's a major motion picture and I'm lighting it like a documentary', called a risk in his own words. Film dialogue is interleaved (the flaw-in-the-iris line), which is the cheap structural proof that footage plays with its own audio. SECOND, IvSptRNHTF (rank 18, 60s): Nestor Almendros on magic hour, and it recovers the Days of Heaven research done earlier today. Mechanism is light, the stronger category. BUT IT FAILS SECTION 11 AS CUT: it opens 'In the period movies there was no electricity', a general claim, and there is a stray 'Hey sweetie' of film dialogue at the very head. Would need a trim to open on 'Magic hour is an euphemism because it's not an hour.' Not applied. REJECTED ON SOURCE RATIONING: rank 4 and rank 14 are Gordon Willis on The Godfather, and rank 12 and 17 touch Taxi Driver; Willis is already spent on the Parallax View post. REJECTED AS SURVEYS: ranks 8, 21 and 22 are general reflections on cinematography as an art and on careers, which is the failing shape in section 7. Ranks 3 and 11 are Polanski and Scorsese DIRECTING, which is the director-survey shape. SUB-SCORES AGAIN USELESS: rank 1 is 10/10/10 at score 99 and is Jaws handheld, camera, the weakest category, and framed as a Spielberg secret. Seventh consecutive project where rank 1 is not the right clip. The _bonus duplicate of it was dropped as usual.",
@@ -542,10 +543,11 @@
       "caption_file": "drafts/caption-wexler-daysofheaven.md",
       "caption_rewritten": "The first Wexler caption FAILED the register test that was only defined afterwards: 7 sentences, mean 21.3 words, three under 15, including a five-word line, 'Wexler's credit reads additional photography.' Rewritten to 4 sentences, mean 49.2, minimum 36, 197 words against Excalibur's 183 and the Duvall caption's 194. Same facts, carried inside subordinate clauses instead of set up and dropped. A broken clause was also caught on the way: the first draft opened an 'after' construction that never resolved.",
       "awaiting_approval": {
-        "submitted": "2026-09-23T23:52Z",
-        "publish_at": "2026-09-24T15:00:00Z",
-        "slot": "8am Pacific. Thursday peaks at hour 17 Europe/Madrid, value 1708. Hour 20 scores 1697, statistically the same and equal to 11am Pacific, flagged to the user as the alternative. Second slot in a row chosen from getBestTimeToPostByNetwork rather than inherited.",
-        "status": "approval link issued once, not yet confirmed, nothing scheduled"
+        "status": "SCHEDULED",
+        "schedule_id": "1790261345949AzeK-INSTAGRAM_BUSINESS",
+        "publish_at": "2026-09-24T18:00:00Z",
+        "slot": "11am Pacific, hour 20 Madrid at 1697",
+        "verified": "By date window 2026-09-23 to 2026-09-27: exactly ONE row for yaXEXUiocP. The failed first approval created nothing, which confirms the recovery rule rather than just assuming it: absence across two separated checks is a clean failure and a fresh call is safe."
       },
       "approval_failure": "THE FIRST WEXLER APPROVAL NEVER LANDED. User reported clicking it on 2026-09-23. Checked immediately: absent. Checked again 12 hours later: still absent, while both neighbouring posts appeared correctly in the same query, so the window and range were not the problem. HANDLED BY NOT RE-SENDING THE LINK. The screen creates a schedule on every visit including failed ones, so a second visit to a partly-successful approval makes two. Instead: verified twice across twelve hours that nothing existed, then made a FRESH call with a NEW token. RULE: a confirmed-absent schedule after two separated checks is a clean failure and may be re-issued as a new call. Re-offering the ORIGINAL link is still never correct. Re-issued for 2026-09-24T18:00Z, 11am Pacific, hour 20 Madrid at 1697 against the day's peak of 1708, because the original 15:00Z slot was fifteen minutes away by the time the failure was established."
     }
