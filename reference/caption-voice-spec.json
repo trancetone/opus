@@ -1,0 +1,87 @@
+{
+  "spec_name": "moving-image-arts-caption-voice",
+  "version": "1.0",
+  "purpose": "Defines the caption-writing voice/structure used across @moving.image.arts decoder-style posts, for programmatic generation or validation in a content app.",
+
+  "voice": {
+    "register": "academic, analytical, intellectual",
+    "avoid": [
+      "interpretive or 'hooky' closing lines (e.g. 'plays like a rough draft of X', 'cuts on the beat, not the story')",
+      "second-person address",
+      "rhetorical questions",
+      "hook lines / ad-copy cadence",
+      "strings of short punchy fragments building to a landing line",
+      "em dashes anywhere",
+      "editorializing or cute phrasing",
+      "generic hashtags (#Storytelling #Innovation #CreativeProcess #ArtReels #DesignInspiration #FutureVibes #ContentCreation #CreatorEconomy)",
+      "the acronym 'MIAC' (always 'Moving Image Arts')"
+    ],
+    "sentence_style": "Sentences may be long and complex when the idea warrants it. No forced staccato. Precision over cleverness."
+  },
+
+  "structure": {
+    "opening_rule": "Open on the film-craft mechanism, technique, or factual claim. Never open on a modern-media parallel (TikTok, feeds, AI, 'today').",
+    "body": "State what the work does technically/structurally: who made it, how, with what apparatus or method, and why that choice mattered in context. Ground claims in verifiable production detail (names, dates, techniques) rather than mood or metaphor.",
+    "closing_rule": "If a contemporary parallel appears at all, it lands ONLY as the final sentence, stated flatly as a factual observation, not as a punchy tagline. Many posts omit the modern parallel entirely.",
+    "length": "Roughly 80-160 words for the caption body. No forced brevity, but no padding.",
+    "banned_openers": [
+      "'<Name> was/is/describes/began/advises/trained as...' as the literal first words",
+      "a rhetorical question",
+      "a modern-media parallel"
+    ]
+  },
+
+  "hashtags": {
+    "count": "5-9",
+    "composition": "Majority proper nouns (person, film, named technique). A couple of broad film-craft tags allowed (#FilmLanguage, #Cinematography, #FilmHistory).",
+    "always_include_if_relevant": ["#FilmLanguage", "#FilmHistory", "#MovingImageArts"],
+    "never_include": ["#Storytelling", "#Innovation", "#CreativeProcess", "#ArtReels", "#DesignInspiration", "#FutureVibes", "#ContentCreation", "#CreatorEconomy", "#AIArt", "#GenerativeAI"]
+  },
+
+  "research_requirement": {
+    "rule": "Every factual claim (names, dates, techniques, quotes) must come from a verifiable source, not assumed from general familiarity with the subject.",
+    "on_ambiguity": "If a clip's specific content/quote isn't known, ask for the transcript or clip content rather than guessing what is said.",
+    "citation_in_output": "Final caption text contains no citation markup; sourcing is verified before writing, not shown in the caption itself."
+  },
+
+  "post_types": {
+    "technique_decoder": {
+      "description": "Default type. One mechanism, one film/artist, explained technically.",
+      "example_subjects": ["Bruce Conner Breakaway", "Hans Richter Ghosts Before Breakfast", "Gordon Willis All the President's Men"]
+    },
+    "figure_overview": {
+      "description": "General philosophy/role of an artist across their career, not tied to one piece.",
+      "example_subjects": ["Nam June Paik's role in founding video art", "Arthur Jafa's general editing philosophy"]
+    },
+    "event_recap": {
+      "description": "Clip from a Moving Image Arts live event (panel, screening). Different structure: names the event/date/venue up front, tags panelists as collaborators, includes next-event CTA.",
+      "structure": [
+        "Line 1: names the event and date as the clip's source",
+        "Line 2: describes what the speaker says/argues in the clip",
+        "Blank line, then: Panel/speaker tag list",
+        "Blank line, then: next event teaser + RSVP status + 'link in bio'"
+      ],
+      "buzz_ratio_rule": "Counts toward the 1-in-3 Buzz-specific post cap (1-in-1 only in final countdown week per IG content strategy)."
+    }
+  },
+
+  "output_schema": {
+    "description": "Structured fields an app should be able to populate per generated caption.",
+    "fields": {
+      "post_type": "technique_decoder | figure_overview | event_recap",
+      "subject": "string - film, artist, or event this post covers",
+      "caption_body": "string - full caption text, following voice/structure rules above",
+      "hashtags": "array of strings, per hashtag rules above",
+      "tagged_accounts": "array of {name, handle, role} - only for event_recap posts",
+      "cta": "object - only for event_recap posts, e.g. {event_name, event_date, rsvp_status, link_location}",
+      "sources_used": "array of strings - URLs or citations checked during research, kept internal/not rendered in caption"
+    }
+  },
+
+  "worked_example": {
+    "post_type": "technique_decoder",
+    "subject": "Bruce Conner, Breakaway (1966)",
+    "caption_body": "Bruce Conner's Breakaway (1966) is structured entirely around the four-minute Toni Basil performance shot for the film, which Conner then re-edited into forward, reversed, and strobed permutations of the same material. The work has no additional footage; its visual variety is produced entirely through editing decisions applied to a single take. This positions montage not as a tool for continuity but as the primary generative element of the film, with rhythm and repetition functioning as compositional structure rather than stylistic embellishment.",
+    "hashtags": ["#BruceConner", "#Breakaway", "#ExperimentalFilm", "#FoundFootage", "#AvantGardeCinema", "#FilmEditing", "#MovingImageArts", "#ToniBasil", "#FilmHistory", "#StructuralFilm"]
+  }
+}

@@ -1,0 +1,603 @@
+[
+  {
+    "id": "yt-YpcP-6nBi5c",
+    "url": "https://www.youtube.com/watch?v=YpcP-6nBi5c",
+    "title": "The Shining and the Steadicam: an interview with inventor Garrett Brown",
+    "channel": "USPTOvideo",
+    "published": "2020-10-23",
+    "source_views": null,
+    "duration_sec": 273,
+    "discovered": "2026-09-12",
+    "found_via": "websearch",
+    "status": "posted",
+    "rights": "public-domain",
+    "profile_match": "Named technique (low mode) plus named technical collaborator (Garrett Brown), explained by the practitioner himself. Production constraint present: Kubrick asked whether the rig had a minimum operating height, and low mode was invented in answer.",
+    "screen_notes": "Primary-source narration, the preferred provenance type. US federal agency production, so the interview footage is generally not subject to copyright; any film clips embedded inside it carry their own rights. Transcript available for curation and for verifying the wheelchair vs doorway dolly conflict before a caption is written.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091223Ff5U",
+    "approved_clips": [
+      "EI2mlz8Lnc"
+    ],
+    "scheduled_at": "2026-09-13T00:03:35Z",
+    "post_url": "https://www.instagram.com/reel/DdNOuCugSoq/",
+    "early_metrics": {
+      "measured_at": "2026-09-13T17:20Z",
+      "hours_live": 17,
+      "views": 4647,
+      "hold_3s_pct": 55.5,
+      "saves": 37,
+      "avg_watch_sec": 25.7,
+      "note": "Above the 45 percent floor. Nearer the decoder band (60.3) than survey (44.5). Average watch above the 20.8s mechanism-opener benchmark, on a 69 second clip. Views still accruing; posts accrue for three to five days."
+    },
+    "settled_metrics": {
+      "measured_at": "2026-09-19T17:00Z",
+      "days_live": 6.7,
+      "source": "Metricool IGRE reels connector",
+      "reach": 15203,
+      "views": 21541,
+      "avg_watch_sec": 27.807,
+      "hold_3s_pct": 53.4,
+      "retention_pct": 40.3,
+      "saves": 208,
+      "shares": 260,
+      "likes": 876,
+      "saves_per_1000": 9.7,
+      "shares_per_1000": 12.1,
+      "note": "Settled at 20.6x the median of the other seven reels in the window. Views grew 4.64x from the 17 hour reading and saves 5.62x, so a 17 hour number is roughly a fifth of final. Average watch rose 25.7 to 27.8s while the three second hold fell 55.5 to 53.4, which is what a widening audience does: later viewers are less self-selected but the ones who stay watch longer. Shares are the standout at 12.1 per thousand against a 1.9 to 7.1 range for every other reel, and they are the likeliest explanation for the reach. Saves per thousand were actually BELOW several smaller reels, so saves did not drive this."
+    },
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+  },
+  {
+    "id": "yt-Rkj2_50glz8",
+    "url": "https://www.youtube.com/watch?v=Rkj2_50glz8",
+    "title": "Editor Anne V. Coates on editing Lawrence of Arabia's Match Cut",
+    "channel": "Making the Cut",
+    "published": "2020-01-17",
+    "source_views": null,
+    "duration_sec": 145,
+    "discovered": "2026-09-13",
+    "found_via": "websearch",
+    "status": "submitted",
+    "rights": "commentary",
+    "profile_match": "Named technique (match on action carrying a time transition) plus named technical collaborator (Anne V. Coates, editor). Production constraint present: no crossfade equipment available where they were cutting, against a period convention of fade-out and fade-in for time transitions.",
+    "screen_notes": "Primary-source narration, the preferred provenance. Editing normally reads slower than colour or light, but this mechanism is two shots and about two seconds, so it clears the category handicap. Distinct from the existing Kuleshov post: that is juxtaposition manufacturing meaning, this is continuity carrying time. Mechanism appears in The Cutting Edge (2004) but sourced from a targeted interview instead, since the full documentary would cost roughly 97 credits and the Vimeo copy is likely an unauthorized upload.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P30913171cfq",
+    "approved_clips": [],
+    "scheduled_at": null,
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+  },
+  {
+    "id": "yt-_E8C-3MU00g",
+    "url": "https://www.youtube.com/watch?v=_E8C-3MU00g",
+    "title": "Six Kinds of Light - John Alcott",
+    "channel": "Kubrick's Tube",
+    "published": "2015-02-17",
+    "source_views": null,
+    "duration_sec": 1654,
+    "discovered": "2026-09-17",
+    "found_via": "websearch",
+    "status": "scheduled",
+    "rights": "commentary",
+    "profile_match": "Named technical collaborator (John Alcott, cinematographer) discussing his own work in a properly produced documentary. Turn present on Barry Lyndon: no lens existed fast enough to shoot by candlelight, so Kubrick acquired ex-NASA Zeiss f/0.7 glass, three of the ten ever made. Light is the fastest-reading mechanism category on this account.",
+    "screen_notes": "Corrected after review. This is NOT a practitioner narrating his own work: it is a documentary ABOUT Alcott with six speaker labels, and diarization mixes film audio with interview audio (one label's longest utterance is Nadsat from A Clockwork Orange). A first caption was drafted attributing every claim to Alcott from a clip that was a director and a third party discussing him in the third person; the user caught it. speaker_0 is Alcott, identified by first-person method talk at 10.5-10.8 min. The posted clip is built on that passage only. The lens story IS in the source, spoken by the director and transcribed as a satellite rather than NASA, which an earlier keyword search missed entirely.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091716ZxbG",
+    "approved_clips": [
+      "Rdefc4iIVH",
+      "gUjs6XRkra"
+    ],
+    "scheduled_at": null,
+    "caveats": [
+      "Clip 21 was inferred to cover the 10.5-10.8 min Alcott passage from its description, not verified. User to confirm on the approval screen.",
+      "Caption describes a method rather than an incident and is not anchored to one work, which is the weaker shape: 2,262 median for work-anchored against 261 for career-level."
+    ],
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21",
+    "second_pass_2026-09-23": {
+      "reason": "Pulled for a same-evening post specifically to avoid two consecutive posts from Visions of Light. Alonzo went live 2026-09-23 from that source, so the Wexler clip was held and this already-cut project used instead. No new credits spent.",
+      "candidate": "gUjs6XRkra (rank 8, 62s, 9:16)",
+      "speaker_verified": "SHELLEY DUVALL, not a cinematographer and not Alcott. Identified from inside the clip: 'Jack Nicholson and I would just cringe', 'for Jack who was going slowly mad, and for me'. CONFIRMED externally that Duvall discusses the 18mm lens in this specific documentary, Six Kinds of Light, and that Alcott tried to get Kubrick to relent to a 50 or 75 without success. Given this source already produced one misattribution, the speaker was verified before any caption text was written rather than after.",
+      "why_it_passes": "Opens on an event in the first person with the apparatus named in Kubrick's own words: 'give me the 18 in the tube'. Section 11 passes unedited. The reversal is that what the actors experienced as a problem was the intended effect: they asked repeatedly for a longer lens, Alcott argued on their behalf, Kubrick refused because the distortion was the point. One film, canon, and the mechanism is instantly visible because The Shining's faces are famously bowed.",
+      "off_signature_flag": "The speaker is an ACTOR describing a lens pointed at her, not a technical collaborator explaining their own choice. Seven of the top nine posts name a technical collaborator, so this is off the measured signature. Alcott is present in the story as the person who argued and lost. Worth watching how it performs: if it travels, the profile may be wider than 'practitioner explains own work'.",
+      "aspect": "9:16, cut before the 4:5 switch. Left alone: the mechanism is a face filling the frame, so a vertical crop costs nothing here, unlike the anamorphic Alonzo clip.",
+      "caption_file": "drafts/caption-duvall-18mm.md",
+      "status": "SCHEDULED",
+      "schedule_id": "1790207000960qVyY-INSTAGRAM_BUSINESS",
+      "scheduled_at": "2026-09-24T02:00:00Z",
+      "verified": "By date window 2026-09-23 to 2026-09-26: exactly one schedule, no duplicates. Approval link issued once and not repeated.",
+      "slot_reasoning": "7pm Pacific. Chosen because 5pm was 25 minutes away when the request came in, which is not enough time to verify a speaker on a source that has already produced one misattribution. Doing it properly and posting two hours later was the better trade.",
+      "post_url": "https://www.instagram.com/reel/DdpwdjEDmXr/",
+      "posted_at": "2026-09-24T02:00:00Z",
+      "metrics_12_7h": {
+        "measured_at": "2026-09-24T14:44Z",
+        "hours_live": 12.7,
+        "views": 3237,
+        "hold_3s_pct": 66.8,
+        "avg_watch_sec": 26.789,
+        "clip_len_sec": 62,
+        "retention_pct": 43.2,
+        "saves": 30,
+        "shares": 28
+      },
+      "result": "THE OFF-SIGNATURE CLIP IS OUTPERFORMING. Flagged before posting as off profile because the speaker is an ACTOR, where seven of the top nine posts name a technical collaborator. At 12.7 hours it holds 66.8 percent, third highest ever recorded on the account behind Friedkin at 71.0 and Richter/Melies at 70.3, and its retention of 43.2 percent is the highest in the record against Friedkin's settled 30.6. HYPOTHESIS, NOT A FINDING: the signature may be the SPEAKER'S RELATIONSHIP TO THE MECHANISM rather than their job title. Duvall is the person the lens was pointed at, describing an effect done to her, which is testimony from the receiving end and something the feed has never carried. CONFOUNDS: The Shining is a far larger title than The Conformist or Black Narcissus; the clip is 62s, and retention is watch over length so a short clip is flattered (hold is not length dependent, so the 66.8 stands on its own); and 12.7 hours is not settled per section 10. DO NOT rewrite CRITERIA section 5 on one post. Re-read at settled and look for a second case."
+    },
+    "caption_voice_finding": "THE CAPTION VOICE WAS WRONG TWICE BEFORE IT WAS RIGHT, and the fix only came from measuring. Published captions: Excalibur 183 words in 4 sentences, mean 44, nothing under 38. Parallax View, 2 sentences, mean 42. The rejected drafts ran 9 sentences at a mean of 17 with a four-word line, 'Kubrick did not relent.' That is journalism: short beats, colon reveals, idiom, dramatic timing. The spec asks for 'academic, analytical, intellectual', 'sentences may be long and complex', 'no forced staccato', 'precision over cleverness'. OPERATIONAL TEST before sending any caption: split the body on sentence boundaries. If the mean is under about 35 words, or any sentence is under 15, it is in the wrong register. Specifics belong inside subordinate clauses, not set up and dropped. This voice has no beats.",
+    "clips_selected": {
+      "8kqy5T9wlc": {
+        "slot": "2026-09-26T00:00:00Z (5pm PT 25 Sep)",
+        "title_opus": "Stanley Kubrick's Barry Lyndon: Natural Light Cinematography Secrets",
+        "duration_after_trim_sec": 54.6,
+        "original_duration_sec": 172.4,
+        "speaker_verified": "JOHN ALCOTT, first person throughout the kept section: 'I was given the chance by Stanley to take over', 'this is what I wanted to do', 'the type of light I'm going to use'. On-signature: named technical collaborator explaining his own choice.",
+        "why_trimmed": "The 172s cut ran through THREE speakers. After the natural-light passage it hands off to the director for the f/0.7 lens story ('equipment Stanley Kubrick had found... on some Sputnik going around the world') and then to Shelley Duvall for 'We were begging for a 50 or a 75' - which is the material ALREADY POSTED on 24 Sep as the 18mm clip. Keeping it would have been a speaker-change cut AND a repeat of a post from 24 hours earlier. Dropped sections 7-27, leaving 0-6.",
+        "why_it_passes": "Section 11 passes unedited: opens on an event, not a principle. Geoffrey Unsworth leaves 2001 and Kubrick hands Alcott the film. Mechanism is LIGHT, the second fastest category. Lands cleanly on 'candles or oil lamps or anything which may be of natural light source', which points at Barry Lyndon without the clip having to name it.",
+        "transcription_error": "'Jeff Unruh' in the Opus transcript is GEOFFREY UNSWORTH. Same class as 'Pentaflex' for 'Panaflex'. The caption names him correctly; the burned-in captions will show the wrong name.",
+        "trim_note": "First trim attempt kept sections 0-8 and ended mid-sentence on 'And this would'. Section boundaries are returned as timecodes only, not text, so the cut point had to be inferred from word count and then corrected after reading the rendered transcript back. RULE: after any drop_section trim, poll describe_clip and read the resulting transcript before showing the clip.",
+        "caption": "drafts/caption-alcott-2001-practicals.md",
+        "register_test": "4 sentences, 175 words, mean 43.8, min 39. PASS.",
+        "schedule_id": "1790371333120GYB9-INSTAGRAM_BUSINESS",
+        "status": "scheduled",
+        "verified": "Date window 2026-09-25T18:00Z to 2026-09-27T00:00Z returned exactly two rows, one per slot. No phantom schedules. Both approvals were combined into a SINGLE link (comma-separated tokens), which is what the tool itself recommends and which also halves the number of visits to the non-idempotent approval screen."
+      }
+    },
+    "review_log": [
+      {
+        "date": "2026-09-25",
+        "rejected": {
+          "9mt59NgicJ (Alcott, 91s)": "Opens mid-sentence, 'lot of it was shot with equipment...'. Never names the f/0.7 Zeiss, only 'some Sputnik going around the world'. Speaker is being lit, not lighting.",
+          "PiTEuRI3mn (Storaro, 77s)": "Opens on a principle, 'The idea that Caravaggio had...', so section 11 fails. Also the painter-as-lighting-model shape, which is exactly what the Cardiff/Vermeer post was and it held 39.3%.",
+          "AJdfiLm76T (Storaro, 60s)": "Opens on 'of course we have to have an evolution of this vision', a general claim. Switches topic mid-clip to meeting Scarfiotti, which is the better material and is covered properly by jnk4ciRVtH.",
+          "qhR6G6KeAy (Alcott, 58s)": "Opens mid-sentence on 'this would just open up and we'd'. Mostly __missing b-roll."
+        },
+        "source_rationing": "Visions of Light (P3092222a8MT / P3092220DBBX) produced two of the last three posts, Alonzo on 23 Sep and Wexler on 24 Sep, so it was skipped today in favour of the two projects already cut and used once each."
+      }
+    ]
+  },
+  {
+    "id": "yt-YoPI0MRAVB4",
+    "url": "https://www.youtube.com/watch?v=YoPI0MRAVB4",
+    "title": "William Friedkin on the French Connection car chase",
+    "channel": "American Film Institute",
+    "published": "2010-03-05",
+    "source_views": null,
+    "duration_sec": 295,
+    "discovered": "2026-09-18",
+    "found_via": "websearch",
+    "status": "rejected",
+    "rights": "commentary",
+    "profile_match": "Named practitioner on his own film, 1971, canon narrative, which is the account's strongest subject band. The mechanism is camera placement: Friedkin operated from inside the moving car beside the stunt driver, with a second camera on the front bumper at road level. The turn is large: a permit for the elevated train and none for the street, twenty six blocks at roughly 90mph through live traffic, mostly single takes, and his own verdict that it is a miracle nobody was hurt and he would not do it today.",
+    "screen_notes": "Chosen on the single-practitioner pattern. The one source that came through clean, the Brown interview, had one speaker; every multi-voice documentary since has failed on attribution or structure. Unverified before submission: length, channel and whether the sequence plays under his voice. Those are the three the screening script would answer for one quota unit if YOUTUBE_API_KEY were set. REJECTED after review: no film footage at all, a talking head only. Content and attribution were both excellent (Friedkin 61 of 68 paragraphs, every researched claim confirmed in his own words), but the structural requirement failed. This is the failure the agent cannot detect and the reason the user now eyeballs the URL before submission.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091816l2tb",
+    "approved_clips": [],
+    "scheduled_at": null,
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+  },
+  {
+    "id": "yt-dhiQKt6R-TE",
+    "url": "https://www.youtube.com/watch?v=dhiQKt6R-TE",
+    "title": "William Friedkin on directing the French Connection chase",
+    "channel": "Cinematographers on cinematography",
+    "published": "2020-11-21",
+    "source_views": null,
+    "duration_sec": 1222,
+    "discovered": "2026-09-19",
+    "found_via": "websearch",
+    "status": "posted",
+    "rights": "commentary",
+    "profile_match": "Same incident as the rejected source, which verified cleanly: Friedkin operated the camera himself for the key shots because he was young and single while both cameramen had families. Twenty six blocks at 90mph in a single take through live traffic, a police light and an inaudible siren the only protection. Canon narrative, 1971, the account's strongest band.",
+    "screen_notes": "FIRST SOURCE CONFIRMED BY THE USER BEFORE SUBMISSION. They opened the URL and verified film footage plays under the speaker, which is the check the agent cannot perform and which five previous sources failed. The sibling source at P3091816l2tb carried the same interview content with no footage and was rejected on exactly that. RESULT: the first source to clear every criterion at once. 20.1 minutes, Friedkin self-identifies in the opening line and speaks 152 of 241 paragraphs, the other two voices are companions walking the location with him rather than film dialogue, and the user confirmed footage plays under his voice. 20 clips returned and clipDurationsSec bound correctly, which confirms the window holds when the source is long enough. Rank 1 was off-profile again at score 99 with 10/10/10, a fourth consecutive project where top rank is not the right clip.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P30919015vG1",
+    "approved_clips": [
+      "NFxVSiupG2"
+    ],
+    "scheduled_at": "2026-09-19T14:59:01Z",
+    "caveats": [
+      "This transcript and the rejected sibling disagree on who drove the 26 block run. The driver is deliberately unnamed in the caption."
+    ],
+    "post_url": "https://www.instagram.com/reel/DdeSDOCFPZh/",
+    "early_metrics": {
+      "measured_at": "2026-09-19T16:15Z",
+      "hours_live": 1.3,
+      "source": "Instagram native insights",
+      "views": 1081,
+      "viewers": 687,
+      "views_per_viewer": 1.57,
+      "avg_watch_sec": 25,
+      "clip_length_sec": 171,
+      "retention_pct": 14.6,
+      "follows": 5,
+      "follows_per_1000": 4.6,
+      "note": "Curve running roughly three to four times the account's typical reel at the same point and still climbing. Average watch of 25s beats the 20.8s mechanism-opener benchmark. Views per viewer above 1 means rewatching. Follows sit exactly on the 4.5 per thousand craft-post rate. Three second hold rate not yet available; Metricool had not synced the day at time of reading.",
+      "metricool_sync": "Not yet synced as of 2026-09-19T17:00Z. No row for 20260919 in the reels connector. IGRE28 three second hold still outstanding.",
+      "metricool": {
+        "measured_at": "2026-09-20T17:00Z",
+        "views": 6604,
+        "reach": 5157,
+        "hold_3s_pct": 66.9,
+        "avg_watch_sec": 52.427,
+        "retention_pct": 30.6,
+        "saves": 70,
+        "shares": 57,
+        "note": "Second highest hold in a 35 post window. Metricool reports 52.4s average watch against the 25s the native panel showed at 1.3 hours, so the open question about long clips holding proportionally is answered: 30.6 percent retention, not 14.6. The two systems measure average watch differently and must not be compared."
+      }
+    },
+    "open_question": "RESOLVED. Long clips do hold proportionally. The 14.6 percent figure came from mixing an Instagram native number with a Metricool benchmark.",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+  },
+  {
+    "id": "yt-WwLyGoMocWw",
+    "url": "https://www.youtube.com/watch?v=WwLyGoMocWw",
+    "title": "Painting with Light: Jack Cardiff and Black Narcissus, part 2 of 2",
+    "channel": "Renc",
+    "published": "2015-05-04",
+    "source_views": null,
+    "duration_sec": 789,
+    "discovered": "2026-09-19",
+    "found_via": "websearch",
+    "status": "posted",
+    "rights": "commentary",
+    "profile_match": "Colour, the top mechanism category and the one this pipeline has not used yet. Named technical collaborator (Jack Cardiff, cinematographer) on one film, Black Narcissus, 1947, canon narrative. Production constraint present and the turn is a genuine reversal: three strip Technicolor was the most light hungry process in use and Technicolor's own consultants policed high key saturation, so Cardiff shot it at lower levels than the stock was supposed to tolerate and lit to Vermeer and Caravaggio. A format built for brightness used for shadow. Second reversal available in the same source: every Himalayan exterior is a matte painting and a painted backdrop on the Pinewood lot, angled so the sun could light it.",
+    "screen_notes": "USER CONFIRMED part 2 of the split upload before submission: 'pretty good, the last link works'. The two single file uploads, ngfS2K9WrD0 and tuwU_f42dUk, did not play for them, so the split copy is the only live one. Roughly 27 minutes per IMDb and review sources, which clears the ten minute floor, and one film throughout, which satisfies the one work per clip rule without needing a range. Originally a Criterion supplement on the Black Narcissus disc, so a YouTube copy is near certainly an unauthorized upload: same provenance posture as the Alcott source. KNOWN RISK: multi voice. Scorsese and others appear alongside Cardiff, which is the exact shape that produced the Alcott misattribution, so the caption must be built on a verified first person Cardiff passage. Mitigated slightly by the source being about a single film, so even third party speech is anchored to one work. Alternate upload if this one fails: tuwU_f42dUk, same title. Split copy: KqRmV9OMxo0 and WwLyGoMocWw. Part 1 submitted separately as P3091916b8jU on the reasoning that a dead link costs nothing and the Technicolor and Vermeer setup may sit in the first half; 813 credits of headroom made the gamble free. REVIEWED. 11 clips. Rank 1 (PdvRCC2ueG, score 99, 10/10/10) was off profile AGAIN, an anecdote about Young Bess, a different film entirely: the fifth consecutive project where top rank is the wrong clip. Recommended from this half: DHlPWa0flZ (rank 10, 75s) Van Gogh complementary colour applied to the Sister Ruth sequence, and 5LlAEzbpou (rank 5, 63s) Vermeer as the lighting model, which names Black Narcissus explicitly. REJECTED ON ATTRIBUTION: qXpTex9ctX (rank 4, Mrs Kalmus the Technicolor colour dictator) reads as Cardiff from its title and description but the speaker says 'men like Cardiff' in the third person. Exactly the Alcott trap, caught this time by reading the clip transcript before recommending rather than after posting.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091916asgw",
+    "approved_clips": [
+      "5LlAEzbpou"
+    ],
+    "scheduled_at": "2026-09-20T00:00:00Z",
+    "schedule_id": "1789839737343f6IU-INSTAGRAM_BUSINESS",
+    "caption_file": "drafts/caption-cardiff-vermeer.md",
+    "caveats": [
+      "Caption is 166 words after the user called a 203 word draft long. That sits near the top of the written spec's 80 to 160 band and below the 175 to 200 the published captions measure at, so it is a data point on the length conflict rather than a resolution of it.",
+      "The Pinewood and Technicolor light level claims are from the production literature, not from the clip. Only the Vermeer naming, the clear and simple light, the Rembrandt alternation and the actors walking into the instruments are Cardiff's own words here.",
+      "Method statement rather than an incident, which is the weaker caption shape. Anchored to Black Narcissus in every paragraph to pull it toward the work end. Expect it to travel less far than the fog filter story, which is still unposted at HUkoMPsW96 in P3091916b8jU.",
+      "Scheduled TWICE by accident. The failed first approval created a schedule anyway despite showing an error, and the corrected one created a second. The user cancelled 1789839722495lj2s. Verify the schedule list after every approval rather than trusting the screen."
+    ],
+    "post_url": "https://www.instagram.com/reel/DdfP-zuExYA/",
+    "settled_metrics": {
+      "measured_at": "2026-09-20T17:00Z",
+      "source": "Metricool",
+      "views": 435,
+      "reach": 351,
+      "hold_3s_pct": 39.3,
+      "avg_watch_sec": 7.039,
+      "retention_pct": 11.2,
+      "saves": 5,
+      "shares": 2,
+      "note": "Underperformed. Hold below the 45 percent floor. The prediction made before scheduling, that a method statement would travel less far than an incident, held. The specific failure is the opening line: 'Light is the principal agent' is an abstraction, and the three second hold is decided there.",
+      "recheck_2026-09-21T01:40Z": "Re-pulled at 25.6h after posting. Every field identical to the 17h reading: 435 views, 39.3 hold, 7.039s avg watch, 5 saves, 2 shares. Metricool's sync frontier is 20 Sep, so this row has not refreshed rather than the post having stopped accruing. Treat 39.3 as a 17h checkpoint, NOT as settled: section 10 gives posts 3 to 5 days. The 'settled_metrics' key on this record is misnamed.",
+      "reading_39_8h_2026-09-21T15:48Z": {
+        "views": 1125,
+        "hold_3s_pct": 38.1,
+        "avg_watch_sec": 8.359,
+        "saves": 17,
+        "shares": 7,
+        "retention_pct": 13.3,
+        "note": "Metricool caught up. Views grew 2.6x from the 17h reading (435 to 1125) and saves 3.4x, which confirms the 17h figure was NOT settled and that the 'settled_metrics' key is misnamed. Hold fell 39.3 to 38.1 as the audience widened, exactly as section 10 predicts. Still below the 45 percent floor."
+      }
+    },
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+  },
+  {
+    "id": "yt-KqRmV9OMxo0",
+    "url": "https://www.youtube.com/watch?v=KqRmV9OMxo0",
+    "title": "Painting with Light: Jack Cardiff and Black Narcissus, part 1 of 2",
+    "channel": "Renc",
+    "published": "2015-05-03",
+    "source_views": null,
+    "duration_sec": 785,
+    "discovered": "2026-09-19",
+    "found_via": "websearch",
+    "status": "scheduled",
+    "rights": "commentary",
+    "profile_match": "First half of the same 27 minute documentary as P3091916asgw. Submitted speculatively: the user confirmed only part 2 plays, but a dead URL fails at fetch and costs nothing, and the Technicolor camera explanation and the Vermeer lighting rationale plausibly sit in the first half.",
+    "screen_notes": "Not independently confirmed to play. If it fetches, treat the pair as one source and pick across both. Do not publish clips from both halves as separate posts without checking they are different mechanisms. FETCHED AND REVIEWED, so the speculative submission paid off. 11 clips. Rank 1 (HUkoMPsW96, 54s) is the strongest clip across both halves: Cardiff in the first person on shooting the film's famous shot through a number 2 fog filter, which Technicolor had forbidden. They phoned the next morning to say the previous day's work was ruined; Powell watched the rushes and told them it was about time they learned something about art in movies. Confirmed as Cardiff by Powell addressing him as Jack inside the clip, and anchored to Black Narcissus by 'Deborah's last day on the film'. Also strong: OwQ5du74jJ (117s) on the Technicolor camera prism splitting 25 percent to the green record and 75 percent to the red and blue bipack, ending with Cardiff admitting he used to fake adjusting colour at the camera and everyone believed him. Held back because it is apparatus rather than a person doing something, which section 1b warns against. HUkoMPsW96 approved by the user and exported to HD. Caption written incident first as the deliberate counterpart to the Vermeer clip, which failed at 39.3 percent hold on an abstract opening line. Same source, same settings, opposite shape.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3091916b8jU",
+    "approved_clips": [
+      "HUkoMPsW96"
+    ],
+    "scheduled_at": "2026-09-21T17:00:00Z",
+    "caption_file": "drafts/caption-cardiff-fogfilter.md",
+    "schedule_note": "10am Pacific. VERIFIED 2026-09-21T01:40Z by date window (2026-09-20 to 2026-09-23), not by project id: exactly ONE schedule for HUkoMPsW96 at 2026-09-21T17:00:00Z, status scheduled. No duplicates. The single-visit approval discipline held this time.",
+    "schedule_id": "1789946549337wFSG-INSTAGRAM_BUSINESS",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+  },
+  {
+    "id": "yt-af4F1gRLMUA",
+    "url": "https://www.youtube.com/watch?v=af4F1gRLMUA",
+    "title": "Jason and the Argonauts (1963), how they made the skeleton sequence",
+    "channel": "Retro Films Revisited",
+    "published": "2024-08-23",
+    "source_views": null,
+    "duration_sec": 54,
+    "discovered": "2026-09-20",
+    "found_via": "websearch",
+    "status": "rejected",
+    "rights": "rejected-before-rights-established",
+    "profile_match": "Dynamation: miniatures animated in front of a rear projection of the live action, frame by frame, combined with mattes so the skeletons share the actors' space. The turn is a number, in Harryhausen's own words: three men against seven skeletons, five appendages each, at least thirty five synchronised movements per frame, 13 or 14 frames on a bad day, less than one second of screen time. Four and a half months for four minutes thirty seven seconds. Reads instantly on a phone, which is the test colour usually wins on.",
+    "screen_notes": "NOT VERIFIED. Two open risks: the title suggests it may be a third party explainer rather than Harryhausen narrating, which is the weakest provenance tier and the shape that produced the Alcott misattribution; and duration is unknown against the ten minute floor. User to check whether footage runs under the voice and whether the voice is Harryhausen's. Backup upload: 4-La8HjSQxY. REJECTED 2026-09-21 on duration: the YouTube API reports 54 seconds, far below the ten minute floor in CRITERIA section 3. It cannot yield the 60-180s target format at all, which is the Coates failure the floor was written for. This was the standing fallback candidate, so the queue now has NO live fallback source.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null,
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+  },
+  {
+    "id": "yt-p5RRhqrPuE4",
+    "url": "https://www.youtube.com/watch?v=p5RRhqrPuE4",
+    "title": "Vittorio Storaro and Bernardo Bertolucci analyse The Conformist (1970)",
+    "channel": "FilMagicians",
+    "published": "2017-02-03",
+    "source_views": null,
+    "duration_sec": 863,
+    "discovered": "2026-09-20",
+    "found_via": "websearch",
+    "status": "posted",
+    "rights": "commentary",
+    "profile_match": "Colour, the fastest reading category and the one behind the account's largest post. Two primary speakers, cinematographer and director, on a single 1970 canon film.",
+    "screen_notes": "NOT VERIFIED. Same two risks as the Harryhausen candidate: could be a video essay about them rather than them speaking, and duration unknown. Held as the colour alternative. Submitted WITHOUT the user's footage confirmation. They replied only with the name, choosing between two candidates rather than answering the structure question. Judged the credits cheaper than the evening slot, with the fallback being that a third party narration source shows up in the transcript at review and costs credits rather than a bad post. Harryhausen at af4F1gRLMUA remains the fallback. STRUCTURE CONFIRMED FROM THE TRANSCRIPT, not the user's eyes: clip AJdfiLm76T contains film dialogue ('Violets monsieur. Lovely fresh violets. These are real Parma violets') interleaved with the interview, which proves the source cuts the film under and between the speech. Storaro speaks in the first person throughout, so this is primary source, not a video essay. That is a new and cheap structural check worth reusing: film dialogue appearing in a clip transcript is evidence of footage. 13 clips, and EVERY ONE scored 10/10/10 on hook, coherence and connection. The sub score filter discriminated nothing at all on this project, which is stronger than the existing note that it catches advertising only. Recommended A9ZT45maXz (70s, Quadri murder) on the opening line rule: it opens on film audio and then a named sequence with a place, a season and a deadline. Mechanism is camera, the weakest category, chosen deliberately over colour because the opening matters more after the Vermeer failure. Held for tomorrow: BCB1Rhjj9m (68s), Storaro quoting his own instruction to build a cage of light around the character, applied to the whole Rome section. Light, the second fastest category. Opens badly on 'He was very precocious', which dry ran as a clean drop of section 0, 3.4s, leaving 9 sections. Not applied.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3092022xkNx",
+    "approved_clips": [
+      "A9ZT45maXz"
+    ],
+    "scheduled_at": "2026-09-21T00:00:00Z",
+    "caption_file": "drafts/caption-storaro-quadri.md",
+    "schedule_id": "178994654990523NR-INSTAGRAM_BUSINESS",
+    "post_url": "https://www.instagram.com/reel/Ddh1MJsDeqj/",
+    "quadri_metrics": {
+      "measured_at": "2026-09-21T15:48Z",
+      "hours_after_post": 15.8,
+      "source": "Metricool",
+      "post_url": "https://www.instagram.com/reel/Ddh1MJsDeqj/",
+      "views": 1122,
+      "hold_3s_pct": 48.4,
+      "avg_watch_sec": 14.166,
+      "saves": 8,
+      "shares": 5,
+      "retention_pct": 20.2,
+      "clip_len_sec": 70,
+      "section_11_result": "THE EVENT OPENING WON. Against the Vermeer clip's 17h reading, at a near-like checkpoint of 15.8h: hold 48.4 vs 39.3, average watch 14.17s vs 7.04s, views 1122 vs 435, retention 20.2 vs 11.2 percent. Quadri clears the 45 percent floor; Vermeer never did. The 1.2h checkpoint gap slightly flatters Quadri, since hold declines with age, but not enough to account for a 9 point gap. STRONGER THAN IT LOOKS: Quadri's mechanism is CAMERA, which section 2 ranks weakest, while Vermeer's is COLOUR AND LIGHT, ranked strongest. The event opening beat the principle opening despite conceding the mechanism category. CAVEAT: n=1 against n=1, different sources, subjects and days. Directionally clear, not proof."
+    },
+    "opening_problem": "Dropping section 0 did NOT fix the opening and the reason is speaker identity, which nobody checked on this clip. Source paragraphs 75.70-82.92 are speaker_0, and speaker_0 is BERTOLUCCI, not Storaro: he says 'Vittorio was the focus puller in Before the Revolution, so I knew him. He was very precocious.' Storaro is speaker_1 and begins at 83.96 with 'One of the main point that made the marriage between Bernardo Bertolucci and myself'. Section 0 removed only 'He was very precocious' (3.4s). The clip now opens on the REST of the same Bertolucci passage, 'we were both very precocious, he was more or less my age', which is still the wrong speaker, still not an event, and now opens on an unanchored 'he'. Proposed fix: trim_section index 0 keepFromSec 4.6, cutting to source 83.89 so the clip opens on Storaro in the first person. Clip drops to about 60s, still inside the 60-180 target. Mapping is exact: clip time 0 = source 79.29, Storaro's first word at source 83.96.",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21",
+    "dropped_clips": {
+      "BCB1Rhjj9m": "The cage of light clip. DROPPED 2026-09-21 on the user's call, do not resurface. Section 0 was applied (3.4s, clip 68s to 65s) and a 163 word caption written to drafts/caption-storaro-cage.md, which stays in the repo unused. The edit is left applied in Opus; undoing costs a re-render and buys nothing. Reason it was not worth further work is in opening_problem: the only event in the clip sits 38s in, so no trim both opens on an incident and clears the 60s floor."
+    },
+    "clips_selected": {
+      "jnk4ciRVtH": {
+        "slot": "2026-09-26T17:00:00Z (10am PT 26 Sep)",
+        "title_opus": "Fascist Rome's Architecture & New Wave Cinema Inspiration",
+        "duration_sec": 94,
+        "speaker_verified": "VITTORIO STORARO, first person and single voice for the whole cut. No speaker change, which is what killed 8KICnfqRWz and the untrimmed Alcott clip.",
+        "why_it_passes": "Section 11 passes unedited: opens on an event, 'I remember that I met this guy called Ferdinando Scarfiotti', with a named person and a handover of the novel and the script. Carries a hard production constraint: only the radio station was shot at Cinecitta, and only because Italian law obliged the production to spend a few days in a studio.",
+        "weakness": "Mechanism is production method (real locations over stage), not colour or light, so it sits below the section 2 ranking. The last third drifts to costume designer Gitta Magrini and a general affection for La Nouvelle Vague.",
+        "caption": "drafts/caption-storaro-conformist-eur.md",
+        "register_test": "4 sentences, 162 words, mean 40.5, min 39. PASS.",
+        "schedule_id": "17903713392054onh-INSTAGRAM_BUSINESS",
+        "status": "scheduled"
+      }
+    }
+  },
+  {
+    "id": "yt-5iFFORE73LQ",
+    "url": "https://www.youtube.com/watch?v=5iFFORE73LQ",
+    "title": "Sven Nykvist: working with Ingmar Bergman",
+    "channel": "Cinematographers on cinematography",
+    "published": "2020-10-17",
+    "source_views": null,
+    "duration_sec": 898,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "rejected",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "Light and colour, the two fastest-reading categories. Named technical collaborator (Nykvist, ASC) rather than the director, which is the shape behind seven of the top nine posts. Same channel as the Friedkin source, which settled at 14,806 views and 71.0 percent hold, the highest on the account.",
+    "screen_notes": "PASSES every mechanical screen: 14m58s clears the ten minute floor, primary source with Nykvist in the first person, proven channel. AWAITING USER FOOTAGE CONFIRMATION. Search description says it is an audio interview illustrated with clips from films they made together, which would be the target structure, but that is a description and not the picture. KNOWN RISK: multi-film. Section 3 requires one work per clip, so this needs either rangeStart/rangeEnd or a clip that stays inside one title. Duplicate upload of the same 14m58s content exists at ePhykRiUa4g on 'Visual Storytellers'; preferred this one on channel track record. REJECTED 2026-09-22 by the user, but NOT as a talking head. It does carry visual material; the material is STILLS plus sparse movie footage. Rejected on quality and quantity of footage rather than absence of it. Do not reconsider.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null,
+    "channel_note": "'Cinematographers on cinematography' is MIXED and cannot be trusted wholesale. The Friedkin source came from it and does run film under the speaker, who is walking the location rather than sitting; it settled at 71.0 percent hold. Its sibling upload carried the same interview content with no footage and was rejected. Now Nykvist and Conrad Hall from the same channel are both talking heads. Channel track record is therefore NOT evidence of structure, and the earlier reasoning that treated it as such was wrong.",
+    "failure_pattern": "A FOURTH SOURCE PATTERN, not covered by CRITERIA section 3a, which lists only voice-over-footage (good), speaks-then-film-plays (weak), and on-camera-throughout (no). This one is stills plus limited footage. It fails for reasons the existing table does not predict: a still cannot show a lighting mechanism working in motion, and stills degrade badly under a 9:16 crop with subtitles burned in, which is the 'clean enough to crop' requirement in section 3. Worth adding to 3a as its own row. It also means the agent's footage gate question is too coarse: asking 'does the film play or is it a person in a chair' cannot catch this case. The question should be 'does moving footage of the film run under the voice, and is there enough of it'."
+  },
+  {
+    "id": "yt-IjFieHvI1p4",
+    "url": "https://www.youtube.com/watch?v=IjFieHvI1p4",
+    "title": "A conversation with Conrad L. Hall, ASC",
+    "channel": "Cinematographers on cinematography",
+    "published": "2021-07-29",
+    "source_views": null,
+    "duration_sec": 437,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "rejected",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "Light, and the strongest TURN found in this pass. On In Cold Blood (1967) the rain-on-the-window shot that reads as tears running down Perry Smith's face was an accident: rain was made on a stage with a fan blowing spray at the glass, Hall noticed the effect land on the actor's face ONCE during a rehearsal, and the blocking was changed to hold it there. Something surprised the person who did it, which is exactly what section 1b screens for, and the proof is visible in seconds.",
+    "screen_notes": "FAILS THE TEN MINUTE FLOOR at 7m17s, and that is the only thing wrong with it. Flagged rather than rejected because the floor is itself in question: the Steadicam source is 4m33s and produced the account's best post at 23,256 views. The floor was written from the Coates failure and now also excludes the biggest win. Needs a user ruling on the floor before this can proceed. Same proven channel as the Friedkin source. REJECTED 2026-09-22: USER OPENED IT AND CONFIRMED TALKING HEAD, NO FOOTAGE. Failed the one check the agent cannot perform. Straight talking head, confirmed. Do not reconsider. REJECTED OUTRIGHT 2026-09-24 on CONTENT, superseding the earlier duration rejection: the interview is career advice end to end and contains no technical mechanism. Duration was never the real problem with it.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3092414nhJt",
+    "approved_clips": [],
+    "scheduled_at": null,
+    "lost_mechanism": "The In Cold Blood rain accident remains the best unclaimed turn found so far: rain made on a stage with a fan blowing spray at the glass, Hall spots the effect land on Perry Smith's face once in rehearsal, blocking changed to hold it. Worth keeping if footage ever surfaces.",
+    "talking_head_test": {
+      "submitted": "2026-09-24T14:49Z",
+      "cost_est_credits": 7,
+      "remaining_before": 713,
+      "hypothesis": "USER'S OBSERVATION, being tested rather than adopted: a tight single speaker talking to camera is social-friendly format, which is exactly the shape CRITERIA section 3a rates as 'No. Nothing is demonstrated' and which the source registry's screening test exists to exclude. The Duvall 18mm clip prompted it by holding 66.8 percent, third highest on the account.",
+      "why_this_source": "A CLEAN TEST because it is a CONFIRMED pure talking head: the user opened it on 2026-09-22 and rejected it on exactly that basis, so there is no ambiguity about the variable. It also carries the strongest unused turn found this week, the In Cold Blood rain accident: rain made on a stage with a fan blowing spray at the glass, Hall noticing the effect land on Perry Smith's face ONCE in rehearsal, the blocking changed to hold it there.",
+      "what_the_length_data_already_says": "'Tight' is NOT duration. Friedkin at 171s holds 71.0 percent, the account's best, and Cardiff fog at 54s holds 43.4, its worst of the recent batch. CRITERIA already has length at r = +0.06. Whatever the user is identifying, it is density or single-voice continuity, not runtime.",
+      "controls": "Submitted at 9:16 PORTRAIT deliberately, to match the Duvall clip rather than the recent 4:5 posts, so the aspect is not a second changed variable. Source is 7m17s, below the ten minute floor, so clipDurationsSec may leak as it did on the 6m26s source.",
+      "decision_rule": "If a clip from this holds above 45 percent at a like checkpoint, CRITERIA section 3a is wrong as written and the talking-head category reopens, which roughly triples what is sourceable since that is most of what is free on YouTube. If it lands below, 3a stands and the Duvall result is explained by something else, most likely the footage actually cut under her. DO NOT edit CRITERIA on this result alone either way; report it and let the user decide.",
+      "outcome": "TEST COULD NOT RUN. The hypothesis is still untested. Cost 7 credits.",
+      "what_happened": "8 clips, every one of them career advice: reputation, the power of saying no, film school networking, honing your craft, how directors cast actors, taking chances. Not one technical mechanism in the project. THE IN COLD BLOOD STORY IS NOT IN THIS SOURCE. Verified against the full transcript, not inferred from titles: zero occurrences of 'cold blood', 'Perry', 'Smith', 'tears' or 'window'; zero word-boundary matches for 'rain' (the four hits were 'brains'); no 'lens', 'filter', 'exposure', 'stock' or 'light' anywhere. 6,297 characters of speech across 7m17s, all of it a conversation about building a career.",
+      "my_error": "I ASSUMED THE STORY WAS IN THE SOURCE BECAUSE THE MAN WAS. The In Cold Blood rain accident was found in production literature on 2026-09-22; this interview was found separately in the same search session. I treated 'Conrad Hall interview' as containing 'the Conrad Hall story' and wrote a customPrompt asking for it by name. That is the same class of error as the Alcott and Storaro misattributions: inferring content from association. The existing rule covers speakers, 'check who is speaking'. It needs a sibling: CHECK THE SOURCE CONTAINS THE STORY. A person appearing in a video is not evidence that a particular anecdote about them is in it, and a customPrompt naming the anecdote does not make it appear.",
+      "hypothesis_status": "UNTESTED. This source is disqualified on content, not on structure, so it says nothing about whether a tight single speaker to camera holds. A clean test still needs a CONFIRMED pure talking head that DOES contain a first-person technical incident. The Nykvist source does not qualify either: it is stills plus sparse footage rather than a pure talking head."
+    }
+  },
+  {
+    "id": "yt-ERTZ94MqLtM",
+    "url": "https://www.youtube.com/watch?v=ERTZ94MqLtM",
+    "title": "Cinematography Style: Nestor Almendros",
+    "channel": "In Depth Cine",
+    "published": "2024-01-21",
+    "source_views": null,
+    "duration_sec": 980,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "rejected",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "Almendros and magic hour on Days of Heaven would fit the light category well.",
+    "screen_notes": "REJECTED on source type, not on the mechanism. This is a third-party video essay, which section 3b ranks as the weak fallback: another creator's analysis in another channel's register, two rights layers rather than one, and the post becomes a repost of someone else's work rather than the account doing it. Clears the floor at 16m20s, so duration is not the issue. Almendros remains worth sourcing from a primary interview if one exists.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": null,
+    "approved_clips": [],
+    "scheduled_at": null
+  },
+  {
+    "id": "yt-xXFaTgf3ITI",
+    "url": "https://www.youtube.com/watch?v=xXFaTgf3ITI",
+    "title": "Days of Heaven (1978) arrive at a wheat farm 4K HDR",
+    "channel": "예나오디오",
+    "published": "2024-01-27",
+    "source_views": null,
+    "duration_sec": 386,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "rejected",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "Light, the second fastest-reading category, and colour by extension. Named technical collaborator: Nestor Almendros, ASC, who won the Oscar for this film. One work, canon narrative, 1978. The constraint is unusually strong and supplies the turn: magic hour gave roughly twenty to thirty filmable minutes a day, the production moved to Alberta rather than the Texas the film is set in because that latitude doubles the window, Almendros took the job on condition that Malick limit studio lighting, and Almendros was losing his sight and handed the last three weeks to Haskell Wexler. The man who won the Oscar did not finish the film.",
+    "screen_notes": "THIS IS A DELIBERATE TEST OF THE CLIP ROUTE, not a normal candidate. It breaks the ten minute floor at 6m26s and was submitted anyway, with the user's agreement, to answer one question: can a post built from FILM FOOTAGE rather than a practitioner interview still work through this pipeline. Reasoning: what-search-found-them.md shows the account's three biggest posts (Excalibur 84,180, Nashville 63,746, Parallax View 46,399) were film footage carrying a caption, with no practitioner speaking, and the skill's own stage two prescribes '<film title> <year> clip' and restoration trailers. Six consecutive interview sources have now failed on structure. FINDING FROM THE SEARCH: every usable piece of footage for this film is short. Two trailers at 1m28s, this scene at 6m26s, and the only result over ten minutes was an unboxing review. That is not bad luck, it is what film clips are. The ten minute floor exists to give Opus room to curate, so it does not apply when the footage has already been chosen. WHAT TO WATCH AT REVIEW: whether clipDurationsSec holds on a short source (it was ignored on a 4.7 minute source before, returning 30 to 47 second fragments), and what Opus curates on when the only speech is Linda Manz's in-film voiceover rather than an interview. Cost about 7 credits against 773 remaining. TEST COMPLETE AND FAILED. See test_result. Do not resubmit film footage to Opus.",
+    "range": {
+      "start_sec": null,
+      "end_sec": null
+    },
+    "opus_project": "P3092216v946",
+    "approved_clips": [],
+    "scheduled_at": null,
+    "test_result": {
+      "verdict": "CLIP ROUTE DOES NOT WORK THROUGH OPUS. Decisive. Cost 10 credits.",
+      "why": "Opus curates on the transcript, and the transcript of a film clip is the film's dialogue, so it curated the STORY and not the craft. Rank 1, score 99, sub-scores 10/10/10, is titled 'Prophet Warns: Earth's Fiery End, Escape to Heaven!' and describes a film called 'The Secret Journey, Prophecy of Ding Dong'. That is built from Linda Manz's narration at 0:44, 'I met this guy named Ding Dong. He told me the whole Earth is going up in flames.' Opus read the film's own voiceover literally and produced Christian inspirational cinema, hashtags #ChristianCinema and #FaithAndRedemption included.",
+      "customPrompt_did_not_steer_selection": "The prompt named magic hour explicitly. 'Magic-hour light' came back in two clip DESCRIPTIONS and as #MagicHour, which is the prompt echoing, not evidence of selection. The clip actually delivered, KJ41U3nUEY, carries Opus's own visual description: 'a lone figure stands amidst vast, undulating fields of wheat under a SOFT, OVERCAST SKY' and 'a muted sky'. It selected the overcast footage. This is a third confirmation that customPrompt steers register and not content.",
+      "opus_can_see_but_does_not_rank_on_it": "NEW AND USEFUL: clip transcripts contain __visual tags with real descriptions of the imagery. So Opus does have visual understanding of the footage. It simply does not rank on it when speech is present. That matters for any future attempt: silent footage might actually curate better than footage carrying dialogue.",
+      "clipDurations": "Leaked on a short source. Rank 1 is 41s, below the 60s floor. Ranks 2, 5 and 6 held at 90s, 66s and 68s. Better than the 4.7 minute source which returned 30 to 47s, but not reliable. Only 4 clips returned from 6m26s, and the ranks are 1, 2, 5, 6, so two were dropped.",
+      "burned_captions": "A blocker nobody had hit before. enableCaption burns the FILM'S dialogue onto the picture. A decoder caption about Almendros lighting to twenty minutes a day would run underneath 'I met this guy named Ding Dong' burned across the image. For a film-footage post, captions must be off, which removes one of the two things Opus was doing for us.",
+      "subscores": "Sixth consecutive project where rank 1 at 10/10/10 is the wrong clip.",
+      "trend_score_note": "trend_score came back 1 on all four clips, lower than seen elsewhere. First sign of a sub-score that might discriminate off-profile content. n=1, worth watching, not yet a rule."
+    }
+  },
+  {
+    "id": "yt-RdcvbiEsiUk",
+    "url": "https://www.youtube.com/watch?v=RdcvbiEsiUk",
+    "title": "Visions of Light: The Art of Cinematography (1992)",
+    "channel": "DocumentarieS",
+    "published": "2023-10-14",
+    "source_views": null,
+    "duration_sec": 5361,
+    "discovered": "2026-09-22",
+    "found_via": "websearch",
+    "status": "scheduled",
+    "rights": "commentary",
+    "metadata_source": "youtube-api videos.list, verified 2026-09-22",
+    "profile_match": "The source registry calls this THE MODEL: a craft documentary built by construction from film clips with cinematographers narrating over them, which is the exact structure section 3a asks for and which six standalone interviews have failed to provide. Dense with named technical collaborators on single canon films, which is the account's strongest measured signature.",
+    "screen_notes": "USER CONFIRMED THIS UPLOAD PLAYS. The alternate HD upload at ivYs25DHGdo did not; a third, DGtRYm2Pffk, is dead. Structure taken as established from the registry rather than re-asked, since the registry already lists this film as verified footage-under-narration. RANGED 3300-4800s (55 to 80 min) rather than submitting all 89m21s. The film is chronological and has NO chapter markers in the description, so the bracket is an informed guess at the 1960s and 70s stretch where Conrad Hall, Nestor Almendros and the New Hollywood cinematographers should sit. About 25 credits against 763. If the bracket misses, submit a different window rather than the whole film. WANTED: Conrad Hall on In Cold Blood. The rain-on-the-window shot that reads as tears was an accident he spotted once in rehearsal and re-blocked the scene to keep. His standalone interview at IjFieHvI1p4 was a talking head, so this documentary is the way to recover that mechanism with footage under it. NOTE: Willis and Zsigmond also sit in this era and are both already spent by the account (Parallax View, McCabe). Do not pick them.",
+    "range": {
+      "start_sec": 3300,
+      "end_sec": 4800
+    },
+    "opus_project": "P3092222a8MT",
+    "approved_clips": [
+      "Xwn0Lih1Dz",
+      "yaXEXUiocP"
+    ],
+    "scheduled_at": "2026-09-23T16:00:00Z",
+    "review_notes": "23 clips, a real yield. THE RANGE MISSED: 3300-4800s landed in the 1970s New Hollywood stretch (Jaws, Chinatown, Godfather, Taxi Driver, Dog Day Afternoon, Apocalypse Now, Midnight Cowboy), not the 1960s. NO CONRAD HALL and no In Cold Blood. For a later pass, the 1960s material sits EARLIER than 55 min; try roughly 2400-3300s. RECOMMENDED, RNvk39PUhJ (rank 2, 66s): John A. Alonzo on Chinatown. Opens on an event in the first person with named apparatus, 'We shot a scene in Chinatown with a handheld Pentaflex inside a bathroom', which clears section 11 outright. Turn is his own: 'here's a major motion picture and I'm lighting it like a documentary', called a risk in his own words. Film dialogue is interleaved (the flaw-in-the-iris line), which is the cheap structural proof that footage plays with its own audio. SECOND, IvSptRNHTF (rank 18, 60s): Nestor Almendros on magic hour, and it recovers the Days of Heaven research done earlier today. Mechanism is light, the stronger category. BUT IT FAILS SECTION 11 AS CUT: it opens 'In the period movies there was no electricity', a general claim, and there is a stray 'Hey sweetie' of film dialogue at the very head. Would need a trim to open on 'Magic hour is an euphemism because it's not an hour.' Not applied. REJECTED ON SOURCE RATIONING: rank 4 and rank 14 are Gordon Willis on The Godfather, and rank 12 and 17 touch Taxi Driver; Willis is already spent on the Parallax View post. REJECTED AS SURVEYS: ranks 8, 21 and 22 are general reflections on cinematography as an art and on careers, which is the failing shape in section 7. Ranks 3 and 11 are Polanski and Scorsese DIRECTING, which is the director-survey shape. SUB-SCORES AGAIN USELESS: rank 1 is 10/10/10 at score 99 and is Jaws handheld, camera, the weakest category, and framed as a Spielberg secret. Seventh consecutive project where rank 1 is not the right clip. The _bonus duplicate of it was dropped as usual.",
+    "caption_files": [
+      "drafts/caption-alonzo-chinatown.md",
+      "drafts/caption-almendros-magichour.md"
+    ],
+    "resubmit_4x5": {
+      "project": "P3092222a8MT",
+      "aspect": "four_five",
+      "submitted": "2026-09-22T22:36Z",
+      "range": {
+        "start_sec": 3300,
+        "end_sec": 4800
+      },
+      "cost_est_credits": 25,
+      "why": "User asked for the Alonzo Chinatown clip in a wider frame. Aspect ratio is FIXED AT SUBMISSION: opusclip_edit_clip has no aspect op and export_clip offers no aspect target, so the only way to change it is to resubmit the source. Worth knowing before promising a reframe on an existing clip. Chose 4:5 over landscape. CRITERIA section 8 requires portrait for Reels and warns landscape output is wrong for the format, so a true 16:9 would have broken the destination. 4:5 keeps the post in feed while preserving much more of the frame than a 9:16 crop. That matters specifically here: the clip is Alonzo on shooting Chinatown in anamorphic at 2.35 to 1, and cropping to 9:16 would throw away the composition the caption is about. GENERAL RULE WORTH KEEPING: for any post whose mechanism is framing, composition or aspect ratio, 9:16 destroys the evidence. Pick the aspect at submission to suit the mechanism.",
+      "expect": "The Alonzo clip should reappear with a new clip_id. Ranks may shift; find it by transcript, opening 'We shot a scene in Chinatown with a handheld Pentaflex inside a bathroom', not by rank. The 9:16 original is RNvk39PUhJ in P3092220DBBX.",
+      "outcome": "COMPLETE, 22 clips, aspect confirmed four_five on the clip record.",
+      "recommended": "Xwn0Lih1Dz (rank 4, 124s)",
+      "finding": "THE RESUBMIT CHANGED THE CURATION, NOT JUST THE FRAME. The 66s Alonzo clip from the 9:16 run does not exist here. Same source, same range, same prompt, different cut: Opus returned a 124s Chinatown clip that is a SUPERSET of the old one, and it is better. Finding the clip by transcript rather than by rank was what caught this; by rank it would have looked like a different, worse project. Treat a resubmit as a fresh curation, never as a reformat.",
+      "why_better": "Same opening, so section 11 still passes: 'We shot a scene in Chinatown with a handheld Pentaflex inside a bathroom.' But the extra minute carries the actual REVERSAL that section 1b screens for, and it is Alonzo's own: Polanski forced a handheld shot, Alonzo argued it would be distracting, and he says plainly 'But he was right.' The 66s version stops before that. It also adds the strongest visible mechanism in the clip: a lens two and a half feet from Faye Dunaway, Polanski using that proximity as a directing method on Evelyn Mulwray, and Alonzo walking a handheld key light that moves as she moves, with 'you never see the lighting' as his measure of success.",
+      "transcription_error_caught": "The transcript says PENTAFLEX, which is not a camera. Chinatown was shot on Panavision PANAFLEX bodies with anamorphic lenses at 2.35:1. Verified before writing. The Panaflex was introduced in 1972 as the first self-blimped hand-holdable 35mm studio reflex camera, which is the reason the bathroom shot was possible at all, so correcting the error also supplied the production constraint the caption needed. GENERAL LESSON: do not lift apparatus names straight from an Opus transcript into a caption. Verify any proper noun naming hardware.",
+      "aspect_rationale_held": "4:5 was the right call for this specific post. Alonzo is describing anamorphic 2.35:1 framing and a two-and-a-half-foot close-up; a 9:16 crop would have destroyed both."
+    },
+    "schedule_id": "17901190665103zZC-INSTAGRAM_BUSINESS",
+    "caption_file": "drafts/caption-alonzo-chinatown.md",
+    "schedule_note": "9am Pacific Wednesday. VERIFIED by date window 2026-09-22 to 2026-09-25: exactly ONE schedule, no duplicates. Approval link issued exactly once and not repeated. SLOT CHOSEN FROM DATA, not habit: Metricool best-time for Wednesday peaks at hour 18 Europe/Madrid, value 1704, which converts to 16:00Z and 9am Pacific. The 10am Pacific slot used for the fog filter scores 1664 on the same day. First time the slot has been picked from getBestTimeToPostByNetwork rather than repeated from the last post.",
+    "caption_note": "CAPTION REWRITTEN AFTER THE USER CAUGHT A TONE SLIP, and the slip is worth recording because it is a failure mode specific to working from CRITERIA.md. The draft contained the sentence 'The turn is his own.' 'The turn' is CRITERIA section 1b's internal name for a narrative device. Pipeline vocabulary had leaked into copy meant for readers who have never seen the criteria file. Two more in the same draft: a closing built from three short punchy sentences landing on a line, which voice/avoid bans explicitly, and 'says flatly', an adverb editorialising about delivery. RULE: the caption talks about the film, never about the caption's own construction. Before sending, grep a draft for CRITERIA vocabulary: turn, mechanism, decoder, hook, opening line. Final version is 172 words, above the spec's 80-160 band but inside the 175-200 the published captions measure at, which remains the unresolved conflict in spec-conflicts.md.",
+    "second_clip_candidate": {
+      "recommended": "yaXEXUiocP (rank 13, 67s, 4:5) - HASKELL WEXLER, not Almendros",
+      "speaker_verified": "The clip NEVER NAMES THE SPEAKER, so attribution was inferred and then checked before writing. Identified as Haskell Wexler from internal evidence: 'when Terry Malick called me up and said we want you to come up here and do this picture, Nestor has to go', plus handheld Panaflex on the steel mill opening. CONFIRMED in production history: Wexler took over the last three weeks, 19 days, because Almendros was contracted to Truffaut's The Man Who Loved Women; he shot the steel mill opening handheld; he used diffusion where Almendros used none; his credit reads Additional Photography while Almendros won the Academy Award. This is exactly the case section 5 of the skill warns about and it would have been easy to caption as Almendros.",
+      "why_over_the_magic_hour_clip": "Opens on an event in the first person: 'On Days of Heaven I had the privilege of seeing footage that Nestor shot in the lab because Nestor knew he had to leave.' Section 11 passes with no edit, where the Almendros magic-hour clip (tn5qeCz64n at 4:5, IvSptRNHTF at 9:16) opens on 'In the period movies there was no electricity' and would need a trim. The reversal is also far stronger and it is self-incriminating: Wexler says he walks out of films that use a fog filter, that the effect is too easy, that he felt guilty, and that he had the feeling of 'violating a fellow cameraman'. A cinematographer breaking another cinematographer's established look mid-picture and saying so on camera.",
+      "rejected_third_clip": "8KICnfqRWz (rank 14, 69s) is Almendros on practical lamps versus the prop lamps in Sunrise, which is good material, but it opens on a general claim AND contains a speaker change inside the clip: it ends by running into Wexler's first line. Two voices in one cut is the Alcott trap. Rejected.",
+      "flags_for_user": [
+        "MECHANISM REPEAT: the Cardiff fog filter post went live 2026-09-21 and is also about diffusion. Two diffusion posts inside a week. The stories are unrelated, Technicolor forbidding it versus guilt at overriding a colleague, but the optical device is the same.",
+        "SOURCE RATIONING: Alonzo is already scheduled from this source for 2026-09-23. Posting Wexler next makes two consecutive posts from Visions of Light, against the skill's roughly one in four ceiling."
+      ],
+      "caption_file": "drafts/caption-wexler-daysofheaven.md",
+      "caption_rewritten": "The first Wexler caption FAILED the register test that was only defined afterwards: 7 sentences, mean 21.3 words, three under 15, including a five-word line, 'Wexler's credit reads additional photography.' Rewritten to 4 sentences, mean 49.2, minimum 36, 197 words against Excalibur's 183 and the Duvall caption's 194. Same facts, carried inside subordinate clauses instead of set up and dropped. A broken clause was also caught on the way: the first draft opened an 'after' construction that never resolved.",
+      "awaiting_approval": {
+        "status": "SCHEDULED",
+        "schedule_id": "1790261345949AzeK-INSTAGRAM_BUSINESS",
+        "publish_at": "2026-09-24T18:00:00Z",
+        "slot": "11am Pacific, hour 20 Madrid at 1697",
+        "verified": "By date window 2026-09-23 to 2026-09-27: exactly ONE row for yaXEXUiocP. The failed first approval created nothing, which confirms the recovery rule rather than just assuming it: absence across two separated checks is a clean failure and a fresh call is safe."
+      },
+      "approval_failure": "THE FIRST WEXLER APPROVAL NEVER LANDED. User reported clicking it on 2026-09-23. Checked immediately: absent. Checked again 12 hours later: still absent, while both neighbouring posts appeared correctly in the same query, so the window and range were not the problem. HANDLED BY NOT RE-SENDING THE LINK. The screen creates a schedule on every visit including failed ones, so a second visit to a partly-successful approval makes two. Instead: verified twice across twelve hours that nothing existed, then made a FRESH call with a NEW token. RULE: a confirmed-absent schedule after two separated checks is a clean failure and may be re-issued as a new call. Re-offering the ORIGINAL link is still never correct. Re-issued for 2026-09-24T18:00Z, 11am Pacific, hour 20 Madrid at 1697 against the day's peak of 1708, because the original 15:00Z slot was fifteen minutes away by the time the failure was established."
+    }
+  }
+]
