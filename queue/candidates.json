@@ -143,7 +143,10 @@
         "transcription_error": "'Jeff Unruh' in the Opus transcript is GEOFFREY UNSWORTH. Same class as 'Pentaflex' for 'Panaflex'. The caption names him correctly; the burned-in captions will show the wrong name.",
         "trim_note": "First trim attempt kept sections 0-8 and ended mid-sentence on 'And this would'. Section boundaries are returned as timecodes only, not text, so the cut point had to be inferred from word count and then corrected after reading the rendered transcript back. RULE: after any drop_section trim, poll describe_clip and read the resulting transcript before showing the clip.",
         "caption": "drafts/caption-alcott-2001-practicals.md",
-        "register_test": "4 sentences, 175 words, mean 43.8, min 39. PASS."
+        "register_test": "4 sentences, 175 words, mean 43.8, min 39. PASS.",
+        "schedule_id": "1790371333120GYB9-INSTAGRAM_BUSINESS",
+        "status": "scheduled",
+        "verified": "Date window 2026-09-25T18:00Z to 2026-09-27T00:00Z returned exactly two rows, one per slot. No phantom schedules. Both approvals were combined into a SINGLE link (comma-separated tokens), which is what the tool itself recommends and which also halves the number of visits to the non-idempotent approval screen."
       }
     },
     "review_log": [
@@ -399,7 +402,9 @@
         "why_it_passes": "Section 11 passes unedited: opens on an event, 'I remember that I met this guy called Ferdinando Scarfiotti', with a named person and a handover of the novel and the script. Carries a hard production constraint: only the radio station was shot at Cinecitta, and only because Italian law obliged the production to spend a few days in a studio.",
         "weakness": "Mechanism is production method (real locations over stage), not colour or light, so it sits below the section 2 ranking. The last third drifts to costume designer Gitta Magrini and a general affection for La Nouvelle Vague.",
         "caption": "drafts/caption-storaro-conformist-eur.md",
-        "register_test": "4 sentences, 162 words, mean 40.5, min 39. PASS."
+        "register_test": "4 sentences, 162 words, mean 40.5, min 39. PASS.",
+        "schedule_id": "17903713392054onh-INSTAGRAM_BUSINESS",
+        "status": "scheduled"
       }
     }
   },
