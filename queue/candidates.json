@@ -130,7 +130,34 @@
       },
       "result": "THE OFF-SIGNATURE CLIP IS OUTPERFORMING. Flagged before posting as off profile because the speaker is an ACTOR, where seven of the top nine posts name a technical collaborator. At 12.7 hours it holds 66.8 percent, third highest ever recorded on the account behind Friedkin at 71.0 and Richter/Melies at 70.3, and its retention of 43.2 percent is the highest in the record against Friedkin's settled 30.6. HYPOTHESIS, NOT A FINDING: the signature may be the SPEAKER'S RELATIONSHIP TO THE MECHANISM rather than their job title. Duvall is the person the lens was pointed at, describing an effect done to her, which is testimony from the receiving end and something the feed has never carried. CONFOUNDS: The Shining is a far larger title than The Conformist or Black Narcissus; the clip is 62s, and retention is watch over length so a short clip is flattered (hold is not length dependent, so the 66.8 stands on its own); and 12.7 hours is not settled per section 10. DO NOT rewrite CRITERIA section 5 on one post. Re-read at settled and look for a second case."
     },
-    "caption_voice_finding": "THE CAPTION VOICE WAS WRONG TWICE BEFORE IT WAS RIGHT, and the fix only came from measuring. Published captions: Excalibur 183 words in 4 sentences, mean 44, nothing under 38. Parallax View, 2 sentences, mean 42. The rejected drafts ran 9 sentences at a mean of 17 with a four-word line, 'Kubrick did not relent.' That is journalism: short beats, colon reveals, idiom, dramatic timing. The spec asks for 'academic, analytical, intellectual', 'sentences may be long and complex', 'no forced staccato', 'precision over cleverness'. OPERATIONAL TEST before sending any caption: split the body on sentence boundaries. If the mean is under about 35 words, or any sentence is under 15, it is in the wrong register. Specifics belong inside subordinate clauses, not set up and dropped. This voice has no beats."
+    "caption_voice_finding": "THE CAPTION VOICE WAS WRONG TWICE BEFORE IT WAS RIGHT, and the fix only came from measuring. Published captions: Excalibur 183 words in 4 sentences, mean 44, nothing under 38. Parallax View, 2 sentences, mean 42. The rejected drafts ran 9 sentences at a mean of 17 with a four-word line, 'Kubrick did not relent.' That is journalism: short beats, colon reveals, idiom, dramatic timing. The spec asks for 'academic, analytical, intellectual', 'sentences may be long and complex', 'no forced staccato', 'precision over cleverness'. OPERATIONAL TEST before sending any caption: split the body on sentence boundaries. If the mean is under about 35 words, or any sentence is under 15, it is in the wrong register. Specifics belong inside subordinate clauses, not set up and dropped. This voice has no beats.",
+    "clips_selected": {
+      "8kqy5T9wlc": {
+        "slot": "2026-09-26T00:00:00Z (5pm PT 25 Sep)",
+        "title_opus": "Stanley Kubrick's Barry Lyndon: Natural Light Cinematography Secrets",
+        "duration_after_trim_sec": 54.6,
+        "original_duration_sec": 172.4,
+        "speaker_verified": "JOHN ALCOTT, first person throughout the kept section: 'I was given the chance by Stanley to take over', 'this is what I wanted to do', 'the type of light I'm going to use'. On-signature: named technical collaborator explaining his own choice.",
+        "why_trimmed": "The 172s cut ran through THREE speakers. After the natural-light passage it hands off to the director for the f/0.7 lens story ('equipment Stanley Kubrick had found... on some Sputnik going around the world') and then to Shelley Duvall for 'We were begging for a 50 or a 75' - which is the material ALREADY POSTED on 24 Sep as the 18mm clip. Keeping it would have been a speaker-change cut AND a repeat of a post from 24 hours earlier. Dropped sections 7-27, leaving 0-6.",
+        "why_it_passes": "Section 11 passes unedited: opens on an event, not a principle. Geoffrey Unsworth leaves 2001 and Kubrick hands Alcott the film. Mechanism is LIGHT, the second fastest category. Lands cleanly on 'candles or oil lamps or anything which may be of natural light source', which points at Barry Lyndon without the clip having to name it.",
+        "transcription_error": "'Jeff Unruh' in the Opus transcript is GEOFFREY UNSWORTH. Same class as 'Pentaflex' for 'Panaflex'. The caption names him correctly; the burned-in captions will show the wrong name.",
+        "trim_note": "First trim attempt kept sections 0-8 and ended mid-sentence on 'And this would'. Section boundaries are returned as timecodes only, not text, so the cut point had to be inferred from word count and then corrected after reading the rendered transcript back. RULE: after any drop_section trim, poll describe_clip and read the resulting transcript before showing the clip.",
+        "caption": "drafts/caption-alcott-2001-practicals.md",
+        "register_test": "4 sentences, 175 words, mean 43.8, min 39. PASS."
+      }
+    },
+    "review_log": [
+      {
+        "date": "2026-09-25",
+        "rejected": {
+          "9mt59NgicJ (Alcott, 91s)": "Opens mid-sentence, 'lot of it was shot with equipment...'. Never names the f/0.7 Zeiss, only 'some Sputnik going around the world'. Speaker is being lit, not lighting.",
+          "PiTEuRI3mn (Storaro, 77s)": "Opens on a principle, 'The idea that Caravaggio had...', so section 11 fails. Also the painter-as-lighting-model shape, which is exactly what the Cardiff/Vermeer post was and it held 39.3%.",
+          "AJdfiLm76T (Storaro, 60s)": "Opens on 'of course we have to have an evolution of this vision', a general claim. Switches topic mid-clip to meeting Scarfiotti, which is the better material and is covered properly by jnk4ciRVtH.",
+          "qhR6G6KeAy (Alcott, 58s)": "Opens mid-sentence on 'this would just open up and we'd'. Mostly __missing b-roll."
+        },
+        "source_rationing": "Visions of Light (P3092222a8MT / P3092220DBBX) produced two of the last three posts, Alonzo on 23 Sep and Wexler on 24 Sep, so it was skipped today in favour of the two projects already cut and used once each."
+      }
+    ]
   },
   {
     "id": "yt-YoPI0MRAVB4",
@@ -362,6 +389,18 @@
     "metadata_source": "youtube-api videos.list, verified 2026-09-21",
     "dropped_clips": {
       "BCB1Rhjj9m": "The cage of light clip. DROPPED 2026-09-21 on the user's call, do not resurface. Section 0 was applied (3.4s, clip 68s to 65s) and a 163 word caption written to drafts/caption-storaro-cage.md, which stays in the repo unused. The edit is left applied in Opus; undoing costs a re-render and buys nothing. Reason it was not worth further work is in opening_problem: the only event in the clip sits 38s in, so no trim both opens on an incident and clears the 60s floor."
+    },
+    "clips_selected": {
+      "jnk4ciRVtH": {
+        "slot": "2026-09-26T17:00:00Z (10am PT 26 Sep)",
+        "title_opus": "Fascist Rome's Architecture & New Wave Cinema Inspiration",
+        "duration_sec": 94,
+        "speaker_verified": "VITTORIO STORARO, first person and single voice for the whole cut. No speaker change, which is what killed 8KICnfqRWz and the untrimmed Alcott clip.",
+        "why_it_passes": "Section 11 passes unedited: opens on an event, 'I remember that I met this guy called Ferdinando Scarfiotti', with a named person and a handover of the novel and the script. Carries a hard production constraint: only the radio station was shot at Cinecitta, and only because Italian law obliged the production to spend a few days in a studio.",
+        "weakness": "Mechanism is production method (real locations over stage), not colour or light, so it sits below the section 2 ranking. The last third drifts to costume designer Gitta Magrini and a general affection for La Nouvelle Vague.",
+        "caption": "drafts/caption-storaro-conformist-eur.md",
+        "register_test": "4 sentences, 162 words, mean 40.5, min 39. PASS."
+      }
     }
   },
   {
