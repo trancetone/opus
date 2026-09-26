@@ -295,7 +295,28 @@
         "note": "Metricool caught up. Views grew 2.6x from the 17h reading (435 to 1125) and saves 3.4x, which confirms the 17h figure was NOT settled and that the 'settled_metrics' key is misnamed. Hold fell 39.3 to 38.1 as the audience widened, exactly as section 10 predicts. Still below the 45 percent floor."
       }
     },
-    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21",
+    "clips_selected": {
+      "W7EIHdTlum": {
+        "slot": "2026-09-27T17:00:00Z (10am PT Sun 27 Sep)",
+        "note": "Recorded against the Cardiff part 1 entry; project is P3091916b8jU.",
+        "title_opus": "Technicolor Interview: My Art Beat Tough Technical Questions",
+        "duration_after_edit_sec": 58.4,
+        "original_duration_sec": 73.2,
+        "aspect": "portrait",
+        "speaker_verified": "JACK CARDIFF, first person for the whole kept section. The tail was a third party discussing 'Jack' in the third person, the exact Alcott trap, and was cut.",
+        "why_it_passes": "Pure event opening with no principle anywhere near it: Technicolor comes to Denham to pick one operator to train, the men ahead of him come out shaken, and Cardiff opens his own interview by saying he is a technical zero. Lands on 'the next day I learned that I had been chosen', which is now the final line because the tail was removed.",
+        "caption": "drafts/caption-cardiff-technicolor-interview.md",
+        "register_test": "4 sentences, 171 words, mean 42.8, min 36. PASS."
+      }
+    },
+    "review_log": [
+      {
+        "date": "2026-09-26",
+        "new_technique": "USE delete_phrase, NOT drop_section, TO CUT A HEAD OR TAIL. drop_section is addressed by index and the result echoes only timecodes, never text, so the cut point has to be inferred from word counts. That is what made the Alcott trim land mid-sentence on 'And this would' and need a second pass. delete_phrase is addressed by the transcript text itself, matching ignores case and punctuation, and dryRun reports whether the phrase matched before anything is spent. The Cardiff tail came off in one call, first try, 73.2s to 58.4s. Note the __silence markers in a transcript are not matchable words and should be left out of the phrase.",
+        "also": "drop_section granularity is unpredictable: the 172s Alcott clip had 28 sections, this 73s clip had 3. With 3 sections there was no index that isolated the tail at all, so drop_section could not have done this job."
+      }
+    ]
   },
   {
     "id": "yt-KqRmV9OMxo0",
@@ -598,6 +619,37 @@
         "verified": "By date window 2026-09-23 to 2026-09-27: exactly ONE row for yaXEXUiocP. The failed first approval created nothing, which confirms the recovery rule rather than just assuming it: absence across two separated checks is a clean failure and a fresh call is safe."
       },
       "approval_failure": "THE FIRST WEXLER APPROVAL NEVER LANDED. User reported clicking it on 2026-09-23. Checked immediately: absent. Checked again 12 hours later: still absent, while both neighbouring posts appeared correctly in the same query, so the window and range were not the problem. HANDLED BY NOT RE-SENDING THE LINK. The screen creates a schedule on every visit including failed ones, so a second visit to a partly-successful approval makes two. Instead: verified twice across twelve hours that nothing existed, then made a FRESH call with a NEW token. RULE: a confirmed-absent schedule after two separated checks is a clean failure and may be re-issued as a new call. Re-offering the ORIGINAL link is still never correct. Re-issued for 2026-09-24T18:00Z, 11am Pacific, hour 20 Madrid at 1697 against the day's peak of 1708, because the original 15:00Z slot was fifteen minutes away by the time the failure was established."
-    }
+    },
+    "clips_selected": {
+      "YyPP0oVAfW": {
+        "slot": "2026-09-27T00:00:00Z (5pm PT Sat 26 Sep)",
+        "title_opus": "Jaws: The Secret Behind Its Intense Handheld Camera Work",
+        "duration_sec": 70,
+        "aspect": "four_five",
+        "edit": "none",
+        "speaker_verified": "MICHAEL CHAPMAN, camera operator on Jaws (Bill Butler was the DP). Identified from inside the clip: 'it was a great piece of operating... I'm quite proud of it', 'Baseball metaphors come easily to operating'. Single voice, no speaker change.",
+        "why_it_passes": "Best opening line of anything read today, and it is an event: a direct exchange with Spielberg, quoted. 'Steven that is not the way to make a sea picture because people will be throwing up in the aisles.' Mechanism is camera, the weakest section 2 category, but the specific choice (lens at water level so the surface sits low in frame) is visible and explainable in one sentence.",
+        "caption": "drafts/caption-chapman-jaws-waterlevel.md",
+        "register_test": "4 sentences, 171 words, mean 42.8, min 37. PASS."
+      },
+      "1dJRsd1CRz": {
+        "slot": "2026-09-28T00:00:00Z (5pm PT Sun 27 Sep)",
+        "title_opus": "Raging Bull: The Filmmaking Secrets of a Classic",
+        "duration_sec": 74,
+        "aspect": "four_five",
+        "edit": "none",
+        "speaker_verified": "MICHAEL CHAPMAN again, first person, single voice: 'I based it very specifically on Life Magazine photographs', 'we panned 360'. Same speaker as the Saturday 5pm pick, which is why the Cardiff clip was placed between them rather than after.",
+        "why_it_passes": "Most concrete mechanism of the three: 24fps for the fighting, 48fps only when LaMotta is not fighting, switched inside single shots. Named visual source (Weegee, Life magazine prize-fight stills). Opening is a design decision with named sources rather than a principle.",
+        "caption": "drafts/caption-chapman-ragingbull-framerate.md",
+        "register_test": "4 sentences, 172 words, mean 43.0, min 39. PASS."
+      }
+    },
+    "review_log": [
+      {
+        "date": "2026-09-26",
+        "survey": "Visions of Light 4:5 (P3092222a8MT) has 22 clips and only 2 were used before today (Alonzo posted 23 Sep, Wexler posted 24 Sep). Read and rejected: WZVELNsTWp (Gordon Willis, overhead lighting from a Brando makeup problem, deliberately hiding his eyes) has the best CONTENT of anything surveyed but opens on a stranded fragment, 'the tip of your nose and if I stroke your teeth or your kneecaps', and runs three voices including Godfather dialogue ('we're not murderers, it's business'). Willis-only would leave roughly 36s. Worth a proper trim on a day with more room. sqltKqHM5a (underexposure, the studio asking 'how are we gonna show this at the drive-ins') has the same two problems.",
+        "rationing": "Two of the three picks are from this project and share a speaker, Chapman. Cardiff was placed in the Sunday morning slot specifically to separate them."
+      }
+    ]
   }
 ]
