@@ -307,7 +307,9 @@
         "speaker_verified": "JACK CARDIFF, first person for the whole kept section. The tail was a third party discussing 'Jack' in the third person, the exact Alcott trap, and was cut.",
         "why_it_passes": "Pure event opening with no principle anywhere near it: Technicolor comes to Denham to pick one operator to train, the men ahead of him come out shaken, and Cardiff opens his own interview by saying he is a technical zero. Lands on 'the next day I learned that I had been chosen', which is now the final line because the tail was removed.",
         "caption": "drafts/caption-cardiff-technicolor-interview.md",
-        "register_test": "4 sentences, 171 words, mean 42.8, min 36. PASS."
+        "register_test": "4 sentences, 171 words, mean 42.8, min 36. PASS.",
+        "schedule_id": "1790467174974xFbF-INSTAGRAM_BUSINESS",
+        "status": "scheduled"
       }
     },
     "review_log": [
@@ -425,7 +427,8 @@
         "caption": "drafts/caption-storaro-conformist-eur.md",
         "register_test": "4 sentences, 162 words, mean 40.5, min 39. PASS.",
         "schedule_id": "17903713392054onh-INSTAGRAM_BUSINESS",
-        "status": "scheduled"
+        "status": "posted",
+        "post_url": "https://www.instagram.com/reel/DdwhXvCky-j/"
       }
     }
   },
@@ -630,7 +633,9 @@
         "speaker_verified": "MICHAEL CHAPMAN, camera operator on Jaws (Bill Butler was the DP). Identified from inside the clip: 'it was a great piece of operating... I'm quite proud of it', 'Baseball metaphors come easily to operating'. Single voice, no speaker change.",
         "why_it_passes": "Best opening line of anything read today, and it is an event: a direct exchange with Spielberg, quoted. 'Steven that is not the way to make a sea picture because people will be throwing up in the aisles.' Mechanism is camera, the weakest section 2 category, but the specific choice (lens at water level so the surface sits low in frame) is visible and explainable in one sentence.",
         "caption": "drafts/caption-chapman-jaws-waterlevel.md",
-        "register_test": "4 sentences, 171 words, mean 42.8, min 37. PASS."
+        "register_test": "4 sentences, 171 words, mean 42.8, min 37. PASS.",
+        "schedule_id": "1790467172896c2Rg-INSTAGRAM_BUSINESS",
+        "status": "scheduled"
       },
       "1dJRsd1CRz": {
         "slot": "2026-09-28T00:00:00Z (5pm PT Sun 27 Sep)",
@@ -641,14 +646,17 @@
         "speaker_verified": "MICHAEL CHAPMAN again, first person, single voice: 'I based it very specifically on Life Magazine photographs', 'we panned 360'. Same speaker as the Saturday 5pm pick, which is why the Cardiff clip was placed between them rather than after.",
         "why_it_passes": "Most concrete mechanism of the three: 24fps for the fighting, 48fps only when LaMotta is not fighting, switched inside single shots. Named visual source (Weegee, Life magazine prize-fight stills). Opening is a design decision with named sources rather than a principle.",
         "caption": "drafts/caption-chapman-ragingbull-framerate.md",
-        "register_test": "4 sentences, 172 words, mean 43.0, min 39. PASS."
+        "register_test": "4 sentences, 172 words, mean 43.0, min 39. PASS.",
+        "schedule_id": "1790467177843POLr-INSTAGRAM_BUSINESS",
+        "status": "scheduled"
       }
     },
     "review_log": [
       {
         "date": "2026-09-26",
         "survey": "Visions of Light 4:5 (P3092222a8MT) has 22 clips and only 2 were used before today (Alonzo posted 23 Sep, Wexler posted 24 Sep). Read and rejected: WZVELNsTWp (Gordon Willis, overhead lighting from a Brando makeup problem, deliberately hiding his eyes) has the best CONTENT of anything surveyed but opens on a stranded fragment, 'the tip of your nose and if I stroke your teeth or your kneecaps', and runs three voices including Godfather dialogue ('we're not murderers, it's business'). Willis-only would leave roughly 36s. Worth a proper trim on a day with more room. sqltKqHM5a (underexposure, the studio asking 'how are we gonna show this at the drive-ins') has the same two problems.",
-        "rationing": "Two of the three picks are from this project and share a speaker, Chapman. Cardiff was placed in the Sunday morning slot specifically to separate them."
+        "rationing": "Two of the three picks are from this project and share a speaker, Chapman. Cardiff was placed in the Sunday morning slot specifically to separate them.",
+        "verified": "Date window 2026-09-26T12:00Z to 2026-09-29T00:00Z returned exactly four rows: the Storaro post plus one row per requested slot. No duplicates. All three approvals were issued as a single comma-separated token link, one visit."
       }
     ]
   }
