@@ -659,5 +659,33 @@
         "verified": "Date window 2026-09-26T12:00Z to 2026-09-29T00:00Z returned exactly four rows: the Storaro post plus one row per requested slot. No duplicates. All three approvals were issued as a single comma-separated token link, one visit."
       }
     ]
+  },
+  {
+    "youtube_id": "RdcvbiEsiUk",
+    "title": "Visions of Light (1992) - 40 to 55 min and 25 to 40 min",
+    "status": "reviewed",
+    "opus_projects": {
+      "40-55 min 4:5": "P3092700AC41",
+      "25-40 min 4:5": "P3092700Ahjs"
+    },
+    "screen_notes": "Submitted two more ranges of an already validated source, ~30 credits, on the reasoning that the monthly cap resets 2026-10-01 and unused credits are lost. The 40-55 range is the richest vein found so far on this account. The 25-40 range is mostly critic narration (noir survey, aspect ratio history, colour history) and is much weaker: take at most one clip from it.",
+    "analytics_finding_2026_09_26": {
+      "hold_is_set_by_the_opening": "Top 3s hold: Duvall 72.3, Friedkin 71.6, Un Chien Andalou 64.7, Alonzo 61.6. Bottom: Haneke 34.9, Cardiff Vermeer 39.1, Vertov 40.8. Third time the painter-as-model shape has landed at the bottom.",
+      "reach_is_set_by_conflict": "All three 20k+ posts have an antagonist: Kubrick catching the Steadicam shadow, Friedkin running 26 uncleared blocks, Duvall refused a longer lens. Share rate per view: Friedkin 1.90%, Alonzo 1.59%, Steadicam 1.19%, Duvall 1.11%, against Storaro 0.30% and Cardiff fog 0.41%.",
+      "the_counterexample": "Cardiff fog filter HAS conflict (Technicolor forbade it, message saying the day's work was ruined) and still only reached 3,876 on a 43.7% hold. Conflict in the story does not help if the opening does not land it. Hold and reach are separate levers.",
+      "new_target_shape": "Named practitioner, first person, conflict with another named person over a technical choice, and the conflict stated in the OPENING line rather than arrived at."
+    },
+    "confirmed_clean": {
+      "aSFncEM6TB": "Haskell Wexler, Who's Afraid of Virginia Woolf, 61s, no edit needed. BEST SHAPED CLIP FOUND ON THIS ACCOUNT. Opens on the conflict: Burton did not want him hired, fearing his newsreel background would show the pockmarks on his face. Elizabeth Taylor took his side. Then the lab called the footage too dark and there was talk of firing him. Two antagonists, first person, single voice, and a real mechanism (degrees of darkness and fill so dawn reads as a time change).",
+      "GgfhKX5V1G": "Conrad Hall, In Cold Blood, 83s. THE RAIN-ON-THE-FACE STORY IS HERE. On 2026-09-22 this was searched for in a Conrad Hall interview, was not in it, and the lesson recorded was 'check the source contains the story'. The story was in Visions of Light the whole time. Rain gutter over the stage, a fan blowing spray not rain, light through the water hit Blake's face by accident, Hall told Richard Brooks to watch it, and the water read as tears while Blake played it unemotional. Lands on 'I didn't conceive it, Richard didn't conceive it, nobody conceived it, it was purely a visual accident'. CAVEAT: the film's own dialogue is interleaved with the interview, so burned-in captions will be mixed."
+    },
+    "rejected_2026_09_26": {
+      "3fwKze5KiZ": "Naked City fay lights. Third person about Billy Daniels, rambling, interleaved film audio.",
+      "KytVFlKsfT": "Easy Rider scouting. Opens on a general claim, and the speaker lists himself alongside Kovacs and Willis without naming himself, so he cannot be identified from inside the clip.",
+      "RnNY6vsGY3": "Conrad Hall's camera operator of five years on flares and darkness being fireable offences. Good material, and 'not seeing eyes' echoes the Willis Brando line. REJECTED ONLY ON SPEAKER: probably William A. Fraker, who operated for Hall, but that is my own recall, which is exactly what produced the Alcott and In Cold Blood errors. Needs external verification before use, then it is a real candidate.",
+      "BCB1Rhjj9m": "Storaro cage of light. The queue recorded section 0 as 3.4s; it is actually 19.1s, and dropping it cut 64.5s to 45.4s and left the clip opening mid-phrase on 'the putting together as a director a scene'. Undone. THE OLD QUEUE NOTE WAS WRONG: do not trust a recorded dry-run figure without re-running it."
+    },
+    "trim_technique_correction": "THE REAL RULE, learned the hard way across four failed passes today. drop_section is addressed by index and its result echoes ONLY timecodes, never text, so mapping transcript blocks to section indices is guesswork and zero-length sections sit between the real ones, which throws the count off. delete_phrase is text-addressed and safe. AND: when delete_phrase refuses with 'would leave a 0s sliver of a section', that refusal is free information - it means the phrase IS exactly one whole section, so drop_section is the right tool for that block. Use delete_phrase first as a probe, always with dryRun. After ANY trim, poll describe_clip and read the transcript back before showing the clip; twice today a trim that looked right by arithmetic landed mid-sentence.",
+    "willis_parked": "WZVELNsTWp (Gordon Willis, overhead lighting forced by a problem with Brando's makeup, criticised for hiding his eyes, says it was deliberate) is the best CONTENT match for the new target shape and could not be trimmed blind. Two attempts: the first left it opening on Godfather dialogue and ending mid-sentence on 'so that you saw this mysterious'; undone. 21 sections, three voices, and the third-party lines are section-aligned but the indices could not be inferred. THIS ONE NEEDS THE WEB EDITOR, where the transcript is shown against the timeline. Deep link: https://clip.opus.pro/editor-ux/P3092222a8MT.WZVELNsTWp"
   }
 ]
