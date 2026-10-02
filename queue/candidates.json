@@ -732,7 +732,7 @@
     "cost": "~30 credits of 301 remaining processing minutes. Monthly API cap is 900 but enforced:false, so remaining_minutes is the real balance, not the cap number.",
     "rules_in_force": {
       "visions_of_light": "CLOSED. No further clips from any range of RdcvbiEsiUk. Six of eight posts had come from it before Tony caught it.",
-      "steven_seagal": "CLOSED. Under Siege 2 clip withdrawn to draft, post id 385546665.",
+      "steven_seagal": "CLOSED and DROPPED. Tony: \"No Steven segal\", then \"we are losing the segal clip\". The caption draft has been deleted from the repo, not kept as a record. Metricool post 385546665 is draft:true/autoPublish:false so it cannot fire, but the Metricool API has no delete endpoint - it needs removing by hand in the Metricool planner. Do not re-propose this clip or this anecdote.",
       "cutting_edge": "Rationed from Thursday onward. Already supplied Wed x2 plus Thu x1.",
       "speaker_rule": "Named practitioner in first person is NOT sufficient. It must be first person about their OWN decision. Both Fraker clips satisfied the old rule and came 8th and 9th of nine, because Fraker is first person about Conrad Hall: an admirer, not the decision-maker."
     }
