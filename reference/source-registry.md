@@ -83,6 +83,47 @@ Filmmuseum, NFSA.
 |---|---|
 | AFI Harold Lloyd Master Seminars | Official and feature length, but a filmed seminar. Speaker on stage, no footage cut under the voice. |
 | Internet Archive craft holdings | Searches returned books on technique rather than films. |
+| From Star Wars to Jedi (1983) | Fails the register test below. Studio promotional special. Two ranges submitted, ~30 credits, two clips scheduled and both cancelled before publication. |
+| Studio promotional making-ofs generally | Same. Previously listed below as an unverified lead worth checking; it was checked, and it is ruled out. |
+
+## The register test, which the other tests do not cover
+
+Added after cancelling two scheduled posts on 2026-10-02, and it is the same
+failure as the Steven Seagal clip the day before.
+
+Everything else in this repo screens for *form* and *mechanism*: caption
+sentence length, a named practitioner in first person about their own decision,
+a mechanism demonstrable in the clip. A studio promotional special can pass all
+of that. George Lucas on why killing Ben Kenobi forced him to invent Yoda is
+first person, about his own decision, consequential, and well told. It was still
+wrong for the account.
+
+The missing question is what kind of discourse the source belongs to.
+
+| Belongs | Does not |
+|---|---|
+| Craft documentary, cinematographers and editors on their own work | Studio promotional special, EPK, anniversary featurette |
+| Archival oral history, guild and museum interviews | Convention panel, fan retrospective |
+| Criterion-class supplement attached to a restoration | Trivia, on-set anecdote, celebrity incident |
+
+Two diagnostics that would have caught both failures:
+
+1. **Would the clip be interesting if the film were obscure?** The Seagal
+   anecdote is only interesting because it is Seagal. The Ewok language clip is
+   only interesting because it is Star Wars. Garrett Brown on the Steadicam
+   would be interesting if the film were unknown, because the subject is the
+   device.
+2. **What is the actual draw, the method or the story?** If a reader would
+   repeat it as an anecdote rather than apply it as a method, it is trivia with
+   analytical prose wrapped around it. Writing it up in house style does not
+   change what it is.
+
+A note on why this is not a performance question. The Star Wars clips might well
+have done good numbers; fandom travels. The decoder analysis puts subject at
+roughly 1.7x against caption form at 7.8x, which is exactly the reasoning that
+led here, and it is the wrong frame. Editorial point of view is not a variable to
+optimise against views. Anything defended with "it will probably perform" should
+be re-examined on register first.
 
 ## Unverified leads, worth checking
 
@@ -95,7 +136,6 @@ before use.
 - BAFTA masterclasses
 - Academy Originals short craft pieces
 - Kodak and manufacturer craft series (Panavision, Arri, Cooke)
-- Studio making-of featurettes attached to specific restorations
 
 ## Why diversify off a single source
 

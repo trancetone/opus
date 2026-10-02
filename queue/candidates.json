@@ -716,7 +716,7 @@
   {
     "youtube_id": "YKhGkiHSlAA",
     "title": "From Star Wars to Jedi: The Making of a Saga (1983) - 25 to 40 min and 40 to 55 min",
-    "status": "reviewed",
+    "status": "rejected",
     "duration": "61m14s",
     "channel": "Catalog of Cool (UC7_VJBlz8k7-N4gfxxqXL1g)",
     "opus_projects": {
@@ -758,6 +758,8 @@
       "P3100123NKi8.LUYXVb5wJL": "Rank 1, score 99. A thesis about media accelerating audience perception. Critic register, no practitioner decision. This is the painter-as-model shape that has finished bottom three times.",
       "P3100123NKi8.zwb7hvJe43": "HELD, not rejected. Opens on a practitioner working out the Rancor beat in first person (\"What I want him to do is turn around and look at Luke\"), and names Joe Johnston, Phil Tippett, Dennis Muren, Richard Edlund, Ken Ralston. Not used because the opening speaker cannot be identified from the audio and guessing would repeat the Visions of Light misattribution risk. Worth a caption if the speaker can be confirmed externally."
     },
-    "narrator_risk_outcome": "The flagged risk was real and cost most of the first range. Hamill narration carries nearly every effects explanation in the 25-40 minute window, so the strongest mechanisms there are unusable. Both accepted clips come from the 40-55 range, where the interviews sit. If this source is mined again, submit 40-55 onward, not the effects reels."
+    "narrator_risk_outcome": "The flagged risk was real and cost most of the first range. Hamill narration carries nearly every effects explanation in the 25-40 minute window, so the strongest mechanisms there are unusable. Both accepted clips come from the 40-55 range, where the interviews sit. If this source is mined again, submit 40-55 onward, not the effects reels.",
+    "closed": "CLOSED on editorial register, 2026-10-02. Tony: \"Star Wars stuff is a bit too off the editorial pov. I want the more elevated stuff we have been doing. Same reason as the Segal clip.\" Both scheduled clips cancelled before publication (Burtt 386731722, Lucas 386732087, both draft:true/autoPublish:false). No further clips from either range. ~30 credits spent for nothing.",
+    "what_i_got_wrong": "I screened this source on form and mechanism, which it passes, and never asked what kind of discourse it belongs to. A studio promotional special can satisfy every written criterion: Lucas on Yoda is first person, about his own decision, consequential and well told. The precedent I kept citing was also false. I called it \"the same shape as Garrett Brown and the Steadicam\" repeatedly; Brown is an inventor explaining his own device inside a serious craft documentary, while this is an EPK. I matched on visible mechanism plus famous film and ignored register. This is the second instance in two days of the same error, the Seagal clip being the first, and in both cases I defended trivia with analytical prose. The register test is now written into reference/source-registry.md."
   }
 ]
