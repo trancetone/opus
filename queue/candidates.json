@@ -60,7 +60,7 @@
     "duration_sec": 145,
     "discovered": "2026-09-13",
     "found_via": "websearch",
-    "status": "submitted",
+    "status": "reviewed",
     "rights": "commentary",
     "profile_match": "Named technique (match on action carrying a time transition) plus named technical collaborator (Anne V. Coates, editor). Production constraint present: no crossfade equipment available where they were cutting, against a period convention of fade-out and fade-in for time transitions.",
     "screen_notes": "Primary-source narration, the preferred provenance. Editing normally reads slower than colour or light, but this mechanism is two shots and about two seconds, so it clears the category handicap. Distinct from the existing Kuleshov post: that is juxtaposition manufacturing meaning, this is continuity carrying time. Mechanism appears in The Cutting Edge (2004) but sourced from a targeted interview instead, since the full documentary would cost roughly 97 credits and the Vimeo copy is likely an unauthorized upload.",
@@ -71,7 +71,18 @@
     "opus_project": "P30913171cfq",
     "approved_clips": [],
     "scheduled_at": null,
-    "metadata_source": "youtube-api videos.list, verified 2026-09-21"
+    "metadata_source": "youtube-api videos.list, verified 2026-09-21",
+    "clips_reviewed_2026_10_02": {
+      "note": "Submitted 2026-09-13 and then left unreviewed for nearly three weeks. Credits already spent. Found while looking for in-register material after the Star Wars source was closed.",
+      "VI5Ha5cFWE": "ACCEPTED, pending Tony. 53s. Coates in first person on her own decision, David Lean named, Lawrence of Arabia named. She would normally have done the dissolve in the machine, so the straight cut would never have been screened; because it was cut on film with Chinagraph marks they ran it in the theatre and both saw it. Caption drafted at drafts/caption-coates-matchcut.md, 168 words, mean 42.0, passes.",
+      "FnsNOFXcJJ": "32s, on holding a long take. Under the duration floor and no specific work anchored.",
+      "yFR5ceZnG5": "42s, Bedouins and the desert. Anecdote, not method. Fails the register test.",
+      "08SwXrA7wc": "30s reframe artifact, unscored, no transcript of value."
+    },
+    "caveats": [
+      "Aspect is portrait (9:16), not four_five like the rest of this week. Aspect is fixed at submission, so changing it costs a resubmit.",
+      "53s, under the 60-180 convention in use. Native Reel shape, so it displays fine, but inconsistent with the recent grid."
+    ]
   },
   {
     "id": "yt-_E8C-3MU00g",
@@ -761,5 +772,18 @@
     "narrator_risk_outcome": "The flagged risk was real and cost most of the first range. Hamill narration carries nearly every effects explanation in the 25-40 minute window, so the strongest mechanisms there are unusable. Both accepted clips come from the 40-55 range, where the interviews sit. If this source is mined again, submit 40-55 onward, not the effects reels.",
     "closed": "CLOSED on editorial register, 2026-10-02. Tony: \"Star Wars stuff is a bit too off the editorial pov. I want the more elevated stuff we have been doing. Same reason as the Segal clip.\" Both scheduled clips cancelled before publication (Burtt 386731722, Lucas 386732087, both draft:true/autoPublish:false). No further clips from either range. ~30 credits spent for nothing.",
     "what_i_got_wrong": "I screened this source on form and mechanism, which it passes, and never asked what kind of discourse it belongs to. A studio promotional special can satisfy every written criterion: Lucas on Yoda is first person, about his own decision, consequential and well told. The precedent I kept citing was also false. I called it \"the same shape as Garrett Brown and the Steadicam\" repeatedly; Brown is an inventor explaining his own device inside a serious craft documentary, while this is an EPK. I matched on visible mechanism plus famous film and ignored register. This is the second instance in two days of the same error, the Seagal clip being the first, and in both cases I defended trivia with analytical prose. The register test is now written into reference/source-registry.md."
+  },
+  {
+    "title": "The Cutting Edge: The Magic of Movie Editing (2004) - RECORD GAP",
+    "status": "record-gap",
+    "opus_projects": {
+      "25-40 min 4:5": "P3092912U28l",
+      "40-55 min 4:5": "P3092915BJDZ"
+    },
+    "source_type": "VIMEO",
+    "opus_source_video_id": "tqWbJtPTDbm",
+    "gap": "These two projects were submitted without a candidates.json entry, so the source URL was never recorded. The queue is the dedup record and it failed here: three published posts came off this source (women-s-work, Dede Allen, Margaret Booth) with no entry tying them to it. The Opus source_video_id is not a Vimeo id and the URL cannot be reconstructed from it, so using the unused ranges (0-25 and 55-end) means finding the upload again.",
+    "register": "In register and verified in reference/source-registry.md. Rationed, not closed: already supplied three of this week.",
+    "action": "Re-find the Vimeo URL and record it here before any further submission."
   }
 ]
