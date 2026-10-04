@@ -785,5 +785,61 @@
     "gap": "These two projects were submitted without a candidates.json entry, so the source URL was never recorded. The queue is the dedup record and it failed here: three published posts came off this source (women-s-work, Dede Allen, Margaret Booth) with no entry tying them to it. The Opus source_video_id is not a Vimeo id and the URL cannot be reconstructed from it, so using the unused ranges (0-25 and 55-end) means finding the upload again.",
     "register": "In register and verified in reference/source-registry.md. Rationed, not closed: already supplied three of this week.",
     "action": "Re-find the Vimeo URL and record it here before any further submission."
+  },
+  {
+    "title": "Week of 2026-10-05, Mon to Wed: the reset schedule",
+    "status": "scheduled",
+    "zero_credits_spent": "All six come from projects already paid for. Opus balance unchanged at 271 processing minutes.",
+    "schedule": {
+      "Mon 10am": {
+        "metricool": 387968818,
+        "clip": "P30913171cfq.VI5Ha5cFWE",
+        "subject": "Anne V. Coates on the Lawrence of Arabia match cut",
+        "source": "Making the Cut interview"
+      },
+      "Mon 5pm": {
+        "metricool": 387999386,
+        "clip": "P3091916asgw.PdvRCC2ueG",
+        "subject": "Jack Cardiff, the cup of water on a six foot ladder, and Powell cutting Cardiff's best scene",
+        "source": "Painting with Light"
+      },
+      "Tue 10am": {
+        "metricool": 387999656,
+        "clip": "P3091916asgw.qXpTex9ctX",
+        "subject": "Natalie Kalmus and colour control over Technicolor; Powell and Alfred Junge refusing her",
+        "source": "Painting with Light"
+      },
+      "Tue 5pm": {
+        "metricool": 388000034,
+        "clip": "P3092915BJDZ.QSsxHOulLM",
+        "subject": "Scorsese wiping away technique on Raging Bull's non-ring scenes, traced to Italian neorealism",
+        "source": "The Cutting Edge"
+      },
+      "Wed 10am": {
+        "metricool": 388000521,
+        "clip": "P3091916asgw.DHlPWa0flZ",
+        "subject": "Cardiff on green filters in the fill against pink sun effects, the Van Gogh complementary pair, for anger",
+        "source": "Painting with Light"
+      },
+      "Wed 5pm": {
+        "metricool": 388002827,
+        "clip": "P3092912U28l.Hfgo47TXMA",
+        "subject": "Removing the air between overlapping lines in The Horse Whisperer; music over helicopters in Black Hawk Down",
+        "source": "The Cutting Edge"
+      }
+    },
+    "source_spread": "3 Painting with Light, 2 The Cutting Edge, 1 Making the Cut. Flagged honestly: 3 of 6 from one documentary is concentration again, though far from the 6-of-8 that went wrong before, and the three are distinct in subject and speaker. Next week needs a genuinely new source.",
+    "register_check": "Every pick was read in full and tested against the register test in reference/source-registry.md. All are craft-documentary or archival-interview discourse, and every one would still be interesting if the film were obscure.",
+    "rejected_this_pass": {
+      "P3092915BJDZ.tCon3oo2om": "Schindler's List. Opens on film dialogue ('You're worried about the weight') and carries at least three voices: film audio, an editor on single-camera coverage, a director on editor objectivity, then Michael Kahn on Spielberg in Poland. Attributing that to one person is the Alcott error. Would need a trim, which the API cannot do reliably.",
+      "P3092915BJDZ.kaqz4NERrj": "An editor refusing music over a scene because it masks the sound of sand falling, with a real argument about how hearing opens under threat. Excellent content, but neither speaker nor film is named anywhere in the transcript, so it cannot be work-anchored. Work-anchored posts run a 2,262 median against 261 for career-level. HELD, not rejected.",
+      "P3092915BJDZ.5lst9uvnuB": "Sharon Stone and the Basic Instinct scene controversy. Trivia register, the Seagal shape.",
+      "P3091916asgw.5LlAEzbpou": "Vermeer and Rembrandt as models for light. Painter-as-model has finished at the bottom three times, and this caption is already posted.",
+      "P3092915BJDZ.g0OYtc7i2M": "The Seagal clip. Closed subject."
+    },
+    "unresolved_identifications": {
+      "horse_whisperer_speaker": "Partly resolved. The speaker is NOT Per Hallberg: they say they worked WITH Hallberg and with Ridley Scott. The role described is creating the sound template including temporary music, so a supervising sound or music editor. One extended search did not confirm a name, so the caption anchors on the works and the named collaborators and does not name the speaker.",
+      "kalmus_speaker": "The Kalmus account is first-hand testimony but the speaker refers to Cardiff in the third person, so it is not Cardiff. Caption attributes the claims to the account rather than to a named person."
+    }
   }
 ]
