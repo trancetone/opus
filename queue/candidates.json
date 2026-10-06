@@ -841,5 +841,20 @@
       "horse_whisperer_speaker": "Partly resolved. The speaker is NOT Per Hallberg: they say they worked WITH Hallberg and with Ridley Scott. The role described is creating the sound template including temporary music, so a supervising sound or music editor. One extended search did not confirm a name, so the caption anchors on the works and the named collaborators and does not name the speaker.",
       "kalmus_speaker": "The Kalmus account is first-hand testimony but the speaker refers to Cardiff in the third person, so it is not Cardiff. Caption attributes the claims to the account rather than to a named person."
     }
+  },
+  {
+    "title": "Analytics review 2026-10-06",
+    "status": "analysis",
+    "new_data": {
+      "Coates match cut (Mon 10am)": "383 views, 43.7% hold, 12.2s watch, 2 saves, 2 shares. WORST post on the account on both views and hold.",
+      "Cardiff cup of water (Mon 5pm)": "2,016 views, 69.3% hold, 26.6s watch, 25 saves, 3 shares. Second-best hold ever recorded, behind Duvall's 72.7%."
+    },
+    "finding_opening_three_seconds": "Hold is set by the first words a viewer HEARS, not by the caption's first sentence, and nothing in the repo tested that. Coates opens on a hedge and a conditional with nothing named ('Well we were in film in those days so I think sometimes wonder'). Cardiff opens on a concrete event with a place and a film ('I went to Hollywood to play in Young Bess and the taxi driver said'). Duration is ruled out: Coates was watched to 23.0% of its length, Cardiff to 24.2%, so a 53s runtime cannot explain a 3-second metric. Caveats: Coates was also the only 9:16 clip, and n is 1 per condition. Built tools/opening_test.py, validated against both known-hold cases, and it independently FAILs the two clips rejected last pass on unrelated grounds (Schindler multi-voice, sand clip unnamed speaker).",
+    "correction_share_rate": "An earlier claim in this repo and in chat, that reach is set by shares, was too strong. corr(share RATE, views) = -0.07 over 16 posts, -0.21 excluding Duvall. Only ABSOLUTE shares track views (0.97, or 0.75 without Duvall) and that is substantially circular. Counter-example: the women's-work clip has the highest share rate on the account at 3.85% and 494 views.",
+    "finding_hold_vs_reach": "Independence confirmed and strengthened. corr(3s hold, views) = 0.25 excluding Duvall. Cardiff's cup of water has the second-best hold ever and 2,016 views with 3 shares.",
+    "finding_authority_beats_demonstration": "Natural experiment, same documentary and same publication date 2026-10-01. Margaret Booth 5,260 views and 52 shares against Dede Allen's eyeline demonstration at 1,109 and 5. A named authority saying something that contradicts current practice beats a well-explained craft trick with no antagonist, 4.7x on views and 10x on shares. Booth is now the third-best post on the account, and it is an editing post, so editing is not the handicap.",
+    "i_was_wrong_about": "Before posting I flagged the Cardiff taxi-driver opening as 'slightly off' and anecdotal. It produced the second-best hold on the account. Register and opening are separate tests: 'would this be interesting if the film were obscure' governs register, 'does it open on an event' governs hold. I had been conflating them.",
+    "prediction_on_record": "The Scorsese clip scheduled Tue 2026-10-06 5pm FAILS the new opening test: it opens on a principle, 'I wanted to have a very open honest approach to the imagery and the story', and Raging Bull is not named until about word 27, outside the 20-word window. Left scheduled rather than pulled, because the content is strong, Scorsese carries reach independently of hold, and the alternative was an empty slot. Prediction: below-median 3s hold, roughly 50% or under. Check it tomorrow. If hold comes in low the test is supported; if it comes in high the test is too strict about naming inside 20 words.",
+    "still_pending_this_week": "Kalmus Tue 10am (published, not yet indexed), Cardiff Van Gogh Wed 10am, Horse Whisperer Wed 5pm. Van Gogh and Horse Whisperer both PASS the opening test."
   }
 ]

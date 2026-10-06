@@ -121,6 +121,74 @@ Don't post about TikTok. Post about Kuleshov and let the reader draw the line. T
 
 Roughly 90% film craft, one sentence of landing.
 
+
+---
+
+## The opening three seconds, measured (added 2026-10-06)
+
+Hold was always attributed to "sentence one", and that was read as the
+caption's first sentence. It is not. It is the first words a viewer *hears*,
+and nothing in this repo tested them until now. `tools/opening_test.py` does.
+
+| | Coates, match cut | Cardiff, cup of water |
+|---|---|---|
+| 3s hold | **43.7%** (worst on the account) | **69.3%** (second best ever) |
+| Views | 383 (worst on the account) | 2,016 |
+| Clip opens | "Well we were in film in those days so I think sometimes wonder..." | "I went to Hollywood to play in Young Bess and the taxi driver said..." |
+| Watched | 12.2s of 53s = **23.0%** | 26.6s of 110s = **24.2%** |
+
+**Duration did not cause the Coates failure.** The two clips were watched to
+within 1.2 points of the same fraction of their length. A 53-second runtime
+cannot explain a three-second metric. What differs is that one opens on a
+hedge and a conditional with nothing named, and the other on a concrete event
+with a place and a film in it.
+
+Two caveats stay honest: Coates was also the only 9:16 clip in the set, and
+n is one post per condition. The opening is the best explanation, not a
+proven one. The test exists so the next twenty posts can settle it.
+
+A FAIL is a reason to choose another clip. The caption cannot repair the
+first words, because the viewer leaves before reading it.
+
+## Hold and reach are independent, and share RATE predicts nothing
+
+Across 16 measured posts:
+
+| | all 16 | excluding the Duvall outlier |
+|---|---|---|
+| corr(3s hold, views) | 0.51 | **0.25** |
+| corr(absolute shares, views) | 0.97 | 0.75 |
+| corr(share **rate**, views) | **-0.07** | **-0.21** |
+| corr(avg watch, views) | 0.52 | 0.44 |
+
+**Correction to an earlier claim in this repo.** "Reach is set by shares" was
+stated too strongly. Only the *absolute* share count tracks views, and that
+is substantially circular, since more views generate more shares. Share
+*rate* is uncorrelated with reach, slightly negative. The clearest
+counter-example is the women's-work clip: the highest share rate on the
+account at 3.85%, and 494 views. Alcott's practicals ran 2.46% on 1,665 views.
+
+Hold and reach really are separate levers, and the newest data strengthens
+it: Cardiff's cup of water has the second-best hold ever recorded here and
+2,016 views with 3 shares.
+
+## Authority beats demonstration, same source, same day
+
+A clean natural experiment. Both from The Cutting Edge, both published
+2026-10-01:
+
+| | Views | Shares | Shape |
+|---|---:|---:|---|
+| Margaret Booth | **5,260** | **52** | named authority, a provocative instruction, people afraid of her |
+| Dede Allen eyeline | 1,109 | 5 | technique demonstration, a mismatch masked by a foreground pass |
+
+Same documentary, same day, same caption discipline: 4.7x the views and 10x
+the shares. Booth is now the third-best post on the account. The difference
+is a person with power saying something that contradicts current practice,
+against a well-explained craft trick with no antagonist in it.
+
+Editing is not the handicap here. Booth is an editing post.
+
 ---
 
 ## Voice
