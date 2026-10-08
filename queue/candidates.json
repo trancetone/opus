@@ -978,7 +978,7 @@
   },
   {
     "title": "First explainer-form attempt: Thu 2026-10-08 slots",
-    "status": "footage-processing",
+    "status": "scheduled",
     "method": "First run of the corrected sequence. Mechanism researched and verified against primary sources BEFORE any footage search, per reference/what-search-found-them.md. No AI video.",
     "posts": {
       "Thu 10am": {
@@ -986,7 +986,10 @@
         "caption": "drafts/caption-deakins-obrother-di.md",
         "register": "218 words, mean 43.6, min 26, PASS. In the August explainer band of 43-46 rather than the anecdote band of 36-42.",
         "footage": "https://www.youtube.com/watch?v=QhAixFFJrVk  O' BROTHER Clip 'Flood', JoBlo Movie Clips, 6m44s, licence youtube",
-        "opus_project": "P3100804dFKe"
+        "opus_project": "P3100804dFKe",
+        "clip_chosen": "P3100804dFKe.7jsRmMkM9I, 56s",
+        "metricool": 391315628,
+        "why_this_clip": "Chosen on the mechanism rather than on Opus rank. The Deakins grade was specifically about suppressing green foliage, so the clip to use is the one with trees and water in it: foliage that ought to read green reading gold instead IS the demonstration. Opus ranked this clip LAST of seven, which is irrelevant here because Opus scores dialogue coherence and this form needs image content. For footage posts the Opus ranking should be ignored entirely."
       },
       "Thu 5pm": {
         "mechanism": "Jordan Cronenweth on smoke as the medium for light shafts, and the in-camera replicant eye glow",
@@ -994,13 +997,18 @@
         "register": "227 words, mean 45.4, min 20, PASS.",
         "footage": "https://www.youtube.com/watch?v=UA5SfvPoh84  Deckard meets Rachael, The Final Cut, Movie Clips Classics, 4m41s, licence youtube",
         "opus_project": "P3100804eCbt",
-        "why_this_scene": "The Tyrell office carries all three parts at once: shafts through the blinds, smoke holding them, and Rachael's eye glow."
+        "why_this_scene": "The Tyrell office carries all three parts at once: shafts through the blinds, smoke holding them, and Rachael's eye glow.",
+        "clip_chosen": "P3100804eCbt.LE30gtzZKG, 56s",
+        "metricool": 391316528,
+        "why_this_clip": "The Voight-Kampff test in Tyrell office, where the blinds, the smoke holding the shafts, and Rachael all occur together."
       }
     },
     "opus_settings_for_this_form": "aspectRatio four_five, clipDurationsSec [[40,90]], enableCaption FALSE, enableAutoHook FALSE. Captions are off because the explanation lives in the Instagram caption and burning the film's own dialogue over the image would fight the thing being demonstrated. This is a change from the anecdote form, where captions were on.",
     "criterion_that_no_longer_applies": "tools/screen_source.py enforces a ten-minute source floor, which exists because Opus needs enough material to curate from. For this form the source is a single short scene, so the floor is not a defect to fix in the footage, it is a criterion built for the old pipeline. Every candidate screened came in at 2 to 9 minutes.",
     "limitation_i_cannot_close": "Stage two requires screening the transfer for footage that actually shows the mechanism. That is a visual check and I cannot watch video. I am relying on priors: O Brother's grade is on every frame, and the Tyrell office is where the shafts, the smoke and the eye glow all appear together. Strong priors, but priors. The check belongs to Tony, from the preview links.",
     "held": "Janusz Kaminski on narrow shutter angles for Omaha Beach is verified and NOT used. A 60-second cut of the landing is graphic war violence, which is an age-gate and brand risk on Instagram and Tony's call rather than mine. Footage screened and available if he wants it: https://www.youtube.com/watch?v=hdBEyitJ7Qc 4K HDR, 9m24s.",
-    "friday_outstanding": "Fri 10am and 5pm have no mechanism yet. Needs either the Kaminski ruling or two fresh stage-one passes."
+    "friday_outstanding": "Fri 10am and 5pm have no mechanism yet. Needs either the Kaminski ruling or two fresh stage-one passes.",
+    "verified": "Verified by date window 2026-10-08 12:00 to 2026-10-09 12:00 Madrid: exactly two, both draft:false and autoPublish:true, no duplicates.",
+    "new_rule_learned": "Opus ranking is worse than useless for footage-only posts. It ranks on speech, and this form needs the image. On the O Brother project the rank 1 clip was a dialogue scene and the rank 7 clip was the one that actually demonstrates the mechanism. Pick on mechanism visibility, read the rank as noise."
   }
 ]
