@@ -19,7 +19,12 @@ def sentences(body):
     # Mask the period after an initial or known abbreviation so it is not
     # treated as a sentence end, split, then restore.
     masked = re.sub(r'\b(%s)\.(\s)' % ABBREV, lambda m: m.group(1) + '\x00' + m.group(2), body)
-    parts = [p for p in re.split(r'(?<=[.!?])\s+', masked) if p.strip()]
+    # Require a capital letter or an opening quote after the break. Without
+    # this, a title carrying its own sentence punctuation splits mid-sentence:
+    # "O Brother, Where Art Thou? (2000)" broke after "Thou?" and registered
+    # as an 8-word sentence, failing a caption that was fine.
+    parts = [p for p in re.split(r'(?<=[.!?])\s+(?=["\u201cA-Z])', masked)
+             if p.strip()]
     return [p.replace('\x00', '.') for p in parts]
 
 
