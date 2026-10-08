@@ -1010,5 +1010,31 @@
     "friday_outstanding": "Fri 10am and 5pm have no mechanism yet. Needs either the Kaminski ruling or two fresh stage-one passes.",
     "verified": "Verified by date window 2026-10-08 12:00 to 2026-10-09 12:00 Madrid: exactly two, both draft:false and autoPublish:true, no duplicates.",
     "new_rule_learned": "Opus ranking is worse than useless for footage-only posts. It ranks on speech, and this form needs the image. On the O Brother project the rank 1 clip was a dialogue scene and the rank 7 clip was the one that actually demonstrates the mechanism. Pick on mechanism visibility, read the rank as noise."
+  },
+  {
+    "title": "STANDING RULE: no violence",
+    "status": "rule",
+    "rule": "Tony, 2026-10-08: 'No violence'. Permanent editorial constraint, alongside no AI clips, no studio promotional sources, and the closed subjects (Visions of Light, Steven Seagal, From Star Wars to Jedi).",
+    "immediate_effect": "Janusz Kaminski on the narrow shutter for Omaha Beach is now permanently EXCLUDED rather than held. The mechanism is first rate and verified from the ASC article; the footage is a graphic combat landing and there is no non-violent way to demonstrate it, because the grain-in-air effect only appears in the explosions.",
+    "second_casualty": "2001 front projection is at risk for the same reason. The mechanism is excellent and August grade, from Herb A. Lightman in American Cinematographer, but its footage IS the Dawn of Man sequence, which contains the tapir kill and the bone-club fight. A landscape-only cut may exist but cannot be confirmed without watching it. Caption written and passing; held for Tony's call.",
+    "screening_note": "Mechanism selection must now check what the footage contains, not only what the technique is. A non-violent technique can live inside a violent sequence."
+  },
+  {
+    "title": "Friday 2026-10-09 explainer candidates",
+    "status": "partial",
+    "fri_10am": {
+      "mechanism": "Gregg Toland and the deep focus method on Citizen Kane (1941)",
+      "caption": "drafts/caption-toland-kane-deepfocus.md, 228 words, mean 45.6, min 34, PASS",
+      "sourcing_strength": "August grade. Toland wrote the method up HIMSELF in American Cinematographer, February 1941, plus 'How I Broke the Rules in Citizen Kane' in Popular Photography that June. Specifics: Vard Opticoat coated lenses, the twin-arc broadsides developed for Technicolor as the backbone of the lighting, Kodak Super XX, real ceilings built lower than the style would have so the light came off the floor, muslin removing microphone shadows, focus from eighteen inches to over two hundred feet, sets the length of two stages at RKO-Pathe.",
+      "honest_caveat": "Included in the caption: several of the most quoted compositions used a split diopter holding two planes rather than one deep field, so not all the famous depth is depth.",
+      "footage": "https://www.youtube.com/watch?v=HAHaRDlUrLw  Citizen Kane-boyhood, 4m23s. The boarding-house scene, Charles in the snow through the window while Thatcher and his mother sign inside, which is the canonical deep-focus composition. Non-violent.",
+      "opus_project": "P3100816PLxk"
+    },
+    "fri_5pm": "OPEN. The 2001 front projection caption is written and passing (drafts/caption-2001-front-projection.md, 230 words, mean 46.0) but blocked on the violence rule above.",
+    "rejected_at_stage_one": {
+      "lawrence_mirage_lens": "Freddie Young and the long lens for Omar Sharif's entrance through the mirage. REJECTED on sourcing. The focal length is unresolved between 482mm and 500mm, the builder credit to Miyagishima and Kraemer appears in a single social post, and the sources are reposts of one another rather than production history. Trivia grade, which is the exact failure the register test exists to catch.",
+      "doyle_in_the_mood_for_love": "REJECTED on absence of a mechanism. Searching turned up no technical account from Doyle; the doorway framing is critics' readings rather than his own words. His best sourced line, that there is no red in Wong Kar-wai's films up to this one because red means joy for Chinese audiences, is a colour-avoidance principle rather than a transferable method, which is the survey shape that underperforms."
+    },
+    "method_note": "Three of four stage-one candidates were rejected before any credits were spent. That is the research-first sequence working as intended rather than failing."
   }
 ]
