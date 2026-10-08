@@ -933,5 +933,47 @@
     "what_i_got_wrong": "Both tests built this week target 3s hold, the weakest of the three signals at 0.55. Hold ROSE over the decline, median 52.0 to 58.4, while reach fell. The opening test is 0 for 2 out of sample: Scorsese failed it and held 61.6%, Kalmus passed it and held 47.0% on 407 views. Demoted, not defended. The register test still has a defensible job, keeping prose in voice, but neither test addresses reach.",
     "alternatives_i_cannot_rule_out": "Instagram-side reach decay and audience fatigue with a narrowing niche. There is no instrumentation for either, so form is not claimed to explain the whole decline, only a real part of it.",
     "recommendation": "Return to the researched-explainer form and raise volume. That means research a technique first, write the explainer, then source or generate footage to match, rather than starting from an Opus clip. The anthropic-skills:miac-content skill describes exactly that order (research, video sourcing, Magnific generation, caption), which looks like the August pipeline. Magnific currently requires authentication that cannot be done from a non-interactive session, so Tony has to authorise it before that route is usable."
+  },
+  {
+    "title": "PROCESS CORRECTION 2026-10-08: mechanism first, footage second",
+    "status": "process",
+    "no_ai_clips": "Tony: 'No AI clips'. AI video generation is OUT, permanently. Magnific generation is not to be used. This blocks nothing, because the high-performing era used real film footage.",
+    "what_i_did_wrong": "reference/what-search-found-them.md already contained this, written before I started, and I ran the opposite pipeline for two weeks. Its words: 'A pipeline that searches YouTube first and asks what it can say about the results is running this backwards, and it would reliably produce surveys.' I was doing a variant of exactly that: search for a documentary where a practitioner narrates, then ask what the clip happens to say. My own queue entries are stamped found_via: websearch. The document predicted the failure mode and I did not read it.",
+    "the_corrected_sequence": {
+      "stage_1_mechanism": "NOT YouTube. Production histories, American Cinematographer and ASC interviews, technical retrospectives, commentary transcripts, department oral histories. Bias to the technical collaborator over the director: Willis, Zsigmond, Unsworth, Thomson and Webb produced the top posts, and director-name searches return career surveys, which is the shape that fails. Favour mechanisms with a production-constraint story, because the constraint is what makes the rule portable.",
+      "stage_2_footage": "Only now YouTube, and only to satisfy the demonstrable requirement. The footage does NOT need anyone explaining the mechanism; the caption carries that. It only needs to show it. This is why the source pool is wide and why no AI video was ever needed.",
+      "implication_for_opus": "Opus is a stage-two reframing tool, not a sourcing tool. There were 32 posts published 20-31 Aug and exactly one Opus project in that window. The best era did not use this pipeline."
+    },
+    "candidates_stage_one_verified": {
+      "deakins_o_brother_di": {
+        "mechanism": "The first digital intermediate on a Hollywood feature without significant visual effects.",
+        "named_collaborator": "Roger Deakins, with Cinesite in Los Angeles, a Kodak subsidiary.",
+        "constraint_story": "Shot on location in Mississippi in June and July, so the foliage was lush and green, and the Coens wanted a parched Dust Bowl palette. Photochemical timing could not reliably suppress that green across a whole feature. The chemical alternative would have meant flashing the negative, sepia filters and multiple runs through the bath.",
+        "specifics": "Spirit DataCine scanning at 2K, a Pandora MegaDef for the grade, a Kodak Lightning II recorder back out to film. Deakins spent about 11 weeks on the grade. Deakins knew of Lindley's experience on Pleasantville, which Cinesite had also scanned and recorded.",
+        "honest_caveat": "Sources differ on how far the 'first' claim reaches: one says first digital intermediate across the entirety of a first-run Hollywood film that otherwise had very few visual effects, another says first non-VFX Hollywood feature. The caption should state the narrower claim, the way the Melies caption cited Deslandes against the accident story.",
+        "footage_needed": "O Brother, Where Art Thou? (2000), any sequence where the sepia and gold palette is plain. Colour is the fastest-reading mechanism category on this account.",
+        "sources": [
+          "https://theasc.com/articles/o-brother-cinematography-deakins",
+          "https://codex.online/news/The-history-and-development-of-digital-intermediate"
+        ]
+      },
+      "kaminski_private_ryan_shutter": {
+        "mechanism": "Narrow shutter angles to make the Omaha Beach landing read like 1940s combat newsreel.",
+        "named_collaborator": "Janusz Kaminski, with Panavision, and Samuelson Film Services for the mistimed-shutter unit.",
+        "constraint_story": "The goal Kaminski states is to make it seem that several combat cameramen had landed with the troops, and the work started from the lenses available in the 1940s.",
+        "specifics": "Kaminski in American Cinematographer: much of the film shot at a 45 or 90 degree shutter, the 45 especially effective on explosions, where you can see every grain of sand coming down, and the idea came out of their tests. A streaking effect borrowed from Full Metal Jacket used a purposely mistimed shutter prepared by Samuelson, which Kaminski notes was negated when combined with a narrow shutter. Panavision Platinum and Panastar bodies.",
+        "honest_caveat": "Sources disagree: Reverse Shot credits the Omaha sequence to a 90 degree shutter while Kaminski says 45 or 90. The stripped anti-reflective lens coatings claim appears in only one secondary source and is NOT in the ASC excerpt, so it must not be stated as fact.",
+        "footage_needed": "Saving Private Ryan (1998) Omaha Beach landing. The grain-in-air effect is visible, which satisfies the demonstrable test.",
+        "sources": [
+          "https://theasc.com/article/saving-private-ryan-cinematography-kaminski/"
+        ]
+      }
+    },
+    "unverified_leads_same_shape": [
+      "Darius Khondji and silver retention / bleach bypass on the prints for Seven (1995).",
+      "Jordan Cronenweth on Blade Runner (1982): smoke, shafts, and the eye glow achieved with a half-silvered mirror.",
+      "Walter Murch on Apocalypse Now (1979): the quintaphonic mix and the coining of 'sound designer'. Sound needs audible proof rather than visible."
+    ],
+    "rights_tension_unchanged": "The four biggest posts are all rights-reserved studio features: Excalibur, Nashville, The Parallax View, Stalker. Both verified candidates above are too. This is the same trade already in force across the account, documented in CRITERIA.md section 6, not a new one."
   }
 ]
