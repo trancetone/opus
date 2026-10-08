@@ -856,5 +856,82 @@
     "i_was_wrong_about": "Before posting I flagged the Cardiff taxi-driver opening as 'slightly off' and anecdotal. It produced the second-best hold on the account. Register and opening are separate tests: 'would this be interesting if the film were obscure' governs register, 'does it open on an event' governs hold. I had been conflating them.",
     "prediction_on_record": "The Scorsese clip scheduled Tue 2026-10-06 5pm FAILS the new opening test: it opens on a principle, 'I wanted to have a very open honest approach to the imagery and the story', and Raging Bull is not named until about word 27, outside the 20-word window. Left scheduled rather than pulled, because the content is strong, Scorsese carries reach independently of hold, and the alternative was an empty slot. Prediction: below-median 3s hold, roughly 50% or under. Check it tomorrow. If hold comes in low the test is supported; if it comes in high the test is too strict about naming inside 20 words.",
     "still_pending_this_week": "Kalmus Tue 10am (published, not yet indexed), Cardiff Van Gogh Wed 10am, Horse Whisperer Wed 5pm. Van Gogh and Horse Whisperer both PASS the opening test."
+  },
+  {
+    "title": "DIAGNOSIS 2026-10-08: why performance is falling",
+    "status": "analysis",
+    "headline": "Weekly total reach has fallen from 300,330 (week of Aug 24) to 5,914 (week of Oct 5). Against the ordinary weeks of 30k to 55k it is still down 5 to 6x.",
+    "weekly_totals": {
+      "2026-08-20": {
+        "posts": 11,
+        "median_views": 2077,
+        "total_views": 33507,
+        "median_saves": 16
+      },
+      "2026-08-24": {
+        "posts": 20,
+        "median_views": 5632,
+        "total_views": 300330,
+        "median_saves": 122
+      },
+      "2026-08-31": {
+        "posts": 8,
+        "median_views": 1188,
+        "total_views": 15652,
+        "median_saves": 19
+      },
+      "2026-09-08": {
+        "posts": 5,
+        "median_views": 1755,
+        "total_views": 33400,
+        "median_saves": 34
+      },
+      "2026-09-14": {
+        "posts": 5,
+        "median_views": 1038,
+        "total_views": 29993,
+        "median_saves": 13
+      },
+      "2026-09-21": {
+        "posts": 9,
+        "median_views": 4081,
+        "total_views": 55660,
+        "median_saves": 51
+      },
+      "2026-09-28": {
+        "posts": 8,
+        "median_views": 1954,
+        "total_views": 19279,
+        "median_saves": 23
+      },
+      "2026-10-05": {
+        "posts": 4,
+        "median_views": 1149,
+        "total_views": 5914,
+        "median_saves": 6
+      }
+    },
+    "two_compounding_causes": {
+      "volume": "20 posts in the week of Aug 24 against 6 now. A 3x cut before any question of quality.",
+      "per_post_reach": "Median views 5,632 to 1,149, about 5x."
+    },
+    "saves_are_the_engine": {
+      "spearman_saves_views": 0.94,
+      "spearman_shares_views": 0.9,
+      "spearman_hold_views": 0.55,
+      "spearman_save_rate_views": 0.38,
+      "endogeneity_caveat": "Saves and views are partly circular, since Instagram promotes what is saved early. The rate-adjusted figure is the honest one.",
+      "median_save_rate_by_era": {
+        "Aug 20-31": "2.00%",
+        "September": "1.22%",
+        "October": "1.21%"
+      },
+      "reading": "Save rate halved between the explainer era and the clip era. That is per-view behaviour, not distribution, so it is content-side evidence."
+    },
+    "the_form_changed": "The late-August posts are researched technique explainers with citable specifics, built to be saved: Excalibur's green filters over the lighting rigs (87,881 views, 2,855 saves, 3.25%); Altman's three eight-track machines giving each actor a dedicated mic (66,058 / 1,696 / 2.57%); Willis lighting The Parallax View at the lowest level the stock would register (50,146 / 1,497 / 2.99%); Tarkovsky's sepia-to-colour in Stalker (26,650 / 646 / 2.42%). They cite numbers and sources: twenty-four parallel channels, a fifteen-foot model, 240 pounds, Jacques Deslandes, Mark Minett's statistical analysis. What I have been producing is the documentary anecdote: a named practitioner recalling one decision. Interesting once, nothing to save. Booth, the best of mine, saves at 1.29%.",
+    "structural_problem": "The Opus Clip pipeline cannot produce the August form. It starts from whatever a practitioner happened to say on camera, and the caption can only describe that. The August posts were researched first and footage found to match, which is the opposite order. Picking better clips cannot close this gap, and picking better clips is what the last two weeks of work has been.",
+    "what_i_got_wrong": "Both tests built this week target 3s hold, the weakest of the three signals at 0.55. Hold ROSE over the decline, median 52.0 to 58.4, while reach fell. The opening test is 0 for 2 out of sample: Scorsese failed it and held 61.6%, Kalmus passed it and held 47.0% on 407 views. Demoted, not defended. The register test still has a defensible job, keeping prose in voice, but neither test addresses reach.",
+    "alternatives_i_cannot_rule_out": "Instagram-side reach decay and audience fatigue with a narrowing niche. There is no instrumentation for either, so form is not claimed to explain the whole decline, only a real part of it.",
+    "recommendation": "Return to the researched-explainer form and raise volume. That means research a technique first, write the explainer, then source or generate footage to match, rather than starting from an Opus clip. The anthropic-skills:miac-content skill describes exactly that order (research, video sourcing, Magnific generation, caption), which looks like the August pipeline. Magnific currently requires authentication that cannot be done from a non-interactive session, so Tony has to authorise it before that route is usable."
   }
 ]

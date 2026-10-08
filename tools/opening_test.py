@@ -13,8 +13,16 @@ place and film: "I went to Hollywood to play in Young Bess and the taxi
 driver said...". Duration does not explain the gap, because both were
 watched to about the same fraction of their length, 23.0% and 24.2%.
 
-Run on a transcript before scheduling. A FAIL is a reason to pick another
-clip, not to rewrite the caption: the caption cannot fix the first words.
+DEMOTED 2026-10-08, after two out-of-sample cases went the wrong way.
+Scorsese FAILED this test and held 61.6%, above median. Kalmus PASSED and
+held 47.0% on 407 views. Nought for two. It was validated on n=1 per
+condition and did not survive contact with new data, so treat its output as
+a weak prior and nothing more.
+
+It is also aimed at the wrong target. Across 70 posts, 3s hold ranks 0.55
+against views while saves rank 0.94. Hold rose from a median of 52.0 to 58.4
+over the period when weekly reach fell from 300,330 to 5,914. Optimising
+hold did not defend reach.
 """
 import re
 import sys
