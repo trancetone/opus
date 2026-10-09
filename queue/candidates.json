@@ -1072,5 +1072,31 @@
       "official_upload_found": "The 2001 source is on Warner Bros. Classics, the actual rights holder, and it is the first genuinely official upload this account has used. Everything else has been aggregator channels. If studio classics channels carry enough scenes, that addresses the provenance tension documented in reference/source-registry.md."
     },
     "my_error_this_round": "Friday 10am was lost. The clock crossed it while I ran two stage-one searches that both got rejected, and Metricool refused the write with 'Publication date cannot be in the past'. The Toland post was already exported and ready; it should have gone into the calendar before any further research. Rule: schedule what is ready before researching what is not."
+  },
+  {
+    "title": "Weekend 2026-10-10/11 state",
+    "status": "partial",
+    "armed": {
+      "Fri 5pm": "Toland deep focus, Metricool 392257011",
+      "Sat 10am": "2001 front projection, Metricool 392261514, clip P3100917Z6Cd.b4a177a8fd, 65s"
+    },
+    "sat_10am_flag": "The clip is named '...skipCurate_OpusClip Captions' even though enableCaption:false was passed, so a captions pass may have run regardless. On silent landscape footage that could look broken. skipCurate may ignore enableCaption. Needs a visual check.",
+    "sat_5pm": {
+      "mechanism": "Robby Muller on refusing to correct practical sources, Paris, Texas (1984)",
+      "caption": "drafts/caption-muller-paristexas-practicals.md, 204 words, mean 40.8, PASS",
+      "why_it_fits_the_recipe_test": "It is the most executable mechanism found yet, and the executable part is a refusal rather than equipment: keep the practicals, let uncorrected white neon read green on tungsten-balanced stock, and instruct the lab not to correct it. Sourced to Criterion for Muller's own line, 'We're going to keep them all', and to Wenders for 'the things that other people took out as mistakes we used as a virtue'.",
+      "caveat_recorded": "The specific claim that the green cast is deliberately uncorrected white neon comes from a fan colour analysis, not from Muller, so the caption states the optical effect rather than his stated intent. The ASC notes Muller rarely discussed technical matters at all.",
+      "footage_blocked_on_taste": "The film's most colour-saturated sequence, where the uncorrected practicals actually read, is the peep-show reunion: https://www.youtube.com/watch?v=1Y3FXclXvo8 9m54s. Not violent, but a peep-show setting is a taste call for Tony rather than mine, especially after two content vetoes. Alternatives screened: the opening desert scene (19Lp1wuNiO0, 2m7s) is safe but shows daylight landscape, which does not demonstrate the mechanism the caption describes."
+    },
+    "sun_10am": {
+      "mechanism": "The sodium vapour travelling-matte process, Mary Poppins (1964)",
+      "caption": "drafts/caption-sodium-vapour-poppins.md, 212 words, mean 42.4, PASS",
+      "sourcing": "August grade, with a patent as primary source: US3095304. The 1965 Academy Award to Petro Vlahos, Ub Iwerks and Wadsworth E. Pohl. The physical coincidence that carries it: the sodium doublet at 589.3 and 589.9 nanometres falls in the gap between a colour negative's red and green peak sensitivities, so a prism of two glass pieces with interference coatings between them splits that band onto one strip as a matte while passing the rest onto a second strip as the colour image, in a single pass.",
+      "caveats_in_caption": "The prisms are reported lost and the 'only three were ever made' claim circulates without a firm source. Patent year varies between 1963 and 1964 across sources, so no year is stated.",
+      "fails_my_own_recipe_test": "Honestly flagged: this is NOT executable. It needs a bespoke prism and the prisms are gone, which makes it Deakins-shaped rather than Cronenweth-shaped. Kept deliberately as a test of the recipe hypothesis: prediction is strong hold and weak save rate. If it holds high and saves under about 0.8%, that supports the hypothesis.",
+      "footage_not_found": "No usable Mary Poppins footage surfaced. Candidates screened were a school sing-along (L06-hN8iiKo) and an auto-generated audio topic channel (EbGrIMQuX_Q), neither of which is the film. A behind-the-scenes reel exists (fo8-7cYUhdI, 4m55s, The Julie Andrews Archive) which could in principle show the sodium stage itself, but that cannot be confirmed without watching it."
+    },
+    "sun_5pm": "OPEN. No mechanism yet.",
+    "mechanism_hit_rate": "Six stage-one candidates attempted across two days. Four verified (Deakins, Kaminski, Toland, 2001, sodium vapour, Muller counts six attempted with Lawrence and Doyle rejected). Kaminski then excluded on violence. Roughly a third are lost at stage one or to constraints, which is the real cost of the research-first order."
   }
 ]
