@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(python3 tools/screen_source.py *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(ls *)",
+      "Bash(wc *)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(date *)",
+      "Bash(jq *)",
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit(queue/**)",
+      "Edit(drafts/**)",
+      "Edit(reference/**)",
+      "Edit(tools/**)",
+      "Edit(.claude/skills/**)",
+      "WebSearch",
+      "WebFetch",
+      "mcp__Opus__opusclip_get_usage",
+      "mcp__Opus__opusclip_list_projects",
+      "mcp__Opus__opusclip_list_clips",
+      "mcp__Opus__opusclip_describe_clip",
+      "mcp__Opus__opusclip_preview_clips",
+      "mcp__Opus__opusclip_get_transcript",
+      "mcp__Opus__opusclip_list_scheduled_posts",
+      "mcp__Opus__opusclip_list_social_accounts",
+      "mcp__Opus__opusclip_list_brand_templates",
+      "mcp__Opus__opusclip_submit_project",
+      "mcp__Opus__opusclip_edit_clip",
+      "mcp__Opus__opusclip_export_clip",
+      "mcp__Metricool__getAnalyticsDataByMetrics",
+      "mcp__Metricool__getAnalyticsAvailableMetrics",
+      "mcp__Metricool__getBestTimeToPostByNetwork",
+      "mcp__Metricool__getBrandSettings",
+      "mcp__Metricool__getScheduledPosts"
+    ],
+    "ask": [
+      "mcp__Opus__opusclip_schedule_publish",
+      "mcp__Opus__opusclip_create_post_task",
+      "mcp__Opus__opusclip_unschedule_publish",
+      "mcp__Metricool__createScheduledPost",
+      "mcp__Metricool__createScheduledPostForReview",
+      "mcp__Metricool__updateScheduledPost",
+      "mcp__Metricool__sendScheduledPostForReview"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Bash(env)",
+      "Bash(printenv*)"
+    ]
+  }
+}
