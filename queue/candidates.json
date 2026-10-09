@@ -1036,5 +1036,41 @@
       "doyle_in_the_mood_for_love": "REJECTED on absence of a mechanism. Searching turned up no technical account from Doyle; the doorway framing is critics' readings rather than his own words. His best sourced line, that there is no red in Wong Kar-wai's films up to this one because red means joy for Chinese audiences, is a colour-avoidance principle rather than a transferable method, which is the survey shape that underperforms."
     },
     "method_note": "Three of four stage-one candidates were rejected before any credits were spent. That is the research-first sequence working as intended rather than failing."
+  },
+  {
+    "title": "FIRST READ ON THE EXPLAINER FORM, 2026-10-09",
+    "status": "analysis",
+    "thursday_results": {
+      "Deakins digital intermediate (Thu 10am)": {
+        "views": 3780,
+        "hold": 75.5,
+        "watch": 22.008,
+        "saves": 16,
+        "shares": 4,
+        "save_rate": "0.42%"
+      },
+      "Cronenweth smoke and eye glow (Thu 5pm)": {
+        "views": 1204,
+        "hold": 61.8,
+        "watch": 17.543,
+        "saves": 14,
+        "shares": 7,
+        "save_rate": "1.16%"
+      }
+    },
+    "the_good": "75.5% is the highest 3s hold ever recorded on this account, beating Duvall's 72.7%. Against the same week's clip-derived posts (461, 683, 323, 528 views) the two explainers are plainly stronger on both views and hold.",
+    "the_catch": "Saves did not follow. Deakins saved at 0.42%, the weakest of anything recent, against the August explainers' 2.00% median and even the October anecdotes' 1.21%. On 2026-10-08 I argued saves are the reach engine at 0.94 and hold the weak signal at 0.55. Declaring victory on a hold record would repeat precisely the error diagnosed the day before.",
+    "refinement_hypothesis": {
+      "claim": "Executable recipes get saved. Historical processes get watched.",
+      "within_pair_evidence": "Same day, same form, same length, so the comparison is relatively clean. Cronenweth is a recipe a reader could execute: a two-way mirror at fifty percent transmission, forty-five degrees, light returned along the optical axis. It saved at 1.16%. Deakins is a lab pipeline nobody can execute: Spirit DataCine, Pandora MegaDef, eleven weeks at Cinesite. It saved at 0.42%, a third of Cronenweth's, despite the record hold.",
+      "consistent_with": "Excalibur at 3.25% is entirely executable: green filters over the lighting rigs, green light onto moss and armour, a reflected gel aimed at the sword when unsheathed.",
+      "status": "DIRECTIONAL ONLY, n=2 within the pair. Cheap to test because it changes which mechanisms get picked, not how captions are written.",
+      "action": "Bias mechanism selection toward setups a reader could reproduce. Deprioritise lab-pipeline and industrial-process stories even when the sourcing is excellent."
+    },
+    "operational_findings": {
+      "opus_stalls_without_speech": "P3100914etaH came back STALLED on a range with no dialogue: the 2001 Dawn of Man opening is Strauss and ambience. Opus's clipping pipeline curates on speech, so a speechless range gives it nothing. Fix is skipCurate:true, which bypasses curation and returns the range as a single clip. This will recur, because footage-only posts often have no dialogue.",
+      "official_upload_found": "The 2001 source is on Warner Bros. Classics, the actual rights holder, and it is the first genuinely official upload this account has used. Everything else has been aggregator channels. If studio classics channels carry enough scenes, that addresses the provenance tension documented in reference/source-registry.md."
+    },
+    "my_error_this_round": "Friday 10am was lost. The clock crossed it while I ran two stage-one searches that both got rejected, and Metricool refused the write with 'Publication date cannot be in the past'. The Toland post was already exported and ready; it should have gone into the calendar before any further research. Rule: schedule what is ready before researching what is not."
   }
 ]
