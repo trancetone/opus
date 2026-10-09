@@ -1098,5 +1098,32 @@
     },
     "sun_5pm": "OPEN. No mechanism yet.",
     "mechanism_hit_rate": "Six stage-one candidates attempted across two days. Four verified (Deakins, Kaminski, Toland, 2001, sodium vapour, Muller counts six attempted with Lawrence and Doyle rejected). Kaminski then excluded on violence. Roughly a third are lost at stage one or to constraints, which is the real cost of the research-first order."
+  },
+  {
+    "title": "THE BOTTLENECK MOVED: footage, not mechanisms",
+    "status": "finding",
+    "finding": "Eight mechanisms have now been researched. Mechanism supply is not the constraint any more; safe, verifiable, reachable footage is. Today alone three verified mechanisms were blocked at stage two while only two were lost at stage one.",
+    "blocked_at_stage_two": {
+      "sodium_vapour_mary_poppins": "No usable footage. Candidates were a school sing-along and an auto-generated audio topic channel. A behind-the-scenes reel exists but cannot be confirmed without watching it.",
+      "muller_paris_texas": "Footage exists and is excellent, but the sequence where the uncorrected practicals actually read is the peep-show reunion. Not violent, but a taste call for Tony, and the safe alternative shows daylight desert, which does not demonstrate the mechanism.",
+      "dolly_zoom_vertigo": "Verified mechanism, Irmin Roberts, entirely executable, and blocked by the violence rule in practice. Every findable clip is a fall or a death, because the dolly zoom's famous appearances ARE the tower sequences. The one safe instance, Scottie testing his vertigo on a step stool in Midge's apartment, does not exist as a findable clip."
+    },
+    "blocked_at_stage_one": {
+      "lawrence_mirage_lens": "Trivia-grade sourcing, 482mm against 500mm unresolved, reposts citing each other.",
+      "doyle_in_the_mood_for_love": "No mechanism; the doorway framing is critics' readings, not his account."
+    },
+    "the_fix_two_source_classes_found_today": {
+      "public_domain_silents": "Metropolis works. US public domain since 2023, footage abundant, and the Schufftan process is perfectly executable. CORRECTION to my own overclaim: the rights tension is reduced, not eliminated. The 1927 film is US public domain but the 2010 restoration may carry its own rights and German terms differ, so a plainer transfer is safer than the restoration. Used LApFQ2FVaYU, a public-domain archive channel.",
+      "studio_classics_channels": "Warner Bros. Classics carried the 2001 Dawn of Man scene, the first genuinely official upload this account has used. If these channels carry enough scenes they solve the provenance problem AND the verification problem at once, because a rights-holder upload of a named scene is predictable in content."
+    },
+    "sat_5pm": {
+      "mechanism": "Eugen Schufftan's mirror process on Metropolis (1927)",
+      "caption": "drafts/caption-schufftan-metropolis.md, 211 words, mean 42.2, PASS",
+      "executable": "Yes, the most reproducible mechanism yet: a mirrored plate at forty-five degrees, silvering scraped away where the actors appear, performers positioned behind so their scale matches the miniature in the reflection.",
+      "sourcing_caveat": "Weaker than Toland or the Vlahos patent. Mostly Wikipedia, fan sites and blogs, and accounts differ on whether the plate was a scraped mirror or partly silvered glass. The caption states that disagreement rather than picking a side, and anchors the lineage in Pepper's ghost and Schufftan's earlier use on Die Nibelungen (1924).",
+      "opus_project": "P3100918qir5",
+      "footage": "https://www.youtube.com/watch?v=LApFQ2FVaYU range 300-370, skipCurate because the film is silent and Opus stalls without speech"
+    },
+    "sunday": "BOTH SLOTS OPEN. Muller and sodium vapour have finished captions and blocked footage; Vertigo is dropped."
   }
 ]
