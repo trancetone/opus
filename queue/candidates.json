@@ -533,7 +533,7 @@
     "id": "yt-xXFaTgf3ITI",
     "url": "https://www.youtube.com/watch?v=xXFaTgf3ITI",
     "title": "Days of Heaven (1978) arrive at a wheat farm 4K HDR",
-    "channel": "\uc608\ub098\uc624\ub514\uc624",
+    "channel": "예나오디오",
     "published": "2024-01-27",
     "source_views": null,
     "duration_sec": 386,
@@ -1125,5 +1125,42 @@
       "footage": "https://www.youtube.com/watch?v=LApFQ2FVaYU range 300-370, skipCurate because the film is silent and Opus stalls without speech"
     },
     "sunday": "BOTH SLOTS OPEN. Muller and sodium vapour have finished captions and blocked footage; Vertigo is dropped."
+  },
+  {
+    "title": "WEEKEND RESOLVED ON SUNDAY, AND SAT 5PM LOST THE SAME WAY FRIDAY 10AM WAS",
+    "status": "scheduled",
+    "sun_10am": {
+      "mechanism": "The sepia-to-Technicolor transition, The Wizard of Oz (1939)",
+      "caption": "drafts/caption-oz-sepia-transition.md, 198 words, mean 39.6, PASS",
+      "the_point": "The transition shot is Technicolor pretending to be sepia. Everything before it is genuinely sepia-printed; the transition set was painted sepia, Garland's double wore a sepia dress and sepia makeup, opened the door, stepped out of frame, the camera moved through and Garland followed in blue gingham. Archivist Robert Harris confirms early prints run sepia up to the transition. Stencilling was considered and abandoned as too slow for 1939.",
+      "caveats_in_caption": "The double's name is variously Koshay and Korshay, and sources differ on whether she was a double or a stand-in. Stated rather than resolved.",
+      "opus_project": "P3100920vWik",
+      "footage": "https://www.youtube.com/watch?v=MvPOnHG5Pog range 0-70, skipCurate",
+      "metricool_post_id": 393028622,
+      "metricool_uuid": "-2560790858898453708",
+      "scheduled": "2026-10-11T10:00:00-07:00 (Madrid 19:00), REEL, autoPublish true, verified by date window"
+    },
+    "sun_5pm": {
+      "mechanism": "Eugen Schufftan's mirror process on Metropolis (1927)",
+      "caption": "drafts/caption-schufftan-metropolis.md, 211 words, mean 42.2, PASS",
+      "opus_project": "P3100922wvSt",
+      "footage": "https://www.youtube.com/watch?v=fugbcB-mZzw, 1m10s cityscape excerpt, skipSlicing true, four_five, enableCaption false",
+      "metricool_post_id": 393029376,
+      "metricool_uuid": "-6433073266241155520",
+      "scheduled": "2026-10-11T17:00:00-07:00 (Madrid 2026-10-12 02:00), REEL, autoPublish true, verified by date window",
+      "note": "This was built for Sat 5pm and moved to Sun 5pm after that slot was lost. Moving it also closed the Sunday 5pm hole, so no further research was needed for the weekend."
+    },
+    "sat_5pm_lost": {
+      "what_happened": "Both clips finished rendering and both captions were ready, but the clock crossed 17:00 Pacific before the Metricool write went out, and Metricool refused with 'Publication date cannot be in the past' again.",
+      "this_is_the_second_time": "Friday 10am was lost identically, and I had already written the rule into this file: 'schedule what is ready before researching what is not'. Writing the rule down did not prevent the repeat, so the rule as stated is not the fix.",
+      "why_the_rule_failed": "The rule tells me to reorder research against scheduling. That was not the failure mode this time. Nothing was being researched. The gap was between the export call and the schedule call, spread over a context compaction and several tool reloads. The exposure is the elapsed time between a clip being ready and the slot being written, whatever fills that time.",
+      "the_operational_change": "An export and its createScheduledPost belong in the same batch of work, with no intervening step of any kind. If a slot is less than roughly an hour away, write it before anything else, including before polling the other project. updateScheduledPost exists, so a slot written early can be corrected; a slot written late cannot be written at all."
+    },
+    "opus_stall_diagnosis_confirmed": "The 1m10s Metropolis excerpt completed in skipSlicing while the 150-minute source stalled twice. Source length, not speech dependence, is the stall variable. The earlier speech explanation was wrong and is corrected here and in the chat record.",
+    "still_needs_tony": {
+      "stray_captions_check": "Two clips rendered with '_OpusClip Captions' appended to their names despite enableCaption false: the Sat 10am post (392261514) and the Oz clip (P3100920vWik). Both still pullable. Whether burned-in captions actually appear is a visual check I cannot make.",
+      "muller_peep_show": "Still an open taste call. The Paris, Texas practicals only read in the peep-show reunion.",
+      "metricool_placeholders": "Three inert posts still need deleting by hand in the planner: 385546665 (Seagal), 386731722 and 386732087 (the two cancelled Friday posts). The API has no delete."
+    }
   }
 ]

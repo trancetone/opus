@@ -157,3 +157,22 @@ Arabia* mirage shot. He died in 1998 and his surviving accounts are text oral
 histories, which do not help a reel. Subjects whose practitioners died before
 the video-interview era will keep hitting this, and that is a reason to check
 source availability early rather than after the research is done.
+
+## The scheduling window is the fragile part, not the research
+
+Two slots have now been lost the same way: Friday 10am and Saturday 5pm. In
+both cases the clip was rendered and the caption had passed the register test.
+What killed the slot was elapsed time between the export call and the
+`createScheduledPost` call, and Metricool refuses a past date outright
+("Publication date cannot be in the past"). There is no recovery from that.
+
+The first time I wrote the rule as "schedule what is ready before researching
+what is not", which read the failure as a priority problem. It is not. The
+second loss had no research in the gap at all; the gap was a context
+compaction and a run of tool reloads. Anything can fill that gap.
+
+So the rule is about adjacency, not priority: an export and its schedule write
+go out together, and when a slot is inside the next hour it gets written before
+anything else happens, including before polling the sibling project.
+`updateScheduledPost` can move a post that was scheduled too early. Nothing can
+schedule a post into a slot that has passed.
