@@ -263,3 +263,29 @@ Clips play from Metricool's re-hosted copy, which carries no expiry. The Opus
 preview is kept as `fallback_url` for when that fails, and those are signed and
 lapse in about a day. Whenever posts are scheduled, write the rows at the same
 time: the queue is only useful if it is current before publication, not after.
+
+## Caption to the clip you actually have, not the clip you planned
+
+Tony on the Vertigo titles: the clip is good, but the spirals do not arrive for
+a few seconds, so talk about the whole sequence instead. The caption had been
+written about the mechanism alone, and the mechanism is only the back half of
+what is on screen. The first half is a face, travelling from lips to eyes to
+one eye, with a red wash flooding the frame and the title rising out of the
+pupil before any spiral appears.
+
+That is a different failure from the Oz one and worth separating. Oz was a
+clip that did not contain its mechanism. This was a clip that contained more
+than its caption admitted. The fix is not a new clip but a caption that covers
+what the viewer sees in the order they see it, and the mechanism lands better
+for having been arrived at rather than announced.
+
+So when a caption is written before the clip is cut, read it again against the
+finished clip and ask what the first ten seconds show. If the caption does not
+mention that, it is describing a different video.
+
+## Metricool post ids change on update; the uuid does not
+
+`updateScheduledPost` returns a NEW id for the same post and leaves the uuid
+alone. Anything that stores a reference to a scheduled post should store the
+uuid, with the id treated as a value that goes stale. The clip queue's rows
+carry both for this reason.

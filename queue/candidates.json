@@ -1293,5 +1293,23 @@
     "media_durability": "Clips play from Metricool's re-hosted copy at static.metricool.com, which carries no expiry parameter, with the signed Opus preview kept as fallback_url. I could not verify the Metricool host from this container because the agent proxy denies it, which says nothing about a browser; the card falls back to the Opus link on a player error.",
     "seeded": "All seven pending posts, Mon 12 through Thu 15 Oct. Two carry the check flag: Tuesday's Vertigo titles (window 45-115 of a 197s sequence that opens on a face) and Thursday's Oz redo.",
     "the_standing_change": "Write the rows whenever posts are scheduled, in the same pass. A queue that is only current after publication is the problem it was built to fix."
+  },
+  {
+    "title": "Vertigo caption rewritten to cover the whole sequence",
+    "status": "scheduled, revised",
+    "tony": "Vertigo is a cool clip. But the spirals don't come till a few seconds in. I'd keep the clip but talk a bit more about the whole sequence including the spiral.",
+    "what_was_wrong": "The caption was written about the mechanism and the mechanism is only the back half of what is on screen. The front half is a face travelling from lips to eyes to one eye, a red wash flooding the frame, and the title rising out of the pupil.",
+    "this_is_a_different_defect_from_oz": "Oz was a clip that did not contain its mechanism. This was a clip that contained MORE than its caption admitted. The fix was the caption, not the footage, and the mechanism reads better for being arrived at rather than announced in the first line.",
+    "new_caption": "drafts/caption-whitney-vertigo-titles.md, 262 words, mean 52.4, min 44, PASS",
+    "added_facts": "The lips to eyes to single eye progression, the red wash, and the title emerging from the pupil, all Bass's design. Kept the Lissajous definition and the gun-director mechanism.",
+    "caveats_kept_and_added": "Sources disagree on whether the face is Kim Novak or an uncredited model (Dan Auiler says an anonymous actress, Sotheby's says Novak's eye), stated in the caption rather than resolved. The first-computer-animation claim is still held at arm's length because the gun director was analogue.",
+    "metricool": {
+      "old_post_id": 393710768,
+      "new_post_id": 394156321,
+      "uuid": "7007178501912415305",
+      "slot": "2026-10-13T10:00:00-07:00, unchanged"
+    },
+    "mechanics_note": "updateScheduledPost returns a NEW id for the same post and leaves the uuid alone, so stored references to scheduled posts should key on uuid. The clip queue row now carries both.",
+    "queue_row": "risk moved from check to verified, since Tony has watched the footage and approved it."
   }
 ]
