@@ -1162,5 +1162,74 @@
       "muller_peep_show": "Still an open taste call. The Paris, Texas practicals only read in the peep-show reunion.",
       "metricool_placeholders": "Three inert posts still need deleting by hand in the planner: 385546665 (Seagal), 386731722 and 386732087 (the two cancelled Friday posts). The API has no delete."
     }
+  },
+  {
+    "title": "MON-WED FILLED, AND THE FOOTAGE BOTTLENECK IS SOLVED",
+    "status": "scheduled",
+    "the_capability_that_changed_things": {
+      "what": "The YouTube Data API search.list endpoint works through the agent proxy, exactly as videos.list does for tools/screen_source.py. A throwaway script against it enumerates candidate videos by query, with channel names attached.",
+      "why_it_matters": "I had told Tony that web search cannot enumerate a YouTube channel's videos and therefore that footage-first sourcing was not really possible. That was true of web search and false of the tool I already had the credential for. Three mechanisms that died at the footage stage last week (sodium vapour, Muller, and the Barry Lyndon and Vertigo material found this week) were all recoverable in a single pass once I searched YouTube directly instead of searching the web for pages that happened to mention YouTube videos.",
+      "cost": "search.list is 100 quota units against videos.list at 1, so it is not free, but it replaces several web searches that were failing anyway.",
+      "the_correction": "The bottleneck was never footage supply. It was that I was looking for footage with the wrong instrument."
+    },
+    "sourcing_bar_held_twice": {
+      "nosferatu_negative_forest": "REJECTED. The inverted-negative carriage sequence is consistently described but no source explains how it was done, and accounts conflict on whether it was one shot or the whole sequence and on whether white drapery was involved.",
+      "keaton_sherlock_jr_surveyors": "REJECTED. The claim that Keaton used surveying instruments to hold his position across the projection-screen cuts appears only in blog-level sources citing each other. Same failure mode as the Lawrence mirage lens.",
+      "murch_the_conversation": "REJECTED. No first-person technical account surfaced. The method is described secondhand and the mechanism never states itself crisply. The Ondaatje and Phillips interviews are the likely primary sources and neither was reachable in this pass."
+    },
+    "mon_10am": {
+      "mechanism": "Robby Muller's refusal to correct practicals, Paris, Texas (1984)",
+      "caption": "drafts/caption-muller-paristexas-practicals.md, 204 words, mean 40.8, PASS",
+      "footage": "yJF7meTEbAM, Travis and Hunter in the Downtown Houston Hotel, 2m19s, range 10-80 skipCurate",
+      "opus_project": "P310120007aV",
+      "metricool_post_id": 393708056,
+      "taste_call_resolved": "This was blocked on the peep-show question. It no longer is. The Houston hotel night interior carries the same uncorrected practicals and needs no taste call at all, which is what a proper YouTube search surfaced in one query."
+    },
+    "mon_5pm": {
+      "mechanism": "The sodium vapour travelling-matte process, Mary Poppins (1964)",
+      "caption": "drafts/caption-sodium-vapour-poppins.md, 212 words, mean 42.4, PASS",
+      "footage": "LDbua_I74gg, 4K Jolly Holiday second part, 1m52s, range 0-70 skipCurate",
+      "opus_project": "P31012006uqp",
+      "metricool_post_id": 393710168,
+      "note": "Footage was declared not found last week. The 2004 Disney making-of surfaced again and was ruled out under the studio-promotional rule; the film's own composite sequence is the right footage anyway, since the process is what made those shots possible."
+    },
+    "tue_10am": {
+      "mechanism": "John Whitney's gun-director rig for the Vertigo (1958) titles",
+      "caption": "drafts/caption-whitney-vertigo-titles.md, 255 words, mean 51.0, PASS",
+      "footage": "SkLn8mamU78, title sequence, 3m17s, range 45-115 skipCurate",
+      "opus_project": "P3101121IBm9",
+      "metricool_post_id": 393710768,
+      "why_it_clears_the_violence_rule": "Vertigo was dropped last week because every findable dolly-zoom clip is a fall. The title sequence is a different object entirely and carries a better mechanism than the dolly zoom did."
+    },
+    "tue_5pm": {
+      "mechanism": "Ed DiGiulio's f/0.7 lens and the rebuilt Mitchell BNC, Barry Lyndon (1975)",
+      "caption": "drafts/caption-digiulio-f07-barrylyndon.md, 246 words, mean 49.2, PASS",
+      "footage": "_GTpOkoZGTw, candlelit cards scene 4K, 3m51s, range 40-110 skipCurate",
+      "opus_project": "P3101202QE7A",
+      "metricool_post_id": 393710978,
+      "sourcing": "The best in the set. DiGiulio's own American Cinematographer article, reproduced at visual-memory.co.uk, which makes this a first-person account by the engineer who did the work rather than a story told about him."
+    },
+    "wed_10am": {
+      "mechanism": "The cloud tank, Close Encounters of the Third Kind (1977)",
+      "caption": "drafts/caption-cloudtank-closeencounters.md, 231 words, mean 46.2, PASS",
+      "footage": "pYVybOyMz-A, Close Encounters Cloud Tank Shots, 1m24s, range 0-70 skipCurate",
+      "opus_project": "P310120334Qe",
+      "metricool_post_id": 393711404,
+      "why_this_source_over_a_better_provenanced_one": "Movieclips, a licensed channel, had the mothership arrival at 2m41s and would have been cleaner provenance. I took the VFX channel instead because its title guarantees the clip IS the cloud tank shots, and content match is the one thing I cannot verify myself. Provenance I can reason about; what is on screen I cannot see.",
+      "recipe_test": "This is the most executable mechanism the account has run. If the recipe hypothesis holds, it should save well rather than merely hold."
+    },
+    "wed_5pm": {
+      "mechanism": "The multiplane camera, in Walt Disney's own 1957 account",
+      "caption": "drafts/caption-disney-multiplane.md, 261 words, mean 52.2, PASS",
+      "footage": "YdHTlUGN1zw, 7m21s, default AI clipping",
+      "opus_project": "P31012043ePO",
+      "clip_chosen": "Q8G68S8c4k, rank 3 of 12, 84s",
+      "metricool_post_id": 393711775,
+      "ranking_is_noise_again": "Eighth consecutive project where rank 1 is wrong. Rank 1 here was a 17-second fragment titled 'Moon Illusion: Why the Moon Looks Bigger Near the Horizon', scored 99, which is Opus mistaking Walt's moon demonstration for an astronomy explainer. Rank 2 was titled '3D Character Animation'. The correct clip sat at rank 3 and the transcript is the only thing that found it.",
+      "what_the_clip_actually_says": "Walt states the problem (a single sliding background moves the moon with the trees so it grows and shrinks), the fix (planes ordered by distance, the moon on the furthest, each driven at its own speed), and the camera's orientation (above the stack, shooting downward). First person throughout.",
+      "patent_not_resolved": "Wikipedia cites US 2,281,033 to Garity; the National Inventors Hall of Fame cites US 2,201,689 to Disney. I did not open either patent, so the caption states that the attribution and the numbers disagree rather than picking one. Worth resolving before this mechanism is used again."
+    },
+    "provenance_caveat_across_the_whole_set": "Every one of the six footage sources is a third-party upload of in-copyright material. No rights-holder upload existed for any of these mechanisms; the only official Disney upload found was fifteen seconds long. This is the account's standing condition rather than a new problem, but six in one run is worth stating plainly.",
+    "credits": "211 minutes before this batch, roughly 20 minutes of source submitted."
   }
 ]

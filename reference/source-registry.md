@@ -176,3 +176,33 @@ go out together, and when a slot is inside the next hour it gets written before
 anything else happens, including before polling the sibling project.
 `updateScheduledPost` can move a post that was scheduled too early. Nothing can
 schedule a post into a slot that has passed.
+
+## Search YouTube with the API, not the web
+
+For two weeks this pipeline treated footage as the hard constraint and I told
+Tony that web search cannot enumerate a channel's videos, so footage-first
+sourcing was not really available. The first half of that was true. The
+conclusion was wrong, because `tools/screen_source.py` already proves the
+YouTube Data API is reachable through the agent proxy, and the same credential
+serves `search.list` as well as `videos.list`. Searching YouTube directly
+returns candidate ids with channel names attached, which is the thing web
+search cannot do.
+
+The cost difference is real: `search.list` is 100 quota units against 1 for
+`videos.list`, so search, then screen the shortlist rather than screening
+everything. But it replaces several web searches that were failing anyway.
+
+Three mechanisms recorded as dead at the footage stage came back in a single
+pass once searched this way, including one (Paris, Texas) where the blocking
+problem was a taste call about the only sequence I could find, and the API
+immediately surfaced a different scene carrying the same mechanism. Before
+declaring a mechanism unusable for want of footage, search the API.
+
+## What still cannot be checked from here
+
+Provenance is reasoning and content is not. The API gives channel names, so
+whether an upload is a rights holder or somebody's copy is a judgement that
+can be made from metadata. Whether the clip actually shows the mechanism
+cannot, because the video cannot be watched from this seat. When the two
+pull against each other, prefer the source whose title names the thing
+itself over the better-provenanced source whose content has to be assumed.
