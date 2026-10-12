@@ -1269,5 +1269,18 @@
     },
     "toland_is_probably_not_a_defect": "Footage was HAHaRDlUrLw, the Citizen Kane boyhood scene, which is a genuine deep-focus showcase, so the content matches the caption. Its 8.0s watch time is a performance question rather than a wrong-window defect, and should not be lumped in with the other two.",
     "metropolis_too_early_to_judge": "281 views at 6.3s, published hours before the reading. The cityscape is a static held shot, which carries the same risk of having nothing happen in it, but the sample is too young to call."
+  },
+  {
+    "title": "Oz redo scheduled Thursday 10am",
+    "status": "scheduled",
+    "mechanism": "The sepia-to-Technicolor transition, The Wizard of Oz (1939)",
+    "caption": "drafts/caption-oz-sepia-transition.md, unchanged, 198 words, mean 39.6, PASS",
+    "footage": "x6D8PAGelN8, 'Dorothy entering Technicolor', 1m59s, taken entire with skipSlicing",
+    "opus_project": "P3101210XQhx",
+    "clip": "tdWOUcZD7b, 119 seconds",
+    "metricool_post_id": 393921022,
+    "scheduled": "2026-10-15T10:00:00-07:00 (Madrid 19:00), REEL, autoPublish true, verified by date window",
+    "duration_note": "119 seconds against the account's usual 70. Accepted deliberately: the whole clip is the transition, and taking it entire is what removes the window-guessing failure that produced the first version.",
+    "supersedes": "The Sunday 10am post, 808 views / 8 saves / 28.5s watch / 51.4% hold, which Tony is archiving rather than deleting so the per-post insights survive. Its numbers are preserved in data/snapshot-before-archiving.md."
   }
 ]
