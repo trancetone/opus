@@ -1248,5 +1248,26 @@
     "the_durable_change": "Preview URLs from list_clips play in a browser and cost nothing to pass on. They belong in the message that reports a scheduled post, not in a post-mortem. Written to PREVIEW-LINKS-mon-wed.md for the five unpublished posts plus this redo. Whether footage shows the mechanism is the one check that cannot be made from this seat and is seconds of work for Tony.",
     "the_other_exposed_post": "Tue 10am, the Vertigo titles, is the only remaining scheduled source with the same setup-then-payoff shape: the sequence opens on a face, lips and an eye before the spirals arrive, and the window is 45-115 of 197 seconds. I judge the spirals dominate that window, which is exactly what I judged about Oz, so it is flagged for Tony to view rather than argued as safe. The other four sources are continuous-mechanism and a window cannot miss.",
     "opus_description_as_weak_evidence": "The redo's auto-generated description mentions a colourful world with giant flowers and a distant castle, which is secondhand evidence from Opus's own read of the frames that the colour half is present. Worth noting as a cheap signal: the ranking is noise but the description sometimes says what is on screen."
+  },
+  {
+    "title": "TWO DEFECTIVE CLIPS, AND THE METRIC THAT WOULD HAVE CAUGHT BOTH",
+    "status": "finding",
+    "metrics_snapshot": "data/snapshot-before-archiving.md, captured before Tony archives, because archived media may drop out of the API listing Metricool reads.",
+    "average_watch_time_is_the_diagnostic": "On a 70-second clip, Oz holds 28.5 seconds while 2001 holds 8.9, Toland 8.0 and Metropolis 6.3. That separation is far sharper than 3-second hold, which only measures the thumbnail. Average watch time measures whether the video contains anything. IGRE24 was in the metric list all along and I was reading IGRE28 instead.",
+    "the_captions_theory_is_dead": "I told Tony the unexplained '_OpusClip Captions' suffix was the likely cause of the two worst holds. The Oz clip carries the same suffix and posts the second best watch time on the account. The suffix is not the problem and I should stop citing it.",
+    "oz": {
+      "defect": "wrong window: range 0-70 of a source structured as sepia-then-colour",
+      "numbers": "808 views, 8 saves, 3 shares, 28.5s, 51.4%",
+      "note": "Despite missing its own payoff this is the best-watched of the four, which says the footage is engaging and the caption simply promises something it never delivers.",
+      "redo": "P3101210XQhx ready, whole clip, skipSlicing"
+    },
+    "2001_front_projection": {
+      "defect": "Mostly the title card. This one is worse than carelessness, because the record already predicted it.",
+      "what_the_record_said": "The entry for this candidate reads: 'its footage IS the Dawn of Man sequence, which contains the tapir kill and the bone-club fight. A landscape-only cut may exist but cannot be confirmed without watching it.' I then chose a window to stay clear of the violence rule, which left a window with nothing demonstrative in it, and shipped it anyway.",
+      "the_right_call_at_the_time": "Drop the mechanism at the footage stage. A mechanism whose only demonstrative footage sits inside a sequence the editorial rules exclude is not a usable mechanism, and a safe window that shows nothing is not a solution to that.",
+      "numbers": "1567 views, 9 saves, 5 shares, 8.9s, 31.3%"
+    },
+    "toland_is_probably_not_a_defect": "Footage was HAHaRDlUrLw, the Citizen Kane boyhood scene, which is a genuine deep-focus showcase, so the content matches the caption. Its 8.0s watch time is a performance question rather than a wrong-window defect, and should not be lumped in with the other two.",
+    "metropolis_too_early_to_judge": "281 views at 6.3s, published hours before the reading. The cityscape is a static held shot, which carries the same risk of having nothing happen in it, but the sample is too young to call."
   }
 ]

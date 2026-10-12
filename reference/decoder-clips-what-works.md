@@ -222,3 +222,31 @@ From the house style, and consistent across all 55 published captions.
 The decoder/survey labels were assigned by hand after seeing the numbers, so some circularity is unavoidable. Three things make it more than a story: every mechanical test failed, watch-time data that hadn't been seen when the grouping was made split the two groups identically (60.8% vs 45.0%), and nine posts written deliberately to the rule afterwards produced a 3,521 median with a floor above every survey post ever published.
 
 n = 55, one account, six weeks. The effect sizes are large enough to act on and the sample is too small to generalize past this account.
+
+## Read average watch time, not three-second hold
+
+Four posts, all roughly seventy-second clips, read on 12 October 2026:
+
+| Post | Views | Avg watch | 3s hold |
+|---|---:|---:|---:|
+| Wizard of Oz, sepia transition | 808 | 28.5s | 51.4% |
+| 2001, front projection | 1567 | 8.9s | 31.3% |
+| Toland, Citizen Kane deep focus | 847 | 8.0s | 27.0% |
+| Metropolis, Schufftan process | 281 | 6.3s | 25.5% |
+
+Tony identified two of these as defective by watching them: the Oz clip never
+reaches the transition its caption is about, and the 2001 clip is mostly the
+title card. Average watch time separates a clip with something in it from a
+clip with nothing in it far more sharply than hold does, because hold is a
+verdict on the thumbnail and the first three seconds while watch time is a
+verdict on the whole thing. Eight seconds out of seventy means nobody watched.
+
+This also kills a theory I had been repeating. I had flagged the unexplained
+"_OpusClip Captions" suffix on clip names as the likely cause of the two worst
+holds on record. The Oz clip carries that same suffix and posts the second best
+watch time on the account. The suffix is not the problem.
+
+The remaining caution is that watch time does not distinguish a clip that is
+empty from one that is merely slow: the Toland clip shows the correct scene for
+its caption and still reads 8.0 seconds. Low watch time says look at the clip.
+It does not say what is wrong with it.
