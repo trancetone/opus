@@ -316,3 +316,14 @@ rights holder's channel. Down by Law is black and white, so the colour material
 does not transfer and it needs its own mechanism, but the source class is the
 best found so far. Criterion also holds the films, so its channel is worth
 searching before any fan upload of a film it distributes.
+
+## Tested: the clip thumbnail cannot be inspected from here either
+
+Opus returns a `thumbnail_url` per clip, a JPG of one frame, and images can be
+read in this session, so it looked like a way to check a clip without watching
+it. It is not: the agent proxy denies `signed-ext.cdn.opus.pro` the same way it
+denies `static.metricool.com`, and the fetch fails with a 403 on the CONNECT.
+
+Recording it as a tested fact rather than an assumption, because it closes the
+last idea for self-checking footage from inside the container. Content matching
+is Tony's check, which is the whole reason the queue page exists.

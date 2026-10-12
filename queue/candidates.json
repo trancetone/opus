@@ -1327,5 +1327,26 @@
     },
     "caption": "unchanged, drafts/caption-muller-paristexas-practicals.md",
     "the_queue_page_worked": "Two of three catches this week came from Tony opening the page and watching, before publication rather than after. Vertigo and this one. That is the loop the page was built for."
+  },
+  {
+    "title": "Paris Texas re-armed for Thursday 5pm",
+    "status": "scheduled",
+    "nothing_posted_at_10am": "Correct and intended. I disarmed the post an hour before the slot because its footage did not match its caption. The slot is lost; the post is not.",
+    "new_footage": {
+      "project": "P31012167mEZ",
+      "clip": "d41d8cd98f",
+      "source": "quP4O6rkMPw, PARIS, TEXAS Cinematography Montage, 3m50s, window 20-90",
+      "duration_sec": 70
+    },
+    "metricool": {
+      "post_id": 394427849,
+      "uuid": "-2626049402752315917",
+      "slot": "2026-10-15T17:00:00-07:00 (Madrid 2026-10-16 02:00)",
+      "note": "Same post re-armed rather than a new one, so the planner stays clean. draft false, autoPublish true, verified by date window."
+    },
+    "why_thursday_5pm": "11:16 Monday when the replacement finished, so both of Monday's slots were gone and Monday 5pm already holds Mary Poppins. Thursday 5pm was the next open slot in the standing pattern, and it gives Tony three days to look at the clip before it goes.",
+    "flagged_for_his_eye": "The queue row is marked check, not continuous. I still cannot see the footage, so calling a montage safe would repeat exactly the mistake that produced this post.",
+    "tested_and_closed": "The clip thumbnail is not a way around my blindness. Opus returns a thumbnail_url per clip and images can be read in this session, but the agent proxy denies signed-ext.cdn.opus.pro with a 403 on the CONNECT, the same as static.metricool.com. That was the last idea for self-checking footage from inside the container.",
+    "week_state_verified": "Mon 5pm Mary Poppins, Tue 10am Vertigo, Tue 5pm Barry Lyndon, Wed 10am cloud tank, Wed 5pm multiplane, Thu 10am Oz redo, Thu 5pm Muller. Seven pending, all autoPublish true, Monday 10am the only gap."
   }
 ]
