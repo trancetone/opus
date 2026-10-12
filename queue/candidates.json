@@ -1282,5 +1282,16 @@
     "scheduled": "2026-10-15T10:00:00-07:00 (Madrid 19:00), REEL, autoPublish true, verified by date window",
     "duration_note": "119 seconds against the account's usual 70. Accepted deliberately: the whole clip is the transition, and taking it entire is what removes the window-guessing failure that produced the first version.",
     "supersedes": "The Sunday 10am post, 808 views / 8 saves / 28.5s watch / 51.4% hold, which Tony is archiving rather than deleting so the per-post insights survive. Its numbers are preserved in data/snapshot-before-archiving.md."
+  },
+  {
+    "title": "Clip queue page replaces preview links in chat",
+    "status": "built",
+    "url": "https://claude.ai/artifact/GT25YYPKkD55cfyNs9MQmU",
+    "why": "Tony: the preview links get buried in the chats. They did, and that is how a clip reached publication without the mechanism in it.",
+    "design": "Rows live in the artifact's own database rather than the page source, so refreshing the queue is an ArtifactData write to the 'queue' collection and never a republish. One document per Metricool post id, ordered by slot_iso.",
+    "the_field_that_does_the_work": "'claim' states what the caption asserts, which turns the check from a guess into a comparison. 'risk' marks which sources can go wrong: check for a setup-then-payoff source where a window can miss the mechanism, verified where a transcript or the source title settles it, continuous where the mechanism runs throughout.",
+    "media_durability": "Clips play from Metricool's re-hosted copy at static.metricool.com, which carries no expiry parameter, with the signed Opus preview kept as fallback_url. I could not verify the Metricool host from this container because the agent proxy denies it, which says nothing about a browser; the card falls back to the Opus link on a player error.",
+    "seeded": "All seven pending posts, Mon 12 through Thu 15 Oct. Two carry the check flag: Tuesday's Vertigo titles (window 45-115 of a 197s sequence that opens on a face) and Thursday's Oz redo.",
+    "the_standing_change": "Write the rows whenever posts are scheduled, in the same pass. A queue that is only current after publication is the problem it was built to fix."
   }
 ]

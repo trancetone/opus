@@ -1,0 +1,381 @@
+<title>Moving Image Arts Clip Queue</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  /* Layout: one chronological column of slot cards; mono rail carries the slot,
+     the clip plays inline beside the claim it has to match. */
+  :root {
+    --bg: #f4f5f4;
+    --surface: #ffffff;
+    --surface-2: #eaece9;
+    --line: #d4d8d2;
+    --fg: #1c201d;
+    --fg-dim: #5c635d;
+    --fg-faint: #868d86;
+    --accent: #a8660c;
+    --check: #9a5b00;
+    --check-bg: #fbf0dd;
+    --ok: #2f6a46;
+    --ok-bg: #e4efe7;
+    --done: #6b726c;
+    --done-bg: #e6e8e5;
+    --sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151816;
+      --surface: #1e221f;
+      --surface-2: #262b27;
+      --line: #343a35;
+      --fg: #e8ebe8;
+      --fg-dim: #a3aaa4;
+      --fg-faint: #767d77;
+      --accent: #e7a34a;
+      --check: #e7a34a;
+      --check-bg: #33280f;
+      --ok: #7dc49a;
+      --ok-bg: #16291e;
+      --done: #8b928c;
+      --done-bg: #242825;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151816;
+    --surface: #1e221f;
+    --surface-2: #262b27;
+    --line: #343a35;
+    --fg: #e8ebe8;
+    --fg-dim: #a3aaa4;
+    --fg-faint: #767d77;
+    --accent: #e7a34a;
+    --check: #e7a34a;
+    --check-bg: #33280f;
+    --ok: #7dc49a;
+    --ok-bg: #16291e;
+    --done: #8b928c;
+    --done-bg: #242825;
+    color-scheme: dark;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding-inline: 20px;
+    padding-block: 36px 72px;
+  }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-size: clamp(25px, 5.5vw, 34px);
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 1.15;
+    text-wrap: balance;
+    margin: 0 0 12px;
+  }
+  .lede { margin: 0; color: var(--fg-dim); max-width: 60ch; }
+  .lede strong { color: var(--fg); font-weight: 600; }
+  main { display: flex; flex-direction: column; gap: 18px; margin-top: 28px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .card.flagged { border-color: var(--check); }
+  .slotbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 12px;
+    padding: 11px 16px;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: .04em;
+  }
+  .slotbar .day { font-weight: 600; text-transform: uppercase; letter-spacing: .1em; }
+  .slotbar .time { color: var(--fg-dim); }
+  .slotbar .spacer { flex: 1 1 auto; min-width: 0; }
+  .pill {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .pill.check { color: var(--check); background: var(--check-bg); }
+  .pill.verified { color: var(--ok); background: var(--ok-bg); }
+  .pill.continuous { color: var(--done); background: var(--done-bg); }
+  .pill.published { color: var(--done); background: var(--done-bg); }
+  .body { padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+  .mech { display: flex; flex-direction: column; gap: 3px; }
+  .mech h2 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    line-height: 1.3;
+    text-wrap: balance;
+    margin: 0;
+  }
+  .mech .film {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+  }
+  .claim {
+    border-left: 2px solid var(--accent);
+    padding: 2px 0 2px 12px;
+    color: var(--fg-dim);
+    font-size: 14px;
+  }
+  .claim b { color: var(--fg); font-weight: 600; }
+  .player { position: relative; background: #000; border-radius: 2px; overflow: hidden; }
+  video { display: block; width: 100%; max-width: 100%; height: auto; background: #000; }
+  .vfail {
+    padding: 18px 16px;
+    background: var(--surface-2);
+    border: 1px dashed var(--line);
+    border-radius: 2px;
+    font-size: 13px;
+    color: var(--fg-dim);
+  }
+  .vfail a { color: var(--accent); }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--fg-faint);
+    font-variant-numeric: tabular-nums;
+  }
+  .meta a { color: var(--fg-faint); }
+  details.cap { border-top: 1px solid var(--line); padding-top: 12px; }
+  details.cap summary {
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--fg-dim);
+  }
+  details.cap summary::marker { color: var(--fg-faint); }
+  details.cap summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  details.cap p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: var(--fg-dim);
+    white-space: pre-wrap;
+    max-width: 62ch;
+  }
+  .state {
+    border: 1px dashed var(--line);
+    border-radius: 3px;
+    padding: 30px 22px;
+    text-align: left;
+    color: var(--fg-dim);
+  }
+  .state h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--fg);
+    margin: 0 0 8px;
+  }
+  .state p { margin: 0; max-width: 54ch; }
+  footer {
+    margin-top: 34px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--fg-faint);
+  }
+  footer p { margin: 0 0 7px; max-width: 62ch; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Pre-publication check</p>
+    <h1>Clip queue</h1>
+    <p class="lede">Every scheduled Reel, in the order it goes out. One question per card: <strong>does the footage show the mechanism the caption claims?</strong> That is the check nothing upstream can make, and it is the one that let a Wizard of Oz post go out without its transition in it.</p>
+  </header>
+
+  <main id="list" aria-live="polite">
+    <div class="state" id="boot">
+      <h2>Loading the queue</h2>
+      <p>Scheduled posts appear here newest slot first, each with its clip ready to play.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p id="count"></p>
+    <p>Clips are served from Metricool's copy, which does not expire. If a player comes up blank, the card offers the Opus original as a fallback; those links are signed and lapse after about a day.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var list = document.getElementById("list");
+  var countEl = document.getElementById("count");
+  var RISK = {
+    check: ["check", "Needs your eye"],
+    verified: ["verified", "Verified"],
+    continuous: ["continuous", "Continuous source"]
+  };
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function card(d) {
+    var risk = RISK[d.risk] || RISK.continuous;
+    var published = d.status === "published";
+    var c = el("article", "card" + (d.risk === "check" && !published ? " flagged" : ""));
+
+    var bar = el("div", "slotbar");
+    bar.appendChild(el("span", "day", d.day_label || ""));
+    bar.appendChild(el("span", "time", d.time_label || ""));
+    bar.appendChild(el("span", "spacer"));
+    if (published) {
+      bar.appendChild(el("span", "pill published", "Published"));
+    } else {
+      bar.appendChild(el("span", "pill " + risk[0], risk[1]));
+    }
+    c.appendChild(bar);
+
+    var body = el("div", "body");
+
+    var mech = el("div", "mech");
+    mech.appendChild(el("h2", null, d.mechanism || "Untitled"));
+    if (d.film) mech.appendChild(el("span", "film", d.film));
+    body.appendChild(mech);
+
+    if (d.claim) {
+      var cl = el("p", "claim");
+      cl.appendChild(el("b", null, "Caption claims: "));
+      cl.appendChild(document.createTextNode(d.claim));
+      body.appendChild(cl);
+    }
+
+    if (d.video_url) {
+      var holder = el("div", "player");
+      var v = document.createElement("video");
+      v.controls = true;
+      v.preload = "metadata";
+      v.playsInline = true;
+      v.setAttribute("playsinline", "");
+      if (d.mechanism) v.setAttribute("aria-label", "Clip for " + d.mechanism);
+      v.src = d.video_url;
+      holder.appendChild(v);
+      body.appendChild(holder);
+
+      v.addEventListener("error", function () {
+        var f = el("div", "vfail");
+        f.appendChild(document.createTextNode("This clip would not play from Metricool. "));
+        if (d.fallback_url) {
+          var a = el("a", null, "Open the Opus original");
+          a.href = d.fallback_url;
+          a.target = "_blank";
+          a.rel = "noopener";
+          f.appendChild(a);
+          f.appendChild(document.createTextNode(" instead, or ask me to reissue the link."));
+        } else {
+          f.appendChild(document.createTextNode("Ask me to reissue a preview link."));
+        }
+        holder.replaceWith(f);
+      });
+    }
+
+    var meta = el("div", "meta");
+    if (d.duration_sec) meta.appendChild(el("span", null, d.duration_sec + "s"));
+    if (d.post_id) meta.appendChild(el("span", null, "Post " + d.post_id));
+    if (d.source_note) meta.appendChild(el("span", null, d.source_note));
+    if (meta.childNodes.length) body.appendChild(meta);
+
+    if (d.caption) {
+      var det = el("details", "cap");
+      det.appendChild(el("summary", null, "Full caption"));
+      det.appendChild(el("p", null, d.caption));
+      body.appendChild(det);
+    }
+
+    c.appendChild(body);
+    return c;
+  }
+
+  function showState(title, text) {
+    list.replaceChildren();
+    var s = el("div", "state");
+    s.appendChild(el("h2", null, title));
+    s.appendChild(el("p", null, text));
+    list.appendChild(s);
+  }
+
+  function render(rows) {
+    if (!rows.length) {
+      showState("Nothing scheduled yet",
+        "When posts are scheduled, each one appears here with its clip and the claim its footage has to match.");
+      countEl.textContent = "";
+      return;
+    }
+    list.replaceChildren();
+    rows.forEach(function (d) { list.appendChild(card(d)); });
+    var pending = rows.filter(function (d) { return d.status !== "published"; }).length;
+    var flagged = rows.filter(function (d) { return d.risk === "check" && d.status !== "published"; }).length;
+    countEl.textContent = pending + " scheduled, " + flagged + " waiting on a look from you.";
+  }
+
+  (async function () {
+    var db = null;
+    try { db = await window.claude?.use?.("db"); } catch (e) { db = null; }
+    if (!db) {
+      showState("Queue unavailable in this view",
+        "The stored queue is readable when you open this page signed in to the account that owns it.");
+      return;
+    }
+    try {
+      db.collection("queue").orderBy("slot_iso").onSnapshot(
+        function (snap) {
+          render(snap.docs.map(function (doc) { return doc.data() || {}; }));
+        },
+        function () {
+          showState("Could not read the queue",
+            "The stored queue did not load. Reopening the page usually clears it.");
+        }
+      );
+    } catch (e) {
+      showState("Could not read the queue",
+        "The stored queue did not load. Reopening the page usually clears it.");
+    }
+  })();
+})();
+</script>

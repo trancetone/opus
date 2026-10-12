@@ -236,3 +236,30 @@ preview_url per clip that plays in a browser. Those links belong in the message
 that reports a scheduled post, not in a post-mortem after it publishes. They
 are signed and expire within a day or so, so they are worth re-listing if a
 check is being made later.
+
+## The clip queue page
+
+Preview links in chat get buried, which is how a bad clip reached publication.
+The standing place for them is a published artifact:
+
+  https://claude.ai/artifact/GT25YYPKkD55cfyNs9MQmU
+
+It reads its rows from the artifact's own database rather than carrying them in
+the page source, so the queue is refreshed with ArtifactData writes to the
+`queue` collection and the page does not need republishing. One document per
+Metricool post id, ordered by `slot_iso`.
+
+Fields: slot_iso, day_label, time_label, mechanism, film, claim, risk
+("check" / "verified" / "continuous"), status ("pending" / "published"),
+video_url, fallback_url, caption, post_id, duration_sec, source_note.
+
+`claim` is the point of the page: it states what the caption asserts, so the
+check is a comparison rather than a guess. `risk` encodes which sources can go
+wrong: "check" for a setup-then-payoff source where a window can miss the
+mechanism, "verified" where a transcript or the source title settles it,
+"continuous" where the mechanism is present throughout and any window holds.
+
+Clips play from Metricool's re-hosted copy, which carries no expiry. The Opus
+preview is kept as `fallback_url` for when that fails, and those are signed and
+lapse in about a day. Whenever posts are scheduled, write the rows at the same
+time: the queue is only useful if it is current before publication, not after.
