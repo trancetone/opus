@@ -206,3 +206,33 @@ can be made from metadata. Whether the clip actually shows the mechanism
 cannot, because the video cannot be watched from this seat. When the two
 pull against each other, prefer the source whose title names the thing
 itself over the better-provenanced source whose content has to be assumed.
+
+## A range is only safe when the whole source shows the mechanism
+
+The Wizard of Oz post went out with a caption about the sepia-to-Technicolor
+transition over footage that stops before the door opens. The source was not
+the problem: it was titled "Entering Oz | Dorothy Steps Into Technicolor" and
+ran 4m38s. The problem was that I took range 0-70, which is the sepia farmhouse
+interior, and the transition sits later in the clip.
+
+The distinction worth keeping is structural. Most sources used here show the
+mechanism continuously: a candlelit card scene is candlelit all the way
+through, a cloud tank compilation is cloud tank shots all the way through, a
+hotel interior carries its uncorrected practicals in every shot. Any window of
+those is safe. But a source built as setup and payoff, where the mechanism IS
+the moment of change, has a wrong half, and a window can land entirely inside
+it. Oz was the only source of seven with that shape and I took the wrong half.
+
+So: before choosing a range, ask whether the source has a before and an after.
+If it does, do not use a range at all. Find a short upload whose whole content
+is the payoff and take it entire with skipSlicing, which leaves no window to
+get wrong.
+
+## Hand over preview URLs before publication, not after
+
+Whether the footage shows the mechanism is the one check that cannot be made
+from this seat, and it is cheap for Tony to make: list_clips returns a
+preview_url per clip that plays in a browser. Those links belong in the message
+that reports a scheduled post, not in a post-mortem after it publishes. They
+are signed and expire within a day or so, so they are worth re-listing if a
+check is being made later.

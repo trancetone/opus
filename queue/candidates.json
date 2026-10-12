@@ -1231,5 +1231,22 @@
     },
     "provenance_caveat_across_the_whole_set": "Every one of the six footage sources is a third-party upload of in-copyright material. No rights-holder upload existed for any of these mechanisms; the only official Disney upload found was fifteen seconds long. This is the account's standing condition rather than a new problem, but six in one run is worth stating plainly.",
     "credits": "211 minutes before this batch, roughly 20 minutes of source submitted."
+  },
+  {
+    "title": "THE OZ POST SHIPPED WITHOUT THE THING THE CAPTION DESCRIBES",
+    "status": "defect, corrected clip ready, live post needs Tony",
+    "what_went_wrong": "The Sunday 10am post carries a caption entirely about the sepia-to-Technicolor transition over footage that ends before the door opens. Tony caught it after publication.",
+    "the_source_was_right_the_range_was_wrong": "MvPOnHG5Pog is titled 'Entering Oz | Dorothy Steps Into Technicolor' and runs 4m38s. I took range 0-70, which is the sepia farmhouse interior. The transition sits later in the same clip. I did not get the source wrong; I guessed a window and guessed the wrong half.",
+    "the_structural_rule_this_produces": "A range is only safe when the whole source shows the mechanism. Six of the seven sources this week were continuous: a candlelit scene is candlelit throughout, a cloud tank compilation is cloud tank shots throughout, a hotel interior carries its practicals in every shot, so any window holds. Oz was the one source built as setup and payoff, where the mechanism IS the moment of change, and such a source has a wrong half. For those, use no range at all: find a short upload whose whole content is the payoff and take it entire with skipSlicing.",
+    "the_fix": {
+      "project": "P3101210XQhx",
+      "footage": "x6D8PAGelN8, 'Dorothy entering Technicolor', 1m59s, skipSlicing, whole video",
+      "duration_sec": 119,
+      "caption": "unchanged, drafts/caption-oz-sepia-transition.md",
+      "scheduled": "NOT YET. The live post can only be deleted by Tony inside Instagram; Metricool has no delete and cannot touch a published post."
+    },
+    "the_durable_change": "Preview URLs from list_clips play in a browser and cost nothing to pass on. They belong in the message that reports a scheduled post, not in a post-mortem. Written to PREVIEW-LINKS-mon-wed.md for the five unpublished posts plus this redo. Whether footage shows the mechanism is the one check that cannot be made from this seat and is seconds of work for Tony.",
+    "the_other_exposed_post": "Tue 10am, the Vertigo titles, is the only remaining scheduled source with the same setup-then-payoff shape: the sequence opens on a face, lips and an eye before the spirals arrive, and the window is 45-115 of 197 seconds. I judge the spirals dominate that window, which is exactly what I judged about Oz, so it is flagged for Tony to view rather than argued as safe. The other four sources are continuous-mechanism and a window cannot miss.",
+    "opus_description_as_weak_evidence": "The redo's auto-generated description mentions a colourful world with giant flowers and a distant castle, which is secondhand evidence from Opus's own read of the frames that the colour half is present. Worth noting as a cheap signal: the ranking is noise but the description sometimes says what is on screen."
   }
 ]
