@@ -1311,5 +1311,21 @@
     },
     "mechanics_note": "updateScheduledPost returns a NEW id for the same post and leaves the uuid alone, so stored references to scheduled posts should key on uuid. The clip queue row now carries both.",
     "queue_row": "risk moved from check to verified, since Tony has watched the footage and approved it."
+  },
+  {
+    "title": "Paris Texas pulled 54 minutes before publication",
+    "status": "disarmed, replacement footage rendering",
+    "tony": "The Paris Texas one makes no sense. The shot is a backlit shot of the actor. The caption doesn't really make sense.",
+    "diagnosis": "The caption's governing claim is that Muller kept the practicals uncorrected so the picture sits in a green cast. The window I took from the Houston hotel scene, 10-80 of a 2m19s source, is a backlit figure with no practical in it. The caption's fourth sentence happens to describe exactly what the clip shows, the principals backlit or dropped into darkness, which is its secondary point. So the clip illustrated the aside and not the argument.",
+    "why_my_own_risk_label_was_wrong": "I had marked this source 'continuous' on the reasoning that a hotel night interior carries its practicals in every shot. That was an assumption about content, not knowledge of it. Continuous is only a safe label when the source TITLE names the mechanism, as with the cloud tank compilation. For a named scene it is a guess wearing a label.",
+    "action_taken_first": "Disarmed the post rather than fixing it against the clock: draft true, autoPublish false, 54 minutes before the slot. New id 394159831, uuid -2626049402752315917. Disarm first, fix without the clock.",
+    "replacement_footage": {
+      "project": "P31012167mEZ",
+      "source": "quP4O6rkMPw, PARIS, TEXAS Cinematography Montage, Cinema Labyrinthine, 3m50s",
+      "range": "20-90 skipCurate",
+      "why_a_montage": "A montage has no wrong half, and the caption is about a colour policy that runs through the whole picture rather than about one shot. Range starts at 20 to clear any opening title card."
+    },
+    "caption": "unchanged, drafts/caption-muller-paristexas-practicals.md",
+    "the_queue_page_worked": "Two of three catches this week came from Tony opening the page and watching, before publication rather than after. Vertigo and this one. That is the loop the page was built for."
   }
 ]

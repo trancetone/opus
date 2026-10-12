@@ -289,3 +289,30 @@ mention that, it is describing a different video.
 alone. Anything that stores a reference to a scheduled post should store the
 uuid, with the id treated as a value that goes stale. The clip queue's rows
 carry both for this reason.
+
+## Paris, Texas: the clip showed the one thing the caption treats as secondary
+
+Tony on the Monday post: the shot is a backlit actor and the caption makes no
+sense. He was right. The caption's governing claim is that Müller kept the
+practicals uncorrected so the picture sits in a green cast, and the window I
+took from the Houston hotel scene is a backlit figure with no practical in it.
+The caption's own fourth sentence describes exactly what the clip shows, the
+principals backlit or dropped into darkness, which is the secondary point.
+
+Caught before publication because it was on the queue page, with 54 minutes to
+spare. The post was disarmed (draft true, autoPublish false) rather than fixed
+in a hurry, which is the right order: disarm first, fix without the clock.
+
+The replacement footage is a colour montage of the film rather than a scene,
+because a montage has no wrong half and the caption is about a policy that runs
+through the whole picture rather than about one shot.
+
+## Lead worth taking: Robby Muller in his own words, on Criterion
+
+`SomTxUGURho` on the CRITERION channel is Robby Müller talking about Down by
+Law. That is the two things this account most wants and has never had together:
+a named craftsman in the first person about his own decision, on the licensed
+rights holder's channel. Down by Law is black and white, so the colour material
+does not transfer and it needs its own mechanism, but the source class is the
+best found so far. Criterion also holds the films, so its channel is worth
+searching before any fan upload of a film it distributes.
