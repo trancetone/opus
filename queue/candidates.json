@@ -1380,5 +1380,23 @@
       "Status quo, accepting occasional blocks"
     ],
     "my_recommendation": "One as the default with two beside it, and three only where a mechanism cannot be shown any other way."
+  },
+  {
+    "title": "Policy 1 chosen; and two corrections I owe",
+    "status": "decided",
+    "tony": "1. But keep an eye on performance. The last two didn't do well.",
+    "correction_one_barry_lyndon_published": "I told Tony my hold caught Barry Lyndon. It did not. The analytics row for Madrid 14 Oct carries its caption and real numbers, so it published at its slot before my disarm landed; Metricool reported it back as PENDING only because I had flipped it to draft afterwards. The hold caught nothing. Only Oz and Paris Texas were actually stopped, because their slots were still ahead.",
+    "correction_two_the_policy_is_not_a_performance_argument": "I recommended returning to interview clips and cited Deakins, Cronenweth and Booth as proof it is the account's best form. This week contradicts that. Mary Poppins took 12,394 views, 139 saves and 125 shares, the highest share count on record, and it is studio feature footage from a third-party upload. The weakest posts are also studio footage. So that form is high variance, not bad, and the policy cannot be justified on reach. It is justified on the block being an account-level risk and on an interview clip being the only kind whose content I can verify, since transcripts are readable and footage is not. Both hold. Reach does not.",
+    "week_numbers": {
+      "metropolis": "778 / 8 / 1 / 7.6s / 29.2%",
+      "mary_poppins": "12394 / 139 / 125 / 12.7s / 34.8%",
+      "vertigo": "blocked, removed, no analytics row at all",
+      "barry_lyndon": "1581 / 10 / 5 / 12.2s / 45.1%",
+      "cloud_tank": "published reel/Dee4V_5Dvbl, no row yet",
+      "multiplane": "published reel/Defn7osEVRu, no row yet"
+    },
+    "removed_posts_leave_no_row": "Vertigo is absent from analytics entirely, which confirms why archiving rather than deleting mattered for Oz and 2001.",
+    "the_measurement_tony_asked_for": "Baseline written to data/snapshot-before-archiving.md. Studio-footage posts other than Mary Poppins sat around 800 to 1,600 views. The test for the new policy is whether interview-form posts clear roughly 2,000 and whether any approaches her 125 shares. If the first four come in under that, the policy is costing reach and I say so rather than defend it.",
+    "held_posts_under_policy_1": "Oz redo (396486322) and Paris Texas (396486534) are both studio footage and do not fit the policy. They stay held unless Tony wants them run anyway. Barry Lyndon needs no decision, it already published."
   }
 ]
