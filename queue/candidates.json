@@ -1348,5 +1348,37 @@
     "flagged_for_his_eye": "The queue row is marked check, not continuous. I still cannot see the footage, so calling a montage safe would repeat exactly the mistake that produced this post.",
     "tested_and_closed": "The clip thumbnail is not a way around my blindness. Opus returns a thumbnail_url per clip and images can be read in this session, but the agent proxy denies signed-ext.cdn.opus.pro with a 403 on the CONNECT, the same as static.metricool.com. That was the last idea for self-checking footage from inside the container.",
     "week_state_verified": "Mon 5pm Mary Poppins, Tue 10am Vertigo, Tue 5pm Barry Lyndon, Wed 10am cloud tank, Wed 5pm multiplane, Thu 10am Oz redo, Thu 5pm Muller. Seven pending, all autoPublish true, Monday 10am the only gap."
+  },
+  {
+    "title": "WORLDWIDE COPYRIGHT BLOCK ON VERTIGO",
+    "status": "two posts held, policy decision owed to Tony",
+    "what_happened": "Vertigo published 13 Oct (reel/DecTVShlAar) and took a worldwide copyright block. Tony removed it.",
+    "accurate_state": {
+      "published_and_up": [
+        "Mary Poppins, Mon 5pm, reel/DeaeXbJgaUr",
+        "cloud tank, Wed 10am, reel/Dee4V_5Dvbl",
+        "multiplane, Wed 5pm, reel/Defn7osEVRu"
+      ],
+      "published_and_removed": [
+        "Vertigo, Tue 10am, blocked worldwide"
+      ],
+      "held_by_me": [
+        "Barry Lyndon, 396465648, never published",
+        "Oz redo, 396486322",
+        "Paris Texas, 396486534"
+      ],
+      "correction": "My hold caught Barry Lyndon only. The cloud tank and multiplane posts published at their slots while the clock moved past my attempt, so I did not hold five posts and should not say I did."
+    },
+    "my_actual_failure": "Not the Vertigo pick in isolation. The registry has carried 'the rights tension' as a caveat for weeks, every one of the six Mon-to-Thu entries records that its footage is a third-party upload of in-copyright material with no rights-holder alternative, and that note never changed a single decision. I logged the risk instead of acting on it, which is how a caveat becomes a liability.",
+    "what_n_equals_1_does_not_support": "Not a music theory. Mary Poppins carries a Sherman Brothers song and is still up, Oz carries Harold Arlen and went out twice, 2001 carries Ligeti. One block in roughly seven studio-footage posts is not a rule, and I cannot tell from here whether the claim hit the image, the Herrmann score, or Universal's policy on a famous standalone title sequence.",
+    "the_deeper_pattern": "The three content mismatches (Oz, 2001, Paris Texas) and this block share one root: illustrating a mechanism with studio feature footage I cannot watch, taken from somebody's upload. The account's best numbers were never that form. Deakins 40,903, Cronenweth 23,503 and Booth 5,561 were documentary interview clips. The silent-footage explainer form is two weeks old, has produced every one of these failures, and has not beaten those numbers.",
+    "options_for_tony": [
+      "Interview and documentary clips as the backbone, the account's own best form",
+      "Public domain for silent footage, as Metropolis proved",
+      "Licensed channels only (Criterion, Movieclips, studio classics) where a film clip is genuinely needed",
+      "Original material, stills and diagrams and text on screen, no claim risk, different craft",
+      "Status quo, accepting occasional blocks"
+    ],
+    "my_recommendation": "One as the default with two beside it, and three only where a mechanism cannot be shown any other way."
   }
 ]

@@ -327,3 +327,55 @@ denies `static.metricool.com`, and the fetch fails with a 403 on the CONNECT.
 Recording it as a tested fact rather than an assumption, because it closes the
 last idea for self-checking footage from inside the container. Content matching
 is Tony's check, which is the whole reason the queue page exists.
+
+## The rights tension stopped being a note and became a worldwide block
+
+Vertigo published on 13 October and took a worldwide copyright block. Tony
+removed it. Posts standing at the time, all third-party uploads of in-copyright
+studio features: Barry Lyndon, the cloud tank, the multiplane, the Oz redo and
+the Paris, Texas montage.
+
+What I did wrong is not the Vertigo pick in isolation. It is that this file has
+carried the phrase "the rights tension" for weeks as a caveat to be stated, and
+I kept shipping against it while recording that I had stated it. Every one of
+the six Mon-to-Thu posts was flagged in the record as third-party footage of
+in-copyright material, with the note that no rights-holder upload existed, and
+that note never once changed a decision.
+
+What the one data point does and does not support. It does not support a music
+theory: Mary Poppins went out carrying a Sherman Brothers song and is still up,
+Oz carries Harold Arlen and went out twice, and the 2001 clip carries Ligeti.
+One block out of roughly seven studio-footage posts is not a rule, and I cannot
+tell from here whether the claim was on the image, the Herrmann score, or
+Universal's policy on a famous standalone title sequence. Anyone reasoning
+confidently from n=1 here, me included, is guessing.
+
+What it does support is that the exposure is real, roughly uniform across the
+pending set, and needs a standing policy instead of a per-post judgement.
+
+## The form that caused both problem classes
+
+Worth putting plainly, because the two failures of the last week have one root.
+Three content mismatches (Oz, 2001, Paris, Texas) and one copyright block all
+come from the same move: illustrating a mechanism with studio feature footage
+that I cannot watch, sourced from somebody's upload.
+
+The account's best-performing posts were never that. Deakins at 40,903 views,
+Cronenweth at 23,503, Margaret Booth at 5,561 were documentary interview clips:
+a named craftsman speaking, speech on the track, the claim risk sitting with a
+documentary rather than with a studio's flagship asset. The silent-footage
+explainer form is two weeks old, has produced the three mismatches and the one
+block, and has not yet beaten those numbers.
+
+Options worth putting to Tony rather than deciding alone:
+  1. Interview and documentary clips as the backbone, which is the account's
+     own documented best form and what the pipeline was originally built for.
+  2. Public domain for anything silent-footage, as Metropolis already proved.
+  3. Licensed channels only (Criterion, Movieclips, studio classics) when a
+     film clip is genuinely needed.
+  4. Original material, stills and diagrams and text on screen, which carries
+     no claim risk and is a different craft.
+  5. Status quo, accepting occasional blocks and removals.
+
+My recommendation is 1 as the default with 2 beside it, and 3 only where a
+mechanism cannot be shown any other way.
