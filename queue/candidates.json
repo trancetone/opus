@@ -1398,5 +1398,30 @@
     "removed_posts_leave_no_row": "Vertigo is absent from analytics entirely, which confirms why archiving rather than deleting mattered for Oz and 2001.",
     "the_measurement_tony_asked_for": "Baseline written to data/snapshot-before-archiving.md. Studio-footage posts other than Mary Poppins sat around 800 to 1,600 views. The test for the new policy is whether interview-form posts clear roughly 2,000 and whether any approaches her 125 shares. If the first four come in under that, the policy is costing reach and I say so rather than defend it.",
     "held_posts_under_policy_1": "Oz redo (396486322) and Paris Texas (396486534) are both studio footage and do not fit the policy. They stay held unless Tony wants them run anyway. Barry Lyndon needs no decision, it already published."
+  },
+  {
+    "title": "Weekend under policy 1: one slot filled, and an attribution trap found",
+    "status": "partial",
+    "fri_10am": {
+      "speaker": "Lawrence Sher",
+      "mechanism": "A light frozen mid-move because the automatic doors opened and put the beam through the doorway, Garden State (2004)",
+      "caption": "drafts/caption-sher-gardenstate-accident.md, 238 words, mean 47.6, PASS",
+      "source": "UXpjW9_GUvc, ShotDeck Shot Talk, 44m34s, interview channel's own production",
+      "opus_project": "P3101520MCh3",
+      "clip": "G2DdJZkFIZ, 28s",
+      "metricool_post_id": 397299963,
+      "scheduled": "2026-10-16T10:00:00-07:00, verified",
+      "duration_caveat": "28 seconds against the account's usual 70, which is a real mismatch against a 238-word caption."
+    },
+    "the_trap_i_did_not_anticipate": "Opus transcripts carry no speaker labels, so in a two-way interview a first-person statement cannot be assigned to a person. I recommended interview clips to Tony on the grounds that they are the only form I can verify. That is half right: I can verify the WORDS but not the SPEAKER.",
+    "how_it_surfaced": "A clip says 'this was a happy accident, this is from Garden State'. Garden State was shot by Lawrence Sher, who founded ShotDeck and is conducting the interview, so the speaker is the interviewer and not Sigel. Only the film credit made that resolvable.",
+    "two_good_clips_lost_to_it": {
+      "polarizer_on_water": "T27IjHJktc, 52s. Rotating a polarizer mid-shot on a staircase above the West Side Highway so the reflections vanish in camera, with the aside that today it would be done in post. Excellent mechanism, no film named, speaker unresolvable.",
+      "internal_nds": "PZAST50vT9, 27s. Internal NDs are matched so they hold colour, against an expensive external set whose colour has drifted, plus the habit of deciding a stop and lighting to it. Same problem."
+    },
+    "opus_ranking_again": "Of seven transcripts read, three were the interviewer admiring someone else's work rather than a craftsman describing his own, and two of those sat at scores 93 and 91.",
+    "the_tightened_rule": "Prefer single-speaker sources: a lecture, a solo interview with questions off-mic, a narrated documentary. A two-way conversation is usable only where an external fact fixes the speaker.",
+    "still_open": "Five slots: Fri 5pm, Sat 10am and 5pm, Sun 10am and 5pm. The Aputure Better Call Saul source (P3101520ap1N) was still rendering and is also a two-voice format, so it may hit the same wall.",
+    "credits": "131 before this batch, 59 spent on the two sources."
   }
 ]

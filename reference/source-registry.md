@@ -379,3 +379,40 @@ Options worth putting to Tony rather than deciding alone:
 
 My recommendation is 1 as the default with 2 beside it, and 3 only where a
 mechanism cannot be shown any other way.
+
+## The interview form has its own verification trap: unlabelled speakers
+
+I told Tony that interview clips are the only kind whose content I can verify,
+because a transcript is readable from here and footage is not. That is half
+right and the missing half matters.
+
+Opus transcripts carry no speaker labels. In a two-way interview the text is a
+single undifferentiated stream, so a first-person statement cannot be assigned
+to a person. The ShotDeck interview with Newton Thomas Sigel makes this
+concrete: one clip says "this was a happy accident, this is from Garden State",
+and Garden State was photographed by Lawrence Sher, who founded ShotDeck and is
+conducting the interview. The speaker is the interviewer, not the subject.
+
+Two otherwise excellent clips from the same source are unusable for exactly
+this reason. One describes rotating a polarizer mid-shot on a staircase above
+the West Side Highway so the reflections on the water vanish in camera, which
+is a fine executable mechanism; the other compares internal NDs against an
+expensive external filter set whose colour has drifted. Neither names its film,
+so there is no external fact to pin the speaker, and the account's caption rule
+requires first person about their OWN decision. Attribution I cannot establish
+is not a caption I can write.
+
+So the rule tightens. Prefer a source with ONE speaker: a lecture, a solo
+interview where the questions are off-mic or captioned, a narrated documentary.
+For a two-way conversation, a clip is usable only when some external fact (a
+film credit, a named project) fixes who is talking. Opus ranking is no help
+here at all: it put two interviewer monologues at scores 93 and 91.
+
+## Opus-ranked interviewer monologues, for the record
+
+Of seven transcripts read from a 35-clip project, three were the interviewer
+admiring someone else's work rather than a craftsman describing his own, and
+two of those three were in Opus's top twelve. The standing rule to check who is
+speaking was written after a documentary about a cinematographer was mistaken
+for that cinematographer narrating. It applies with more force to interviews,
+not less.
