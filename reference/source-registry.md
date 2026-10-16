@@ -416,3 +416,34 @@ two of those three were in Opus's top twelve. The standing rule to check who is
 speaking was written after a documentary about a cinematographer was mistaken
 for that cinematographer narrating. It applies with more force to interviews,
 not less.
+
+## A disarmed post is not a postponed post
+
+The Oz redo and the Paris, Texas replacement were both disarmed (draft on,
+autoPublish off) with their original dates left in place. Those dates then
+passed. Metricool refuses a past date on update, so the two posts were not
+waiting for a decision any more, they were cancelled, and nothing in the
+queue said so. Tony asked for the Oz redo explicitly and it never went out.
+
+The fix is mechanical: when disarming a post, move its date forward at the
+same time, far enough out that the decision has room. A held post parked on a
+future slot is still a decision; a held post parked in the past is a loss
+that looks like a decision.
+
+The Oz redo is now parked on Mon 19 Oct 10am as a draft, which is the state
+that keeps it visible and inert at once.
+
+## The rights policy applies to what is already in the queue
+
+Having adopted the interview-and-documentary backbone, I rescheduled the Oz
+redo onto a live Monday slot and then reverted it inside the same pass. The
+reason it was held was never the clock: it is Warner feature footage from a
+third-party upload, which is the exact class that took the worldwide block on
+Vertigo. Reviving it would have re-run the risk the policy was adopted to
+stop. Same for the Paris, Texas montage, a third-party cut of a Criterion
+title.
+
+So the policy has a retroactive edge nobody stated when it was adopted: a
+post already built from the old sourcing does not become acceptable by
+sitting in the queue. Either it gets re-cut from a licensed channel, which
+costs credits, or it does not go out.
