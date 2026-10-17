@@ -447,3 +447,15 @@ So the policy has a retroactive edge nobody stated when it was adopted: a
 post already built from the old sourcing does not become acceptable by
 sitting in the queue. Either it gets re-cut from a licensed channel, which
 costs credits, or it does not go out.
+
+## Check data/posted-log.md before proposing a source
+
+I proposed re-running the Garrett Brown Steadicam interview, `YpcP-6nBi5c`,
+on 17 October. It is entry #1 in `queue/candidates.json`, the first source
+this pipeline ever ran, and its post did 24,878 views. Tony caught it in one
+line.
+
+The ledger held the answer and I did not look, because looking means grepping
+162KB of mixed structured and freeform JSON. `data/posted-log.md` now lists
+every published post with its date, views, form and subject, so the check is
+one read. Do it before naming a candidate, not after.

@@ -250,3 +250,51 @@ The remaining caution is that watch time does not distinguish a clip that is
 empty from one that is merely slow: the Toland clip shows the correct scene for
 its caption and still reads 8.0 seconds. Low watch time says look at the clip.
 It does not say what is wrong with it.
+
+## The baseline tracks the form, and the form changed on 9 October
+
+Pulled the whole account history on 17 October after Tony said the last few
+were not doing well. He is right, and it is not noise.
+
+| Phase | Dates | Dominant form | Median views |
+|---|---|---|---|
+| 1 | 12 to 15 Sep | third-person explainer | 1,049 |
+| 2 | 19 Sep to 8 Oct | practitioner, first person | 2,541 |
+| 3 | 9 to 16 Oct | third-person explainer | 898 |
+
+Phase 2 ran 26 posts. Phase 3 ran 10. The median fell 2.8x when the account
+went back to explaining apparatus instead of letting a practitioner describe
+a decision they made and usually an argument they had about it.
+
+The one post in phase 1 that broke out, Garrett Brown on the Steadicam at
+24,878, is also the only phase 1 post in the practitioner form. That is a
+third data point for the same boundary rather than a fourth phase.
+
+**What this does not say.** Both phase 3 breakouts, Blade Runner at 54,700
+and Mary Poppins at 30,496, are explainers, and so is the single biggest post
+in phase 2, Deakins on the digital intermediate at 48,059. The form does not
+set the ceiling. It sets the floor: an explainer that is not picked up does
+roughly 900, a practitioner clip that is not picked up does roughly 2,500.
+Breakouts happen in both.
+
+**Retraction: the saves theory.** On 16 October I argued from the saves
+column that posts which show the artifact get saved and posts that describe
+it do not, and that saves drive distribution. Deakins kills it. 48,059 views
+on 17 shares, which is 0.35 shares per thousand, against Blade Runner's 9.5
+and Mary Poppins' 13.9 at comparable reach. Saves and shares scale with
+distribution more than they cause it. This is the second theory I have built
+out of one column of this table and had to withdraw, after the stray-captions
+theory. The table is 43 rows; stop reading two of them at a time.
+
+**Correction to something else I said on 16 October.** I told Tony the rights
+policy and reach pull against each other, because the interview form is safe
+to publish and dull to watch. The opposite is true. The practitioner form IS
+the interview form, and it is the better-performing half of this table. The
+policy and the numbers agree.
+
+## Friday's 281 is not a result
+
+Section 10 of CRITERIA already says a same-day reading is roughly a fifth of
+final, measured as 4.64x growth from 17 hours to settled on the Steadicam
+reel. The Garden State post was about a day old at the pull. It is the
+weakest opening in the record either way, but do not quote 281 as its number.
