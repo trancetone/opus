@@ -459,3 +459,34 @@ The ledger held the answer and I did not look, because looking means grepping
 162KB of mixed structured and freeform JSON. `data/posted-log.md` now lists
 every published post with its date, views, form and subject, so the check is
 one read. Do it before naming a candidate, not after.
+
+## The Opus posting route, and why the preview goes first
+
+Metricool hit its posting schedule limit on 17 October, so the Kaminski post
+goes out through Opus instead. Instagram Business is connected there as
+Moving Image Arts (`post_account_id` 69b8b7924be415e37283b877,
+`sub_account_id` 17841448701416144), and Facebook Page as well.
+
+Neither `create_post_task` nor `schedule_publish` actually publishes. Both
+return an `approval_url` and the post exists only once the user confirms it
+in the Opus app. That matters against the standing rule that an approval link
+is handed over exactly once, because the screen creates a schedule on every
+visit: a link handed over before the content is settled is a link spent on a
+post that may not be wanted.
+
+So the order is preview first, approval link second. On a source where the
+footage itself is the open question, the preview is the only check that can
+answer it, and it is not a check I can run.
+
+## A mechanism can pass every rule and still fail the no-violence rule
+
+The Kaminski source yields exactly one clip with a mechanism in it, and the
+mechanism is how the Omaha Beach landing was photographed. The caption can be
+written entirely on the method, which it is: tests before shooting, debris
+allowed onto the lens, one handheld camera chasing the actors. The images
+cannot be written around. If the AFI piece cuts to the film under his voice,
+the post carries combat footage into a feed that rules violence out.
+
+This is the same shape as the Oz and Paris, Texas defects: a content question
+I cannot answer from a transcript. The difference is that here I know the
+question before publishing rather than after.

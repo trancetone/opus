@@ -1455,5 +1455,30 @@
    "paris_texas": "post 396486534 (uuid -2626049402752315917), draft, date lapsed. Third-party montage of a Criterion title."
   },
   "still_unused": "Sigel / Superman Returns clip wNbprw0M0A, 72s, interview form, attribution fixed by credit. Already paid for. The obvious candidate for the next slot under policy 1."
+ },
+ {
+  "id": "yt-ZqjEp-KUyf0",
+  "url": "https://www.youtube.com/watch?v=ZqjEp-KUyf0",
+  "title": "Janusz Kaminski on making Saving Private Ryan",
+  "channel": "American Film Institute",
+  "duration_sec": 193,
+  "discovered": "2026-10-17",
+  "found_via": "youtube search.list, checked against data/posted-log.md first",
+  "status": "clip chosen, awaiting a footage check before the Opus approval link is handed over",
+  "rights": "AFI, an institutional channel. Interview form, which is what the adopted policy prefers.",
+  "opus_project": "P3101717TuNA",
+  "note_on_processing": "Sat in QUEUED for roughly nine minutes on a 3m13s source before completing. Not a stall; just queue latency. Do not re-submit on the strength of a few minutes of QUEUED.",
+  "chosen_clip": {
+   "clip_id": "twuJaCLgKr",
+   "rank": 1,
+   "score": 85,
+   "duration_sec": 35,
+   "speaker_verified": "Janusz Kaminski, first person, and the transcript names Mitch Dubin as the main operator. Kaminski is the credited DP, so the film-credit test is satisfied from inside the clip.",
+   "mechanism": "Allowing sand and fake blood to land on the lens rather than protecting the glass, plus near-total handheld shot mostly on one camera",
+   "caption": "drafts/caption-kaminski-ryan-lens-debris.md, 255 words, mean 51.0, PASS"
+  },
+  "rank_1_was_right_for_once": "Ninth project where I expected rank 1 to be wrong. It is the only clip in this source carrying a mechanism at all, so the ranking agreed with the profile by accident rather than by judgement. The other five are a stunt injury, veterans' reactions, generic advice about emotion, a Memorial Day reflection and the Wexford location.",
+  "the_conflict_i_cannot_resolve_alone": "The one usable clip is about the Omaha Beach landing, and the no-violence rule is permanent. The caption carries only the method and never describes the dying, but the images are not mine to see: if the AFI piece cuts to film footage under Kaminski's voice, this is combat footage. Handing the Opus approval link spends it, because that screen creates a schedule on every visit, so the preview goes first and the approval link waits on Tony's word.",
+  "route_change": "Metricool hit its posting schedule limit, so this one goes out through Opus. Instagram Business is connected there as Moving Image Arts, post_account_id 69b8b7924be415e37283b877, sub_account_id 17841448701416144. Opus post and schedule tools do not publish; they return an approval_url the user confirms in the app."
  }
 ]
