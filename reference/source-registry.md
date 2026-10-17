@@ -490,3 +490,16 @@ the post carries combat footage into a feed that rules violence out.
 This is the same shape as the Oz and Paris, Texas defects: a content question
 I cannot answer from a transcript. The difference is that here I know the
 question before publishing rather than after.
+
+## Combine pending Opus approvals into one link
+
+The approval response says it plainly: several pending approvals can be
+confirmed in one visit by joining the tokens with commas,
+`https://clip.opus.pro/agent-approvals#<token>,<token>`. That is the proper
+way to respect the hand-the-link-once rule when more than one post is
+waiting, rather than sending two links and hoping only one screen gets
+opened.
+
+Also from that response: do not retry the tool call. A retry does not perform
+the action, it mints a second pending approval for the same post, which is
+how a double schedule would happen.

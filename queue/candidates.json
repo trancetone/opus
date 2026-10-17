@@ -1464,7 +1464,7 @@
   "duration_sec": 193,
   "discovered": "2026-10-17",
   "found_via": "youtube search.list, checked against data/posted-log.md first",
-  "status": "clip chosen, awaiting a footage check before the Opus approval link is handed over",
+  "status": "scheduled through Opus, pending Tony's confirmation",
   "rights": "AFI, an institutional channel. Interview form, which is what the adopted policy prefers.",
   "opus_project": "P3101717TuNA",
   "note_on_processing": "Sat in QUEUED for roughly nine minutes on a 3m13s source before completing. Not a stall; just queue latency. Do not re-submit on the strength of a few minutes of QUEUED.",
@@ -1479,6 +1479,17 @@
   },
   "rank_1_was_right_for_once": "Ninth project where I expected rank 1 to be wrong. It is the only clip in this source carrying a mechanism at all, so the ranking agreed with the profile by accident rather than by judgement. The other five are a stunt injury, veterans' reactions, generic advice about emotion, a Memorial Day reflection and the Wexford location.",
   "the_conflict_i_cannot_resolve_alone": "The one usable clip is about the Omaha Beach landing, and the no-violence rule is permanent. The caption carries only the method and never describes the dying, but the images are not mine to see: if the AFI piece cuts to film footage under Kaminski's voice, this is combat footage. Handing the Opus approval link spends it, because that screen creates a schedule on every visit, so the preview goes first and the approval link waits on Tony's word.",
-  "route_change": "Metricool hit its posting schedule limit, so this one goes out through Opus. Instagram Business is connected there as Moving Image Arts, post_account_id 69b8b7924be415e37283b877, sub_account_id 17841448701416144. Opus post and schedule tools do not publish; they return an approval_url the user confirms in the app."
+  "route_change": "Metricool hit its posting schedule limit, so this one goes out through Opus. Instagram Business is connected there as Moving Image Arts, post_account_id 69b8b7924be415e37283b877, sub_account_id 17841448701416144. Opus post and schedule tools do not publish; they return an approval_url the user confirms in the app.",
+  "opus_schedule": {
+   "requested_at": "2026-10-17",
+   "publish_at": "2026-10-19T17:00:00Z, which is Mon 19 Oct 10am PT, the first free slot",
+   "post_account_id": "69b8b7924be415e37283b877",
+   "sub_account_id": "17841448701416144",
+   "media_type": "reel",
+   "approval_token": "v2.D6CZrBGbBRXgNR98RFxJYg",
+   "committed": false,
+   "note": "Handed over once. Nothing is scheduled until Tony confirms in the Opus app. Verify afterwards with opusclip_list_scheduled_posts rather than assuming."
+  },
+  "footage_check": "Tony said go for it after the preview, so the Omaha Beach question is settled on his side. The caption still carries only the method."
  }
 ]
