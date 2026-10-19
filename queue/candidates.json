@@ -1491,5 +1491,37 @@
    "note": "Handed over once. Nothing is scheduled until Tony confirms in the Opus app. Verify afterwards with opusclip_list_scheduled_posts rather than assuming."
   },
   "footage_check": "Tony said go for it after the preview, so the Omaha Beach question is settled on his side. The caption still carries only the method."
+ },
+ {
+  "title": "Rest of the week moves to the Opus posting route",
+  "status": "two sources submitted, clips pending",
+  "route": "Tony hit the Metricool posting schedule limit and asked for the rest of the week through Opus.",
+  "kaminski_state_check": "list_scheduled_posts on P3101717TuNA returned an empty list, so the approval was never confirmed and the Mon 19 Oct 10am post does not exist. Lesson: an approval handed over is not an approval taken. Verify with list_scheduled_posts before calling a slot filled, and never re-run schedule_publish to chase it, because that mints a second pending approval for the same clip.",
+  "sources": [
+   {
+    "youtube_id": "zEuTIY_01KI",
+    "title": "Owen Roizman on The Taking of Pelham One Two Three",
+    "channel": "Cinematographers on cinematography",
+    "duration": "12m37s",
+    "opus_project": "P3101902hAWs",
+    "why": "Same channel as the Friedkin source, which is the second-best post on the account at 26,941 views. Clears the ten minute floor. Roizman has never been posted: he appears in the ledger once as a rejected clip inside another source, for being about being typecast rather than about a mechanism.",
+    "expect": "two or three usable clips, which is what makes a twelve minute source better value than four short ones"
+   },
+   {
+    "youtube_id": "kNsoEcPQVW4",
+    "title": "Joseph M. Wilcots on the challenges of lighting in the Roots franchise",
+    "channel": "FoundationINTERVIEWS (Television Academy Foundation)",
+    "duration": "3m38s",
+    "opus_project": "P310190345HM",
+    "why": "Institutional channel, interview form, and a subject the feed has never carried. Wilcots shot Roots, and the lighting problem he is named as discussing is a real mechanism rather than a career story. No violence exposure and no rights exposure.",
+    "expect": "one clip"
+   }
+  ],
+  "rejected_at_screening": {
+   "0DEl-wCYFO4": "A conversation with Caleb Deschanel, 1h13m. The ledger already rejected two of this channel's 'A conversation with' sittings, Nykvist and Conrad Hall, as career surveys. Same shape, and 73 credits to find out.",
+   "2czOAiqmgms": "AFI, Roizman on lighting Pelham, 1m16s. Too short to cut a 70s clip from.",
+   "TBXXsIJBqXw": "Cundey on The Thing, 47m36s. Held rather than rejected. Rich enough to be good value, but The Thing is body horror and the no-violence rule would be doing the same work it is doing on the Kaminski clip. Not worth 48 credits on a source whose footage I cannot see."
+  },
+  "credits": "373 remaining before these two. The pair costs roughly 17."
  }
 ]
