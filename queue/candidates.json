@@ -1494,7 +1494,7 @@
  },
  {
   "title": "Rest of the week moves to the Opus posting route",
-  "status": "two sources submitted, clips pending",
+  "status": "three clips chosen and captioned, awaiting Tony's OK before one combined approval link",
   "route": "Tony hit the Metricool posting schedule limit and asked for the rest of the week through Opus.",
   "kaminski_state_check": "list_scheduled_posts on P3101717TuNA returned an empty list, so the approval was never confirmed and the Mon 19 Oct 10am post does not exist. Lesson: an approval handed over is not an approval taken. Verify with list_scheduled_posts before calling a slot filled, and never re-run schedule_publish to chase it, because that mints a second pending approval for the same clip.",
   "sources": [
@@ -1522,6 +1522,40 @@
    "2czOAiqmgms": "AFI, Roizman on lighting Pelham, 1m16s. Too short to cut a 70s clip from.",
    "TBXXsIJBqXw": "Cundey on The Thing, 47m36s. Held rather than rejected. Rich enough to be good value, but The Thing is body horror and the no-violence rule would be doing the same work it is doing on the Kaminski clip. Not worth 48 credits on a source whose footage I cannot see."
   },
-  "credits": "373 remaining before these two. The pair costs roughly 17."
+  "credits": "373 remaining before these two. The pair costs roughly 17.",
+  "yield": {
+   "P3101902hAWs": "17 clips from 12m37s. Three carry a mechanism. Good value, and the argument for preferring a source over the ten minute floor rather than four short ones.",
+   "P310190345HM": "3 clips from 3m38s. One carries a mechanism, which is what a short source yields."
+  },
+  "chosen": [
+   {
+    "slot": "Tue 20 Oct 10am PT",
+    "clip": "PRx2SR6TGY, 98s",
+    "speaker": "Owen Roizman, first person, and he names Edgar Scherick and quotes his note",
+    "mechanism": "Subway car switched to emergency lighting, so the gaffer replaced bulbs with 20 and 40 watt incandescents, then dentist mirrors taped behind the car poles with 25 watt mushroom bulbs lit the faces, with supply voltage raised to 140 or 180 to pull both brightness and colour temperature up at once",
+    "why_it_is_the_pick": "Mechanism plus antagonist. The ledger's own finding is that every 20k post has someone to argue with, and the producer complaining he cannot see Robert Shaw's eyes is that, with the reversal that Roizman read the complaint as proof he had it right.",
+    "caption": "drafts/caption-roizman-pelham-dentist-mirrors.md, 248 words, mean 49.6, PASS, opening test PASS"
+   },
+   {
+    "slot": "Wed 21 Oct 10am PT",
+    "clip": "hKBxzrxnmw, 82s",
+    "speaker": "Joseph M. Wilcots, first person. He shot Roots, so the film credit fixes it from inside the clip",
+    "mechanism": "Three ten-kilowatt units told to follow Johnny Sekka rather than James Earl Jones in a two shot, with Jones exposed normally and lifted slightly, so the moving light belonged to the actor the stock rendered least well",
+    "why_it_is_the_pick": "A mechanism the feed has never carried, and the register is high without any reaching: the assignment of the brightest units on the floor is a decision about who the audience is allowed to read.",
+    "caution": "The clip opens on the interviewer's question before his answer. That is not the interviewer-monologue shape the ledger rejects, but it is the thing to check on this channel.",
+    "caption": "drafts/caption-wilcots-roots-threetenks.md, 231 words, mean 46.2, PASS, opening test PASS"
+   },
+   {
+    "slot": "Thu 22 Oct 10am PT",
+    "clip": "fuCsfA3kyO, 85s",
+    "speaker": "Owen Roizman, first person",
+    "mechanism": "Two Panavisions side by side in a subway station on the same lenses running at the same time on the same subject, screened next day, anamorphic chosen; then flashing the negative, pre-exposing the stock to lay a floor of density into the shadow area",
+    "why_it_is_the_pick": "Two transferable ideas in one clip: a test is only a test if one variable moves, and contrast reduction can be bought before the camera rather than fixed after it.",
+    "caption": "drafts/caption-roizman-pelham-flashing.md, 221 words, mean 44.2, PASS, opening test PASS"
+   }
+  ],
+  "placement": "Wilcots sits between the two Roizman clips so the same speaker is not adjacent, which is the rationing rule that put Cardiff between the two Chapman posts.",
+  "rank_1_wrong_again": "Rank 1 of 17 on the Roizman source is a 22 second anecdote about the producer wanting to see Robert Shaw's eyes with the mechanism stripped out of it. Tenth consecutive project.",
+  "friday_open": "Tue, Wed and Thu are covered. Friday 23 Oct needs a fourth clip and these two sources have no fourth mechanism in them."
  }
 ]
