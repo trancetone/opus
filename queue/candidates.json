@@ -1579,6 +1579,13 @@
   "dead_token": "v2.D6CZrBGbBRXgNR98RFxJYg, the original Kaminski approval for Mon 19 Oct. Do not open it.",
   "all_four_as_one_link": "clip.opus.pro/agent-approvals#v2.1-7lViLBWphcYT7kw_ulqA,v2.zHyuHs6XyVI1jdosHvfSTQ,v2.mnIGu1ph0URPqHrEmCOmYA,v2.zbTe9zd6rFlkgb-nMJje1Q",
   "resolved": "Tony confirms a Marshall Adams post is the newest thing on the grid, and insights carry two distinct Adams rows with separate captions and separate view counts. Both published. The Metricool limit broke the planner's status record, not the publication.",
-  "still_pending": "list_scheduled_posts over 20 to 25 Oct is empty, so the combined approval link has not been opened yet. Tue token expires 2026-10-20T17:00Z."
+  "still_pending": "Resolved. All four confirmed and verified with list_scheduled_posts.",
+  "confirmed_schedules": {
+   "tue_20": "17925055615630W1C-INSTAGRAM_BUSINESS, PRx2SR6TGY, 2026-10-20T17:00:00Z",
+   "wed_21": "1792505562033aLDh-INSTAGRAM_BUSINESS, hKBxzrxnmw, 2026-10-21T17:00:00Z",
+   "thu_22": "17925055625181IHd-INSTAGRAM_BUSINESS, fuCsfA3kyO, 2026-10-22T17:00:00Z",
+   "fri_23": "1792505562943qims-INSTAGRAM_BUSINESS, twuJaCLgKr, 2026-10-23T17:00:00Z"
+  },
+  "schedule_ids_matter": "These are what unschedule_publish needs. Keep them, because without the schedule_id a scheduled Opus post cannot be cancelled, and the clip_id and the post_task_id will not work in its place."
  }
 ]

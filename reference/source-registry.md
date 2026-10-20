@@ -557,3 +557,21 @@ the strength of an ERROR status alone.
 
 What the limit did cost is the permalink. Neither Adams post has one in
 Metricool, so those two rows in data/posted-log.md will never carry a link.
+
+## Keep the schedule_id, not just the clip id
+
+A confirmed Opus schedule returns a `schedule_id` like
+`17925055615630W1C-INSTAGRAM_BUSINESS`, and that is the only handle
+`unschedule_publish` accepts. Neither the clip id nor the `post_task_id`
+works in its place, so a schedule whose id was never written down cannot be
+cancelled from here. Record it in the queue row at the moment the schedule is
+verified.
+
+The week of 20 October, for reference:
+
+| Slot | schedule_id | Clip |
+|---|---|---|
+| Tue 20 | 17925055615630W1C-INSTAGRAM_BUSINESS | PRx2SR6TGY |
+| Wed 21 | 1792505562033aLDh-INSTAGRAM_BUSINESS | hKBxzrxnmw |
+| Thu 22 | 17925055625181IHd-INSTAGRAM_BUSINESS | fuCsfA3kyO |
+| Fri 23 | 1792505562943qims-INSTAGRAM_BUSINESS | twuJaCLgKr |
