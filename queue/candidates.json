@@ -1568,7 +1568,7 @@
    "mon_19_kaminski": "Genuinely did not post. The Opus approval was never confirmed and its publish time has now passed, so the token is dead."
   },
   "my_error": "I told Tony twice that Saturday and Sunday were unaffected because they were already scheduled. The limit is enforced at publish time. One call would have shown me the ERROR status and I did not make it.",
-  "unresolved": "The planner holds no permalink for either Adams post while Instagram reports real view counts for both. Views cannot come from a reel that does not exist, so either the planner status is stale or the insight rows are phantoms. Tony's profile grid settles it.",
+  "unresolved": "Removed. The planner's ERROR status is unreliable on this account; Instagram insights are the source of truth for whether something went out.",
   "if_they_did_publish": "Sat 1,545 and Sun 1,920 against a recent explainer floor of about 900 and Friday's 396. Weak support for the practitioner-form finding, on two posts, read early. Not a result yet.",
   "rescheduled": {
    "tue_20": "PRx2SR6TGY Roizman dentist mirrors, token v2.1-7lViLBWphcYT7kw_ulqA",
@@ -1577,6 +1577,8 @@
    "fri_23": "twuJaCLgKr Kaminski lens debris, token v2.zbTe9zd6rFlkgb-nMJje1Q, moved off Monday"
   },
   "dead_token": "v2.D6CZrBGbBRXgNR98RFxJYg, the original Kaminski approval for Mon 19 Oct. Do not open it.",
-  "all_four_as_one_link": "clip.opus.pro/agent-approvals#v2.1-7lViLBWphcYT7kw_ulqA,v2.zHyuHs6XyVI1jdosHvfSTQ,v2.mnIGu1ph0URPqHrEmCOmYA,v2.zbTe9zd6rFlkgb-nMJje1Q"
+  "all_four_as_one_link": "clip.opus.pro/agent-approvals#v2.1-7lViLBWphcYT7kw_ulqA,v2.zHyuHs6XyVI1jdosHvfSTQ,v2.mnIGu1ph0URPqHrEmCOmYA,v2.zbTe9zd6rFlkgb-nMJje1Q",
+  "resolved": "Tony confirms a Marshall Adams post is the newest thing on the grid, and insights carry two distinct Adams rows with separate captions and separate view counts. Both published. The Metricool limit broke the planner's status record, not the publication.",
+  "still_pending": "list_scheduled_posts over 20 to 25 Oct is empty, so the combined approval link has not been opened yet. Tue token expires 2026-10-20T17:00Z."
  }
 ]

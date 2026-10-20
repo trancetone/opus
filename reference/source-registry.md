@@ -542,3 +542,18 @@ When re-minting after an expiry, name the dead token explicitly and say not
 to open it. Minting a replacement is correct; what is never correct is
 re-running the call to chase a token that is still live, because that makes
 two valid approvals for one clip.
+
+## Resolved: insights are the truth, the planner's status is not
+
+Both Adams posts published. Tony confirms an Adams post is the newest thing
+on the grid, and insights hold two distinct rows, one per caption, with
+separate view counts, which cannot come from a single reel.
+
+So the Metricool account limit broke the planner's record of the
+publication, not the publication. The practical rule: when the planner and
+the insights disagree about whether something went out, the insights win,
+because a view count requires a reel. Do not re-cut or re-schedule a post on
+the strength of an ERROR status alone.
+
+What the limit did cost is the permalink. Neither Adams post has one in
+Metricool, so those two rows in data/posted-log.md will never carry a link.
