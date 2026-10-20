@@ -1557,5 +1557,26 @@
   "placement": "Wilcots sits between the two Roizman clips so the same speaker is not adjacent, which is the rationing rule that put Cardiff between the two Chapman posts.",
   "rank_1_wrong_again": "Rank 1 of 17 on the Roizman source is a 22 second anecdote about the producer wanting to see Robert Shaw's eyes with the mechanism stripped out of it. Tenth consecutive project.",
   "friday_open": "Tue, Wed and Thu are covered. Friday 23 Oct needs a fourth clip and these two sources have no fourth mechanism in them."
+ },
+ {
+  "title": "Nothing posted after Friday, and the reason splits in two",
+  "status": "four approvals pending as one combined link",
+  "what_actually_happened": {
+   "fri_16_sher": "PUBLISHED. instagram.com/reel/DekB-65mPpj, 396 views.",
+   "sat_17_adams_diodes": "Planner says ERROR, 'You have reached your Metricool account limit'. Insights say 1,545 views against that caption.",
+   "sun_18_adams_onelight": "Planner says ERROR, same limit. Insights say 1,920 views against that caption.",
+   "mon_19_kaminski": "Genuinely did not post. The Opus approval was never confirmed and its publish time has now passed, so the token is dead."
+  },
+  "my_error": "I told Tony twice that Saturday and Sunday were unaffected because they were already scheduled. The limit is enforced at publish time. One call would have shown me the ERROR status and I did not make it.",
+  "unresolved": "The planner holds no permalink for either Adams post while Instagram reports real view counts for both. Views cannot come from a reel that does not exist, so either the planner status is stale or the insight rows are phantoms. Tony's profile grid settles it.",
+  "if_they_did_publish": "Sat 1,545 and Sun 1,920 against a recent explainer floor of about 900 and Friday's 396. Weak support for the practitioner-form finding, on two posts, read early. Not a result yet.",
+  "rescheduled": {
+   "tue_20": "PRx2SR6TGY Roizman dentist mirrors, token v2.1-7lViLBWphcYT7kw_ulqA",
+   "wed_21": "hKBxzrxnmw Wilcots three 10Ks, token v2.zHyuHs6XyVI1jdosHvfSTQ",
+   "thu_22": "fuCsfA3kyO Roizman test and flashing, token v2.mnIGu1ph0URPqHrEmCOmYA",
+   "fri_23": "twuJaCLgKr Kaminski lens debris, token v2.zbTe9zd6rFlkgb-nMJje1Q, moved off Monday"
+  },
+  "dead_token": "v2.D6CZrBGbBRXgNR98RFxJYg, the original Kaminski approval for Mon 19 Oct. Do not open it.",
+  "all_four_as_one_link": "clip.opus.pro/agent-approvals#v2.1-7lViLBWphcYT7kw_ulqA,v2.zHyuHs6XyVI1jdosHvfSTQ,v2.mnIGu1ph0URPqHrEmCOmYA,v2.zbTe9zd6rFlkgb-nMJje1Q"
  }
 ]

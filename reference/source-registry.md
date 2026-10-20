@@ -503,3 +503,42 @@ opened.
 Also from that response: do not retry the tool call. A retry does not perform
 the action, it mints a second pending approval for the same post, which is
 how a double schedule would happen.
+
+## The Metricool account limit fails posts that are already scheduled
+
+I told Tony twice that Saturday and Sunday were safe because they were
+already inside Metricool and the limit only blocked new creates. Wrong. Both
+Adams posts carry `status: ERROR` with `detailedStatus: "You have reached
+your Metricool account limit."` The limit is enforced at publish time, not at
+create time, so every post sitting in that planner is exposed to it.
+
+I asserted it without checking, twice, and it was checkable in one call the
+whole time.
+
+There is an unresolved disagreement underneath it. The planner says both
+posts errored and holds no permalink for either, while Instagram's own
+insights report 1,545 and 1,920 views against those exact two captions, and
+views cannot come from a reel that does not exist. Either they published and
+the planner's status is stale, or the insight rows are phantoms. Only looking
+at the profile grid settles it, which is Tony's check, not mine.
+
+## An Opus approval token carries a fixed publish time and dies with it
+
+The Kaminski approval was handed over for Mon 19 Oct 10am PT and never
+confirmed. By the time anyone looked, the time had passed, and a token whose
+`publish_at` is in the past cannot be used: the schedule it describes no
+longer makes sense. The clip had to be re-minted against Fri 23 Oct, which
+means two tokens now exist for the same clip and one of them is dead.
+
+So handing over a link is not the end of the job. Two things follow:
+
+- Say when the link expires, in the same message as the link. A link for a
+  slot fourteen hours out is a link with a deadline.
+- Verify with `list_scheduled_posts` before treating the slot as filled, and
+  do it again on the next turn. An empty list means the approval was never
+  taken, and that is the normal case, not an error.
+
+When re-minting after an expiry, name the dead token explicitly and say not
+to open it. Minting a replacement is correct; what is never correct is
+re-running the call to chase a token that is still live, because that makes
+two valid approvals for one clip.
