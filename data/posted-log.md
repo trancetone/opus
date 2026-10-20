@@ -61,6 +61,19 @@ someone to argue with. Event posts are marked **ev**.
 | 15 Oct | 894 | E | The multiplane camera, Disney 1957 |
 | 16 Oct | 281 | P | Sher, the lamp frozen mid-move on Garden State |
 
+**This table is reels only.** It was built from `IGRE*` metrics, which do not
+cover feed posts, carousels or stories. The feed posts are listed separately
+below, and stories are not logged individually; see
+`reference/org-posts-what-works.md` for why.
+
+## Feed posts
+
+| Date | Type | Views | Reach | Shares | Saves | Follows | Post |
+|---|---|---|---|---|---|---|---|
+| 19 Aug | image | 166 | 96 | n/a | 0 | 0 | [p/DcPNgMbycgx](https://www.instagram.com/p/DcPNgMbycgx/) |
+| 1 Sep | carousel | 1,929 | 838 | 4 | 2 | 1 | [p/DcwKWb0m25c](https://www.instagram.com/p/DcwKWb0m25c/) |
+| 17 Oct | image | 589 | 305 | 9 | 0 | 1 | [p/DenD0LekvHw](https://www.instagram.com/p/DenD0LekvHw/) — Sight + Sound + Soul announcement |
+
 Removed: the Vertigo titles post, taken down after a worldwide copyright
 block. It has no analytics row at all.
 
