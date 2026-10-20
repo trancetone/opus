@@ -92,3 +92,62 @@ a recruitment surface.
 - The follower denominator is missing. The last figure in the repo is 3,466
   from mid-September and it is stale; pull the current count before reading
   305 reach as good or bad.
+
+## The denominators, 20 October 2026
+
+| | |
+|---|---|
+| Followers | 5,044, gaining 51 to 102 a day, losing 3 to 5 |
+| Avg reach per reel (`IGEV30`) | 1,233 |
+| Avg reach per feed post (`IGEV19`) | 305 |
+| Avg story reach | 16 to 52 |
+| US share of followers | 50.9 percent |
+
+So a feed post reaches about 6 percent of the following, a reel about 24
+percent, a story about 1 percent. The event announcement's 305 reach was not
+a failure, it was exactly the format average. A reel is worth roughly four
+feed posts on reach.
+
+**There is no city-level data for Instagram in Metricool.** The `country`
+connector is all there is, and `cl` is Collabs, not cities. Half the
+following is outside the US, the account is adding sixty to a hundred
+followers a day from clips that pull a global cinephile audience, and the
+events are one night in Los Angeles. Growth is diluting the local share
+rather than concentrating it, and nothing in this tool can tell us by how
+much. Ask Tony for the RSVP geography instead.
+
+## Collabs are the only lever that changes who sees a post
+
+Six collabs, all between 17 August and 5 September, none since:
+
+| Date | Collaborator | Type | Views | Shares |
+|---|---|---|---|---|
+| 17 Aug | thisisbuzzfilm | reel | 1,970 | 10 |
+| 28 Aug | thisisbuzzfilm | reel | 3,068 | 17 |
+| 31 Aug | parsonsprojects | carousel | null | 5 |
+| 1 Sep | thisisbuzzfilm | reel | 1,526 | 2 |
+| 2 Sep | highwaysps | carousel | null | 7 |
+| 5 Sep | aleistereaves | carousel | null | 3 |
+
+The September event was promoted with collabs including the venue. The
+Sight + Sound + Soul announcement was not one; the venue is only tagged.
+
+**A collab appears to fall out of the account's own per-post analytics.** The
+three collab carousels above show null views here, and none of them appear
+among the three rows in the `IGPO` feed-post table, which holds only 19 Aug,
+1 Sep and 17 Oct. This is inference from absence rather than a documented
+behaviour, but it is consistent, and it means a collab costs the `IGPO29`
+follows attribution.
+
+That gives a clean split, and it is the answer to how to support an event:
+
+- **Collab the reel.** Reels carry no follows metric anyway, so co-authoring
+  costs nothing measurable and buys the venue's audience, which is local by
+  definition. The best collab reel did 3,068 views against a 1,233 average.
+- **Own the carousel.** Keep it off collab so `IGPO29` still reports. Seeing
+  whether the event recruits anyone is the whole reason to post it.
+- Put the link live in bio before the reveal posts. The 17 October post asked
+  for nothing and got zero saves.
+- Put the date in the image. A forwarded post arrives without its caption,
+  and forwarding is what this audience does best.
+- Do not displace the decoder clips. They are the growth engine.
