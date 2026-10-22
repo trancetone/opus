@@ -1648,6 +1648,26 @@
    }
   ],
   "the_music_side_is_still_unsolved": "Searches for concert and opera video design returned student showcases, lighting-tutorial spam and a Coldplay crew documentary. The designers who do arena video content (Es Devlin, Treatment, Tobias Rylander) are documented mostly through third-party press and Netflix, not through institutional channels, which is a rights and register problem rather than a research one. The Netflix Abstract episode on Es Devlin is 42m20s on Netflix's own channel; it is the rights-holder's upload, so it is at least a licensed source, but it is 42 credits and a narrated documentary.",
-  "credits": "341 at the start of this lane, minus 7 for the first pair, 17 for Liquid Light Lab, and about 22 for these three."
+  "credits": "341 at the start of this lane, minus 7 for the first pair, 17 for Liquid Light Lab, and about 22 for these three.",
+  "results": {
+   "national_theatre_delivered": {
+    "project": "P3102215Q8us",
+    "clip": "gENcCiDrmf, 85s, the whole source as one output",
+    "speaker": "Neville Bellamouria, who names himself and his role inside the clip: lighting control technician at the National Theatre, lighting desk programmer for the video department on The Great Wave. Attribution settled from inside, no credit lookup needed.",
+    "mechanism": "Two projectors, both front of house. One very wide covering the whole stage, floor, revolve and wave structure; the second focused only on the wave structure; the two images blended where they overlap. The content is programmed to track the movements of the revolve from data arriving live off the automation system.",
+    "why_it_is_the_pick": "Projection mapped onto moving scenery, driven by the set's own position data. The image stops being a backdrop and becomes a dependent of the machinery, which is a real inversion and the transferable idea.",
+    "caption": "drafts/caption-bellamouria-greatwave-revolve.md, 221 words, mean 44.2, register PASS, opening PASS",
+    "honest_weakness": "It describes a setup rather than recounting a decision with a cost, so it is weaker on the third screen than the Roizman or Wilcots clips. The problem-and-solution structure is specific to one production rather than generic, which is why it passes, but it passes less comfortably.",
+    "scheduled": "Sun 25 Oct 10am PT, 2026-10-25T17:00:00Z, token v2.R0wctDDYhlYg0DofowmWWQ"
+   },
+   "goodman_held": {
+    "project": "P3102215QTQH",
+    "clip": "838Sy8Exy7, 25s",
+    "idea": "Aspect ratio changed between acts by physically swapping the screen: a one-by-one screen that flies in and retracts for act one, an Academy CinemaScope screen at 2.35:1 for act three, four rolling screens for act five, then the act-one screen again.",
+    "why_held": "Twenty-five seconds of someone listing kit. No speaker named in the clip, no reason given for why the ratio changes, and no decision. A 25s clip under a 220-word caption repeats the Garden State mismatch, which produced 281 views and zero saves. The idea is strong enough to be worth a better source.",
+    "lead": "Aspect ratio as dramaturgy, executed with physical scenery, is squarely in the account's wheelhouse. Worth finding a source where the designer says why."
+   },
+   "art21_not_yet_read": "P3102215PSBo, 17m22s, still to screen. Deferred rather than rushed."
+  }
  }
 ]
