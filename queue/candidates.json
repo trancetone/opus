@@ -1669,5 +1669,26 @@
    },
    "art21_not_yet_read": "P3102215PSBo, 17m22s, still to screen. Deferred rather than rushed."
   }
+ },
+ {
+  "title": "Today's post: Joshua Light Show, hold reversed under the new brief",
+  "brief": "Tony, interrupting: something with performance and live video art to post today, and daily content to go alongside Sight + Sound + Soul.",
+  "dropped": "The Sigel Superman Returns clip. I had captioned and minted it for today's 5pm slot before his message arrived; it is camera format with no performance in it and does not serve the brief. Token v2.QJMcQF31YBbCZRi1TmaSTg left to expire unused rather than handed over.",
+  "scheduled_today": {
+   "clip": "MH822OTnCm, 81s, Opus project P3102200uJwX, NYU Skirball channel",
+   "slot": "Thu 22 Oct 5pm PT, 2026-10-23T00:00:00Z",
+   "token": "v2.7OSpbkE3nPtCPmL6YNJW0A",
+   "caption": "drafts/caption-joshualightshow-unprogrammed.md, 237 words, mean 47.4, register PASS, opening PASS",
+   "hold_reversed": "Held earlier today because the idea is a refusal rather than a visible mechanism. Under a brief that asks for performance plus live video art, daily, it is the only thing in hand that is all three, and its argument about being a frame rather than an illustration is the event's own argument.",
+   "attribution": "The speaker is not named inside the clip, so the caption credits the company throughout and never an individual. Marked check, not verified."
+  },
+  "duplicate_schedule_found_and_fixed": {
+   "what": "cb7I4sILek, the oscilloscope clip, was scheduled twice for 2026-10-24T17:00:00Z under schedule ids 17926404138652Bw1 and 1792692460984qSjh.",
+   "cause": "I re-sent an already-handed token inside a combined link, having written down the reasoning that re-handing the same token was safe. Each visit to the approval screen commits the pending approval again.",
+   "fix": "unschedule_publish on 1792692460984qSjh, approval token v2.bSmXJGwdfEZKH7UERzRirQ, handed with today's post as one link.",
+   "rule_now_in_registry": "A token is handed over exactly once and is spent either way. A combined link carries only tokens never yet sent, and list_scheduled_posts is checked before combining."
+  },
+  "today_already_had_a_post": "The Roizman flashing clip published at 10am PT: instagram.com/reel/Dezd54qkyru. So today is now two posts, which is the cadence the record says is worth roughly four times the median of one a day.",
+  "still_to_read": "P3102215PSBo, Art21 Lozano-Hemmer, 17m22s, for tomorrow's second slot and the interactive third of the brief."
  }
 ]

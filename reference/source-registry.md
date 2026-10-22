@@ -715,3 +715,41 @@ So the screen is now three questions, and all three must pass:
    instruction for doing a thing?
 
 A how-to fails the third screen even when it passes the first two.
+
+## Never re-send a token that has already been handed over
+
+The oscilloscope clip ended up scheduled twice for the same minute on
+24 October, two schedule ids on one clip. The cause was mine. I handed the
+token once, Tony confirmed it, and then I put the same token back into a
+combined link alongside a new one, reasoning in writing that re-handing an
+existing token was safe because it was "the same token, not a new one". It is
+not safe. Each visit to that screen commits the pending approval again.
+
+The rule is therefore stricter than "hand the link over once". It is:
+
+- A token is handed over exactly once, and once handed it is spent whatever
+  happens to it.
+- A combined link contains only tokens never yet sent.
+- Before combining, check `list_scheduled_posts`: anything already showing as
+  scheduled or posted must not appear in the link again.
+- A duplicate is fixed with `unschedule_publish` on one of the two
+  schedule ids, which itself returns an approval the user must confirm.
+
+## A hold is a judgement under a brief, and briefs move
+
+I held the Joshua Light Show clip because its central idea is a refusal
+rather than a mechanism you can watch, and because posting a philosophy with
+no visible method is this lane's named failure mode. That was right for the
+brief as it stood, which was mechanism-first.
+
+The brief then became performance plus live video art, daily, in support of
+Sight + Sound + Soul. Under that brief the same clip is the strongest thing
+available: live visuals performed behind bands, institutional channel, and
+the argument it makes about being a frame rather than an illustration is the
+same argument the event makes.
+
+Reversing a hold when the brief changes is not inconsistency, but it has to
+be said out loud, with the original reason restated, or it looks like drift.
+What does not change with the brief is the attribution discipline: the
+speaker is not named inside this clip, so the caption credits the company and
+never an individual, and the queue row is marked check rather than verified.
