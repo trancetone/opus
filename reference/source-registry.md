@@ -575,3 +575,92 @@ The week of 20 October, for reference:
 | Wed 21 | 1792505562033aLDh-INSTAGRAM_BUSINESS | hKBxzrxnmw |
 | Thu 22 | 17925055625181IHd-INSTAGRAM_BUSINESS | fuCsfA3kyO |
 | Fri 23 | 1792505562943qims-INSTAGRAM_BUSINESS | twuJaCLgKr |
+
+## New lane: live performance where the image is made in real time
+
+Opened 22 October 2026 at Tony's request, to weave in reels featuring live
+video performance with music.
+
+**What qualifies.** The lane is not performance footage with a soundtrack. It
+is the same thing the account already does, a mechanism you can see, with the
+mechanism running live and the sound in the loop: liquid projection worked by
+hand while a band plays, an audio signal driving the X and Y of an
+oscilloscope, a video synthesiser patched in front of an audience. The test
+is unchanged. Is the draw the method, and would it hold if the band were
+nobody you had heard of?
+
+**The failure mode to avoid** is spectacle without method. A light show looks
+extraordinary in motion, which makes it easy to post a beautiful thirty
+seconds that explains nothing, and the registry already has a name for that:
+trivia defended with analytical prose. Same rule as everywhere else, a
+practitioner in first person about a decision they made.
+
+**One prior data point, and it is bad.** A Nam June Paik post did 114 views.
+The clip record files it under caption construction rather than subject,
+because it opened "Nam June Paik is widely credited as the originator of
+video art", which is the encyclopedic opener the voice spec exists to
+prevent. So the lane is unproven, not disproven, and the Paik post is not
+evidence against the subject.
+
+**Continuity with the clip lane, not a swerve.** Oscilloscope music is the
+Lissajous figure, which is the mathematics behind John Whitney's mechanical
+analogue computer on the Vertigo titles. The account already owns that
+lineage.
+
+### Submitted 22 October
+
+| Project | Source | Channel | Length | Rights |
+|---|---|---|---|---|
+| P3102200uJwX | `T2oNiw7svyU` Joshua Light Show insider interview | NYU Skirball Center | 4m04s | Institutional, interview form |
+| P3102200ucUs | `rtR63-ecUNo` drawing on an oscilloscope with sound | Jellybean Fenderson, the artist's own channel | 3m07s | The artist's own work on his own channel, the cleanest profile available short of public domain |
+
+On length: both are under the ten minute floor, and the floor is already in
+question in this file, because the 4m33s Steadicam source produced the best
+post the account has ever had.
+
+### Screened out
+
+- `4gibcRfp4zA` SmarterEveryDay, 17m. A host explaining somebody else's
+  technique is the admirer-about-someone-else shape the caption rule forbids,
+  and it is a commercial third-party channel at 17 credits.
+- `6be2IobJ-QQ` Steina Vasulka, Violin Power (1978), 9m54s. The subject is
+  perfect, a violinist whose playing deforms the image, but this is the
+  artwork itself on a third-party upload, which is the rights class that cost
+  the Vertigo takedown. Lead worth chasing: find it on a museum or archive
+  channel and it becomes usable.
+- `IYZkh8UI0JI` Liquid Light Lab, 16m54s, practitioner-run. Held, not
+  rejected. Long enough to yield several mechanisms and the obvious follow-up
+  if the Joshua Light Show clip works.
+
+### What this lane will not do
+
+It will not sell Los Angeles tickets on its own. Per
+`org-posts-what-works.md`, half the following is outside the US and the clips
+pull a global audience, so a VJ and live-visuals lane recruits more of the
+same people. It earns the organisation thematic credibility for an event
+about a VJ, a DJ and a poet improvising together, which is worth having. The
+local reach still has to come from collabs with the venue.
+
+### The new lane reopens a source this file had closed
+
+`Pen Point Percussion` (1951) is struck through in the McLaren table above,
+ruled out because it "concerns drawn synthetic sound, which the visual remit
+excludes". The live-performance-with-music direction reverses that
+exclusion. McLaren drew sound directly onto the optical track, which is image
+becoming music, and oscilloscope music is music becoming image. They are the
+same idea from both ends.
+
+It sits on the official NFB channel as `8paMx5Hphf4`, 6m09s, and this file
+already establishes official NFB uploads as a supported Opus source with
+clean rights. Never posted.
+
+**Not submitted, because it exposes a fork in the brief.** Pen Point
+Percussion is a 1951 studio demonstration, not a live performance. If the
+lane means performance happening in front of an audience, it does not
+qualify. If the lane means sound and image as one system, it is the best
+source available for it. That is Tony's call and not one to make by quietly
+widening the brief.
+
+Second caution if it does go ahead: the film carries narration, and whether
+McLaren is the voice or a studio narrator is exactly the speaker-attribution
+trap that produced the Sigel error. Read the transcript before captioning.
