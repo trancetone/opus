@@ -1590,7 +1590,7 @@
  },
  {
   "title": "First pass at the live-performance-with-music lane: one of two sources delivered",
-  "status": "oscilloscope clip captioned, awaiting Tony before any approval link. Joshua Light Show source held.",
+  "status": "oscilloscope clip approval minted for Sat 24 Oct 10am PT, token v2.v4ayZPYVgQ-V3ULlzCTtHQ, expires at the publish time 2026-10-24T17:00:00Z",
   "delivered": {
    "project": "P3102200ucUs",
    "clip": "cb7I4sILek, 69s, rank 1 of 3",
@@ -1609,6 +1609,7 @@
    "the_road_boxes_clip": "NyknaWjDx0, 29s. Charming and useless: the cases are older than some of the crew, the contents look like garbage until assembled. Tells you nothing about how."
   },
   "where_the_how_lives": "IYZkh8UI0JI, Liquid Light Lab, 16m54s, practitioner-run tutorial, roughly 17 credits. If Tony wants liquid projection in the lane, the method is in a tutorial by people who do it, not in a venue's interview with the artists.",
-  "credits": "341 before this pass, 7 spent, and one usable clip out of two sources."
+  "credits": "341 before this pass, 7 spent, and one usable clip out of two sources.",
+  "liquid_light_lab_submitted": "P3102203Auwh, IYZkh8UI0JI, 16m54s, roughly 17 credits. Read 'Go' as covering both the mint and this submission, since it followed a two-part offer and the source was already screened. Said so plainly rather than assuming silently."
  }
 ]
