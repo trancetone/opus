@@ -690,3 +690,28 @@ two separate screens and the first one passing does not imply the second.
 
 For liquid projection the method lives in a practitioner tutorial, not in an
 interview about the show. `IYZkh8UI0JI`, Liquid Light Lab, 16m54s.
+
+## A third screen: is it a decision or an instruction?
+
+The Liquid Light Lab source cost 17 credits and produced 23 clips about
+isopropyl alcohol. It was the right answer to the wrong question. I had just
+written that rights and register are two separate screens, and I ran both on
+it: the channel is practitioner-run, so rights pass, and the content is
+method rather than promotion, so register passes.
+
+What neither screen catches is that a tutorial is an instruction, not a
+decision. Every post that has worked on this account is somebody explaining a
+choice they made and what it cost them: Cardiff filtering against
+Technicolor's orders, Roizman taping dentist mirrors behind subway poles
+because the emergency lighting left him nothing, Wilcots pointing three
+ten-kilowatt units at the actor the stock was least kind to. "Add alcohol and
+the oil breaks up" has no decision and no cost in it.
+
+So the screen is now three questions, and all three must pass:
+
+1. **Rights.** Whose upload is it, and can it take a block?
+2. **Register.** Is this method or promotion?
+3. **Form.** Is a practitioner describing a decision they made, or is this an
+   instruction for doing a thing?
+
+A how-to fails the third screen even when it passes the first two.

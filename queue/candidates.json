@@ -1611,5 +1611,43 @@
   "where_the_how_lives": "IYZkh8UI0JI, Liquid Light Lab, 16m54s, practitioner-run tutorial, roughly 17 credits. If Tony wants liquid projection in the lane, the method is in a tutorial by people who do it, not in a venue's interview with the artists.",
   "credits": "341 before this pass, 7 spent, and one usable clip out of two sources.",
   "liquid_light_lab_submitted": "P3102203Auwh, IYZkh8UI0JI, 16m54s, roughly 17 credits. Read 'Go' as covering both the mint and this submission, since it followed a two-part offer and the source was already screened. Said so plainly rather than assuming silently."
+ },
+ {
+  "title": "Brief sharpened to video art integration; three sources submitted, Liquid Light Lab written off",
+  "brief": "Tony: more clips of live performances with video art and music, asap, with video art INTEGRATION as the focus. Projection mapping, scenic design, interactive all in scope.",
+  "what_changed": "This is not the same lane as the oscilloscope clip. That one is image generation, where sound makes the picture. Integration is about a designer putting video into a live stage alongside performers, which means the practitioners are video designers, scenographers and interactive artists rather than musicians or film-makers.",
+  "liquid_light_lab_written_off": {
+   "project": "P3102203Auwh",
+   "cost": "roughly 17 credits",
+   "yield": "23 clips, and almost all of them are chemistry: isopropyl alcohol breaking up oil, oil dye versus candle dye, why yellow and blue make green, why the mix looks muddy when oil sticks to the glass.",
+   "verdict": "Misses the new brief completely. No performer, no music, no integration. It also sits in the wrong register for the account even against the old brief, because it is a craft tutorial about how to do a thing rather than a practitioner explaining a decision they made. Rank 13 is the only live-performance clip and it is a general opinion that live beats pre-recorded.",
+   "my_error": "I proposed it as the practitioner route into liquid projection after the venue interview failed, and I was right that the method lives in a tutorial. What I did not check is whether a tutorial belongs in this account's voice at all. Rights and register were the two screens I had just written down; I added a third, is this a decision or an instruction, only after paying for the answer."
+  },
+  "submitted_against_the_new_brief": [
+   {
+    "project": "P3102215PSBo",
+    "source": "sX-VXlweApI",
+    "channel": "Art21",
+    "length": "17m22s",
+    "why": "Art21 is a non-profit arts documentary series, institutional rights, and its whole form is the artist speaking in first person about their own work. Lozano-Hemmer builds interactive installations, which is the interactive third of the brief, and he is unusually precise about his own mechanisms."
+   },
+   {
+    "project": "P3102215Q8us",
+    "source": "IPDbalGesI0",
+    "channel": "National Theatre",
+    "length": "1m25s",
+    "mode": "skipSlicing",
+    "why": "The National Theatre's own How We Made It series, specifically on using video projections in a staged production, which is the integration brief exactly. At 1m25s it is too short to cut from, so it was submitted whole as one reel-length output."
+   },
+   {
+    "project": "P3102215QTQH",
+    "source": "dFwvOK_db_E",
+    "channel": "Goodman Theatre",
+    "length": "3m10s",
+    "why": "The theatre's own channel, naming its projection designer Shawn Sagady on a specific production. Same institutional shape that worked for the AFI and Television Academy sources."
+   }
+  ],
+  "the_music_side_is_still_unsolved": "Searches for concert and opera video design returned student showcases, lighting-tutorial spam and a Coldplay crew documentary. The designers who do arena video content (Es Devlin, Treatment, Tobias Rylander) are documented mostly through third-party press and Netflix, not through institutional channels, which is a rights and register problem rather than a research one. The Netflix Abstract episode on Es Devlin is 42m20s on Netflix's own channel; it is the rights-holder's upload, so it is at least a licensed source, but it is 42 credits and a narrated documentary.",
+  "credits": "341 at the start of this lane, minus 7 for the first pair, 17 for Liquid Light Lab, and about 22 for these three."
  }
 ]
