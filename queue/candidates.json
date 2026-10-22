@@ -1587,5 +1587,28 @@
    "fri_23": "1792505562943qims-INSTAGRAM_BUSINESS, twuJaCLgKr, 2026-10-23T17:00:00Z"
   },
   "schedule_ids_matter": "These are what unschedule_publish needs. Keep them, because without the schedule_id a scheduled Opus post cannot be cancelled, and the clip_id and the post_task_id will not work in its place."
+ },
+ {
+  "title": "First pass at the live-performance-with-music lane: one of two sources delivered",
+  "status": "oscilloscope clip captioned, awaiting Tony before any approval link. Joshua Light Show source held.",
+  "delivered": {
+   "project": "P3102200ucUs",
+   "clip": "cb7I4sILek, 69s, rank 1 of 3",
+   "source": "rtR63-ecUNo, Jellybean Fenderson, the artist's own channel, 3m07s",
+   "speaker": "First person on his own method, opening 'Today I'm going to show you how to draw mushrooms on an oscilloscope. With sound.' Own channel, so attribution and rights are both settled.",
+   "mechanism": "Left audio channel to horizontal deflection, right to vertical. Sine against cosine of the same frequency gives a circle, channel volume sets its size and shape, a sawtooth added to the right channel winds it into a spiral, and multiplying the left channel by a sine at the sawtooth's frequency, using only that sine's last quarter, bends the spiral into a mushroom that moves.",
+   "why_it_fits": "The sound is not visualised, it is the deflection voltage. No interpretation layer, which is the strongest possible reading of the brief, and it is the Lissajous geometry of the Whitney Vertigo titles the account already ran.",
+   "caption": "drafts/caption-fenderson-oscilloscope-mushroom.md, 230 words, mean 46.0, register PASS, opening PASS",
+   "name_check_needed": "The channel now reads Jellybean Fenderson; the work is published as Oscilloscope Music under Jerobeam Fenderson, which is the name in the caption. Tony should sanity-check it before this goes out."
+  },
+  "held_joshua_light_show": {
+   "project": "P3102200uJwX",
+   "verdict": "The promotional risk I flagged before submitting is what came back. Five clips: Greenwich Village as a culture engine, psychedelic light shows and the neighbourhood, the Who's Tommy at the Fillmore, the road boxes, and a generic one about visuals joining music.",
+   "the_borderline_clip": "MH822OTnCm, 81s, carries one real decision in first person: 'what we try to do is provide a nonspecific, non-programmed set of visuals and the audience all see their own light show. We are much more in the world of art rather than the world of music. We provide a background that is more like a frame.' A deliberate refusal of control, which is the same shape as Muller keeping the practicals.",
+   "why_held_anyway": "Muller's refusal had a visible consequence, the green cast. This one has no consequence I can point to in the clip, and I cannot watch it. Shipping a philosophy with no visible method is precisely the failure mode I named for this lane two messages before the clips came back.",
+   "the_road_boxes_clip": "NyknaWjDx0, 29s. Charming and useless: the cases are older than some of the crew, the contents look like garbage until assembled. Tells you nothing about how."
+  },
+  "where_the_how_lives": "IYZkh8UI0JI, Liquid Light Lab, 16m54s, practitioner-run tutorial, roughly 17 credits. If Tony wants liquid projection in the lane, the method is in a tutorial by people who do it, not in a venue's interview with the artists.",
+  "credits": "341 before this pass, 7 spent, and one usable clip out of two sources."
  }
 ]

@@ -664,3 +664,29 @@ widening the brief.
 Second caution if it does go ahead: the film carries narration, and whether
 McLaren is the voice or a studio narrator is exactly the speaker-attribution
 trap that produced the Sigel error. Read the transcript before captioning.
+
+### First pass results: the venue interview failed the method test
+
+`P3102200ucUs`, the oscilloscope source, delivered. Rank 1, 69s, first person
+on his own channel, and the mechanism is complete inside the clip: channel to
+deflection axis, sine against cosine for a circle, volume for size, sawtooth
+for a spiral, then a sine at the sawtooth's frequency with only its last
+quarter used to bend the spiral into a mushroom.
+
+`P3102200uJwX`, the Joshua Light Show interview, did not. Of five clips, four
+are neighbourhood history and Fillmore anecdotes. The fifth carries a real
+decision, that the visuals are deliberately non-specific and non-programmed
+so each person sees their own show, which is a refusal of control in the same
+shape as Muller keeping the practicals on Paris, Texas. It is held anyway,
+because Muller's refusal had a consequence you can see in the frame and this
+one does not, and because posting a philosophy with no visible method is the
+exact failure mode written into this lane's definition above.
+
+**The general lesson, which is not new but is now paid for twice.** A venue's
+interview with its artists is promotional discourse, like the studio
+making-of that ruled out From Star Wars to Jedi. The institutional channel
+cleared the rights question and told us nothing about the register. Those are
+two separate screens and the first one passing does not imply the second.
+
+For liquid projection the method lives in a practitioner tutorial, not in an
+interview about the show. `IYZkh8UI0JI`, Liquid Light Lab, 16m54s.
