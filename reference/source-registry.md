@@ -753,3 +753,21 @@ be said out loud, with the original reason restated, or it looks like drift.
 What does not change with the brief is the attribution discipline: the
 speaker is not named inside this clip, so the caption credits the company and
 never an individual, and the queue row is marked check rather than verified.
+
+## Check the status before calling a token stale
+
+On 23 October I told Tony the Joshua Light Show token had gone stale, having
+computed that its publish time was 14.6 hours in the past. It had not gone
+stale. It had fired, on time, and the post was live at
+instagram.com/reel/De0NZwqHy8B.
+
+The expiry rule in this file is real: a token whose publish time passes
+without confirmation is dead. What I did was apply it from the clock alone,
+without asking the system what had actually happened. A past publish time has
+two readings, fired and missed, and arithmetic cannot tell them apart.
+
+So the order is fixed: call `list_scheduled_posts`, by project when a window
+query might miss it, and read `status`. Only a token with no corresponding
+schedule, and a publish time in the past, is stale. Checking costs one call
+and saves re-minting a post that already went out, which would have published
+the same clip twice.

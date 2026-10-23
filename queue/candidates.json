@@ -1690,5 +1690,30 @@
   },
   "today_already_had_a_post": "The Roizman flashing clip published at 10am PT: instagram.com/reel/Dezd54qkyru. So today is now two posts, which is the cadence the record says is worth roughly four times the median of one a day.",
   "still_to_read": "P3102215PSBo, Art21 Lozano-Hemmer, 17m22s, for tomorrow's second slot and the interactive third of the brief."
+ },
+ {
+  "title": "Border Tuner for tonight; the Joshua Light Show posted on time",
+  "posted": {
+   "thu_22_10am": "Roizman, the side-by-side camera test and flashing the negative. instagram.com/reel/Dezd54qkyru",
+   "thu_22_5pm": "Joshua Light Show, visuals deliberately not programmed. instagram.com/reel/De0NZwqHy8B. Two posts in one day, which is the cadence the record favours."
+  },
+  "my_error": "I reported the Joshua Light Show token as stale because its publish time was 14.6 hours past. It had fired. A past publish time reads two ways, fired or missed, and the clock cannot distinguish them; only list_scheduled_posts can. Had I re-minted on that inference the same clip would have published twice, which is the second time this week I would have double-posted one clip.",
+  "duplicate_cleared": "The Saturday oscilloscope duplicate is gone. One schedule remains, 17926404138652Bw1.",
+  "scheduled_now": {
+   "fri_23_10am": "Kaminski, lens debris",
+   "sat_24_10am": "oscilloscope music",
+   "sun_25_10am": "The Great Wave, projection tracking the revolve"
+  },
+  "minted_for_tonight": {
+   "clip": "T7XTq5yM2F, 67s, Art21 project P3102215PSBo",
+   "slot": "Fri 23 Oct 5pm PT, 2026-10-24T00:00:00Z",
+   "token": "v2.I7D81dn7C3jPM6fBOVca3Q, never previously handed",
+   "speaker": "Rafael Lozano-Hemmer, first person: 'The work that I'm doing now, Border Tuner'. Art21's form is the artist on their own work.",
+   "mechanism": "Searchlights across El Paso and Ciudad Juarez aimed not at individuals but at the relationships between them, with voices carried both ways, so the light is the visible half of a listening channel.",
+   "the_decision": "He states the spectacle as deliberate bait: use technology, spectacle and scale to pull people into the area, then once they are there give them something completely different. Eccentric interaction instead of spectacle.",
+   "caption": "drafts/caption-lozanohemmer-bordertuner.md, 233 words, mean 46.6, register PASS, opening PASS. One non-ASCII character, the accent in Juarez, verified as the only one."
+  },
+  "art21_the_rest": "23 clips, and the ranking is dominated by participant testimony from people who used the artwork rather than the artist who made it, which is the wrong voice for this account. Avoided the Voz Alta clip despite a good mechanism, voices turned into searchlight beams, because the occasion is the Tlatelolco massacre and that is not a feed subject here. Pavilion of Extensions, 31s, measuring how long visitors stay and how close they stand, is a real lead for the interactive lane.",
+  "open_slots": "Sat 24 and Sun 25 at 5pm PT."
  }
 ]
