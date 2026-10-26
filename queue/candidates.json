@@ -1739,5 +1739,28 @@
   "cadence_revised": "Tony: one post per day. The two-a-day plan for this week is dropped. Monday is Border Tuner at 10am; the Sigel clip is not posting today and its caption keeps.",
   "the_link_problem": "The link already handed carries both tokens. Nothing was committed yet, so the fix is to confirm only the Border Tuner approval. I do not know whether that screen permits per-item confirmation, said so rather than guessing, and offered to unschedule the Sigel post immediately if it is all-or-nothing.",
   "what_one_a_day_changes": "Five to seven posts a week instead of ten to fourteen, so the Devlin source alone could cover most of it. Speaker rationing now applies across consecutive days rather than within a day, since there is no second slot to absorb a repeat."
+ },
+ {
+  "title": "Week of 26 October planned at one a day, with the Devlin source as the spine",
+  "devlin_yield": "P31026140CFE returned 34 clips from 42m20s, which is the best value of any source so far and the first to reach the music side of the brief: the Formation Tour cuboid, U2 and Pet Shop Boys light work, a Kanye rejection, Don Giovanni, Macbeth mirrors, two-way mirror pieces, Chagall glass.",
+  "tuesday": {
+   "clip": "IHnESSPmHB, 53s",
+   "token": "v2.knIjoTl83UDagsvOsCQDtQ",
+   "slot": "Tue 27 Oct 10am PT",
+   "speaker": "Es Devlin, first person: 'I worked with Beyonce on the Formation Tour.' Her own voice, not the narration, which was the register risk on this source.",
+   "mechanism": "A revolving cuboid with a single slit cut in one face, light escaping through the aperture, traced to Beyonce as a child being told by a TV preacher to put her hand on the screen and feeling the sensation of prayer. Devlin's conclusion: the revolving block is another way of broadcasting her.",
+   "caption": "drafts/caption-devlin-formation-aperture.md, 241 words, mean 48.2, register PASS, opening PASS"
+  },
+  "ordering_decision_worth_recording": {
+   "what": "The strongest clip in the Devlin source on this account's own standards is SMw5JQWseD, 40s, on Pinter's Betrayal: she overlaid the ground plans of every scene with projections when projection in theatre was still unusual, then says 'the point about that particular play is it really doesn't need any of that. It does not need it.' A designer admitting she over-integrated, which is decision, cost and reversal in one.",
+   "why_it_is_not_leading": "It argues against the thing Tony is selling tickets to, three weeks out from an event built on live visuals. Told him that plainly rather than burying the judgement, and queued it for later in the week.",
+   "principle": "Clip strength and campaign fit are different axes. When they disagree the choice is the user's to see, not mine to make silently."
+  },
+  "rationing_problem": "At one post a day with five weekday slots, the strongest material is all one speaker. Devlin three times in a week would put her on consecutive days, which the rationing rule forbids. Solved by sourcing two more cheap National Theatre episodes rather than by relaxing the rule.",
+  "submitted": {
+   "P3102616YT1a": "E1alosGYAZU, Staging Live Cinema in Network, 5m45s. Camera operators filming the actors live and projecting it during the performance, which is the brief almost literally. Same channel as The Great Wave, which worked.",
+   "second": "9isSyrMS6cc, Designing a Projected Landscape for Ugly Lies the Bone, 5m57s."
+  },
+  "week_shape": "Mon Border Tuner, Tue Devlin on the Formation cube, Wed and Fri from the two National Theatre episodes, Thu Devlin on Betrayal. Keeps one speaker off consecutive days and alternates the music side with the theatre side."
  }
 ]
