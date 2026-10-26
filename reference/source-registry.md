@@ -771,3 +771,29 @@ query might miss it, and read `status`. Only a token with no corresponding
 schedule, and a publish time in the past, is stale. Checking costs one call
 and saves re-minting a post that already went out, which would have published
 the same clip twice.
+
+## Cadence: one post a day, set by Tony on 26 October
+
+Tony: "I only need one per day." That replaces the two-a-day pattern of the
+previous week and the 10am and 5pm pair of slots. Default is now one post,
+10am PT.
+
+Stated to him once, as information rather than argument, because it is his
+call: the cadence table in `.claude/skills/yt-sourcing/CRITERIA.md` has 2.6
+posts a day returning a median of 4,584 views over 18 posts against 1,071
+over 17 at 0.8 a day. That is the largest measured lever in the record and
+the only reason two a day was being pushed. Do not re-argue it.
+
+What it changes practically:
+
+- Five to seven posts a week, not ten to fourteen, so one substantial source
+  can cover most of a week and the sourcing pressure drops a long way.
+- Slot adjacency matters more, not less. With one post a day there is no
+  second slot to absorb a speaker who has already appeared, so the rationing
+  rule that kept Cardiff between the two Chapman posts now applies across
+  consecutive days.
+- An approval link should normally carry one token. Two tokens in a link is
+  how a cadence the user did not ask for gets committed by accident, which is
+  what nearly happened here: a link with Border Tuner and Sigel in it was
+  handed before he said one a day, and only the fact that he had not opened
+  it yet made the fix clean.
