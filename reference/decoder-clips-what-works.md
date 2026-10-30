@@ -298,3 +298,55 @@ Section 10 of CRITERIA already says a same-day reading is roughly a fifth of
 final, measured as 4.64x growth from 17 hours to settled on the Steadicam
 reel. The Garden State post was about a day old at the pull. It is the
 weakest opening in the record either way, but do not quote 281 as its number.
+
+## The live-visual lane failed on retention, and the numbers are not close
+
+Read 29 October, ten days of posts split by form, retention computed as
+average watch over clip length because the native retention field is null.
+
+**Cinematography practitioners**
+
+| Posted | Post | Views | Avg watch | Retention |
+|---|---|---|---|---|
+| 20 Oct | Roizman, dentist mirrors | 1,597 | 25.9s | 26% |
+| 21 Oct | Wilcots, three 10Ks | 1,729 | 23.1s | 28% |
+| 22 Oct | Roizman, the test and flashing | 1,885 | 36.8s | 43% |
+| 23 Oct | Kaminski, lens debris | 1,935 | 16.1s | 46% |
+
+**Live performance and video art**
+
+| Posted | Post | Views | Avg watch | Retention |
+|---|---|---|---|---|
+| 22 Oct | Joshua Light Show | 193 | 3.3s | 4% |
+| 24 Oct | Oscilloscope music | 513 | 7.9s | 11% |
+| 25 Oct | The Great Wave | 309 | 10.2s | 12% |
+| 27 Oct | Devlin, Formation cube | 59 | 7.5s | 14% |
+
+Median views 1,807 against 251. Four posts, four sources, four subjects, one
+result.
+
+**The retention column is what makes this a verdict rather than a guess.** A
+reach gap can be the feed declining to push something. A three-to-one
+retention gap means people opened these and left. The decoder clips put
+recognisable film on screen under a named cinematographer's voice; the lane
+clips put unfamiliar things on screen, green oscilloscope traces, a lighting
+technician at a desk, an artist in a studio. The following arrived through
+cinematography and did not follow the subject across.
+
+**What it cost.** Roughly 100 credits across seven sources, spent building a
+week of the lane before a single post had reported back. One test post on
+24 October would have said the same thing.
+
+## Where the lane does work: at the intersection with cinema
+
+Tony's answer on 30 October was a combo, one event-related and one usual post
+per day, which keeps the lane for event support while the proven form carries
+the account. That makes clip selection inside the lane the whole game, and
+the Network clip is the template: `AreVAYqe5s`, National Theatre, studio
+cameras on Bryan Cranston during the news segments and handheld gimbals off
+it, with the operators named and self-identifying.
+
+It passes because it is not adjacent to the account's subject, it IS the
+subject. Cameras, operators, coverage, a famous title. Prefer lane clips
+with a film credit, a named operator or a canonical title in them; a
+designer, a technician or an abstract instrument has now failed four times.
