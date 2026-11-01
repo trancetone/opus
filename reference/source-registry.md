@@ -797,3 +797,47 @@ What it changes practically:
   what nearly happened here: a link with Border Tuner and Sigel in it was
   handed before he said one a day, and only the fact that he had not opened
   it yet made the fix clean.
+
+## Superman Returns is out, and the line is probably not a date
+
+Tony, 1 November: "No Superman returns too recent." The Sigel clip is dead and
+its token was left to lapse.
+
+What the numbers say about recency, so the rule gets applied for the right
+reason: O Brother (2000) is the second-best post the account has ever had at
+48,059, Saving Private Ryan (1998) did 1,935, and the two Better Call Saul
+posts did 1,545 and 1,920. Garden State (2004) did 281. Recency on its own
+does not predict anything.
+
+So the working reading, put to Tony and awaiting correction, is that the
+objection is not the year but the register of the picture: a superhero
+franchise reboot is not part of the conversation this account is having,
+where a Coens picture from the same year is. Screen on "is this film part of
+that conversation" rather than on a date cutoff. If he confirms he means a
+hard date, apply it literally instead.
+
+## The usual slot is the scarce one now, and these two channels are thinning
+
+Four rejections in one sourcing pass, all on form rather than on rights:
+
+- `KfSO1lk0YYs` Zsigmond on McCabe & Mrs. Miller. Already spent; the ledger
+  says so in terms. I read my own grep as clean when it had hits. Caught
+  before spending.
+- `TqblVWWvY-A` Deakins and Soderbergh on Chinatown. Two cinematographers
+  discussing a third's film is the admirer shape, and Chinatown is spent
+  through Alonzo.
+- `ceu6DKxoD7w` Friedkin on Alonzo. Same shape, and both men are spent.
+- `P3103118kNxZ` Doyle at TIFF, bought for about 4 credits. One of five clips
+  has a mechanism, and in it Doyle credits the idea to William Chang: "he had
+  this really good idea of trying to get the feeling of isolation by bringing
+  the ceiling down." Doyle's own part is real, one shot and one light outside
+  the window in a room a few feet across, but the clip never names the film,
+  so there is no canonical anchor and the decision belongs to somebody else.
+  Not shipped.
+
+`Cinematographers on cinematography` has now given up Friedkin, Roizman,
+Storaro, Nykvist, Hall and Lachman, and its unused "on [film]" episodes are
+running out. The richest untapped vein is the Television Academy Foundation
+archive, which is institutional, interview-form, enormous, and already
+produced Wilcots at 1,729 views. Go there next rather than re-searching the
+same two channels.
