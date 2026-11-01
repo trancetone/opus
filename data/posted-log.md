@@ -61,6 +61,37 @@ someone to argue with. Event posts are marked **ev**.
 | 15 Oct | 894 | E | The multiplane camera, Disney 1957 |
 | 16 Oct | 281 | P | Sher, the lamp frozen mid-move on Garden State |
 
+| 17 Oct | 1,691 | P | Adams, the LED city through the blinds on Better Call Saul |
+| 18 Oct | 2,241 | P | Adams, one unit cut twice on Better Call Saul |
+| 20 Oct | 1,607 | P | Roizman, dentist mirrors in the subway car on Pelham |
+| 21 Oct | 1,746 | P | Wilcots, three tens following the darker-skinned actor on Roots |
+| 22 Oct | 1,987 | P | Roizman, the anamorphic test and flashing the negative on Pelham |
+| 22 Oct | 200 | L | Joshua Light Show, deliberately unprogrammed |
+| 23 Oct | 1,957 | P | Kaminski, debris on the lens on Saving Private Ryan |
+| 24 Oct | 528 | L | Fenderson, the oscilloscope mushroom |
+| 24 Oct | 804 | ev | Sight + Sound + Soul announcement (reel) |
+| 25 Oct | 327 | L | Bellamouria, two projectors tracking the revolve on The Great Wave |
+| 27 Oct | 116 | L | Devlin, the aperture in Beyonce's revolving cuboid |
+| 30 Oct | 222 | L | Network, studio cameras against gimbals at the National Theatre |
+
+Form codes: P = practitioner speaking in first person about their own
+decision, E = third-person explainer about apparatus, L = live-visual lane,
+ev = event support.
+
+**Views keep climbing after the snapshot.** The rows above 17 Oct were logged
+when they were a few days old. Re-pulled on 1 Nov, Garden State had gone from
+281 to 514 and the two Better Call Saul posts from 1,545 and 1,920 to 1,691
+and 2,241. Treat any single figure here as a floor, and compare posts of
+similar age.
+
+**Retention, 16 Oct to 31 Oct.** Average watch time is the column that
+separates the two lanes, and it is not close. Practitioner cinema clips:
+Roizman 36.8s and 25.8s, Wilcots 23.0s, Adams 29.6s and 16.9s, Kaminski
+16.0s. Live-visual lane: Fenderson 7.9s, Bellamouria 9.6s, Devlin 6.1s,
+Network 6.2s, Joshua Light Show 3.2s. The event reel sat at 4.3s but carried
+9 shares against 489 reach, which is 18.4 per thousand, well above anything
+the clips do. Shares are the metric the event lane is for; views are not.
+
 **This table is reels only.** It was built from `IGRE*` metrics, which do not
 cover feed posts, carousels or stories. The feed posts are listed separately
 below, and stories are not logged individually; see
