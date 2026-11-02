@@ -841,3 +841,28 @@ running out. The richest untapped vein is the Television Academy Foundation
 archive, which is institutional, interview-form, enormous, and already
 produced Wilcots at 1,729 views. Go there next rather than re-searching the
 same two channels.
+
+## Never retype an approval link from memory
+
+1 November. Tony asked for the Border Tuner link again. The token was fine,
+verified unspent against `list_scheduled_posts` and verified not stale
+against the clock. The link still failed, because I wrote the host from
+memory as `app.opus.pro/approve` when the real shape is
+
+    https://clip.opus.pro/agent-approvals#<token>
+
+I had never written the host down anywhere in this repo, only the tokens, so
+when the original tool result fell out of context there was nothing to copy
+from and I reconstructed it instead of looking. Recovering it meant grepping
+`approval_url` out of the session transcript under
+`/root/.claude/projects/`, which worked, but it cost Tony a dead click
+inside a slot with under an hour left on it.
+
+The rule is that the token is the only part worth remembering and the URL is
+not reconstructable. Copy the whole `approval_url` string out of the
+`schedule_publish` result, hand that, and record it here alongside the
+token. When a link has to be handed again after the result has aged out of
+context, grep the transcript for `approval_url` rather than rebuilding the
+address around a token that is itself correct. A wrong host looks exactly
+like an expired token from the user's side, which makes it the most
+expensive kind of small error in this pipeline.
